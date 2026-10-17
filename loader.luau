@@ -6,6 +6,7 @@ local gameId = game.GameId
 local games = {
 	[10526463655]     = "https://raw.githubusercontent.com/shenkyhub/loader/refs/heads/main/Games/8ball-duels.luau", -- 8 Ball Duels
 	[10767928510]     = "https://raw.githubusercontent.com/shenkyhub/loader/refs/heads/main/Games/pixel-lineage.luau", -- Pixel Lineage
+	[10766845655]     = "https://raw.githubusercontent.com/shenkyhub/loader/refs/heads/main/Games/piano-rhythm-tiles.luau", -- Piano Rhythm Tiles
 }
 
 local target = games[placeId] or games[gameId]
