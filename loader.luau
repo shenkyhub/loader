@@ -13,12 +13,10 @@ local target = games[placeId] or games[gameId]
 
 if target then
 	local genv = (getgenv and getgenv()) or _G
-	genv.__SHENKY_LOADED = genv.__SHENKY_LOADED or {}
-
-	if genv.__SHENKY_LOADED[target] then
+	if genv.__GLOBAL_HUB then
+		warn("[Autoexec] Hub is already running in this session.")
 		return
 	end
-	genv.__SHENKY_LOADED[target] = true
 
 	print("[Autoexec] Game supported! Loading script...")
 	local ok, err = pcall(function()
@@ -26,7 +24,6 @@ if target then
 		loadstring(src)()
 	end)
 	if not ok then
-		genv.__SHENKY_LOADED[target] = nil
 		warn(string.format("[Autoexec] Failed to load %s: %s", tostring(target), tostring(err)))
 	end
 else
