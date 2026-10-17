@@ -13,10 +13,21 @@ local target = games[placeId] or games[gameId]
 
 if target then
 	local genv = (getgenv and getgenv()) or _G
-	if genv.__GLOBAL_HUB then
-		warn("[Autoexec] Hub is already running in this session.")
+	if genv.__SHENKY_RUNNING or genv.__GLOBAL_HUB then
+		warn("[Autoexec] Script is already loading or running.")
 		return
 	end
+	genv.__SHENKY_RUNNING = true
+
+	-- Clean up any lingering duplicate ScreenGui in CoreGui
+	pcall(function()
+		local CoreGui = game:GetService("CoreGui")
+		for _, c in ipairs(CoreGui:GetChildren()) do
+			if c:IsA("ScreenGui") and c.Name == "ScreenGui" and c:FindFirstChild("Base") then
+				c:Destroy()
+			end
+		end
+	end)
 
 	print("[Autoexec] Game supported! Loading script...")
 	local ok, err = pcall(function()
@@ -24,6 +35,7 @@ if target then
 		loadstring(src)()
 	end)
 	if not ok then
+		genv.__SHENKY_RUNNING = nil
 		warn(string.format("[Autoexec] Failed to load %s: %s", tostring(target), tostring(err)))
 	end
 else
