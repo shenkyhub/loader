@@ -31,7 +31,29 @@ if target then
 
 	print("[Autoexec] Game supported! Loading script...")
 	local ok, err = pcall(function()
-		local src = target:match("^http") and game:HttpGet(target) or readfile(target)
+		local src = nil
+		if target:match("^http") then
+			local bustUrl = target .. "?t=" .. tostring(os.time())
+			local httpReq = request or http_request or (syn and syn.request)
+			if type(httpReq) == "function" then
+				local rOk, res = pcall(httpReq, {
+					Url = bustUrl,
+					Method = "GET",
+					Headers = { ["Cache-Control"] = "no-cache", ["Pragma"] = "no-cache" }
+				})
+				if rOk and type(res) == "table" and (res.StatusCode == 200 or res.Status == 200) then
+					local b = res.Body or res.body
+					if type(b) == "string" and #b > 0 then
+						src = b
+					end
+				end
+			end
+			if not src then
+				src = game:HttpGet(bustUrl)
+			end
+		else
+			src = readfile(target)
+		end
 		loadstring(src)()
 	end)
 	if not ok then
