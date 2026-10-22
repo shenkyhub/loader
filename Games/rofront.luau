@@ -1,14 +1,3419 @@
---[[
-  ____  _                  _             _   _       _     
- / ___|| |__   ___ _ __   | | _____   _ | | | |_   _| |__  
- \___ \| '_ \ / _ \ '_ \  | |/ / | | | || |_| | | | | '_ \ 
-  ___) | | | |  __/ | | | |   <| |_| | ||  _  | |_| | |_) |
- |____/|_| |_|\___|_| |_| |_|\_\\__,  | |_| |_|\__,_|_.__/ 
-                                |___/                      
+-- ==============================================================================
+-- Game: RoFront [World PvP]
+-- Script: main.luau
+-- Purpose: Senior-grade client-side automation, RTS optimization & Smart Auto Play
+-- Repository Convention: Follows AGENTS.md standards & Shenky Hub loader
+-- ==============================================================================
 
-                 Shenky Hub
-      Discord: https://discord.gg/hvYpw59MS
-  Unauthorized copying or tampering is blocked.
-]]
- 
-return(function(...)local S={",lm3xhHm2";",Vl6S4JbNeMLlme4aqni7",",HK81XUR=",",LQZ2";",LIzspm==";"y>Y##^",",ywnGn5F4VA7PYIK=";",twfzwm==",",4ge0D+uFRL/xD197";",Naj/+ob=","y/+JdDfL",",WGe0dm==",",7e9UkuVPoQy5bAlENm==","y+H,b.VH",",y5VawjD=",",Z7IdMSPt";",Yeye9JxL";",Q4ftFm==","yVk&","ydNh]7&qs6^%T(J\'El","yZj]YDab.DIkP\"";",zhZEWgE=",",FVAmCb==";"yZs8BR\"GnG","yu51sU";",IruUtchdl9BqFqyTMO1rtWahNhGH9nrUSj4eJk/oNpx76D5VgkGUazzJSeJnbEjDKEcBc3d3UycyH94Y/s4ohBczAepO",",OkZGYk2=";"y7=3=`>^tC;UXak^","yC0sN;[puVX>hsDY";"yHtf24","ydQ]\'D$5",",JP9nyk8M2ixu1Re=","y`3XB#mfk!,",",Lq97b7x=";",t8F5iLIhBs4A4Ya02KxkkM2NJoTF5VXwFqJWZnpW0hVQxplAcuFP4fN9FeREOefT8jBnEhAhkw6PEF26kzEQcJ6QKt7aTidUkwpyugj=",",W8jzVAaW",",9n2eHdcf3DebjSetnRiU",",RGGQW+E=","y$@&d",",reFhSy9BWvqkE0R=";",cAQg";",oucwqQNrovkLyb==";",SaTh","y.)G-<hJr);bdTi.J?W";"y\\GV2MBJp","yp=V.s:nM";",lqgvx4d16IK4","y+TU>Wbtm)GhqK?",",2AccPuyU4akp4ecDpE==";",WiZl";"y!f_-8\'MKn=N$,?-ZLG$\'>&FP=a\'$\"",",rHpSfsD=","y4cT?V-/";"yb.a8#[Nk";"y!^k%6M5",",g9L3Vxl=";",EzvkW66e";"y(r;#m\'ZG6i:imFZmP1O",",SfQtskymNww8JXvrwHsTIVsxWjD=";",sSJBlzr=","ybqcA6";",0HQBoVqm","yRo/2WVUM`JW]st2d`Xg2Gm:M.o3t6U/?L6[H+mF?rpmV.e2\"]5K>NF.4m@&^*&=:GASf<F^XUA1\'h)C";"y$l%^n@6GllY3%";"y#-,T9AF";"yHR+C6Rb:6@Ebl>U_5mU<%+f/aD8O_Gq73cs#a0*FBVRhIq`nOL+Wl,:QRqaKlt@]a:RQ$uoU\"\\IjN[","y@:RrK!H^(j";"yYp>R3","y>?!Ip","y&<,8J\"Xi6<C`-#Ci0s";",/H2dL/7yHMo4";"yHDBV\\";",Nl4col5wptkpUS5KkE==",",o0/=","y/sL=u";",NEkkU8AUDDT=";",9yvBJk0V3Z8iz3OYbOAb9b==";",zKufk5fU";"yH#.0o4_E",",1Ql0WjGVs88w7ESvVuLgNm==";",Mz9X7E==";",hxF2G/+=","yUEqF<I1f(","yCJ.gc7ioil@=AE^m&G";"yc-78M%o?",",oQtKV7gx",",LruO/3pe7xY07m==";",B02jGm==","y-R@&$","yVH",",oLkVWb==";"y6(72","y<OL[MN)oQ+c6CUZ)a5M#YG";",tP5+FKCfzplBDO72bb==",",uyhMnE==";"yuJ_>[]ii";",j1tnrb==","y2d[b(X#";"ypNrcGWTj","yVfb.Bc3","ySi,NK";"y$_<-B%7:o\"e0m7\'\\YU","y,p.!$VH","yBe6UM";"yO/hH*";",YVfsgvXod8BIsoD75b==","yu5",",R3DBQ1NA5yUpHmPSyeGjwb==","ydVY%HK$g-";"y.-C@iWlH","y?COBdf)^H",",DvkQyQkB";"y-mL.jH(]tR<FN8C6!\\";",H/q9kdahcW6HCp15adr0",",qQkfyaCnqSkB3aVljE==";",NTY9o84dP3VEUPVONQ+=",",u9uDH9iM",",k0FIXnx=","y$CD;Kl^u(#_G[n8KZ<",",Nh2c4b==",",Y954sm==";",jyoKrMb=";"yq>\'LL\"K<)B>?3ql>oh",",4S4nylVdq85zUkl9";"y!)+cPPe96Hf`68dr5",",he93vSktKE==",",1YZDNgLAE0FRZUtTdZ+L";"y:i",",GeWLLMtq";",YwW2oVkWokWiDk5yyPb=",",MlS/189AKE==","yL\"Z\'<SQrbnd\'r`";",jccOXcCwk3CajafhXoT=";",+ZZKZE==",",r4ud//zjqm==",",2MFY/tT=","yTh#IXu5",",+zqBeSP1PJgv";"yN_6(&9S1+q+c]g+(b4-;i#uIM(dm[loI)8J`t!\'FQgVLY%.%rU";"yUR(#5@R";",XEE=";"y!?(Cf/0","yW\"\'<UX^7","y6@K??","y^]`8lr$c&5no>!#//t2ZNL";"yq_:5\\H.","y(+C+XXCp";"ytks\"";"y989<P";",q3RL2mXs1urOvx==","yo18rmbe:/H.f*NI",",rtsiYp2ykwpsLx==","y)\\Hj<K&9",",VywR6x==","y[%T","y[f$s\'IG";"y:$hu4Au28G#=P",",anVAU3Qt";",HAk3VKb=","yKd(<X.3",",nfNquE==","ye9d\\";",TeP5bb==";",bfQlmJ+=";"ybe>0D>m";"y:fKe/5LjJim[C5Ka8";"yO^3oF!YPZJ*^Vt",",7lqgLMB5","yco6mosV6``cNFD";",wml3";"yanPOKToAY;u@[\"&tZh\"<$#Ie5`I#","y%%28*Ik";"yMZjl`MRi";",e74u9b==","yM3MA#\"QU";"y_EWq=","yb3t",",Xw8iUQFk","yDR*+g_?62YTlT";"yPRmAV\"sMa[","yaFnmMIXdFNRPjI\\";",Ncr=",",4akZbQ6ByukBjE==","y5qgEV9X#","y6KY:S>E-4jhu`Gh",",kV2OaZfADBveAYnEA0/=",",bVlTTLr=","y?MHR3770";",LmgpxEe=";",Qt2s9pnIXRK=",",kTTSR4J+fn/=";"y>Gnn_KI;8R6dT";",usQrZD/YiHeuikVYeW2uTE==","yo9?t#+*s&Q";"ybYtm",",Deo6r0+o",",o3C8ekc7qPyapHcMjE==";",NtUpCxbJ6uvNbez6";",BHIGgdb=";"y\\:#","yAoP(\'",",lpA4",",htvvFlkcJ7VLeFr0","y.3*H","yjTT148YD%s%:%9)uNI",",3w6fqQ4VXm==","yT,sX]du>ic\\oW1#_?[j-E:gm59PK\\nrOnm1[KjnN[)bm<m/X`;TTucQk$D7-k_/i[AmfbR%ZPJCD7X[/h$^Sfim69%l&7","y*o8I85]&","yG>,e&H#P","yV3aPkq+0Ap";"y\'ugJK","yWC5\"p","y(9UpN>Y<";"y5aL^]p.K";"y7!I0=>5>SO>59LSbe:F!",",Pk4kDSYD2liPyZ4Ipex=";",pP8hkZY5";"y+2k\"-";"ye6imYjIF","ye_4#p","y6A3XcSpo";"yb.`#&.VJj;";",2XTPix==","yD&On?*Y_B0[Fl",",lPoRaT/=";"y=aIpP";",EwJVEwKfZmhvd9MO";"y\"W?;AbGk3oCcF","yfs+X6be&";"yiC&/I";",ByACY76z",",jS/Lgb==";"yXd+l70(@ah";"yB+\".EVp0\\";",gQ+jGJ+=","ysJ]I`Q3fRMe&>";"y*f#8XH23^oO^p","yR2YMdq.Df)ULh8:J6`","y4\";Dj_*.";"y&!gY!u5",",5LLblUb=";"y$R``OJsr*t2c]","y\\R\'%9",",rh5IIm+Zvm==","yXmPtNp1O,BcX:";",XkCT48c5pvV7olRSyVx=",",t2FbZb==";",FL32";"y_-Be_P0#";",OCguxlUequVJOj5QhLwzP6c1";",P+SHchaXSjartYGBkm==","y!GtN@K/K&0lBZo=Zdn[tAuj)]8PL.ls/MRVXV,g`[1l`eB=382bUg1nu>i>X4D%BTW;rF]O@u%(GMa?H",",3iRMkCjmQ7dPegPHJb==",",CSXWGx==";",TbfCSXdOxUas2EhR",",iiRt",",01zcjne=","y^ba_4",",3uuRJ07r3jZ=",",3z2vRm==",",d+vrohK=";"yhup@5";"y^SDPiVH","ytefK#??4";",V6vJim==","yd6ei=-fLpAL]\'kN/!+\'f.\\-";",y3foeT63bZkkUPV/";",4QVzyTyfjvNZbaCfqub=",",UXeNAimLgvkJoZUMjJnh","y[P\\>V";",iSQ1ax==",",JzVhzNdf","yVD+d_%N\'uo\\#A";"yh]*4?<I",",4DoVvm==";",XL2ukMDaG3Wg9x==",",G/hnmb==";",d+5R56uOsup6lm5wk4I6Ob==";"y@!1!H";",iWncIfRhSIeJiTe=";",AXJq/xm=";",UDry/dWf";",8E4A/dix",",05j8tEPH";"y,,q7g";"y)]+k9_L]u";",eQkAqa9ayecZYuctpE==",",es6cn7Mil0d21M7pPx==",",DaNieuNwDo5r2lcSjZE=",",fN/CjfyAz6qW4YrJgx==";"yTBohR&E.KkCl38";"y.3\\,d",",6QMOVm==";"yW`ee(B#","ys\"L>0qCJ6b;<.rKd\'(&.(@6TPS-\\h<N/3A?f`+P:4(nZ5W=\'cX,Qc?IN7!1!<(]d6/tM.q!1[d(VFUd44oOmT\'N#V","yX&WK*UO","y8\'Ful37G","yY7+nY8k1;8DU4D+MY","yGP[9D7\'as>E\\L7";",istB3t2=","y?==-Ma/\'q65L5bT0ojehD*lR?NCS*Ps_Z1q\\9:VZ%6D";"yXqB@G,\"";",UKW+1qR=",",bt4AbaZiPVVUY8Y9yZj=";"y3;,40\\^",",Da5zptNaNPfTYu942b==",",NTCNpQFl2uZZUVfTPx==";",UZPZtb==","yuD8Q\\&NskTu+M%",",ZPn8oB+=","yncWNtZFgI)S;FoL*0n)",",Ou3LnE==","y\"1D3SMD6>Z";"yf$*a@<I";",tKKgJRj=","yZd[&[RaMsB6#",",Rxpibyq3i9E=","y-3XR\'",",WMav";",3mp2ua3RLb==";",lZTlKtw6";",pDp3SE==";",fIEWzjPi";",nnY38q1O";",rv4Q7KZ=";"y\"aGaL31c";"ynH8:5qb^7CKb)\"Kbh";"yo:mg";",IG4EPE==",",7rnwrfm=","yP<rE3\'1";"yH@75K";",3P5uYM5KgfWC","ySfs",",1xQUaqD=",",pUfKs9YYRlaRVHT78m==";",irPl+WTNHekZwGDF7h1vhozRUEiSH3sGUZUc","yf1$","y/m1Rp+3",",jy9LOibtGr+=";",THQ804r=";"y,mmb:)a",",ucAPkyEKmE/=";"y:p_fSjdrP6nk:","yBupaS5Ol";",25Xg";",39ob3b==","yp>O1cuYT";"y-Nd73",",U1++s+8kKms1dce=";"y#+G0>86c","ys=f*k";"y6LL2_KkbWRqG*7>U*+";"yCi\'4!";",z4lCDt1f";"yR%`";",BRg9vb/atJ7lUE==","yBlrA7r5",",6MDa9b==";",owVHDADiDaYDNa4SNlZ=",",IQ3l9Q1Xxh9+dZEIDx==";",gnAC2m==",",2ZAUon/a";"y6,^Z=Gn",",fBCTQ3P8+eMrtKcD6DeWHMRpbcHyVcuM8lIUShUWKgjcX2FQMgICQ8Wb5ei0Nb==";"yaE?%t45";",hrnw8scLTmpAm8Gc","yA(#$e","yP=j8!RSq";",YZy7qV497crBNcYC","y#(pYDA1";",oVc3kc5K4a9ppw5z",",X+Va/b62IluFvLColQ99kXMvckSQVbOndm==",",23c7NufwYlRiUA5AD3x=",",tCZNsowrGm==";",xtHLO46B",",imn+VT+LAEfzXOXLcm==","yaRo6n$)#sh2P\"[K";",T4FevrCJdCTh+svDuSmAfv66yb5C4thMGlx=";"y?C0p)",",hNKTDledVPVlakUV6AFssgqB3edrgfTJuLKlXP3OYFTd";",z11b6ZrH/tNkUb==","yj\\QQ6",",K48huuj=";"yfR&T$.3";",+ZgvuLd7S2VaqYHSdvLpMJLb";"y3kF-;";",GNk+9YcZxkE=";",2lw0q8CbDljEYwYaNlD=",",PeBv78rEYuvRcm==",",kAcCNVm9YvWfYZ6I2m==";",21KX2mc3tINX5iiplx==";",EPfN","yT#sPcp8";",0eZvD28S";",dLmHUNe=",",inETD/RlLHc8DukH2k7+oqR03yFmC8o8/x==",",sukE507oGyT=","ynu[`4","yiOJ(-eA;",",hTWRsb==";",3BKfjvFfAZCQufCS8ioWger8uWr/uBC2gvEoQFNnzVO/KjVGOvCREGzeun3wKuHWXBkALEJ12OROKr5A1+N7FzITkeFyUXbwHGflqUW8",",7r1Ccuep",",o3WMQC/=",",2PkvUSVUjuFFoSV/km==";"y04V]?(\\";",hzuX9J+=",",htO3cbKQBXtGg2XqIb==";"y<b\"kG]#1gTmH^;r_aBQG";"ynlCZ5ij8TZb]j[J";",ekxiDPYujoY3DkkOjx==",",GMgNXCD=",",JTdPQZj5UN08zqJPO4BZ",",LSnv70/=","yG4-h";",AmzbQuwb",",UV/I3E==";",rzJFxt9/";"yrU8UG@pPtc",",IfXhHge=","yTNBT-Sl","yqKdC$",",VIHgabDWlJeptVS0naa/bs2p";"yK.Gr`qG1UN62M(g>o#","yGKb,D\'A[DIc1","yoC#o/5r6",",CGrcOQR=","y-j3l^","ya^V*W`qU",",/k92H0BkKyxRhINWXx==";"y@jR]h\'GMjtCQs=46#";",z0vmocR=","yQ970\\*H";"yQ?:e";",Wy2DHeZ=";",ckUncE==";",AtvZvVX40pcrMr9OfnCIVL9lnE==",",UX2jCKb=","yUIK]brh";"yPaJLp:%#9C","yStG\"&",",9jDSP9mD";"yqm!+c\'n=[>oJa9sHsADf)d04[";",sG3wE3J7";"yAC:\\-)A.s1","y!!`.ib02.cX5\\d",",yHk/4lf/qcyMql9t",",0Fm5itx=";"y4)W&?<H",",48UkY8+=",",Tw5O1sS4","yLs@8FW5","yp,ocN.s6";",hXooGI10ibW/VK10um==","ykEga.?CJQ1uFG";"yq=#d5&47K1hAT\\O@>h",",p3Ngquczym==";",87+cVcQINIj=";",/RznnvAz",",I0KpiZR=";"yi^J88m\'","yj8J5rA2!PX",",Ncvdyyj9/6j=","yZ=[\\27Q";"ycBJET?X,Hmlctut,kbkE\\J:I*#+]";",Vd2uTk64pm==";"yn2Yk;6^LQEU\'I*k","ybkFVu";"y=dWNfMD!7\"&&Uqp",",2iFXvOQz","y&JlbQb5",",a7RafUP7fB/5PuR=";"yHcYLa",",63qCcmm=",",rWdgWqx=","ySrr#-3Fe`Ha(mPu.KM";",oj/EfcV6AaO0Vb==",",GCEbp6+=";",UrdnVUe5eb==";"y,hEM`\'ikRVL@BaSc&";"ytJc]H";",jQN2Y3y7XeewUvkUYcT=";",y9xhtx==",",taPihyR=";"y>5.XIq0";",V/xI","yeAmXc\"MrWu@k,3cRUY","yG[fFJi8","yQ8GoR!i-bD,:\\r","y%-OT)<M&dVC1b+Q\'F","yW\"$!mR+g","ytm44O",",zj2+189rNdJ+Im==",",aOZfAo6b",",wELN05K=",",jwDakl6o23c+Yvri2E==";",VXeZegiS";",/EGJKcKJ","y<G;jVVL";",Z8H4",",jw+1dm==";"ySQV9k";"y1`Y<TsX4u=)MQC","y2u#O";"y-/*4^jn\"P6$,k";",Ngq0eob=";"yq(Jr",",JiEWymadOb==","yeOATg";"yK;pj-PY)?",",NbDIb04r","y%98aV$^O&U";"y>r\"",",lyqzUn9blx==";"ya;:@6C04,Ne+NY`hh2";",B5hLazxVBSR=";"y\"^RM/e+lB9hTqA5";",IJlNVC+=","yHFUlM";"ym&[\'Ti\"o9Sh`EpB.3";"y]qRqI)?r%",",YqVY9E==";",L/Ha6xyLP7l=",",2uy9jHNAUlidYuTKyux=",",V0SlEE==","ymSO]m2l",",2OTfghE=","y7\\XFe\"+c1m6L9XW>+@";",lxNlAE==","y@p^DX.bU).k;6sn3:R";"y`Qk^!@.J",",yJai4E==",",jvdr",",D/aZ6Yp4qOj=";"y>;\"if,\"","yDKruA)o2";",ePUPJb==";"yb;?@/Za_YOm,T",",BGc3kb==";"ynf;YHeujC","y@MHWm",",j3DiDZNv2SV/Pvcue8T=",",ztHspx==";",B5TcOQNgeu45Vb==","yBpD)1\'B:",",CkSjNabND3KSvYHZzx==",",M4KtbnK=","yb.`a\"q)5q,",",rIb06m==";",1fNtPLK=","ynO7Os",",hAFoTcAWizWQ";"y`Sl@#_Tp",",MGMOfsvGEOvwwm==";"yC*6O7loF<rRBkg/45","yKs=8\'i@FC:e\'PY.>8E";",6V+spgaMDUfjm+JDEZOSSl8EYWCOCshgsbWmkxoU2XR9/1+957HXeBYJD0FKfq9xVSdjtTdbeXm3MZS5A57vb1KZPrm=","yh+D",",UwY3qwYnXQyp43CFpE==","yB3[Np",",E+lAob==",",NZsBLy2=",",Uu1xzs9attaKF4DZI4pINoT=";",c6di8Jm=";"yn?lQXX-2k";",x4kZRm==";",tTSnUUm=",",3x3ugh4BTLB1IfK=",",m7VLZRb=",",bR7wyZ+=";"yq!]f-qQ","y+j\"::di";",9adIu6e/ng2=";",CLXf7B+p",",kcYakl6uYAVJYQ4Ejb==",",Xt1k8mDZ3E==";"y35s+K",",TX/XnPpp";",kMpI7Sl=",",eHcrpvYLqV4CbvCcbx==","ypLR+R%>","y6IU<QUA6?Si$F;d","y6O","ytEVdOu%_j.","y7s1.BeAK",",2+esLm==","yU-(7Tb03Lgm?3i)hs";"yTO^T.0OeAG7QG";",vFyzOTPT";",L/zhtb==";",k+E0/m==";",JGwdPncngWIAajYDhdFv","yCq:XP,\"";"yocDb3\"a\"TIb=tC].I3","yhGfk/$rS718#4[WI\"9-\'8^",",jakZqPkZD34CDQ9V","yDqAi%hong","y(O_Y$1gO",",nltmE+QT","y):/hA6IN";",wFt/yIZddXR=","yX&B53!R";"ymS@Lgcc\"o^_!6J";"y\'T<LM=D=rQWn4rP(\\","y`bXM`70";"y2Fo$j(l","y<AiD-b<l",",Ay2UHPBW5qYy8mE=";",7k5SYtmK2liEeHktPm==";"y-DrYD","yQ.+qjh8i",",wNaMgOR=";"y^aeA,";",VDyrUkam";",glzrZm==";",blyQp3N2XecwPlkC";"yRG";",be9SPvY22awlekWNeHT=";"yZjeFk2s",",WaCdAId1";",",",NnpJjm==",",c7hBy6/rJvffEM0Ckb==",",IiHmOoTEbAb=";"yZHo0*HG","yK1J0K*@lCJs/<T",",4o4HDlYwUPyC7PYBq3m=";"yq,b=Cb,OHaJ0Kt8RG";",FHbdH6Vg","ymSD.KZ@&","y6leI*\'kY>7RaVC\\.[",",jS4Cjv4gja6/qE==";"ybRi$/","yhb&mQT`","y[g:BPJ\'`";",ggMxtC87sUH9fSBZ","yhk\'U4dhpI]";",JNAznb==";",2cVv4t5zNQ4DokCH2Ab=";"y[1jbA\"MgrPbG+WN";",7HN4bt5cpveEDo+B";",PH+Qxx==";"y)jL$uUET";",Vp0JQEe=";",kitPoIZKiHx5pk7pPb==";"y)B-n%m/";",umLtjaDMoaMKVE==","yqrG^Q.H3",",r/s2mfiYJDy4GsAhcm==";"y)f6OuLnHPr?SUh$",",qH+=",",j85fqPcBXb==";"y$\'t9\'rYhb";",IJMiHhb=",",FHJ6cT2=";"yR<b9:$5",",tTCyjm==",",4bAevdylIByKe79EP06X+b==";"ym27GK4;q";"y5uYITB*S.%jd7a>8[s*oPi:";",FJvPzkWp";",28k3GPLGGfl=";"yRco;!*gV","ynl8\\",",NAo+VYR9RA6s34rTq5K=";",E0G5rqFMdz16Db==";",dGsKbfT=";",OcY3Uk2=","ypC;Xtdf>fEO&b";"y%b]KjMnC","ym\\#qRZdXK?N[^iC97g5IiQ6Ro?E\\km-]mAXp;)p)8K9%ucjW_3PWr,<Nh8r1PM%cE?enh`,8Dmm78Qh";"y=\'4F</Re",",D0I+dFE=",",YzHOFxo+","yb<_beUfaEinI?Ynhs";"yK)EL(*jbi2L2cQnK7","yW>lrI";"yeUD*Hhl";",TMk+neu0um==","y6FhqO";",eakZkukKYm==","yY\"&4\"8BS",",qiGP+m==";"yY\\S;`=F","y7\\eoem&[(T@>9f.";",uAyOQZom";",kkvfOyAao2MOKjMlRE==",",vvyxbguCdE==";",FIICFvK=";"y^,eV\\9FKA";"yY^rgP_(2";"yTH7";"yMR";",U9VCuu1D/T+=",",t6hB";",AjvBlYxe";"yPHD;Kn.d",",fx3wt1j=";",DEwho1E=";"y(kRPa\'AsLd[:KNGDO",",uDhoiVtmI19QftqRw8cGEiz0X3nEiVlk4+2=";",AVSzdE9T";",GG7nLsiYAP/=",",/wGmsGN9Ka5A/x==";"y_YkZ","ym7cKo-^","yD+PjH6+D).#f2M#eY]JKRlCJVOG","ymYOIHZH",",6dPWOAZgFGALSR0/Nx==";"y5#\\D","y8imF";",0fj=","y#E+JI\'m8cVrs$b";",keDj152f";"y@\\[`I7t20ADR!";",SCQP6x==","yJJ>Dlo[[7FUHN;@6O",",n5YIX1wDCm==",",YucLyk6IYQkB","yB2sq\"4XC";"yTF;[EpLS;";",yccAYQwQocYP4eRK";"yNd\\>)";"yYMbb44<LGlp1_\'?t7";",OYzriBGq9I3BFbJfoKjh7Gr=","ynH`c;R8!^X";"yR/?A-h?.j77G/PI@R";",m7HbnbWL1E==","y)#cnE",",u252IgT=",",/F3j8r56S2NWzMGgZm==",",IE==";"yuMf,M";",wQ17DQ54",",vaFm8ol=","y<a/c,7^?.Js,JFbaKOq8-0*";"y5@D=#IG",",iE4vrDn1Zx==",",Dm==",",5XngN8E=";"y5RP#>/Q";"y_o@<",",1prwNiOp2vbm","yYgtBX";"ym33^+JJj;;J8qiW.V0";",uVfaax==","y%J_GTZL";"yPS_M.pCP";"yWf]*^)8";",5Kl/s+qJgtGOdb==",",n+lE2DR=";"yQ]HlRQ<2";"y6#",",vA+feE==",",+ieY5NTFU9sp68XLIE==";",+WzQJrx=";"yRsua";",wl4s53Ej";",WCGOJTm=",",qSYzy35gqQcFyb==";",euGPglr=",",sW3j7HhfTZT70sqmMdhlqX9z7x==";",QdTJmEmxu0Z=";"ytQ/0Q#oMAlu+ej(7ojPPW]:Rd1g#VlEF(\')*m\"F1!neo9I/fHF$)?\"TC+[+ae#&[c5aJRmfoD`On1%,ho&hu3k[9mk7+F/)`:=CP","yNq4pZM*c5",",EWXffzhhqyQdvNpIi1Q4","yKKbg",",o4eQjK2=",",onZfB4hGrvZpKHJfse1A";",TT2=","y/44gklZ\'m1L*Q&+s`";",hFJPKq9A86cgFDzpAUQmNtmd+b==","yYC9-q9F",",bZyJYQNOYoNp2kk2bol=",",9k+5";",oTF3DZiOkvkPoQcwPx==","yI\'r\"I#FOu8ti=";"yD*PD";"y$Qr1grH&";",GctTk21RgZjcSzgLqm==",",nOfFabHoJdYsBjeVtb==","yKmOVVJS*#=i\"E64U(d";",jQk9YPVByb==";"ynA_3nu0/E.Osftlr_haTceNI%e[h0i=_j_<XbZh,CASato-9CP_lYaoao9@&`.B[e2P74i_65J]q8p\"tG0","yR/-<,R2HjDqjN+SqQ";"yRMD;?","y6i(XIY1^K)i`fp2(eZ2";"y<<!ro(\\";",IKpDe5K=",",Ke1P7b==",",tXQN9ur=","yKq+sS5f#@eZiFI","y]U^gi";",2fgkrm==";",PosSule=","yp@ZbupKV7bLT:\\hCH";",UijC","yT@m\\&\\O9qjQr3";",4lccuD/=",",BKXzy/5H";",CdejXm==","yi0J?n";",qooZWhI+","y!SuHb\\\'j/]CL";",2dkmux==";"ymHQDcA3","yoCt`n\'q!);\'r%hU\'[","yh5#L^bh",",/ssQvJh/";"y?\'8]K-/",",/n1cerl=";",YF8e1mvgJZ94",",YPZijtNBYS4lpoNh";",k64oLPhz","y,\\J1#?*Lao^DS4;_X\"`$Ju^fh%,i7";",2VfioZizYv5Np3yCNx==","y8DpH";",LumaFGvRXmYgwx==";",cXRK0bTC";",exW0SJUFuFTbepaNMfdNVm9Qjm==","yqqfmAn:R/t>MB7f6HJ";"ybba)ND*i";",SSUfzjR5";"y(kiFk&\'dgo";",P3t+ky7E";"yA*Z8-";",qjNbj8Tn";",jZsJui29Waaok1TYvnYQab==",",i4SUt+fq";",dn4qAl/K";"y#N7^-34(";"yY`#aNK]-";",Bb==";"y\"Ef&t[W-R";"yq;_qD@h\":=)mYKR.4(@A",",ycgNFk/1",",VFgQoV76/S1DeBaC",",YVy2BoX0z3dnyrFrYbjG","y-Ij#Z!R",",KzaZ0UAe",",2AWVaAm=";"y9,58=H.",",1Wfz+lRq","y-EKOtp`";"y):d:X>L`\'B","y2rtHTHG";",pA5+PHYlkAbiewk8Nl+=","ya8";"yjWVuRl7;%6MKN",",nbRhrgSm3dxeESvPR1bAym==",",E/WcYaV0","y@k6Q5RK4?c\"`1,-";",b2DHr9twRhh3QT/=";",0EZfpAb=",",Ue9Ekky74QyHYlcJkb==","yu+rNi",",+USJYFWX37gMi9e=";",xqMM+vmgUE==";"yoql?_CIIkAEtb","yAH<:d.c)MnJr\'EQ>+n25qQ",",binQ";",seLrhS/I1Mnmv4E=";",wLL1YUvx1MoQu6r=";"yR>P!+di",",fx+15SYmBr104S2=","y`?SLAk#K";",dFWBax==";",0DFI5T7A7s8Nq8A7Cm==";"yC$Kjs";",5XdpyOZU";"y+HB8","y7e%?e>D-b1eLM<G";",+5vx4lkz";",xN6uLHR=";"ybAR]Y_Q9B]4]nPJa8",",yacFyb==";",uEq5Aq4PyM7FBdFrwb==";"y*_URd1,c";",bUm=",",XIevmx==",",1MI4GnXL","yhX9G0\'F";"yK#$[#b>-bI6\'@Y(i8";",mB5Rs0T=",",8529mqT0MxlR5m==";"y%t<KU","y5/0K";"yY3ZMB6o\'8fo8JJ\\_(2)HXKqe*4`L",",6nfOB3JYiwZWew7Y4YF2O1AKcoUHcQhk";"yfAt3aJ44[K11m";",ivEKCUMsbuYWI/NWxE==";"yT5+*49F","yb,d/9e)Nc:IPaLD7!&",",ekkCeocFXP+ZpS4f";"yb.a8#[1UV!>5C","yopQ0PdY^mJB+-i$-T&36\"nk/231be",",lzNU/m==","y:\'U_Z";",UlwUX8CSkSWzUPDZNx==";"yqt]&+bh";"ydJ#WcPH",",zBy9T6bnpJT=";"yp0p2)4g#Jd$UL\'X?mR/";"yRaS`]opBV(euR9:";",Nekvo7y7Db==",",Nj0WCO2=";"y:\\uC*Yd=Qqk^@`mI9\",cL0f;P\\H$K3P?X.ujtV)nGX=X5nE4la`#o`T*dB\'<_7PVg.E+d26J&`i:4?0f./1bZ%X^&o";"y@SqDrjE$<5";"yJcm*6>m",",AwzJc10a","ykI\\^o";",xb3Nrsr=",",kQtHPKSsV7ZZhXGiuE==","ya]c1c=Hs",",my56pE==",",FkGKTWAaDv4e";"y.u[R.jF;S75^I\"3OH!.Y<H%EbH^Od1r<kb)DZPVKK%HSqsFWCr4W;:jehL(rEp6/B8ML,quUN`,V&4Zt6baY#DT?_",",xweqkpc8";",02mj";",an9RgQ6pazVf","y=fMn.5k",",oe4ZPu5vDeF748ydolE=","y0,]WY%/l","y]uF",",2ZVnpeNiXklE4vcakm==";"yCcO6T";",ICbP";",wXNDQzwcrTr=","yeKX=RQ`q]3021%(kgC]3.iad1=SJ/HB4JU?aYP=H`nashsp-mIWZ$/8f/I,uk?MU>\\oG-*?-2J9+9Mmr/-F9&+PCD8cXh",",7cRSqf2q";",xRlFVKTE9qxXHE==";",1m==";",ulu6mMQZvUb=","y%/6Z7\\kN5Vm*&2eX4Q>";",AzP3k5R=","y]+4B9b@&MW1;h9sUXGK","ym%)Jr[4dBr-VT\\RHJeQ]PH\'&.+#\'%]Ye\"cU/Q",",gr8j0/hj";",1Yya2E==","y>JOMP\"k","yhVlf",",kSXe";",0ouF","y=:L.kY!A","y>K4lHJ6X@pUs.QuC(",",ALxh3kZ=",",M5lqmWzPt5RdFE==";"ypZ8T[",",56SRR/INKAMg3gdoeE==","yT1[riS8$Z**MLrH(l",",g14nkltA",",kQ4EylyUbZF+4PkbbQj=",",GAvEdE==","yD+6hcKS!";"y:nl-cQibimh-VTL&?eGWU\"","yRfEiusug";"yV.6d?Q;2";"y<jYm!:pU)deY*","yq9Y",",Zg/NEQkjOg6Erc+r8oaIvtSe";",lOEGlb==","y&?Y[3@$HBJn(9q";"ynPk4OqeR",",k9vRie21tn+Wqi0n7x==","yj@d","y>s-)2NH",",6lSlO+1oy5AtQ+X5Kb==";"ynH-(p>5C",",wxMck12=";"yXbjSsVj,^<!en^37e2+tC_+H$",",Tzt6uuyFDqd7QtvDqWvz4vSCjuuFknvhbxQvVCm/mlqnEVQu16ol/VIYYKXL2ug7FRBUAtaoJl/21MLQ4EHe";",YUNIrn2=",",GCNJkLQ+Ex==",",sbzi9E==";"yHN:%t";"yW3Il#V5C3iRZ.-\'o-9\"`ng8[7#9MEF$hG";"y2G/[U^\\=kQtsisV0cl";"yDaA71hm";",pakoovkeXHyWookMUTe=",",bGg4Dlv2nRD=",",/y+q";"y@c;_ef5pJX]Q";"yf*];-","y(\"(#6tQ","y`PYm4",",IiOzoXoMYK0aSs3dwMg/yrT=";",ru7krb==",",pB1k/m==";",byE7eb2=";"yu`-","yWB`l";",V/MTrz5w59lia52=","yW7ZdJ`81",",eXJnlAZ=";",o5eETb==";",Rg2dMAGy";",Clf9GE==";",9XN7nx8Ca98nUwfSg0hLlm==";"yk$@bKQ9","yJJA2Xh`B!ji39KToK",",Da6zDacZ";"ytJQUD>;`sYD6\"+",",paiiyv2a7TfveukTYZZ=";",qe9rYeYLyQczql9i","y8?f]D","ytoG#I09^$[a1L&UP2";",9kZ0Xw5FeVj=";",B2oe9XRlHOKH8m==";"y9C]/\\@!Fb7OA)YiDn&LV",",uEYGUa9g",",jZXvtSaiMbgS";",+zg619+=";"yKeV%9@Nm,>m[0(,7Q","yK!p`qe\\r*PhSQ0I\"X9";",RnK8DCZ=","yQNTm;l^","yi$\"h\"";",25xKqyZ=";"yB8!lD7>\\:p","ye2ddo\"Ul-[@]2Z7e()","yKRefoo63hcY<8)>C(",",bPEAkP4BkZ9EYoyK";",u1zTTom=","yp^l(g",",kuFdyuyBYQcHDSDZYm==";",L49AjWLMec526vIA+ECgBb==";"y*jo20-=p@_H!E(Z","yE5l8sn-Q*QLsI7@+3",",485Iju4IYaK=";",FzxQJSJr6iiEkm==",",iMecHMtNVx==","ymff*AfQBJce.G7";",KrvLC0Z=","ykQKg[m^";"y([%Q",",Pe4DeHN/U3C4ouyy";"yK)u8BD>","y&-MU\'aFI6k@q<dla`","y]LHrKtQ";",JI7wXE==",",rHKky/BoQGr2+b==";"y($D(u2mq<$M<nC";",GzGuGx==",",T+l41D/=","y=k^lR=3","ybdd.,t0";"y_PKgle3iVJGRPp,Z-s2",",EofvCE==";"y&#c4";"y\"a+,tCcp","yoc(T\\bC2=;6/e3]>l";",rzpv50AH","yUmI9Qb-AONC$\'0=6fi";"yTJS/?;(&","yUDFin";",TUgTdEKVeb==","yD(ZP\\uPFFt5LU%!1878bnKk*=]g3&50m\\4iQe%O=CM\'\\J#MaT[\'UN5TE@EtiKeoGI7(HHdM@X5\"aTtqVWH$?ZpsGku<Vifk",",twRQG9YL/C86NwgYAx==";",bPkHyPfNb34lbt5B","ydtALIT;FQ";"y(df[JKU@1udVs5\'QECm_U#",",Mysxty2=",",Xc4T5mV73uSKcfE=",",u+QQIZcO",",/2TWOCm=","yR`;krRTmN+ag4eo","yj2K2\\.sEU)Be/G^cHk";"y!!*P(kk1C";",KOqp8m==";",ClVpPm==","y)/Wr4Wae1",",tuAf","yZa=>stU@9V*hRm38/";",lNBPqoCW+rZ=","yJaj[t";",UE3OE+e=";",3w6Fy34CYucnque=","y\'InG!hREm=iFZ$7n3",",NZWXmqtCKL1FQMkrKm==",",513DsB8SunL+hm==",",FrT14E==","y.WED?^:Hp";",Puf3k84QUcmweHYBocx=";",2NhltvCb",",vb==";",eaeZFm==";"ys,d3",",qJkh0m==";",IMNx6RoF";",foU+7E==";",JYZRU36yDm==";",z912i5SPYCI0I5wDhb==","y#AIGt","yZ(Jd@Rm]",",xvAX9ZN77IzuPm==","yZL";",jNTPQlYZOqZ=",",UavuHy3ANiyq7vj=","y#cjKJ*(!U","ypI>UQPH";"yh$Z\"?SAbgf";",XP9/YZwAXkCdoaY2Nx==";"y&4na3.b(h(UKC#6o&`",",Btw5oUD=";",rqJrD6gtqgm=";",p3WCp35A";",8X8VM14WVizX4glTsvgabQasbi5azbX2RqpZFPIMOFNt1gEVT0j=";"y?k]Uc[\'",",437M/Ox=",",wC6DMI+=";",RfG9oqj=",",DaYpoAVvyTcBNwcWeue=","yn+G&AiI.)T%\"_TGhl";",avignc2GvnTqEsx=",",WPuEOhJtoJPPmm==","y$4ZG0\'+%RfXtq)/Iq";"yiF2KAJ5A/fnH1E\'","yA1";",Lprs+7j=","y]ral";",xHD5kawu",",nO5ScXj=";",oETS2HD=";"yh:XX";"yB#UR=","y+@AEm>s",",cuXlMdl=";",g1iQ56l=",",u7P6WEmgyJWKyHrN";",2EcpFYTl";"yC-7S";",00eC7db=";",9KuhnE==";",Z9OsHm==";",T5WHPVNfr23u2XhG5x==";"ydS=",",2tWhkA48yVYokQFb";"yQ7/G^MR","yMC>Q","yW#l!1i`C>W>;iU",",gkAH+z3j";",p/kiax==",",f914Woo+w9ND9x==";",42pk5m==",",qOfXtXT=","yt&^*V";",ciTrGm==",",z7vt";",9CFe1E==","yCakg\"i#Ilmo6^g0";"yhX1d";",uUzfPBVDjI6hZ2qHFjcF";"yYG;%";",90crfcy/";"yhRB_-";"y6a8,&";",j85fqPcBXk6fqv4Vqvb=",",D5SZnE==";",L7gIXk3lHZn+HcYzrT0UtW/=";",ewf5jwkeyVcFXeyaYZT=",",/QjO",",wzQ6lZ2=";"y8J[a=`+";",qkkYdI3aJxD=",",iLxCswZ=";"y\\ILZcS(JM_J<4";"y[2IZRPO!9fi#08";",3XNmtGtjym==";",IM6b",",2T82nabeim==",",/4XUr+Azzj4CEE==";",76mwDb==","y38SH1\"uX",",2nmQzHE=","ym`r2iDl(","y0?BC=5k";",6A2ieea2vUaadx==","y;]F^%@Y","y2qEq\\MR","y1gkm",",3lIITm==";",E3c1txuP/NyLJCxoWE==";"y;Ieo.","yUWKcdhPa&>i3tKTiQ?";",lAIGDOeS6RPoH3a6awVkYbLUQu8p/g/S9i66B8R=";",X3s22Axy";",NZ95kZ9ZkVkf4ccN","y,k3#;[2^IAYSn;OO,]cjsG2F]OEt`FH?CtBhm";"y5[3KPKQ",",78VP2P9KD3kMPe9F","yk/\\D,,:<-\"sko",",gE0pTPl=";",tSVj1jU69zO8DE==";",LR0ovb==",",vapPUxr58h/+y8hS9E==",",WsYBSOUcP8csvHKHRb==";",0vUvLe+=",",dtfFSYb=";"yIAblIhM-ol@-D*OJab";",n1FlZb==","y80Y*?";",BhSWrm==";",iIE8Ipb/MkY6ex==",",3DZut3t3cG3vnw/=";"yrAK8&";"yaYI","yZ<9YD)Ze`";"y?-3IF-[hA_T9AatOa#s","yJPk0s";"yeA_+%Es";"yi_\"JRpa",",ekC7jV2BNtchDwVpk8j=";"yEL3gnK7";",XjEDtr+=",",0KmjO6nU","y:6,6ec\'\'DnQ5]!gkF";"y>t9b+","y$jj=D&[AY.JKbOLL4A";"y0hlX-";"yG_/-;K>`P:UE$8$";"y\\43F=]saWq(K\"YERH5B1\'?.,>\'apQ,iShX=N\\Ae`qqmioRa*Wd^^EMJi_nlMZPWjGX2HLLk1","ylsK41%AIprDOuPE&>%b?tQ","y\"r`6N<S\\?!!s\"B**(",",jokKqP5+2A42jQeBoQT=";",l2/yGmT=";"yN7s\\PB9e?><PMumo]\'I/?bANmb\'I,Ej!@en9jA`!Kh`#eCJjQ\\Z6c\'5b^m2jdpI$Rl>[mm;<s=3[;X,LQ<V",",gMBH";"yW^-0>","y,8qfZ";"yb]ki6.2#";",/Z3GTczFRZNI41iteE==";",baNO/rm=",",HuK4iF+=";"yYCK*_2l",",M4TiTSESRirquIuSgNXHkF+p";",CwY9Q8zn";",IsfRLYe=";"y$&n:c:s",",oW/xxVR=","ykaMRG>?^",",VHUE2E==";"yhWu05l/","y1\")c@%pWkUs/J`kc&";"y/(pffI2LQTn/4L";",hxVNB8KK","y+J=E1A7`N;*<Qi8U[<s=","y5,!-#5WfDM/Q";"yA4UW4>m","yoW?nEi.)i","yVlaf\\Qc2-94SDP\"\'KI<YnM$EaZQ8_9%S>T0NR*K=&)V=*<>Gc\'MuBG(Ru^p>7r18?E^((2K/JJE89X^3b>k";",yakZyQkzYx==";"y#%5clp:e","ysg>5L>m";",7f3Z7n/=";",0IXM";"yP9Ra+=r$";",NwfUDo5pDZjaoVNa";",6uhh9LjW";",PPw8qaNipv4oy3WV2b==";"y06tU)ERI.9]8TT";",jQcSjakZ","y)dOq";",xB2COzhB","yrCFp0=u:[A=j\"",",LPhQqdW5DTE/8ex7vd1p";",T7/itfkp";",10nwCD1rgm==",",lWvAMh2=";",byNjyVCZCxatYFhMgTiAHbe6dQuFSzeB7Pwn0ubqCkyK6WuM";"y`WKrE",",UX9SX6tVBPzo";"yXibY=^JE",",trVZeaqzzNj0WfBY",",Ti8FAdkn7wesXb==";"yRHmKuh?0t!6U:1ORq";",z50f",",Sc5gpE==","yEY!?S7*XclY-b_A7.tG1>MY^DA,VWo+IB]jj-_#ue#?\'\'qfN3oM4%nJKrt9/1QdC=dWEb[rOF[:VVSF<\'WHb",",sePfL8x=";"y8f45@AUD,";",G0Lpdix=","yb3oPUe^\'X6hJp=[JL";"yRHpD,\'G/0BnlF_0RUY",",WGh/N6nFtC07vWj=",",YeNqtG+ybfT=","yA!_nm?s>";",7PcQ2lCUYkVi4vyA";"y[$fi%";"ySg?)\\,^5";"y1,T<VUgq6hG*\"G";"yGA7W:fH";"ycp.U]>mK=\\UO";",6A2ZFc/=";"yNq(sO4g]<el/","y4Rd@\'TFnS:hpAV^]-\"&CYpD","yo!uqT";",b1vDZA/=","yu4f4:q6Q3H";",Oh+kGzCs9fD=",",jl9jhRD=";",9r0rtsE=";",meZKcpxk";",0x8AFhn9",",Tfek";",txJyOlfyf4K9ZqF62K5dqeLQGExzix==";",nuT+9b==","yn:Rmd\"`CT",",jtCtXu9HNPf8PewbpVm=";"y6ZMq";"yA9_5HcF","yk?T,!5!;-","y@2[.1N2Ilj&`G6",",YlfFj8Czja5AqVkMDoT=","yMp>LYj]KW";",aSXl+6e=";"y81r4#",",PJrbp5arNEpkCxU72E==";",4FrTJrlyU7SqUrpl";"yQH3d2a!c";"y+D(.;<`kXDsNTAA:l";",7efB0SKwwYl=";",Icz5rwNpkE==",",8AEgfE==";"y\\P$U=?%QZOX>";"y*\":m\"+SL","yd`U4l","yE?!>X)oC","y3pd@ot]G\'Qq=949D9*G/JH","y]fduN";",I7Xizi2KwN/eB26v/x==",",1Ioy4WfeDPq+wSJjqE==","y_@Y\"TdfE",",q5azY2+=",",bsmb0NBaCSP/p+c97E==","yb$=/cjc<5#>A0FI";"ye>,Eom/";"y.\\,%7",",j8kCoewtjTfajZcC2E==",",t9MfzlK=",",6643mChX6V2=",",pPVI4H5NqlFKDeCJkb==";",bTcmobE=";"yk^T757K;k%f3S";"yUE?5\\E=-,M6Z<]a";",PEZcfpRik9ckHPCNgb==";",lm+ifb==";",dqJv";",5kX2YNx=","yofT%gK0",",UTOT9b==",",esQBzKU4Mc6I1T2=";",Ol2+xm6P","y_:@=F70";"y@1e.kC7mMV\"u!ii";"yD`=I";",JS6vwAU7cbm=";",Sm==",",OUoBDx==";",p0j=";",XE2gIsR=","y[_fuZ?h!";",UMBmwNx=","y)#eH\"","y#hbF1Ai+h\"/.R","yefALPG0";"yo[Ztp>a*EubBY/Rq)s";"y\"k.9hCCN","y\\h1\"<Q@h","yccr,";",VAltu8h2OQCDhE==","yK0";"y$:`T?aR]`Jkb8.,";",IZWUrXVK",",IAs3LGGrBm==",",yiK4RNPZiqCk9g7oVY/=","yKXE,Em7tqF";"y$_Qe>",",WhsDDFb=";"y,N6;dZ-\"O`HdW%r+r6?";",qS2=",",DREjN14M",",vw8N1b==";"yh:Z^uCAC>6O.","yQqQ2T^0",",Lm==","yb.;/Ki>OD*71A@?",",YZCvePrAYly2yQyJ";"y/Br","yJn*o)";",MfvRJ0K=";",uAdvhx==",",U6kAqm2/";",B3AR",",L+EMTjT=";"yaW!_F","ye.m$eOUYhl6fofn";"yLEH";",nh7BSm==";"y-PEU]Bon+LRUh",",Eb/ln6T=";",jBO8ZAeZQnbLZRuwaCJzABka7QjOtsaGJRDM/nDbRYzM3Q99aib=",",83AL/QTGJm==","y7=-%XRLs*YbO9\\A",",bSk7jMls65fvmxUvnQmgrGm=",",7lnp",",mSSGXImf",",89GAe++=";"y$IC+\"","yNX(>].WqX$a)iD";"y@*)9/NHm","y$<YiD^/\'Eg@u7B%",",54GRaBe=";",+B2OAb==",",788shKmc";",lTJ/gcER3m==";"yfXbrjt0",",28uDrm==","yk,YV_4$STI7^p#^Q03XtlI1&8D\\%;\"/u#","yk1o;Q",",BIGrDDl=","yd_FGV0n";"yRQZ<;l/";"yCtupI";",oQNJoacibPyWyAkcYx==";"y\"Acq@b38,3\'X<cS","yb%]=p1cj([k$^;","y3iO5HNGYo2\\/",",pR0uV6BR7T2kJh+QDx==","yTn24DcdM\'",",OttmBx==",",4uw4UeZKba5rytkWpuj=";",+whmt7S1",",ojFDXeji";",l+GvmXYizm==","y\'D0@d(3uS[";"yJrGkM<F2f<T#K\"",",wpFLldQ7";",AQA+TEBR",",Kg03tlFh";"yj>o>G8rBU>";",5Dm0Spy9";",y9KSHTMnjkiVXYa4yE==",",uSl84m==";",uftaxVnwDIK=";"yIc2Xs";",PVAHMghppv+wNKoEuaEDIV2=",",qHT=";"yP)SKc:i";"ys^;F=","y?Ieo:Ob!";",ALRGnx==";"yE2!Z\\","y1=%6S?ENN","yGJH)ERq",",d/+M";"y+Q?.OA1";"y2\"rSq";"yQZC<S@*lL1UdUn",",CEzXPLr=",",k13bib==";",OGO91YE=",",lZsQry357HbxHd+uQBChXwA/teoiHTYTgzVM",",bmE=","yAC:Hg[7V";",Y6SUlNT=","y)k:A!*2",",iGJTpuCyF+YnHx==";",Xe9T5qO0K8l=",",c0fFV5E=",",3r1S6E==";"yn2i73Lk",",jT/iUV4yeecSyTVp2x==";",vvZmrE==";",n15bpYl=",",7r6wXE==",",pXjUiFm=";"y*eCj!>s";"yC\'r#g=1",",cvrRIE==";"yC8$sh[44&Tmo->\'i8arp)f@e<&dN&:",",dU0d0EKg";",z9aTuXymGU+uYcL44m==","y[X2pM@M215?\'2[+S.ltuA[&Er<0iW>14%ud$GMmUf\\V[[A@lmOTgN;-]i-_[8SG?emNi:.)D$Cd0#]QC=U;nn",",4Sgj";",z7Pqxm==",",XBiF3j7knYreUb==","yf:@O&&sI6";",nF7wZwbBu80+nILA2FT=","y\"o(Kk";"y]b<AIDk0^\"MX4","yKb?Rmo7E&ihD7ZtaQh",",jeDX9pwS9m==","yRP(C77s`A.m&1ot";"yCUf^ln3";"y\\\\S\\6W_;e$?YL";",qgqYpb==","yj=>/[b4Lg!Ij/";",Jo2/9b==",",g2L1KxqZrfWXT4oDqm==",",ekhlWC9c8sMoGbE=",",VL/y7Oj=";",VUsDaE==";",FFHtDZ7wl5OBmO6D+x==",",G89lfgNRI3DM6nYH2lKoF+JCRE==";"y=KQAS.:pSb2LCqLCf`jg",",yu4lvg5TAvOo1b==";",9VO6eljZspc1R32jFatjX0b=",",Rg05Gs6L","y3/SKp","yd#?*,j<9K\"9VL","y#[Sn@jJ@gdS\\+i";",h0amFfe=";"y>FQYMSl";"yX4sG","yU27^!","y6\')aX>Db","y@3%FH,UV",",ooklXocwDQTayTfAeb==",",jcxi7e5tPokObPfA2uj=","yNTL_\\ZH","y)c;0.5F@^\':3#H";"yE=;mRZH";",BZZt","y3^pBeXl-t//*?0;RG","y\"`*0T.**B(Cni",",abGw+l2=","y),SNF!#eU\'4r6U";"ykQDh6";",kxFfilf6TR2tuBvORwUP";",baVr2S4fbANSeZEB","y@OR5\"UImWS&-!Unq!Y","yM]_LrZck";"yS#Ki\"Q6BGb_F7:*",",pXoQBsbmxRN7SBU4utN/mkxmaNDCVMVJYn9+6BFSA9QmDB91zzuVdyXjjdXEa6N0ABcWbZpeyDSqaybHJ5NHkCuNx+CJ6TMLDGMq";"yf-^Fq";",VaFDl/wVcjD=";"y-gc#YB,Zb-VQZ:\"89NE";"yKg58.(+3]",",nsBZdh5x";"y*OJf`r3&pq","yJRODNh`p","y<l[)/m/";",pZCMoAk423fobaNi";"y7.N1uJ8K(i\"8l,/";"y>\"8CMQIC",",CUTLZyJb","y67k]=,h]to5:`-",",UofmcFpThLJDUeTwOznw";",9k9ThE==","yU*/-T_*s(",",v5Q1Qb==",",sglhcW3Y","y-CD*a-^",",XoKlOHR=";"yMQ4GR:1qYSRq";"y:$6JV","yCaGemqmm([mn>IBRaM","ykI/a491",",xoXTYGBBL6JeWEgsEE==","y$/bJWUM=._`8D_0dM1H)";",QNqfITTt",",ooWB4VNw4VVMyuCS",",HaqvAaHF";",ybnpVm==";"y>Yke,q0";",3ALV84+=";"yP[:+C-a/";",21ouEm==";"y;,c2d";"y\"/J\"4.:_T[K>rYB\"8]","ymlI9o*\\U",",GEeQ4miNSTgECN6Eob==",",vY/yBXFi";"y2CrVk<\"I";"yaQkE%bG\'fF\"?jV`\"G",",LrC0Cm==",",pAU0CB5SIakC/SAa2m==","yoA(J";"yoeu9u&o",",NybwDb==","y&G4f$4::U>e8O9E)a";",RmwISb==",",Fq6qVx==",",y5Q+jmcbwMO28y6J2ER=",",kNIvym==","yb,Lo4[pW.4>EFE";",qXXSQaT=","y@,o(P>Wh*X@<8>3n1";",Z5SNDTb=",",EqjAw5SCzXD=";"yHGAD:Od,-UGMT)\'/F7L",",7Lc5nxe=",",hr/PqXsj",",vZ0XBJN8";"y^e&hL";"y<8U]C",",C8Xchx==";",HCJz2+VZc6bcnJAa2IFd";"yX[U7j7,hS6oK";",OldZh0x3ohsQnpgMAaK0wBWpvx==";"ym@4D3_\"",",NVmDTC3kAWmxp2rmK39P";"yB68+QuZ,X\"\'F";",d/JeokSJax==","yo[Ztp>oK\'Nb,HRs";"y%]A$1YUL","yoADI=T`",",DCUTZ/wm",",+Sf5Orr=",",s9WE5Hr8GAR9vcbq8x==";"yh;m,E\'[";",aeHHX7Y0f3eGAm==";"y\"`*0T.HI1Vb],^4eAK";",ui6i";",juNCquE=";"yTQ$e";"y8^","y5tc0;MOAKjaPN";",+AkTnbDuIpxjmsnarKKMCpGtd45LCO1Y",",WQRfro+=";",jdXgMb/=","y7$5/(";",pL0ANWMyDx4eR8yYp/GUazmDcnx9j7VE4trAScT=",",Whg+vsEOEaLSoOOvXJr=";"yr.*cO>s";",0p+E4LZ=";",fWp1ux==",",jwxjZY73","y-4?n1qNMP?HoV",",SREMgzNrWEDi36D=";"ys0:P";"y4^Zk\"?8";"yJ8K?O","yN</k;",",YVI43WUA3b==","ypB?J;",",WdDcDx==","y!XLX9fH";",L7PTuae5O97d1JCUDE==";",XaSusb==","yQ`p4N","ye\'NX,[p;c<b.aOUC7`bk",",PP6KGfr4fnoKXQZGUEveiRFhrmCF2getU+bSosTQ6XuRsf92LLosQb/zR+gQsToBr5QvWe7tNHv1adzG9AzyGAl=";"y1h!NZTa","y=(Om`!R";",G2tC7nocCeNVgMgM4lTxkE==","y1CG&M[/";",rahrCb==";",7TbnStlo";",O3XqwwfF6RtaRZ8o+b==";",/CkxAtT/","ySKO/j*a9",",LyUT3b==",",rgX62Fd5losZtG/+4b==";",sdYP8BwPx3vxXuyP3x==",",rrlG3Vjq4CEhS98WPSmk6uX2HZhsBtev65zG/7IxGYcxcOT0Yv12vHtrui3vu8WTSS4wUTfmnhK0nKKs6/re+mr0",",qu6Cy8NZjQVzyE==","y&3jcsMH(",",FkuKLvZx8V/=","y9+B!BYGKrj:YEQM";",UlJkWKFM2rYwGm==";",NUVXvCq0","y+@!*!XO","yBMJpqD^t9-Gk?4","ypUW)kuBE",",Dacz3S4CpakgqSyVjx==";",IpbMxTE=",",Jq3AwIZ=";"y<NOS^6\"";"yXu?:JD%!:&%<BN_","y[O3d(";"y=]\"?i?Ir";"y1eY?CIr@CKn*Vq","y5?L1;:d<En:/I/";",TRazm3scFQDm499H2b==","y6FY*)KQ%4%=F";",ZZ7WIGj2SFZaLZ80Ix==",",fU5D5E==";"yCEQ%,@R2k@(Vn";"y3BRbY","y+Dfc]X>";",OxiufJZMem==";",u6orbbl=","yC0\\Rg>5.ut.X\\kUq0",",/UetBA/=";",9Rj55DEaCz3Z7VHtEx==",",Rzkzwx==","y881";"yK#insUVb#1J5tQa.Gf",",bMaoAgw+kmfqEb==",",yT+KUaw/4PfvUSVCyx==",",n32OtUx=";",kRMu2VROoVT=";"yhD!tMhY:jk\'sJ$&\'I5";"y\'ar5*hWfbm\'pq2]fc]!`%t0P9";",4kx/WVyz7x==";"yJ0K7rC7&fNeAJmDbq\'$","y8C&-_iNU";",vP1wcb==","y<#.OZdl";",ZXLxDE==";"yDu6#*.M4(B(W=o#t0","yjoRDY8RmB./)o$l\\K","ycIF9/VL";",4af+beYS2VY3kufcYb==";"yZuS",",l7ANIMOQ","yu\'9WKY.",",cqLQGm==",",kSc5qcV3jTknovkO2Ze=","ysBHujT<$","yI^G06%FJTt","yI^-[uY0hJnK#?)X,_Je",",SZK2Fj9Am7xoe8o1k7m=";"y6,IbhEEe$",",GRfJLQsh";",2tIb9kQHtqmWpMqGJm==";"yN^jA#1MP";",9RI1Cm==";",2lV/2aFB4kVB4VYV";",6LhvVylc";"y$=^D13?Mk2RcPd[A(u7O","yDl(^a";"y5Lu2C>0Th:U]:OQ[IimHMUt^";"yHHfedVL";"yekQs\\.[";"y@.@q","yX.K.mYkE";"y=/+dc]20\"^*;LX7A9d";"yo9^q$32):l";",dNZNlv8X","yW-TBMUO";"yhRJ_-J;VD+7j;>W6Vg";",etNukTDwU3NKYZCUkx==";"yU+>N2CSR!(KiQ:Z>l";",U0OHGe+=";",ZPdrHQITW1qsM0s0","yeS\'d:!K[bc$FX)N",",28Y7qZyPY8eAbPNPqx==",",ou6Ijm==",",GDDkvbAqlvUnmcu+HE==";"y6:^nbrLi","yMS`4500";",26LtGDj=","yU/onYRWX#!.=rX>Iq";",t7Ltwi7G","y*>_Z#O5G";"y\"UaZ>inbn3Ul<LEb5",",NhmbrJyJ";"y(on%(1-m";",GmxtP3c/";"y=bUi&\\[H",",IrKxfupN42OW3m==";"y$&FO:Lq";",kHEJPm==",",hkymwb==";"yI8a=_.3";",/EdRqdNuQSsBxSJdLvYX4m==","yR8>BQ!L4N^q_fJbpRK",",/2cO4b==",",FfLeByj=";",pTk2qoxKY3N/7o4MXeE=",",BfYXLx==",",PcQEydWK",",sW1M1Om=",",DE==";",/iVKrb==",",U8r/VAl=";",R267NRr=",",4QVByb==",",D3yCpP9CDQV/p34i";",l59eBF8WrB2J4cx=",",fqbjmil3","yG8Xl:";",AH9sib==","y99ECC?`",",XWeR55E=";",7P9BNPcJXPY02cc2qZl=";",+3EdFbm=";",MlPW9FK=";",WIR5a/+P/oep2///9dIlE5anOH3z2XWdMykCqU23T+b=";"y!&i`/";",jS4pPerZkwNa4tlaDVT=";",TX6eib==","yJcm*C>5.;VCc&";"y99TW\"#$DWlMahDZ&o",",f2rDa7k7";"y9SSs;UOAY+\"S)a:U\"",",QnCEiE6PU4s7v0hy+b04Ksd/BwepogjW";"y4J/.",",ZBiVXE==",",FVIjKm==";",4eTio3fekujSNSfTbvl=",",Pc2SUvk2ya4+qSkvpm==";"y/#,j\"",",eZcyykYDXP9D2cei","y$mf5;R2\'n@eO@","y9HC-lhi7",",oekoNPCw2T9U4TeA";",QCfWa1Sy6wChft/TXx==";",gXj0pib4a0R=";"y>5B_0b>`u=U26)+",",jvkJ7P6eYQCvUckl";",UtcTKZ2olx3xCfr=","yurQYOTFJ";",hrvJrnuI",",cgTvzzVD4x==",",WsQLJx==";"ym_8%E\'3<";"y-5ut5WE$;3s_h<j!5",",p6Wf9LHaapKsVJLl8/6Z0q0nKrJYVghm0al=";"y/sDV-)Fhl";",pBmWu8T=","yu\"q)ZV9H","yjpoC)2%:1)J:gjA^cfX6",",BoNlLrJc",",AxJoam==",",pvmZk3YAquTAylZ9","yf1qcoe2]/2Au+D:7K(i,";"y\"\'AliqB/8jUH<gj",",qaeJta2QIwl=";"y],*kcVI",",TQtBvx==",",bAVJXHcToPFUkaftYE==","yQT4$\"M4aS.LNp:C!5","yo1mVL>^p\\[m3`A&e*2","y&tjZbmHk]35@,8LCs$P]uEuf%ffmWu";"yn:R^0h5#0O.Li";",kCQZpY7ybhLj+xn4UqiRa6YQ/AvyTfGkVAK63C7n7kDcB5G7nojyYWw+6z6NZTnsnUum",",fIGbdFr=",",XMlpivR=";",tcnu1b==","yILt\"@e:fqUKsUmS7Q";",H/RAWk1ejJgeo++=";"y4ER>Gnkh";",3ibELb==","yE]LLK]Q:S","yPO5#qRh_Z\":S0[-6\"","y>r\"&.^0";"y`#!#-1&/_sL@&g";"y1%GC*Es","yI2%C8$H+";",YPiEDPNL";",Y683yx==";"y>tN(#]WB36m^",",MS2EGm==";",vGbEO+Bdrb==";"yKo#`I!SDR`9CfjJY0(";",QDf1KlBRyrzScO2TfvLRKpifdm==";",8rM6wAuP";",p3O+BagH";"y</`llTlB`",",A3Exyb==",",wwVZdnLStC2=","y1OeAH";"yuQFsOqH!POD\\.u",",2SNiXP5Ve8WK4Hcf","y>Yj6g.m#+87))[eC84","y-]A6K\\/",",/B/8";",BCNp5H+=";"y[XBXLBboT";",VXnJTBK=","ya68";",YC+nJaIcn9t79Zb=","yT1>Zb8\'";",VVKbrb==";",tz6vAxrQ/3V9fpXtJZDSBbZpsYsHuTFABegYba/3//78rxMGCB342La3nqDflafAnprKg6lcx49pD6pN0wunaV3+B/+uU+8Prf6h4Gp2";",NHcpUaCrblik4ZNM";"y-;tnU)eR";"y\"/J5mi7#n)U(HQ\"iFg";",nIDhUwR=";"y=XGO^(P+5pn;;";",we9ctlsk",",vpvnuucXzdSQfwjRL2FUkALU9otaN+M1FHHIX/b8fF7yhgtVtAu10pKWudJYdb==",",gIvxci7CdWhahi/=","y>FB7Z";"yoq`J7`3g![&`Ag\\";",ylyE2uYkkVYnotlae8e=";",JHI8kyR=";",yxVgnVh2FRR2";",Ycc3jeYTytWJqlRw";",XSKBm2D=";"y\\D=`_PH","yM[sQo";",rnsVtMULLMvGnm==";",nFBvQrl=",",8ayqQBb=",",hlLa";",oSewqtCoYtVeDQ5rYm==","y(_e8Lh3.,?RpTH",",Hg+bdKNNtHcKFAm=",",0axosfAN";"y=5m75@Y";",KerVBs5Z";",FkPSCuR=";"yEP7a-Ja6gpE\\0f";",2YQHGtKA+u73qtm=",",QvjtdQKqJIfBOQQyz5D=";",QluE";"yV*lG&u?L",",jSY44akW4liheQx92HD=",",wT/N4Fqx97qndE==";"y-Ba[*`lYEuZ2k7s#\\";"yo7oYZb\",nC\'m]!7";",B1LeusrjNOCJub==","y>HXb!AUqXuA\'c";"yWj<nDKr>A_u[CZNY\\]Zq93",",0x==";"ynfDt\'","y5E\"$Q";",B6jc7/e=";"y/n\'\'jYIdW2";",MA/XgG2=";",sgKG/cTj",",U0K+fyzO3b==","y^YqKO","ySJ8b\'C(";",zE==",",3US5eM6lDZaEQDY2yZLSn0zd5IEWHwC/5CMioIpqa6D5u9r3GSWH7cnR25KLps6sc+2QdJKp05+oKwIBr27MVM+PagK=",",6+7q2+XHaE==";"ym%*>&75+0@",",jre8IJ5s/E==","yf-`/W$5","yt%$G&",",rjX0UCm=";",pGNmDwE=",",Vd1faNTez7kao/r=",",tarurxgkOH5KxE==";",R0JtFr9xOb1a",",2pjb+m==";",ccxbRm==";"yK,-hUUAH$V62$`!",",Z1b08I/MsLO7zxDkq7w6Rx==",",0fem","yqshQP>E`tQbh";"yne<#6OG","ysC$V>ns#e(sLpjW)#p)Y1fhoAG[$G$d8\'(/2930m&<[h0oDjQ&W?.j4$W*";"y>5;\"t",",wI/UTx==","y\"A+0sh/.]UUH8hj";"yim;lc[/","yQu)fm#l",",4k2miQK=",",h2fO";"yP8LPB","y.f?iR@erJ3U^oRM";",xCfXUJfd5xuOa/5Fnx==","y7,O#\\.:W.HKqVT&UO";",9z3xLCqW";"yIL>$%";"y\'HE*Jl\'",",IbnDcKMq",",aXl6308fmiXFt7OlYm==";",Eb==";"ydV#";",unS3q2E=",",90wjIrj=","yTNnu7_1>","yo[*oe\'!B9<h`>dr";"yj6A--HtGbP_Ttp";"yhM37Pe/;qao99]kaQh",",shdLA5JI",",tOvsuU6vZe+eiE==";"y3B!5,Z\\/e!";"ye+J\"Y@<?cdqsIhun)o";",kucn";",1Sj=","ydCFR=M<o!\\E9P","y&3P.jJ9F*&\"27PgU^q",",e3Cxjm==",",5512BwK=";"yRCL8uehpAZZSpM<J!mh";",YucApE==",",c3uPcN6R","y\'Ln-s@FUCY@.0UO&-U";"y7XX(U`TsJb1d#m@e#",",yxauQQdY9m3gYJD=";"yfgu=p";",BVg9";"ym&PZ*6_Z6@6:pS\\",",OU20lC38";",ecNQ4TcCXVbaDvCI4cx=",",eV472vfSjAWypc5teS+=";"yVRLODrU^uu";",PklBYQFlbkTSbtVrelb=";",LD+aEE==";",SVr1ZSmX";",sqn8dde=";"yC7&_)o$QG4\'I]Zu";"y.s^`<oR-^<UAc3Eq0","yk\'HF(\"G";"y3_22k3TK1Dij+6=7:Y=#_EB(#Mr,G81?#*so%\"u^VO.ER%m4%W$:4>dn1r]A`oF!odus++C/iO\\++MFX!7K.\"USnSs)dp,g`0c\\M!5";",xqlTDE==";",0qwWZcT=";"y(sL,k3o";"yc_E=%ds";"yU(C/\"El";",tHqs+OsYHBmQ9b==","y.fSjJ";",bECm3dK=","y.:\'uH>STrVhJ@cr","yrMEEccF";",3s0TJE==";",2MvsNXyjunj=";",EVzfaMHloE==";",ju6fqv4gYuV/yb==",",WS0RpqguwquWele=";"yN/\"VKSi";"ynHF?eC6q:r",",JPEjOx==";",koWdUoCybZ9Jbt5E","yE5EBPKcUp/\\EQ;",",k4k3UtE62goFO3b=";",jl9mC8oOihXu/67qcb==";",RTxoTrBx66Vyu4iytaro","y[6-=1XG\\";"yn\\eG=l^",",q3k/YuVEquciy35gD3yCpP9CDQ9V";"y5LI>t&`";",JE2=",",kQwF2kWUoV+=";",Lx==";",5HYlXpMXYhj=",",Xjlu1e+=";"y]dMle`\\cik\\5/+IYG";"yKR7(N4Oc$gL4fK";"yct2E;";"yJ?dT<6iPIRR+Ssqo6U",",4akZba6zYukKYm==",",l/zAlynqB4zvIBpRBzbAWcAEgjPMHx==",",TWhtCbD=",",cev1krWTOdG3ErJOtQwPORf+bnLHSqpdSm==","yCmrJq#m","yJ:o";",07BRILtOKV0n2E==";"ybLoH07K1";"y>]563",",yQ9Iyky9kQCpeTf8NQb=",",NMt35E==";"y1nkG1d6b";",5KJbQ+jW44U1agm=","y.VVW4",",NpcVWx==","yqB&hhDC-!Yj_+";"yao",",zoK+3nkOcx==",",vt0ZpGv5";",H96sSu6Z";"yJ,+0+",",B7iL",",UzY2md5LxBcy92OfQCe=";",PkYHekxSDVf4NaCiYZb=","y3aY5h";",D35V3ac/quVVjE==",",IsPwVYvlR2AOo7cH";"y\"[8$GDgF",",BYD6ex==";",kjgMus8vc+dv/EZX6ArDuWvBzroT/0kp3hwD";"y&i`uuc3";"y\\Z_DAhYTYQ:XD";",FW+UD0E=","y]Ac=S$qt6MI6**\"BEqZ[","yE[ppl1:[q";",wVK8rx==";",Bf1QQqUTZAx=";"y-oOV;nB,Y",",5Z5Sxb==",",bVxJom/=",",3dTLHE==";"yK,fNgon_[U6s?WH6#","yI/$Ue1?p%kd6!";",ZGU4FmRdvY8MDb==",",gAcMKtz46kWPzE==","y$DbGpuXR#Y?3YQ:.F";"y4N,YPX#";",rb5b5m==";"yig?%Y,O";",4CI0+W+I",",p4kk+x==",",1+W+0J1miE==",",74GpxtLQZb==";"yI_>RM";"y.,Y/;CQ1_MCE>rP>m";"ysH3P?%>";",NwWBjVWwjvck4AkSom==";",tJFHN7lIE49YNNrs/0vFBdfVVC2pFZQ6crSIo/7oKYBmSiMZaH4tQuq04zED4YCQXiZrNjbfXm==","yX[S*N.Y=",",znr/krnTqDo93Bp3","yRU]A/ZNVP0Zd6IYX!F10)_[\\\\5iTst5Kt&ffh[D?o\"cGH?)ogI";"y(.#qr8^",",axUrf0ehDwIX/FOGUx==","yR:F","yo[Z\"`.Hs",",nr+bbHR=","yZ^He<=3",",jHyuqVWzk3cPou4FNx==","yck,%m`\'",",dO5h9W1JHygXyKv4mbWd",",lYE6Ib==";"yt@$3P`^";"yb=VWVqg2";"yiR-64e\"","y0ljBmq^R8[6cC+eUt6jhprR*:LMO&?G\\oAoNIUlP=5\'";"yVi%6k";",UeCu2v59bQkDbA40qm==";",YufzeZ5FPu4VqQy72E==","y?\"SJMHk",",puyNeTN7o8yD2TfWeP/=";"yI6_Xu$c17";"yoVS<&tY\\cRSjhq";",E2rFH8/=","yCn:cJ\"ZKOp6(3CO\'1";"y/XW_\"jG";"ye_#;kHK]\"q^Er","yQ(p;RPo%";",lctq+0x=","ycJpQZh>T","y.m.4sm[Q!9JEl-<","yT\"ZRnJ$!",",Ew1i1m==",",V0Ln0NK=",",XQ9NqaiT4TFNyw2iPm==";",pucA3ayCqu9IY3b=";",sIU5Ix==";",mDEhoEat";"yS]k$\'Ok";"yu&&otImW-5$q%:[m^",",7nxVyOrf7x==";",zqkDAO+=",",jsiF";",Iq3CpnvSopE=","yDq%Je";"yYD`Ff";",DfAGXNT=";"yP`lHjn\'s";",uPBN33D=";",lyhACtl50Ex=";"yU\'X0R7.<C(6U`23\'Ge";"yq)I]!i<e","y_D\"M_1*s]UVg_g]l8r`X>%bqjmO\'Ib",",BSjTTiIb";"yR/b:HK\"\',0oF1rd",",yHCLyTewoQCpPvcPoke=";",/+6gFTC8hIj=",",YuV/yk6i";"y!6K>nO[D";"y$EVAIsNX";",VuKB42L1T3x3GCHdqb==";"y9*iHX7\\4cg^T7L%\'[",",XK8VS56u";"y.-sn9AGeJ[Lq","y6N@3";"yQ9l-9";"ymqL7V$mC&Hb!\'X","yASj\\60M^dJTa","y?l5R;<I",",Fi9GcaZ=","yJ8+O/AI)Q>7YN4]+[";"yEY95E[Plm#`o8";"y6E=fj8gu[$nj`";",xu4hVE==";",7bjE0/r=";",omeo4volSeSj0HPOum==";"yp\"\\[5>s","yha+j=q,]AGm&\\>P";"yPj[";",hmpV5+Z=";"yi$;^[\"T6P%6^LYbn[",",wTn2PcQG";"yUI\\(V>h&J^CQT%\\7Q";",iuPytiK=";",+bpD2cr=";"y]eH&uhZNBi%MLQ",",veoHHE==","y[$f9d.[",",b1Ptu5+K49ObSb==",",pAWTySVDDe5iUQNW";",7y5QcSR=","yM\',3JSh#7@<7,D%6*lZE[m;@3Xm#U&!N$DJQL)kKp=k$\'X=\'l:`Kd,",",qrJHIE==","y&0>pY","yDY@",",ZW1fr2U746l="}for y,q in ipairs({{1,2184};{1,675},{676,2184}})do while q[1]<q[2]do S[q[1]],S[q[2]],q[1],q[2]=S[q[2]],S[q[1]],q[1]+1,q[2]-1 end end local function y(y)return S[y-17583]end do local y=math.floor local q=table.insert local G=type local n={["6"]=25;F=84,Y=78,K=18,["^"]=72,["/"]=45,m=39,V=13;f=40;["*"]=67,[";"]=82;R=24,B=61,[":"]=68,s=11;["\'"]=17;["@"]=28;["%"]=52,[")"]=65;I=15,["+"]=44;["#"]=5,[","]=7,["$"]=55;u=73,G=63;C=31,["2"]=41;["("]=14;p=56;["."]=35;N=58,A=71;l=66,["5"]=51,_=43;["&"]=29,d=59;o=21;["\\"]=12;J=22;c=80,["7"]=27,T=74;["\""]=33,["-"]=3,g=83;["4"]=1,D=79;n=26;W=46,b=37;["8"]=48;["]"]=9;["?"]=47;X=70,Q=81;t=0;L=42,["<"]=4;P=76;e=34;q=36,U=16,[">"]=32,["`"]=75,["3"]=2;["0"]=54;j=6,["="]=62,["9"]=53,i=38,M=19,Z=49;H=69;O=60;S=77,h=23,E=50;r=64,k=8;["!"]=10,["["]=30;a=20,["1"]=57}local r={m=0;b=16;i=57;x=32,n=34,C=33,X=30;H=3;O=2;["0"]=10;Z=52,B=50;G=63;g=31,j=28;J=42,A=51,l=36;N=13,["1"]=62,I=47,d=58;T=4,q=27,F=45,f=41;a=54,h=15,e=20,M=11;["3"]=23;o=19,v=39,["9"]=49,R=60;L=43;V=37,U=18,Q=38;E=48,z=46,p=26;["5"]=9;K=56;r=40,["7"]=14;["8"]=7,["2"]=12,["6"]=61,D=24,k=21;Y=29,t=35;["/"]=44;["+"]=8,u=6;P=22,S=55,["4"]=17,W=1;c=5;y=25;s=59;w=53}local d=table.concat local w=S local R=string.len local C=string.char local h=string.sub for S=1,#w,1 do local m=w[S]if G(m)=="string"then local G=h(m,1,1)if G==","then m=h(m,2)local G=R(m)local n={}local j=1 local Q=0 local k=0 while j<=G do local S=h(m,j,j)local d=r[S]if d then Q=Q+d*(64^((3-k)))k=k+1 if k==4 then k=0 local S=y(Q/65536)local G=y((Q%65536)/256)local r=Q%256 q(n,C(S,G,r))Q=0 end elseif S=="="then q(n,C(y(Q/65536)))if j>=G or h(m,j+1,j+1)~="="then q(n,C(y((Q%65536)/256)))end break end j=j+1 end w[S]=d(n)elseif G=="y"then m=h(m,2)local G=R(m)local r={}local j=1 while j<=G do local S=(G-j)+1 local d=S>=5 and 5 or S local w=0 local R=d>1 for S=0,4,1 do local y if S<d then local q=h(m,j+S,j+S)y=n[q]if not y then R=false break end else y=84 end w=w*85+y end if R then local S=y(w/16777216)%256 local G=y(w/65536)%256 local n=y(w/256)%256 local R=w%256 if d==5 then q(r,C(S,G,n,R))elseif d==4 then q(r,C(S,G,n))elseif d==3 then q(r,C(S,G))elseif d==2 then q(r,C(S))end end j=j+d end w[S]=d(r)end end end end return(function(r,R,d,n,G,w,S,u,A,Z,h,C,M,Q,i,g,L,E,q,B,j,k,N,m,x)h,x,Q,g,E,q,M,k,Z,A,N,C,m,i,L,j,B,u={},function(S,y)local G=Q(y)local n=function(n,r,d,w)return q(S,{n;r;d,w},y,G)end return n end,function(S)for y=1,#S,1 do h[S[y]]=1+h[S[y]]end if n then local q=n(true)local G=d(q)G[y(18464)],G[y(19546)],G[y(18250)]=S,k,function()return-2240861 end return q else return r({},{[y(19546)]=k;[y(18464)]=S,[y(18250)]=function()return-2240861 end})end end,function(S,y)local G=Q(y)local n=function(n,r,d,w,R,C,h)return q(S,{n,r;d;w,R,C,h},y,G)end return n end,function(S,y)local G=Q(y)local n=function(n,r,d,w,R,C)return q(S,{n,r,d,w,R;C},y,G)end return n end,function(q,n,r,d)local QJ={}local nJ,f,Q,GJ,hJ,k,b,h,yJ,O,c,v,t,T,l,e,RJ,o,U,dJ,N,D,p,z,mJ,a,CJ,I,F,Y,j,s,V,qJ,X,P,wJ,W,K,H,SJ,J,jJ,R,rJ while q do if 8491524>q then if q<4308850 then if q<2019609 then if 1037272>q then if 495038>q then if q>248518 then if 359189>q then if 289990>q then if 267114>q then if 259184>q then if 251519>q then jJ,QJ[1],QJ[2],SJ=nil,nil,16300855>11229122,nil q,c=14299773,QJ[2]elseif 254959>q then q=C[r[4]]T=C[r[2]]V,W,O=28691920636920,31662584494975,y(18356)I=C[r[3]]Y=I(O,W)R=T[Y]I=C[r[2]]W=y(17982)Y=C[r[3]]O=Y(W,V)T=I[O]q[R]=T q=13568339 else R,q={N},S[y(19445)]end else if 262935>q then K,P,q=nil,nil,6676143 else R=C[r[1]]h=n[1]Q=C[r[2]]D,T=y(17887),26069945110399 k=C[r[3]]N=k(D,T)j=Q[N]q=R[j]D,N=31746665088880,y(18351)j=C[r[2]]Q=C[r[3]]k=Q(N,D)R=j[k]j=h q[R]=j q=C[r[4]]R=q()h,R,q=nil,{},S[y(19515)]end end else if q<276698 then if q<271388 then CJ=868307<4323792 SJ,q=CJ,719172 elseif 273419>q then q,H,R={},y(18494),y(18829)I=q q=S[R]P,V=27687083028453,q l=C[r[1]]b=C[r[2]]t=b(H,P)v=l[t]z=k[v]q,W=z and 2024670 or 11115259,z else GJ=30 SJ=o+GJ o,GJ=SJ,1317870<3503594 a,q=GJ,11247615 end else if 281969>q then Y,q=1,S[y(17876)]R=T==Y R={R}else D,l=q,34624991246055 Y=C[r[1]]W=C[r[2]]V=C[r[3]]v=y(18947)z=V(v,l)O=W[z]v=15919184788888 I=Y[O]z=y(19586)O=C[r[2]]W=C[r[3]]V=W(z,v)Y=O[V]T=I[Y]q,N=T and 13828256 or 3921321,T end end end else if q>332473 then if q<346837 then if 340151>q then q=l t,l=q,2000 z,b=v or l,W l=q q=W and 10091498 or 11769730 elseif 343987>q then V,v=O(W,V)q=V and 14126402 or 7975542 else q,R=10742022,v end else if q<353011 then QJ[5]=C[r[2]]QJ[9]=22300982208756 QJ[6]=C[r[3]]QJ[8]=y(19325)QJ[7]=QJ[6](QJ[8],QJ[9])QJ[4]=QJ[5][QJ[7]]jJ,q=QJ[4],1642883 else v,V,R,l=3071313>=12692850,nil,nil,99999 z,q,b,W=0,S[y(19599)],9752501>14940817,nil R={R;W;V;z;v;l;b}end end else if 302142>q then if 295402>q then q,SJ=11917468,nil elseif 298242>q then Y=3 I=T==Y q=I and 13491429 or 207103 else QJ[21],QJ[15],q,QJ[22]=nil,nil,5833420,nil end else if q<315622 then q=QJ[35]q=QJ[34]and 615579 or 2337547 else q=C[r[7]]q=q and 7984296 or 5364017 end end end end else if q<402843 then if q<374783 then if 369582>q then if 363163>q then q,R={},y(18829)k=q q,v={},22904925679840 N=q q=S[R]O=C[r[2]]z=y(19322)W=C[r[3]]V=W(z,v)Y=O[V]I=j[Y]Y={q(I)}D,R=Y[2],Y[1]I,T,q=R,Y[3],5870373 elseif q<366626 then v=y(17806)W=C[r[2]]V=C[r[3]]l=32255243032389 z=V(v,l)q=12103164 O=W[z]Y=T[O]I=Y else R,q=12445324~=1196686,S[y(18933)]R={R}end else if q<371846 then QJ[8]=250 QJ[7]=K>=QJ[8]q=QJ[7]and 5372312 or 13123984 else q=hJ q,wJ=11417555,CJ end end else if q<390367 then if q<377531 then q,QJ[37]=15027712,QJ[32]elseif 383027>q then dJ=0 yJ,q=dJ,205010 else H,V=y(18479),q l=C[r[2]]P=3373826120362 b=C[r[3]]t=b(H,P)X=19307858164597 v=l[t]P=y(19094)z=h[v]v=0 W=z or v z=q b=C[r[2]]t=C[r[3]]q=S[y(18342)]H=t(P,X)l=b[H]v=j[l]l=0 V=v or l R=W<V R={R}end else if q<396412 then QJ[17]=1 QJ[16]=QJ[8]+QJ[17]QJ[8],q=QJ[16],795262 else q=QJ[79]q=QJ[63]and 8611397 or 7756132 end end end else if q<456099 then if q<441337 then if q<413206 then q=U q,R=8832132,s elseif q<430400 then l,V,q=25697035554373,y(17759),N N=C[r[2]]Y=C[r[3]]z=33280908041898 O=C[r[4]]W=O(V,z)I=Y[W]O=C[r[3]]v,z=19156367964287,y(17846)W=C[r[4]]V=W(z,v)Y=O[V]N[I]=Y V=y(19188)N=C[r[2]]Y=C[r[3]]z=7385906741321 O=C[r[4]]W=O(V,z)I=Y[W]W=C[r[3]]V=C[r[4]]v=y(18449)z=V(v,l)O=W[z]V=y(18806)W=S[V]l,v=9536390165365,y(18398)V=W(k)Y=O..V N[I]=Y Y=C[r[5]]W=C[r[3]]V=C[r[4]]z=V(v,l)v=22384211713802 O=W[z]I=Y[O]O=C[r[3]]z=y(19589)W=C[r[4]]V=W(z,v)Y=O[V]N=I[Y]q=N and 4937343 or 4562631 else q=QJ[62]QJ[63],QJ[68]=q,1000000 QJ[64]=P>=QJ[68]q=QJ[64]and 2793995 or 2600008 end else if q<446579 then z,K=y(18500),y(19385)O=C[r[2]]b=y(17738)W=C[r[3]]v=19193227474713 V=W(z,v)t=4170455562218 Y=O[V]O=q R=j[Y]Y,o=R,34584232585192 z=C[r[2]]P=15335633603313 v=C[r[3]]l=v(b,t)b=y(18772)V=z[l]W=j[V]V=0 R=W or V V=y(18370)W=S[V]t,O,H=12215329041975,R,y(18453)z=C[r[2]]v=C[r[3]]l=v(b,t)V=z[l]R=W[V]W,v=R,y(18117)R={}V,q=R,11712158 z=S[v]l=C[r[2]]b=C[r[3]]t=b(H,P)v=l[t]t=y(18117)R=z[v]v=1 b=S[t]H=C[r[2]]P=C[r[3]]X=P(K,o)t=H[X]H=1200 l=b[t]t=O/H b={l(t)}z=R(v,G(b))R,b=0,0 l=1 v=O-l l=v v=z t=v<b b=R-v else v,l=V(z,v)q=v and 12810707 or 9566980 end end else if q<467964 then I,Y=135,q R,q=Q or I,k and 14992896 or 6258555 I=R R=k elseif 477960>q then I,Y,j=0,255,Q q=C[r[1]]T=q(I,Y)h[j]=T q,j=14808852,nil elseif 484380>q then O=y(19364)R=S[O]z={R(Y)}O,W,V,q=z[1],z[2],z[3],343232 else q=W and 14527435 or 12765011 end end end end else if q>161854 then if q<208177 then if 186968>q then if q<172518 then if 165079>q then QJ[6]=1 QJ[5]=e+QJ[6]q,e=7348679,QJ[5]elseif q<167127 then q=R and 10227188 or 7334303 else rJ,CJ,q,mJ=nil,nil,12971704,nil end else if q<178611 then q=Y and 2073764 or 9276348 else W=C[r[1]]v,l=y(18440),1362506151043 V=C[r[2]]z=V(v,l)O=W[z]Y=T[O]I=not Y R,q=I,133209 end end else if q>205898 then if 206945>q then q=v q=R and 15374836 or 14481990 else Y=4 I=T==Y q=I and 12355044 or 7222169 end else if q<197320 then GJ=200000 SJ=P>=GJ q=SJ and 8564210 or 1635693 elseif 202694>q then q,e=10285877,J else q=qJ qJ,RJ=100,q hJ=.45 CJ=yJ>=hJ q,wJ=CJ and 7097502 or 11871102,CJ end end end else if 232082>q then if q<218825 then if q<209332 then QJ[85]=300000 QJ[84]=P>=QJ[85]QJ[82],QJ[83]=QJ[84],q q=QJ[84]and 10813932 or 16420320 elseif q<209488 then q=y(18441)q=h[q]q=q(h)T,R=q,Q q=nil I=q q=Z(4065604,{r[1];r[2],j,r[3]})Y=q q=Q and 844609 or 12315458 else f=C[r[2]]e,p,P=y(19679),3739264031260,q a=C[r[3]]J=a(e,p)o=f[J]K=v[o]o=0 X=K~=o H,q=X,X and 6734776 or 2518160 end else if 229462>q then q=y(18104)q=h[q]q=q(h)k=q R,q=k,k and 6737186 or 9812727 else q=e q=R and 2304117 or 14700300 end end else if 233506>q then D=C[r[2]]Y,O=y(19263),33467182090131 T=C[r[3]]q=6912277 I=T(Y,O)N=D[I]R=N elseif 235061>q then O=q V=C[I]z=0 W=V>z T,q=W,W and 4911835 or 16745007 elseif 241883>q then I=not D q,T=I and 5178462 or 14600543,R R=I else QJ[22]=C[r[5]]QJ[27],QJ[17],QJ[19]=y(19068),q,q QJ[24]=C[r[3]]QJ[25]=C[r[4]]QJ[28]=33490715715320 QJ[26]=QJ[25](QJ[27],QJ[28])QJ[23]=QJ[24][QJ[26]]QJ[21]=QJ[22][QJ[23]]QJ[23]=C[r[3]]QJ[26]=y(18524)QJ[24]=C[r[4]]QJ[27]=5426792947114 QJ[25]=QJ[24](QJ[26],QJ[27])QJ[22]=QJ[23][QJ[25]]QJ[20]=QJ[21][QJ[22]]QJ[18],q=QJ[20],QJ[20]and 4043525 or 9696008 end end end else if 96096>q then if q<48719 then if q<25864 then if q<18801 then a,P=31106350686928,y(19638)H=S[P]X=C[r[3]]K=C[r[4]]nJ,f=11112998395449,y(19252)o=K(f,a)U,K=y(19380),q P=X[o]b=H[P]H=b()X=C[r[10]]P=H-X a=C[r[5]]e=C[r[3]]p=C[r[4]]s=p(U,nJ)J=e[s]f=a[J]U=17777879251593 J=C[r[3]]s=y(18345)e=C[r[4]]p=e(s,U)a=J[p]o=f[a]f=1.5 X=o or f b=P>=X q=b and 16211287 or 12721311 elseif 21290>q then a,q=e,p q=1182769 else q=R and 1489654 or 15874032 end else if 31637>q then CJ=C[r[1]]QJ[3]=12159610114103 mJ=C[r[3]]QJ[2],wJ=y(19044),q jJ=C[r[4]]QJ[1]=jJ(QJ[2],QJ[3])hJ=mJ[QJ[1]]RJ=CJ[hJ]q,dJ=RJ and 9770537 or 7268501,RJ else q,QJ[40]=QJ[43],QJ[42]q=4780727 end end else if 85455>q then if q<65812 then q=j q=R and 16181277 or 2073532 elseif 75578>q then q,R=0,0 R={q,R}q=S[y(18103)]else K,p=q,y(19136)a=C[r[2]]J=C[r[3]]s=10894030600357 e=J(p,s)f=a[e]o=H[f]f=0 X=o or f o=q f=not h q,K=f and 4591314 or 3516709,f end else if 91637>q then rJ=y(17687)rJ=W[rJ]rJ=rJ(W,GJ)yJ,q=rJ,3700374 else t=y(18924)V=C[r[2]]H=4556980251125 z=C[r[3]]b,l=10010423516842,y(18022)v=z(l,b)W=V[v]O=N[W]v=C[r[2]]l=C[r[3]]b=l(t,H)z=v[b]V=Y[z]W=O(V,h)R=W<=I q=R and 9141383 or 5277199 end end end else if 133437>q then if 131756>q then if q<106489 then q=l q=R and 6956678 or 6437146 elseif 122779>q then dJ=C[r[2]]q,CJ,hJ=16040995,y(19214),2079737067820 wJ=C[r[3]]RJ=wJ(CJ,hJ)SJ=dJ[RJ]nJ=Q[SJ]U=nJ[e]p=U else yJ,c=not GJ,SJ+c nJ=F>=c nJ=yJ and nJ yJ=c>=F yJ=GJ and yJ nJ=yJ or nJ yJ=12083289 q=nJ and yJ nJ=15455703 q=q or nJ end else if 133307>q then q=R and 16635896 or 272637 else GJ,q=SJ,14808375 end end else if q<153982 then if q<136260 then dJ=y(18129)dJ=Q[dJ]dJ=dJ(Q,k,e)SJ=not dJ U,q=SJ,4785869 elseif q<146079 then jJ=812641414209 RJ=C[r[2]]mJ=y(18426)CJ=C[r[3]]hJ=CJ(mJ,jJ)wJ=RJ[hJ]dJ=k[wJ]q=10487087 rJ=SJ==dJ yJ=rJ else q=CJ q=RJ and 7373684 or 13749749 end else if 157586>q then V=z(W,V)q=V and 7691709 or 16058968 else p,q=QJ[1],QJ[2]q=12975810 end end end end end end else if 794856>q then if q>653600 then if q>742050 then if q<765076 then if q>751297 then if 756177>q then q,QJ[4]=QJ[7],y(19624)QJ[4]=QJ[3][QJ[4]]QJ[4]=QJ[4](QJ[3],QJ[5],QJ[6])q=QJ[4]and 13072416 or 6244680 else q=RJ q,rJ=13315766,wJ end else if q<744168 then z=C[r[3]]q,H=785824,y(18275)l=C[r[4]]b=C[r[5]]P=7766370812945 t=b(H,P)v=l[t]V=z[v]t=y(18749)v=C[r[4]]H=25881776359120 l=C[r[5]]b=l(t,H)z=v[b]W=V[z]Y=W elseif 747690>q then q=11872544<7049882 R={q}q=S[y(19418)]else q=9276348 end end else if 775066>q then U=50000 s=P>=U p=q q=s and 13795591 or 1903693 elseif q<783235 then q,b=8937418,{}v=b elseif 790137>q then z,V,q,D=24648460136375,y(18329),O,{T;I,Y}Y=C[r[4]]O=C[r[5]]X=y(18358)W=O(V,z)O=q I=Y[W]l=C[r[3]]K=14385548667460 t=C[r[4]]H=C[r[5]]P=H(X,K)V,X=q,17760187381360 b=t[P]v=l[b]P=y(19316)b=C[r[4]]t=C[r[5]]H=t(P,X)l=b[H]z=v[l]q,W=z and 15112941 or 4817949,z else q,R=S[y(17784)],{Q}end end else if q<707344 then if q<688795 then if q<658083 then q,QJ[11]=10967965,nil elseif q<665948 then t,z,O=y(19295),y(18319),q V=S[z]z=V(T)v=C[r[1]]l=C[r[2]]H=21994511804807 b=l(t,H)V=v[b]W=z==V Y,q=W,W and 1458791 or 16598768 else R=y(17731)q=S[R]R=q(j)k=R q=k and 2762267 or 4754991 end else if q<704613 then q=X X=0 b=P or X f=C[r[3]]e,X,p=y(19413),q,22550678810875 a=C[r[4]]J=a(e,p)o=f[J]K=j[o]X,o=0,0 P=K or o H=b-P P=H<=X q=P and 9060296 or 8858664 else q=R and 1967260 or 3619035 end end else if q<722201 then if q<710544 then q,H,P=11712158,nil,nil elseif 715109>q then N=C[r[2]]D=C[r[3]]I,Y=y(19367),28141171294188 T=D(I,Y)k=N[T]R=j[k]k=2 q=R==k q=q and 9525960 or 11477440 else QJ[2],QJ[4]=q,1 QJ[3]=U~=QJ[4]QJ[1],q=QJ[3],QJ[3]and 6290767 or 5996082 end else if 732734>q then R,q={j},S[y(18786)]else q=QJ[75]q,QJ[63]=11332642,QJ[74]end end end end else if q<587285 then if q<553254 then if q>528625 then if 540809>q then H,a,X,J=nil,nil,nil,nil P,o,e,f=nil,nil,nil,nil q,K=2359636,nil else T=29803483882752 R=C[r[1]]Q=C[r[2]]h,D=n[1],y(18837)k=C[r[3]]N=k(D,T)D=11468875448093 j=Q[N]q=R[j]N=y(18640)j=C[r[2]]Q=C[r[3]]k=Q(N,D)R=j[k]j=h q[R]=j R,h,q={},nil,S[y(18496)]end else if 509619>q then q=6069312 elseif 521357>q then QJ[29]=28635005034109 QJ[25]=C[r[3]]QJ[28]=y(18783)QJ[26]=C[r[4]]QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[23]=QJ[15][QJ[24]]QJ[22]=not QJ[23]QJ[20],q=QJ[22],2535004 else z=y(19463)O=C[r[1]]W=C[r[2]]v,T,l=20530593045454,q,1076755913719 V=W(z,v)Y=O[V]I=h[Y]v=y(19048)W=C[r[1]]Y=0 R=I or Y V=C[r[2]]I,T=q,R z=V(v,l)O=W[z]Y=j[O]O=0 R=Y or O I=R R=T~=I q=R and 279195 or 8471752 end end else if q<578713 then if 561181>q then q=R and 10666564 or 1062066 elseif 569390>q then q=7348679 else q=QJ[19]QJ[20]=q q,QJ[19]=QJ[15]and 3726767 or 4175331,QJ[15]end else if 585955>q then q=N N=0 R=k or N k,N=R,0 R=k<=N q=R and 13263264 or 1518425 else q,F=mJ,GJ q=4459104 end end end else if q>608628 then if 621691>q then if q<612465 then RJ=50 wJ=qJ+RJ q,qJ=4608572,wJ elseif 615206>q then R=C[r[1]]k=C[r[2]]I,T,h,j=27928172959343,y(19290),n[1],n[2]N=C[r[3]]D=N(T,I)Q=k[D]q=R==Q q=q and 3193948 or 13795273 else QJ[34]=C[r[1]]QJ[37]=C[r[3]]QJ[41]=y(18156)QJ[38]=C[r[4]]QJ[42]=6792476997725 QJ[40]=QJ[38](QJ[41],QJ[42])QJ[38]=q QJ[36]=QJ[37][QJ[40]]q,QJ[37]=QJ[28]and 15027712 or 376823,QJ[28]end else if q<638862 then H,v=y(18264),y(18117)z=S[v]l=C[r[2]]P=28517640688346 b=C[r[3]]t=b(H,P)v=l[t]b=40 V=z[v]l=#O v=l/b z=V(v)b=0 v=#O q,V,l=9969204,1,v v=z t=b>v b=V-v else QJ[17]=7268079806062 q,QJ[11],QJ[16]=QJ[10],y(19624),y(19427)QJ[10]=C[r[1]]QJ[13]=C[r[3]]QJ[11]=QJ[10][QJ[11]]QJ[14]=C[r[4]]QJ[15]=QJ[14](QJ[16],QJ[17])QJ[12]=QJ[13][QJ[15]]QJ[11]=QJ[11](QJ[10],QJ[12],QJ[8])q=QJ[11]and 5558752 or 10112510 end end else if q<592076 then if q<588067 then I=C[r[2]]V=454965182529 Y=C[r[3]]W=y(18999)O=Y(W,V)T=I[O]R=D[T]q=not R q=q and 13305058 or 12043476 elseif q<588829 then z,V=not Q,q W,q=z,z and 1339216 or 12911862 else O=C[r[1]]W=C[r[2]]z,q,v=y(18970),1626236,32711778267429 V=W(z,v)Y=O[V]I=T[Y]R=I end else if q<600966 then o,K=3211576095896,y(18283)H=C[r[2]]v=q P=C[r[3]]X=P(K,o)t=H[X]b=Y[t]l=not b q,z=l and 14387893 or 10388075,l else I=0 T=j==I N,q=T,16192149 end end end end end else if q<922100 then if q>856091 then if q<889223 then if q>884715 then if q<886964 then wJ=F<I q,rJ=13543073,wJ else CJ=C[r[3]]jJ=y(19458)hJ=C[r[4]]q,QJ[1]=7530617,3027993415459 mJ=hJ(jJ,QJ[1])RJ=CJ[mJ]wJ=SJ[RJ]dJ=not wJ qJ=dJ end else if 864359>q then s=y(18117)p=S[s]U=C[r[3]]nJ=C[r[4]]SJ,F=8141989330375,y(18744)c=nJ(F,SJ)s=U[c]J=p[s]s=1.1 p=J(s,o)f,q=p,13387830 elseif 877093>q then q=N q,R=S[y(18181)],{k}else q=H q,l=16673035,t end end else if q>906277 then if 914596>q then D=30926744619141 R=C[r[1]]j=C[r[2]]N=y(18883)Q=C[r[3]]k=Q(N,D)h=j[k]N=y(19050)q=R[h]j=C[r[2]]Q=C[r[3]]D,h=24715337352316,q k=Q(N,D)R=j[k]q=h[R]R,j=y(19167),q q=C[r[1]]R=q[R]R=R(q)Q=R q=C[r[1]]R=y(18104)R=q[R]R=R(q)k=R R,q=k,k and 10077578 or 13818952 else R,q=k,N q=14039676 end else if 896100>q then q,QJ[52]=QJ[55],QJ[54]q=10075739 elseif 903210>q then D=C[r[1]]O,k=16764778234594,y(18526)T=C[r[2]]Y,k=y(17829),Q[k]I=T(Y,O)N=D[I]k=k(Q,N)R,q=k,3391230 else wJ,q=CJ,hJ q=760666 end end end else if 822378>q then if q<811326 then if 795922>q then QJ[15],q,QJ[9]=nil,3274722,nil elseif q<799840 then q,R=0,0 R={q,R}q=S[y(19003)]else N=C[r[1]]Y=28913168661361 D=C[r[2]]I,q=y(18438),11711111 T=D(I,Y)k=N[T]Q=j[k]R=Q end else if q<820632 then q,QJ[70]=11648277,.25 QJ[67]=QJ[70]else QJ[6]=C[r[2]]QJ[7]=C[r[3]]QJ[10],QJ[9]=18890458738974,y(17793)QJ[8]=QJ[7](QJ[9],QJ[10])QJ[3]=QJ[6][QJ[8]]QJ[10]=6900142386111 jJ=yJ[QJ[3]]QJ[6]=C[r[2]]QJ[7]=C[r[3]]QJ[9],q=y(19352),2740700 QJ[8]=QJ[7](QJ[9],QJ[10])QJ[3]=QJ[6][QJ[8]]mJ=jJ==QJ[3]CJ=mJ end end else if q<840284 then if q<828862 then O,W,I=99999,99999,R R=N or O O,Y=q,q Y=I or W q=R<Y R={q}q=S[y(17852)]elseif 835318>q then q=3312475>13104745 R={q}q=S[y(18076)]else F,q=1500000,10697316 c=X>=F U=c end else if 849764>q then W=0 O=Q>W q,R=12315458,O else V,b=y(18423),y(18416)R=S[V]z=C[r[2]]t=5159655664824 v=C[r[3]]l=v(b,t)V=z[l]q=R[V]V=C[r[4]]R={q(V)}R,q={G(R)},S[y(18374)]end end end end else if q>1001917 then if q<1023943 then if q>1015814 then if q<1018967 then q=-1 R={q}q=S[y(18113)]else q=I and 9165562 or 3494142 end else if 1004702>q then q,W,b=1261928,nil,nil elseif q<1009660 then I=C[j]Y=129884<=7963492 R=I==Y q=R and 4507372 or 4741050 else t,q,b,W=nil,450654,nil,nil l=nil end end else if q<1031172 then QJ[1]=40 jJ=qJ+QJ[1]q,qJ=15967956,jJ elseif 1035137>q then I,q,T=4966024313073,y(18526),y(18871)k=C[r[1]]N=C[r[2]]D=N(T,I)R=k[D]q=Q[q]q=q(Q,R)k=q q=k and 5338343 or 2149018 elseif 1035562>q then QJ[14]=657466~=11026049 QJ[9],q=QJ[14],8702368 else h,R=n[1],y(18798)R=h[R]R=R(h)q=not R q=q and 5541694 or 10836280 end end else if 960428>q then if 948375>q then if 927697>q then T,q=W,V q=16745007 elseif 939756>q then QJ[21]=C[r[2]]QJ[22]=C[r[3]]QJ[24],q,QJ[25]=y(19670),2167290,21768541888863 QJ[23]=QJ[22](QJ[24],QJ[25])QJ[20]=QJ[21][QJ[23]]QJ[19]=CJ[QJ[20]]QJ[17]=QJ[19]else rJ,q=nil,4134818 end else if 954939>q then R=C[r[1]]j,h,Q=n[2],n[1],y(18798)Q=R[Q]Q=Q(R)q=not Q q=q and 3240834 or 10383858 else QJ[53]=q QJ[60]=C[r[2]]QJ[74]=y(19310)QJ[62]=C[r[3]]QJ[75]=30185165205896 QJ[63]=C[r[4]]QJ[73]=QJ[63](QJ[74],QJ[75])QJ[74]=13491621901056 QJ[61]=QJ[62][QJ[73]]QJ[55]=QJ[60][QJ[61]]QJ[61]=C[r[3]]QJ[62]=C[r[4]]QJ[73]=y(17722)QJ[63]=QJ[62](QJ[73],QJ[74])QJ[60]=QJ[61][QJ[63]]QJ[54]=QJ[55]==QJ[60]q,QJ[52]=QJ[54]and 8824930 or 3941986,QJ[54]end end else if 990846>q then if 961495>q then I,O=D(T,I)q=I and 5050362 or 4486112 elseif q<973467 then rJ,q=wJ,RJ q=7189257 else O,Y=not k,q q,I=O and 7058236 or 10994226,O end else if 997844>q then V,W,l,z=nil,nil,nil,nil t,q,O,v=nil,6209159,nil,nil else l=#W b=0 v=l==b q=v and 9557433 or 12638074 end end end end end end end else if 1529695>q then if q<1260163 then if 1150316>q then if q<1110635 then if q<1087916 then if q>1069738 then if 1078113>q then t,q=P,X q=11779638 else v=C[r[3]]P,X=y(17790),13070691387993 b=C[r[4]]t=C[r[5]]H=t(P,X)l=b[H]H=y(18925)z=v[l]l=C[r[4]]P,q=34937208302388,5745752 b=C[r[5]]t=b(H,P)v=l[t]V=z[v]O=V end else if q<1050335 then qJ,CJ,q=y(18117),1279819605841,2561098 yJ=S[qJ]rJ=C[r[2]]RJ=y(18969)dJ=C[r[3]]wJ=dJ(RJ,CJ)qJ=rJ[wJ]GJ=yJ[qJ]yJ=GJ(X)SJ=yJ==z c=SJ elseif q<1063937 then z,T=y(19373),100 R,I=j or T,15 T=R R=T+I O=C[r[2]]W=C[r[3]]v=2726618112787 V=W(z,v)I=R Y=O[V]R=Q[Y]q=R and 12926974 or 7645093 else b=#z t=0 l=b==t q=l and 2545205 or 10819880 end end else if q>1108802 then if q<1109532 then q=R and 744475 or 6603093 else t,H=l(b,t)q=t and 3717478 or 999425 end else if q<1097055 then l=y(19277)V=C[r[4]]z=C[r[5]]b,q=2417968205262,15060023 v=z(l,b)W=V[v]Y=W elseif 1104751>q then QJ[23],QJ[24]=q,not nJ q,QJ[22]=QJ[24]and 4764248 or 16384447,QJ[24]else q,O=V,W q=15543905 end end end else if 1130859>q then if q>1122111 then if q<1125949 then I=y(18299)Q=C[r[3]]N=C[r[1]]Y=33015214026661 D=C[r[2]]T=D(I,Y)k=N[T]j=Q==k q,R=j and 9996929 or 4611440,j else QJ[1]=C[r[1]]QJ[7],QJ[6]=12039575873576,y(18726)QJ[3]=C[r[3]]QJ[4]=C[r[4]]QJ[5]=QJ[4](QJ[6],QJ[7])QJ[2]=QJ[3][QJ[5]]jJ=QJ[1][QJ[2]]QJ[2]=C[r[3]]QJ[6]=22492116727492 QJ[3]=C[r[4]]QJ[5]=y(19269)QJ[4]=QJ[3](QJ[5],QJ[6])QJ[1]=QJ[2][QJ[4]]mJ=jJ[QJ[1]]q=5784065 hJ=GJ==mJ RJ=hJ end else if 1112426>q then q=I q,N=6026339,T elseif 1117278>q then b=y(19098)z=C[r[4]]t=10129672995323 v=C[r[5]]q=4635219 l=v(b,t)V=z[l]O=V else q=R and 8573215 or 12845664 end end else if q<1145387 then if q<1136590 then f,K=q,y(18287)K=D[K]K=K(D,P)J=0 a=K>=J q=a and 3737843 or 16747627 elseif q<1142500 then V=C[r[1]]z=y(18441)z,v=V[z],y(19167)z=z(V)l=q V=C[r[1]]v=V[v]v=v(V)V,q=z,z and 16069918 or 4519559 else H,O=11026446280092,q z=C[r[2]]b,t=y(18477),171360185439 v=C[r[3]]l=v(b,t)V=z[l]t=y(18337)W=h[V]V=0 v=C[r[2]]l=C[r[3]]Y=W or V W=q b=l(t,H)z=v[b]V=j[z]z,q=0,S[y(17592)]O=V or z R=Y<O R={R}end else if q<1146106 then mJ=t[rJ]hJ,q=not mJ,1560321 RJ=hJ else D=y(19369)R=C[r[1]]Q=C[r[2]]h=n[1]k=C[r[3]]T=23943320414576 N=k(D,T)j=Q[N]N,D=y(18667),30354643449956 q=R[j]j=C[r[2]]Q=C[r[3]]k=Q(N,D)R=j[k]j=h q[R]=j h=nil q=C[r[4]]R=q()R,q={},S[y(18307)]end end end end else if q<1219683 then if q>1195417 then if q>1204274 then if 1211962>q then z,q=y(17687),14725313 z=T[z]z=z(T,O)W=z else o=y(19364)R=S[o]J={R(Y)}f,o,q,a=J[2],J[1],9677776,J[3]end else if 1199090>q then N,q=1,S[y(18180)]R=Q==N R={R}elseif 1201805>q then t,H=y(19153),0 t=h[t]t=t(h,b)q=t==H q=q and 1477263 or 7874136 else q=RJ q=wJ and 4980928 or 5567552 end end else if 1180810>q then if 1154234>q then yJ,q=nil,2184067 elseif q<1166569 then v=C[r[2]]l=C[r[3]]t,H=y(17744),14784165184541 b=l(t,H)z=v[b]V=j[z]W,q=V,487224 else qJ,rJ,s=y(18032),5191777712390,q c=C[r[1]]SJ=C[r[2]]GJ=C[r[3]]yJ=GJ(qJ,rJ)F=SJ[yJ]nJ=c[F]F=C[r[2]]qJ,yJ=16113842871688,y(18335)SJ=C[r[3]]GJ=SJ(yJ,qJ)c=F[GJ]U=nJ[c]p,q=U,U and 6589050 or 15316135 end else if q<1188387 then q=J q=a and 8480148 or 15251889 else k=135 R=j or k k=R R=C[r[4]]N=R()D=y(19364)R=S[D]Y={R(N)}D,T,I,q=Y[1],Y[2],Y[3],9405317 end end end else if 1244104>q then if q>1229282 then if q<1236937 then q,p=J,not a J,e=p,q q=p and 3032620 or 16730999 else q=N q=k and 10415115 or 233327 end else if q<1224022 then QJ[39]=10101838217143 QJ[30]=C[r[1]]QJ[36]=y(18571)QJ[33]=C[r[3]]QJ[34]=C[r[4]]QJ[37]=32501360219044 QJ[35]=QJ[34](QJ[36],QJ[37])QJ[38]=y(17985)QJ[32]=QJ[33][QJ[35]]QJ[35]=C[r[3]]QJ[36]=C[r[4]]QJ[37]=QJ[36](QJ[38],QJ[39])QJ[31]=y(18300)QJ[34]=QJ[35][QJ[37]]QJ[33]=QJ[17][QJ[34]]QJ[31]=QJ[30][QJ[31]]QJ[31]=QJ[31](QJ[30],QJ[32],QJ[33])q=QJ[31]and 2000658 or 3107439 elseif q<1226437 then q=9319193 else q=GJ q=SJ and 1388859 or 11917468 end end else if q<1246388 then H,V,P=y(17811),y(18319),17479037364187 W=S[V]l=C[r[1]]q=1750527 b=C[r[2]]t=b(H,P)v=l[t]z=D[v]b,t=y(19021),11840133054968 V=W(z)z=C[r[1]]v=C[r[2]]l=v(b,t)W=z[l]O=V==W I=O elseif q<1249240 then P=C[r[1]]f=C[r[3]]a=C[r[4]]p,e,s=33284713044998,y(17775),7671884643732 J=a(e,p)o=f[J]X,p=y(17902),y(17677)a=C[r[3]]J=C[r[4]]e=J(p,s)X=P[X]f=a[e]K={[o]=f}X=X(P,K)e=19457919256801 P=C[r[2]]a,J=y(17981),4740295908350 K=C[r[3]]o=C[r[4]]f=o(a,J)q=1767882 X=K[f]o=C[r[3]]J=y(18595)f=C[r[4]]a=f(J,e)K=o[a]J=2944713111125 P[X]=K P=C[r[2]]K=C[r[3]]o=C[r[4]]a,e=y(19149),33011675531846 f=o(a,J)X=K[f]o=C[r[3]]J=y(18516)f=C[r[4]]a=f(J,e)K=o[a]P[X]=K elseif q<1255220 then QJ[40],QJ[41]=y(18596),28048579880038 QJ[37]=C[r[3]]QJ[34],QJ[32]=y(18129),q QJ[38]=C[r[4]]QJ[39]=QJ[38](QJ[40],QJ[41])QJ[36]=QJ[37][QJ[39]]QJ[34]=j[QJ[34]]QJ[35]=O[QJ[36]]QJ[34]=QJ[34](j,QJ[35],QJ[15])QJ[33]=not QJ[34]q,QJ[31]=QJ[33]and 13735493 or 15936421,QJ[33]else nJ=q c=e<O U,q=c,c and 5834234 or 5979863 end end end end else if q>1421711 then if 1479568>q then if 1458895>q then if 1454205>q then if q<1433942 then k=R R=C[r[1]]D=C[r[2]]Y=y(18330)T=C[r[3]]O=11067976619795 I=T(Y,O)N=D[I]q=R[N]R,N=Q,q q=Q and 15728445 or 5484679 elseif 1448422>q then yJ,wJ=rJ+yJ,not dJ F=qJ>=yJ F=wJ and F wJ=qJ<=yJ wJ=dJ and wJ F=wJ or F wJ=5557805 q=F and wJ F=16148502 q=q or F else rJ=e/F q,yJ=205010,rJ end else if q<1457033 then q=10737118 QJ[4]=QJ[1]<N QJ[2]=QJ[4]else z=y(18319)V=S[z]b=C[r[1]]X=31246083828741 t=C[r[2]]P=y(17734)H=t(P,X)l=b[H]t=y(18895)v=T[l]z=V(v)H=9013788302585 v=C[r[1]]l=C[r[2]]b=l(t,H)V=v[b]W=z==V q,Y=16598768,W end end else if q<1466586 then if 1461284>q then a=12773460432947 X=C[r[1]]f,b=y(17710),q K=C[r[2]]o=K(f,a)P=X[o]H=z[P]P=1 t=H==P q,l=t and 6233320 or 2446906,t elseif q<1465060 then K=3079488793468 t=C[r[2]]H=C[r[3]]a,X=y(18863),y(18359)P=H(X,K)b=t[P]R=l[b]b=R K=C[r[2]]o=C[r[3]]J=17553367741920 f=o(a,J)t=q X=K[f]P=Q[X]H=b==P R,q=H,H and 13500878 or 8992972 else QJ[14],q=not SJ,2070467 QJ[11]=QJ[14]end else if q<1471942 then q,R=O,Y q=6979761 else q=y(18198)q=h[q]q=q(h,b)q=q and 10872933 or 9412446 end end end else if q<1519522 then if q>1501187 then if 1510333>q then q,c=16701794,750 nJ=e<=c s=nJ else D,O,W=y(18117),y(18690),32904595861923 N=S[D]T=C[r[2]]I=C[r[3]]Y=I(O,W)D=T[Y]R=N[D]l,I,W,q=3675177719073,35000,y(19597),S[y(19141)]T=.15 D=k*T T=5000 N=R(D,T,I)T,V=y(18117),13843375031989 D=S[T]v=y(18577)I=C[r[2]]Y=C[r[3]]O=Y(W,V)T=I[O]O=y(18117)R=D[T]Y=S[O]W=C[r[2]]V=C[r[3]]z=V(v,l)O=W[z]I=Y[O]z,V,O=9013728798799,y(18692),1 Y=I(O,k)I=.0001 T=N/Y Y=.25 D=R(T,I,Y)I=y(18117)T=S[I]Y=C[r[2]]O=C[r[3]]W=O(V,z)I=Y[W]R=T[I]T={R(h,D)}R={G(T)}end else if 1485764>q then mJ,q=y(17758),372744 mJ=D[mJ]mJ=mJ(D,dJ)CJ=mJ elseif 1494893>q then R,q={T},S[y(18689)]else R=3148882~=5936143 R,q={R},S[y(17794)]end end else if 1520829>q then v=#k l,q=1,922124 z=v>l W=z elseif 1523285>q then a=30896472056560 X=C[r[1]]K=C[r[2]]b,f=q,y(19731)o=K(f,a)P=X[o]H=O[P]t=H==N l,q=t,t and 8107416 or 11637209 elseif 1527438>q then I,D=q,q q,T=k and 5870588 or 9961013,k else q=dJ dJ=0 U=SJ or dJ wJ,SJ=0,q dJ=I>wJ q=dJ and 15331846 or 7326039 end end end else if q<1370951 then if q<1306037 then if q>1291271 then if q<1295966 then QJ[20],q=not SJ,4517549 QJ[18]=QJ[20]else b=y(17643)z=C[r[1]]t=18176244820376 v=C[r[2]]l=v(b,t)t=251407857504 V=z[l]q,b=14534842,y(18992)W=T[V]z=C[r[1]]v=C[r[2]]l=v(b,t)V=z[l]O=W==V I=O end else if q<1269225 then v=V(z,v)q=v and 11803405 or 13540740 elseif q<1282093 then X=X+o R,a=K>=X,not f R=a and R a=K<=X a=f and a R=a or R a=11302040 q=R and a R=7401020 q=q or R else t=y(17740)t=h[t]t=t(h,V)q=t and 14568445 or 15691396 end end else if 1352494>q then if 1327118>q then QJ[5],QJ[11]=q,y(17810)QJ[8]=C[r[3]]QJ[12]=25883143383483 QJ[9]=C[r[4]]QJ[10]=QJ[9](QJ[11],QJ[12])QJ[7]=QJ[8][QJ[10]]QJ[6]=jJ[QJ[7]]QJ[4],q=QJ[6],QJ[6]and 3744539 or 12321963 elseif q<1345130 then q=V q,Y=7258305,W else I,T=not j,q D,q=I,I and 5268582 or 12947916 end else if q<1360286 then W=C[r[8]]O=I-W W=4 Y=O>=W q=Y and 1729071 or 16620653 else h=C[r[1]]j=y(18798)j=h[j]j=j(h)q,R=j and 12182818 or 16270456,j end end end else if q<1397183 then if 1391487>q then if q<1378376 then QJ[11],QJ[14]=q,2 QJ[13]=QJ[8]<QJ[14]QJ[9],q=QJ[13],QJ[13]and 7733404 or 3647861 elseif 1385168>q then q,D=6943025,0 N=j==D Q=N else rJ=y(19153)GJ=F*T SJ=GJ+c rJ=h[rJ]yJ=q rJ=rJ(h,SJ)qJ=rJ==j q,GJ=qJ and 13670705 or 9261094,qJ end else if q<1395237 then QJ[10]=C[T]QJ[7],QJ[11]=q,.25 QJ[9]=QJ[10]*QJ[11]QJ[8]=s<=QJ[9]q,QJ[6]=QJ[8]and 3639777 or 5221455,QJ[8]else QJ[8]=C[r[2]]QJ[9]=C[r[3]]QJ[4],QJ[12],QJ[11]=q,14881271484292,y(18402)QJ[10]=QJ[9](QJ[11],QJ[12])QJ[7]=QJ[8][QJ[10]]QJ[6]=RJ[QJ[7]]QJ[8]=C[r[2]]QJ[12],QJ[11]=27797906806290,y(17805)QJ[9]=C[r[3]]QJ[10]=QJ[9](QJ[11],QJ[12])QJ[7]=QJ[8][QJ[10]]QJ[5]=QJ[6]==QJ[7]q,QJ[3]=QJ[5]and 6908346 or 6523652,QJ[5]end end else if 1407581>q then if q<1401704 then q=K q,K=1276522,X X=1 o=X X=0 f=o<X X=R-o elseif q<1406128 then O=1 T=N[O]q,R=S[y(18007)],{T}else Y,q=0,15135775 I=j>Y D=I end else if 1413778>q then b,V,q=nil,nil,5462069 else R,h,q=0,n,y(19258)j=m()C[j]=q Q,q=4,16245116 k=Q Q=1 N=Q Q=0 D=Q>N Q=R-N end end end end end end else if 1792079>q then if q>1695628 then if q<1753552 then if q>1731221 then if q>1750393 then if q<1751875 then R,q=I,Y q=15494292 else F,c=18242377568782,y(19393)s=C[r[2]]U=C[r[3]]J=q nJ=U(c,F)p=s[nJ]e=T[p]q,a=e and 5628597 or 10359773,e end else if q<1732504 then R=C[r[1]]h=y(18798)h=R[h]h=h(R)q=not h q=q and 3200686 or 14599863 elseif q<1741510 then yJ=1 GJ=o+yJ q,o=4428935,GJ else q=R and 12106143 or 1123374 end end else if 1722236>q then if 1700647>q then I,T=28503900585768,y(19170)R=C[r[1]]k=C[r[2]]N=C[r[3]]D=N(T,I)T=10072472482900 Q=k[D]q=R[Q]Q=C[r[2]]k=C[r[3]]D=y(18360)N=k(D,T)R=Q[N]Q=j q[R]=Q q=14888107 elseif q<1709524 then Q=m()h=m()C[h]=n[1]j=m()C[j]=n[2]C[Q]=n[3]R=C[h]k=y(18798)k=R[k]k=k(R)q=not k q=q and 834678 or 16756098 else U,rJ=q,6144208798141 SJ=C[r[2]]GJ=C[r[3]]qJ=y(18767)yJ=GJ(qJ,rJ)F=SJ[yJ]rJ=12139467489154 c=f[F]SJ=C[r[2]]qJ=y(19431)GJ=C[r[3]]yJ=GJ(qJ,rJ)F=SJ[yJ]nJ=c==F q,s=nJ and 3186918 or 15871138,nJ end else if q<1729633 then O=999 Y=I+O q=16620653 C[r[8]]=Y O=C[r[7]]W=O()else q,R=N,k q=7789775 end end end else if q>1766030 then if q<1777082 then q=10860846 elseif q<1788545 then q=f f=1 X=o or f K=P/X e=C[r[5]]F,c=17727677661918,y(18822)f=q s=C[r[3]]U=C[r[4]]nJ=U(c,F)p=s[nJ]J=e[p]c=18902401927133 p=C[r[3]]nJ=y(18306)s=C[r[4]]U=s(nJ,c)e=p[U]a=J[e]J,e=1.1,1000000 o=a or J a=q J=P>=e q=J and 2268514 or 11525003 elseif q<1791146 then q=nil R={q}q=S[y(19278)]else l=23880031360825 W=C[r[1]]v,I=y(18678),q V=C[r[2]]z=V(v,l)O=W[z]Y=h[O]b,t,O=31625646840421,27470632866036,0 R=Y or O Y,I,l=q,R,y(18159)V=C[r[1]]z=C[r[2]]v=z(l,b)W=V[v]O=j[W]V,W=y(18117),0 R=O or W Y=R W=S[V]z=C[r[1]]b=y(18406)v=C[r[2]]l=v(b,t)V=z[l]O=W[V]V=I-Y W=O(V)O=200 R=W>O q=R and 16384865 or 10962617 end else if 1757472>q then if q<1754471 then q=8289584 elseif 1755897>q then O,q=6646893>=15263018,S[y(19566)]R={O}else D,k=28032866845233,y(18728)q=C[r[2]]h=C[r[3]]j=C[r[4]]N=12413853747815 Q=j(k,N)N=y(18309)R=h[Q]j=C[r[3]]Q=C[r[4]]k=Q(N,D)h=j[k]q[R]=h R,q={},S[y(18055)]end else if 1761195>q then q=z q=V and 14571233 or 7428165 else QJ[1]=1 mJ,q=QJ[1],13855518 end end end end else if 1632191>q then if q>1574416 then if 1614973>q then if 1581924>q then RJ,e,qJ,F=y(19075),s,y(18117),q yJ=S[qJ]rJ=C[r[2]]CJ=5298644176181 dJ=C[r[3]]wJ=dJ(RJ,CJ)qJ=rJ[wJ]GJ=yJ[qJ]yJ=GJ(e)SJ=yJ==z c,q=SJ,SJ and 2561098 or 1038604 elseif 1595424>q then qJ=C[T]dJ=.95 rJ=s*dJ yJ=qJ>=rJ SJ,q=yJ,3087143 else H,t=19939613910511,y(19260)v=C[r[1]]W=q l=C[r[2]]b=l(t,H)z=v[b]V=h[z]z=-1 Y,q=V or z,13924824 D=Y end else if q<1627462 then q=R and 11611427 or 11086791 else K,q,X=961054851050,13491593,y(18940)l=C[r[3]]t=C[r[4]]H=C[r[5]]P=H(X,K)b=t[P]P=y(18285)v=l[b]b=C[r[4]]X=24258666320228 t=C[r[5]]H=t(P,X)l=b[H]z=v[l]W=z end end else if 1556599>q then if q<1539375 then q,R=S[y(19683)],8657944>=15393301 R={R}elseif 1550791>q then J,f=0,q a=b==J o,q=a,a and 10813955 or 9018432 else nJ,K,c=y(17882),y(18117),12443848472567 X=S[K]o=C[r[2]]a=C[r[3]]J=a(nJ,c)K=o[J]P=X[K]o,X=y(18829),0 K=S[o]F=C[r[2]]SJ=C[r[3]]yJ,qJ=y(19516),34917541130987 GJ=SJ(yJ,qJ)c=F[GJ]nJ=z[c]q=12502030 c={K(nJ)}J,a,o=c[3],c[2],c[1]end else if 1566221>q then q=CJ q=RJ and 11872408 or 8810158 else q=C[r[1]]R=q()q,R=S[y(17813)],{}end end end else if q>1666272 then if q>1684578 then if q<1692760 then q,R={},y(18829)O,X=q,y(19088)q=S[R]K=31663345590419 t=C[r[2]]v=q H=C[r[3]]P=H(X,K)b=t[P]l=T[b]z,q=l,l and 5607851 or 8200757 else q=6069312 end else if 1672209>q then RJ,QJ[3],QJ[4]=q,y(17797),20322604894711 hJ=C[r[1]]jJ=C[r[3]]QJ[1]=C[r[4]]QJ[2]=QJ[1](QJ[3],QJ[4])mJ=jJ[QJ[2]]CJ=hJ[mJ]wJ,q=CJ,CJ and 12557011 or 961505 elseif 1677207>q then QJ[24]=q QJ[28]=C[r[3]]QJ[34],QJ[33]=14485753214412,y(17613)QJ[31]=C[r[4]]QJ[32]=QJ[31](QJ[33],QJ[34])QJ[27]=QJ[28][QJ[32]]QJ[25]=QJ[22][QJ[27]]QJ[27]=0 QJ[23]=QJ[25]or QJ[27]QJ[24]=QJ[23]>QJ[6]q=QJ[24]and 7404585 or 14130689 else q,R=S[y(18439)],{T}end end else if 1652206>q then if q<1639288 then CJ=20000 GJ=P>=CJ q=GJ and 11783757 or 11314066 elseif 1643858>q then QJ[10],QJ[11]=y(19029),2930820069303 QJ[7]=C[r[2]]q,QJ[15]=QJ[3],13090529005206 QJ[8]=C[r[3]]QJ[9]=QJ[8](QJ[10],QJ[11])QJ[14]=15882553566150 QJ[6]=QJ[7][QJ[9]]QJ[3]=I[QJ[6]]QJ[6]=QJ[3](o,rJ)QJ[8]=135 QJ[3]=C[r[7]]QJ[9]=y(18423)QJ[13]=y(18190)QJ[7]=QJ[3](o,rJ,QJ[8],b)QJ[8]=S[QJ[9]]QJ[19],QJ[16]=7776136530955,5577943459286 QJ[10]=C[r[2]]QJ[11]=C[r[3]]QJ[17]=25607798989020 QJ[12]=QJ[11](QJ[13],QJ[14])QJ[9]=QJ[10][QJ[12]]QJ[3]=QJ[8][QJ[9]]QJ[18]=24858298028548 QJ[11]=C[r[2]]QJ[14]=y(18399)QJ[12]=C[r[3]]QJ[13]=QJ[12](QJ[14],QJ[15])QJ[15]=y(18537)QJ[10]=QJ[11][QJ[13]]QJ[12]=C[r[2]]QJ[13]=C[r[3]]QJ[14]=QJ[13](QJ[15],QJ[16])QJ[11]=QJ[12][QJ[14]]QJ[13]=C[r[2]]QJ[14]=C[r[3]]QJ[16]=y(18645)QJ[15]=QJ[14](QJ[16],QJ[17])QJ[17]=y(19766)QJ[12]=QJ[13][QJ[15]]QJ[14]=C[r[2]]QJ[15]=C[r[3]]QJ[16]=QJ[15](QJ[17],QJ[18])QJ[13]=QJ[14][QJ[16]]QJ[15]=C[r[2]]QJ[16]=C[r[3]]QJ[18]=y(17843)QJ[17]=QJ[16](QJ[18],QJ[19])QJ[16]=q QJ[14]=QJ[15][QJ[17]]QJ[18]=q q,QJ[17]=CJ and 933271 or 2167290,CJ else nJ,s,e=0,q,9389416~=5907113 v[J]=e e=y(19153)e=Q[e]e=e(Q,J)U=e~=nJ p,q=U,U and 5377611 or 5677089 end else if 1662436>q then QJ[6],q=nil,2237252 else s,U=e(p,s)q=s and 13042800 or 12026359 end end end end end else if 1875386>q then if 1819560>q then if q>1808592 then if q<1815555 then if q<1812460 then QJ[74]=30048423850721 QJ[62]=C[r[5]]QJ[64]=C[r[3]]QJ[73]=y(19558)QJ[68]=C[r[4]]QJ[72]=QJ[68](QJ[73],QJ[74])QJ[73]=9908795371844 QJ[63]=QJ[64][QJ[72]]QJ[61]=QJ[62][QJ[63]]QJ[72]=y(18364)QJ[63]=C[r[3]]q=891217 QJ[64]=C[r[4]]QJ[68]=QJ[64](QJ[72],QJ[73])QJ[62]=QJ[63][QJ[68]]QJ[60]=QJ[61][QJ[62]]QJ[54]=QJ[60]elseif q<1814868 then R,q=h,j q=2746318 else q=QJ[57]QJ[57]=0 QJ[54],QJ[59]=QJ[56]or QJ[57],1.25 QJ[58]=QJ[54]*QJ[59]QJ[56]=q QJ[57]=P>=QJ[58]q,QJ[55]=QJ[57]and 12188676 or 1892913,QJ[57]end else if q<1817624 then b=V~=D q,R=97725,b else QJ[22],q=nil,14965565 end end else if q<1805106 then if q<1793445 then QJ[20],q=QJ[22],QJ[23]q=10236684 elseif 1799450>q then P,K=t(H,P)q=P and 8436599 or 8061966 else q=7529865<1034217 R={q}q=S[y(18833)]end else if q<1806150 then q=QJ[65]q=QJ[64]and 14840727 or 4641866 else q=I q=T and 12762244 or 12220308 end end end else if 1837745>q then if q>1826147 then if 1830755>q then v,l=y(17920),25468638005472 W=C[r[2]]V=C[r[3]]z=V(v,l)O=W[z]R=Y[O]q,R=S[y(18193)],{R}else F=l+p rJ=0 SJ=t+o yJ=q qJ=F>=rJ q,GJ=qJ and 11333725 or 5613906,qJ end else if 1821039>q then SJ,q=mJ,jJ q=8823084 elseif q<1823249 then q=QJ[6]q=QJ[4]and 7597624 or 2237252 else q=F q=c and 6688801 or 15036109 end end else if q<1848642 then K,o=P(X,K)q=K and 6740797 or 2443901 elseif 1856636>q then q=R and 256587 or 13546022 elseif q<1864086 then QJ[30]=C[r[3]]QJ[31]=C[r[4]]QJ[34],QJ[33]=8880706766248,y(17650)QJ[32]=QJ[31](QJ[33],QJ[34])QJ[29]=QJ[30][QJ[32]]q=7095513 QJ[28]=QJ[21][QJ[29]]QJ[26]=QJ[28]else P=y(19488)H=S[P]P,Y=y(19127),W t=H[P]H=t(h,Y)t=C[r[6]]P=t()b=H+P q=2549731 l=b+T b=256 v=l%b H,T,Y=1,v,nil t=T+H b=k[t]l=I..b I=l end end end else if 1976396>q then if q<1901853 then if q<1895584 then if q<1883477 then H,X=2604780~=9658637,100 Y[t]=H H=C[r[6]]P=H(b,X)q=P and 3054304 or 2359636 elseif q<1889589 then Q,j,q=nil,nil,11491095 else QJ[58]=10000 QJ[57]=QJ[54]<=QJ[58]QJ[55],q=QJ[57],12188676 end else if q<1899134 then O,W=q,not Q Y,q=W,W and 16336961 or 7000899 else v,q=not N,15314575 V=v end end else if 1955764>q then if 1915749>q then nJ=20000 U=P>=nJ q=U and 7385191 or 10847364 elseif 1936037>q then a,H=30824795274427,y(18423)t=S[H]P=C[r[2]]f=29886591784193 X=C[r[3]]o,q=y(19010),13690987 K=X(o,f)f=y(18114)H=P[K]R=t[H]X=C[r[2]]K=C[r[3]]o=K(f,a)P=X[o]H=l[P]t=R(Y,H)else U=1 R=v+U v,nJ=R,6 U=v>=nJ q=U and 4449319 or 9412461 end else if 1970081>q then q,R=0,0 R={q;R}q=S[y(19079)]else N,W,V=q,y(18390),27002066349187 I=C[r[2]]Y=C[r[3]]O=Y(W,V)T=I[O]D=Q[T]k,q=D,D and 7288396 or 2496815 end end end else if q<2007304 then if 2002888>q then if 1982126>q then F,nJ,e,q=nil,nil,nil,10830103 elseif q<1992509 then P=t%T yJ,o=29463967121862,y(18117)K=S[o]q=3298824 a=C[r[2]]J=C[r[3]]GJ=y(19158)F=J(GJ,yJ)o=a[F]X=K[o]o=t/T K=X(o)X,o=2,8 a=o o=1 J=o o=0 F=J<o o=X-J else QJ[38],QJ[30]=y(18787),H C[r[13]]=QJ[30]QJ[32]=C[r[15]]QJ[35]=C[r[3]]QJ[39]=8739655748598 QJ[36]=C[r[4]]QJ[37]=QJ[36](QJ[38],QJ[39])QJ[34]=QJ[35][QJ[37]]QJ[38]=5922954386748 QJ[33]=QJ[17][QJ[34]]QJ[34]=H QJ[32][QJ[33]]=QJ[34]QJ[44]=29886590788355 QJ[32]=C[r[2]]QJ[34]=C[r[3]]QJ[37]=y(17899)QJ[35]=C[r[4]]QJ[36]=QJ[35](QJ[37],QJ[38])QJ[33]=QJ[34][QJ[36]]QJ[38]=C[r[2]]QJ[40]=C[r[3]]QJ[43]=y(18748)QJ[41]=C[r[4]]QJ[42]=QJ[41](QJ[43],QJ[44])QJ[39]=QJ[40][QJ[42]]QJ[43],QJ[36]=10099107881701,q QJ[37]=QJ[38][QJ[39]]QJ[38],QJ[41]=0,5390829975548 QJ[35]=QJ[37]or QJ[38]QJ[38],QJ[37]=11097061075710,1 QJ[36]=QJ[27]+QJ[37]QJ[37],QJ[40]=y(19353),y(18056)QJ[34]=QJ[35]+QJ[36]QJ[32][QJ[33]]=QJ[34]QJ[32]=C[r[2]]QJ[34]=C[r[3]]QJ[35]=C[r[4]]QJ[44]=30125912719562 QJ[36]=QJ[35](QJ[37],QJ[38])QJ[33]=QJ[34][QJ[36]]QJ[36]=y(19488)QJ[35]=S[QJ[36]]QJ[37]=C[r[3]]QJ[38]=C[r[4]]QJ[39]=QJ[38](QJ[40],QJ[41])QJ[36]=QJ[37][QJ[39]]QJ[34]=QJ[35][QJ[36]]QJ[37]=C[r[3]]QJ[41],QJ[42]=27188903466430,y(17638)QJ[38]=C[r[4]]QJ[40]=y(19720)QJ[39]=QJ[38](QJ[40],QJ[41])QJ[36]=QJ[37][QJ[39]]QJ[39]=C[r[3]]QJ[40]=C[r[4]]QJ[41]=QJ[40](QJ[42],QJ[43])QJ[38]=QJ[39][QJ[41]]QJ[37]=QJ[17][QJ[38]]QJ[43]=y(18716)QJ[40]=C[r[3]]QJ[41]=C[r[4]]QJ[42]=QJ[41](QJ[43],QJ[44])QJ[39]=QJ[40][QJ[42]]QJ[38]=QJ[17][QJ[39]]QJ[35]=QJ[34](QJ[36],QJ[27],QJ[37],QJ[38])QJ[44],QJ[41]=23344240101531,y(19209)QJ[32][QJ[33]]=QJ[35]QJ[43],QJ[39]=y(18068),3247173587238 QJ[32]=C[r[5]]QJ[38]=y(18861)QJ[35]=C[r[3]]QJ[36]=C[r[4]]QJ[42],q=11690848879178,3107439 QJ[37]=QJ[36](QJ[38],QJ[39])QJ[34]=QJ[35][QJ[37]]QJ[37]=y(19488)QJ[36]=S[QJ[37]]QJ[38]=C[r[3]]QJ[39]=C[r[4]]QJ[40]=QJ[39](QJ[41],QJ[42])QJ[37]=QJ[38][QJ[40]]QJ[42],QJ[41]=15442373473326,y(18012)QJ[35]=QJ[36][QJ[37]]QJ[38]=C[r[3]]QJ[39]=C[r[4]]QJ[40]=QJ[39](QJ[41],QJ[42])QJ[37]=QJ[38][QJ[40]]QJ[40]=C[r[3]]QJ[41]=C[r[4]]QJ[42]=QJ[41](QJ[43],QJ[44])QJ[39]=QJ[40][QJ[42]]QJ[33]=y(17590)QJ[33]=QJ[32][QJ[33]]QJ[38]=QJ[17][QJ[39]]QJ[36]=QJ[35](QJ[37],QJ[27],QJ[38])QJ[35]=4 QJ[33]=QJ[33](QJ[32],QJ[34],QJ[36],QJ[35])end else if 2006020>q then q,O,Y=961486,nil,nil else t,q=17838915016234,O O=0 z=C[r[2]]b=y(19402)v=C[r[3]]R=Y or O l=v(b,t)O=q V=z[l]O=0 W=j[V]I,V=R,0 Y=W or V R=I-Y Y=R R=Y<=O q=R and 3126907 or 9190198 end end else if 2007767>q then I,T,Y=11594374656202,y(18902),12469533682739 q=C[r[4]]k=C[r[2]]N=C[r[3]]D=N(T,I)R=k[D]I,W=y(18149),15859072593124 N=C[r[2]]D=C[r[3]]T=D(I,Y)k=N[T]q[R]=k N=C[r[5]]T=C[r[2]]I=C[r[3]]O=y(19112)Y=I(O,W)D=T[Y]O=10502687154470 k=N[D]Y=y(19489)D=C[r[2]]T=C[r[3]]I=T(Y,O)N=D[I]R=k[N]q=not R q=q and 6880177 or 3026544 elseif q<2011826 then U=C[r[3]]F,q,SJ=y(19143),6347948,5469133162464 nJ=C[r[4]]c=nJ(F,SJ)s=U[c]p=O[s]s=0 e=p>s a=e elseif 2016889>q then q=wJ q=dJ and 14011685 or 946242 else q={}C[r[2]]=q N=35184372088832 R=C[r[3]]Y,k,W=1,R,1 R=j%N C[r[4]]=R T=255 D=j%T T=2 N=D+T C[r[5]]=N D=#h T,V=y(18879),W Q[j]=T W=0 z,I=W>V,y(18879)q,T=2549731,204 W,O=Y-V,D end end end end end end end else if 3151070>q then if 2523942>q then if q<2255202 then if q>2102447 then if 2183462>q then if q<2134009 then if 2110564>q then if 2108458>q then q,b=8915909,{}v=b elseif q<2110240 then QJ[15],QJ[24],q,QJ[21]=nil,nil,12986746,nil QJ[23],QJ[20],QJ[25],QJ[19]=nil,nil,nil,nil QJ[22],QJ[18]=nil,nil else dJ,U=y(18319),F rJ=S[dJ]dJ=rJ(SJ)yJ=q wJ=C[r[3]]hJ,mJ=y(18242),25944398056381 RJ=C[r[4]]CJ=RJ(hJ,mJ)rJ=wJ[CJ]qJ=dJ==rJ q,GJ=qJ and 15805541 or 6992103,qJ end else if q<2114789 then z=C[Y]W,V=z,q q=z and 10774660 or 5847088 else QJ[54],QJ[53]=not c,q q,QJ[52]=QJ[54]and 12451737 or 10075739,QJ[54]end end else if q<2162467 then if q<2149653 then k,q=nil,14696285 elseif 2153967>q then q=W q=O and 6036145 or 7868857 else q,QJ[15]=QJ[21],QJ[20]q=10238897 end else if q<2175074 then q,QJ[20],QJ[24]=QJ[18],y(19194),y(18475)QJ[18]=0 QJ[15]=QJ[17]or QJ[18]QJ[17]=C[r[2]]QJ[25],QJ[21]=28465385698851,1852160122071 QJ[18]=C[r[3]]QJ[19]=QJ[18](QJ[20],QJ[21])QJ[18]=q QJ[16]=QJ[17][QJ[19]]QJ[21]=C[r[2]]QJ[22]=C[r[3]]QJ[23]=QJ[22](QJ[24],QJ[25])QJ[20]=QJ[21][QJ[23]]QJ[19]=RJ[QJ[20]]QJ[17],q=QJ[19],QJ[19]and 9788445 or 6288574 else I,Y=y(18768),32695660409782 N=C[r[1]]D=C[r[2]]T=D(I,Y)q=62572 k=N[T]Q=h[k]R=Q end end end else if q>2228651 then if q<2232872 then q=K q,H=4750837,X elseif 2235464>q then T,k,D,Y=nil,nil,nil,I q=725230 Q[j]=Y I=nil elseif q<2239571 then QJ[19],QJ[8],QJ[16]=y(18447),q,y(19450)QJ[11]=C[r[5]]QJ[13]=C[r[3]]QJ[14]=C[r[4]]QJ[17]=24658107910413 QJ[15]=QJ[14](QJ[16],QJ[17])QJ[12]=QJ[13][QJ[15]]QJ[10]=QJ[11][QJ[12]]QJ[12]=C[r[3]]QJ[15],QJ[16]=y(18671),3015687741131 QJ[13]=C[r[4]]QJ[14]=QJ[13](QJ[15],QJ[16])QJ[11]=QJ[12][QJ[14]]QJ[9]=QJ[10][QJ[11]]QJ[11],QJ[10]=q,6 QJ[14]=C[r[5]]QJ[6]=QJ[9]or QJ[10]QJ[16]=C[r[3]]QJ[17]=C[r[4]]QJ[20]=23081735206052 QJ[18]=QJ[17](QJ[19],QJ[20])QJ[9]=q QJ[15]=QJ[16][QJ[18]]QJ[13]=QJ[14][QJ[15]]QJ[19],QJ[18]=11681931357247,y(17724)QJ[15]=C[r[3]]QJ[16]=C[r[4]]QJ[17]=QJ[16](QJ[18],QJ[19])QJ[14]=QJ[15][QJ[17]]QJ[12]=QJ[13][QJ[14]]QJ[10],q=QJ[12],QJ[12]and 15942132 or 9219756 else K,v,o=y(19455),z,9672479229882 H=C[r[2]]P=C[r[3]]X=P(K,o)t=H[X]b=l[t]R=b==j q=R and 1463569 or 4526451 end else if q>2215178 then if 2224321>q then RJ,q=1.6,3087143 dJ=C[T]wJ=s*RJ rJ=dJ>=wJ SJ=rJ else q=15481965 QJ[8]=QJ[1]<I QJ[6]=QJ[8]end else if 2194308>q then GJ,q=nil,5377083 elseif q<2205748 then q=R and 14628010 or 1691910 else QJ[52]=C[r[18]]QJ[73]=14855984038226 QJ[63]=C[r[3]]QJ[64]=C[r[4]]QJ[72]=y(18506)QJ[68]=QJ[64](QJ[72],QJ[73])QJ[62]=QJ[63][QJ[68]]QJ[63]={QJ[52](QJ[62])}QJ[54],QJ[64],QJ[60]=QJ[63][2],nil,QJ[63][4]QJ[53],QJ[61]=QJ[63][1],QJ[63][5]QJ[62],QJ[55]=q,QJ[63][3]QJ[63]=QJ[53]==QJ[64]q,QJ[52]=QJ[63]and 440169 or 6356141,QJ[63]end end end end else if q<2069055 then if q<2034935 then if q<2027439 then if 2022756>q then QJ[1]=1 jJ=o==QJ[1]q=jJ and 1027253 or 11126949 elseif 2024469>q then o,f=X(K,o)q=o and 9918562 or 16649198 else q=V V={q(W)}O,R=V[3],V[1]W,Y,q=R,V[2],9999853 end else if q<2032495 then Y=C[r[2]]O=C[r[3]]V,z=y(18120),19566364001253 W=O(V,z)I=Y[W]v=y(18029)T=k[I]l,I=17075212776124,2000 R=T or I T=R W=C[r[2]]V=C[r[3]]z=V(v,l)l,o=q,33604861581331 O=W[z]K,I,W=y(18408),q,y(18829)Y=k[O]O=1000 R=Y or O I=R R={}Y=R R={}O=R R=S[W]H=C[r[2]]P=C[r[3]]X=P(K,o)t=H[X]b=h[t]q,v=b and 8915909 or 2106986,b else q=z z=V V=1 v=V V=0 l=v<V V,q=W-v,5706745 end end else if 2063669>q then if 2044920>q then QJ[7]=40 QJ[6]=qJ+QJ[7]qJ,q=QJ[6],13123984 elseif q<2057536 then K=#z o=500 X=K>=o q=X and 12029480 or 11530983 else z,V,q=nil,nil,9999853 end else if 2067331>q then h,D,T=n[1],y(18026),13022460431796 R=C[r[1]]Q=C[r[2]]k=C[r[3]]N=k(D,T)j=Q[N]q=R[j]j=C[r[2]]D=4178891655330 Q=C[r[3]]N=y(18212)k=Q(N,D)R=j[k]j=h h=nil q[R]=j q=C[r[4]]R=q()R,q={},S[y(18800)]else q,N=1353944,I C[r[8]]=N end end end else if q>2085081 then if q>2093806 then if q<2095981 then q=nil R={q}q=S[y(17779)]else T,I=N,q q=N and 8755649 or 8922850 end else if 2087544>q then q=11086791 elseif 2091326>q then q=5361034 else R=C[r[1]]j=C[r[2]]Q=C[r[3]]N,D=y(18502),21220342706847 k=Q(N,D)h=j[k]q=R[h]h=C[r[4]]R=y(17660)R=q[R]R=R(q,h)R,q={},S[y(17857)]end end else if q>2074813 then if q<2080016 then D,Y=T(N,D)q=D and 11339694 or 8061500 else R,q=0,0 R={q,R}q=S[y(17605)]end else if q<2071999 then q=QJ[13]q=QJ[11]and 3468001 or 8165318 elseif 2073648>q then R,q=2446200~=3084128,S[y(19360)]R={R}else l=9706917390464 W=C[r[2]]v=y(18609)V=C[r[3]]z=V(v,l)O=W[z]Y=T[O]q=Y==j q=q and 15690475 or 750906 end end end end end else if q>2450139 then if q>2499635 then if q<2518229 then if 2509895>q then if q<2505035 then QJ[15],QJ[16]=y(18095),16730404107634 QJ[12]=C[r[2]]QJ[13]=C[r[3]]QJ[7],QJ[9]=q,q QJ[14]=QJ[13](QJ[15],QJ[16])QJ[11]=QJ[12][QJ[14]]QJ[10]=QJ[3][QJ[11]]QJ[8],q=QJ[10],QJ[10]and 12810597 or 6824384 elseif q<2508546 then q=D q,R=12596693,N else R,q=O,W q=2204549 end else if q<2514236 then T=26072110811116 R=C[r[1]]D,h=y(18805),n[1]Q=C[r[2]]k=C[r[3]]N=k(D,T)j=Q[N]q=R[j]D,N=28622315235258,y(19121)j=C[r[2]]Q=C[r[3]]k=Q(N,D)Q=100 R=j[k]j=h/Q q[R]=j q,h,R=S[y(18773)],nil,{}else q=P q,b=3297349,H end end else if 2518594>q then q,QJ[18]=QJ[21],QJ[20]q=QJ[20]and 1294877 or 4517549 elseif 2519404>q then q,QJ[23]=QJ[27],QJ[25]q=10348794 elseif q<2521576 then z,W,Y,O=14385171711562,y(18522),y(18125),34590637544994 R=y(17689)q=S[R]D=C[r[1]]T=C[r[2]]I=T(Y,O)N=D[I]D=C[r[3]]V=11431062223125 I=C[r[1]]Y=C[r[2]]O=Y(W,V)T=I[O]Y=C[r[1]]V=y(19239)O=C[r[2]]W=O(V,z)I=Y[W]k={[N]=D;[T]=I}N={q(j,k)}R=N[1]k=R R,Q=k,N[2]q=k and 5856455 or 12596693 else j=R R=C[r[1]]k=C[r[2]]I,T=24228700333648,y(19475)N=C[r[3]]D=N(T,I)Q=k[D]q=R[Q]R,Q=h,q q=h and 4091098 or 7011373 end end else if q>2473466 then if q>2490928 then if q<2495098 then q,QJ[11],QJ[12]=4861845,y(18612),14097817145839 QJ[8]=C[r[2]]QJ[9]=C[r[3]]QJ[10]=QJ[9](QJ[11],QJ[12])QJ[7]=QJ[8][QJ[10]]QJ[6]=CJ[QJ[7]]QJ[4]=QJ[6]else R,q=k,N q=10159966 end else if 2477007>q then QJ[10]=y(18458)QJ[7]=C[r[3]]SJ,QJ[3],QJ[11]=mJ,q,8086635224963 QJ[8]=C[r[4]]QJ[9]=QJ[8](QJ[10],QJ[11])QJ[6]=QJ[7][QJ[9]]QJ[5]=O[QJ[6]]QJ[4]=SJ~=QJ[5]QJ[1],q=QJ[4],QJ[4]and 1315020 or 8517819 elseif 2482838>q then H=H+t R,X=b>=H,not P R=X and R X=H>=b X=P and X R=X or R X=6108021 q=R and X R=12638188 q=q or R else N,k=0,y(17758)k=j[k]k=k(j,N)Q,q=not k,15697711 R=Q end end else if 2460264>q then if 2453490>q then b=395721135074 V=C[r[1]]q,l=11164889,y(17993)z=C[r[2]]v=z(l,b)W=V[v]O=D[W]W=2000 Y=O or W W=y(19364)O=S[W]v={O(I)}W,V,z=v[1],v[2],v[3]elseif 2454826>q then h=m()Q=y(18798)C[h]=n[1]j=m()C[j]=n[2]R=C[h]Q=R[Q]Q=Q(R)q=not Q q=q and 4174779 or 15009061 else h,R=n[1],y(18798)R=h[R]R=R(h)q=not R q=q and 7407343 or 16204693 end else if 2467302>q then I=0 Y,q=I,2362643 else q=GJ q=R and 13385166 or 9544842 end end end end else if q<2367038 then if 2334747>q then if q<2296374 then if 2270982>q then q,f=13387830,o elseif 2281041>q then q,D=15684471,99999 R=D else q=b q=l and 3247508 or 13608796 end else if 2318032>q then R,U=6925998<15155191,0 v[J]=R R,p=y(19153),q R=Q[R]R=R(Q,J)e=R s=e~=U q,R=s and 10962705 or 8832132,s else v=q t=C[r[2]]X=y(19106)H=C[r[3]]K=18229559462962 P=H(X,K)b=t[P]l=Y[b]b,q=1000,3817710 z=l or b R=z end end else if q>2361139 then if q<2362742 then l,V=1,q v=Y+l z=j[v]v=-1 W=z or v R,q={W},S[y(19311)]else q,QJ[6]=15910958,35 QJ[5]=o>=QJ[6]QJ[3]=QJ[5]end else if q<2342450 then QJ[37],QJ[36],QJ[35],QJ[38]=QJ[22],nil,nil,q QJ[34],q=nil,QJ[22]and 7047437 or 4943648 elseif 2353494>q then QJ[2],QJ[1]=19940324231163,y(19276)hJ=C[r[2]]mJ=C[r[3]]jJ=mJ(QJ[1],QJ[2])CJ=hJ[jJ]RJ=k[CJ]wJ=SJ==RJ rJ,q=wJ,10201522 else q=1014326 end end end else if 2407130>q then if 2391670>q then if q<2371494 then a,f=21065105618302,y(18997)X=C[r[2]]K=C[r[3]]o=K(f,a)P=X[o]H=T[P]t,P=q,1000 q,b=15644497,H or P v=b elseif q<2378164 then q=Q q,R=10237442,j else QJ[13]=y(19093)QJ[10]=C[r[2]]QJ[11]=C[r[3]]QJ[14],q=2617873239945,14765099 QJ[12]=QJ[11](QJ[13],QJ[14])QJ[9]=QJ[10][QJ[12]]QJ[7]=QJ[9]end else if 2398917>q then R=Y<O R,q={R},S[y(19689)]else V,q=nil,7552934 end end else if q>2437129 then if q<2445403 then X,K,P=Q,q,q q=Q and 10797256 or 14520397 else X=C[r[3]]e,H,J=24152365023855,q,y(18014)o=C[r[1]]f=C[r[2]]a=f(J,e)K=o[a]P=X[K]t,q=P,P and 5590788 or 10856763 end else if 2415459>q then q=9920660 elseif 2423043>q then QJ[22]=C[r[5]]QJ[24]=C[r[3]]QJ[27],QJ[28]=y(17800),11596692692128 QJ[25]=C[r[4]]QJ[26]=QJ[25](QJ[27],QJ[28])QJ[23]=QJ[24][QJ[26]]q=10238463 QJ[21]=QJ[22][QJ[23]]QJ[26]=y(17633)QJ[23]=C[r[3]]QJ[27]=10774281417978 QJ[24]=C[r[4]]QJ[25]=QJ[24](QJ[26],QJ[27])QJ[22]=QJ[23][QJ[25]]QJ[20]=QJ[21][QJ[22]]QJ[18]=QJ[20]else p,GJ,SJ=q,5124251443325,y(18247)nJ=C[r[2]]c=C[r[3]]F=c(SJ,GJ)U=nJ[F]s=o[U]q,e=s and 4094914 or 19259,s end end end end end end else if q<2864229 then if 2701518>q then if q>2570218 then if q<2603285 then if 2591204>q then if 2576607>q then l,R=y(17584),y(18829)q=S[R]b=20969839160224 V=C[r[2]]z=C[r[3]]v=z(l,b)W=V[v]O=h[W]W={q(O)}q,I,Y,R=3106213,W[2],W[3],W[1]O=R elseif 2586017>q then q=V q=W and 13010721 or 16268427 else QJ[11],q=QJ[14],QJ[15]q=4620310 end else if 2596670>q then q,R=K,X q=12244153 else QJ[72]=300000 QJ[68]=P>=QJ[72]q=QJ[68]and 8936139 or 12127502 end end else if q<2667164 then if 2609771>q then QJ[2]=1.25 jJ=C[T]QJ[1]=s*QJ[2]mJ=jJ>=QJ[1]q,SJ=719172,mJ elseif 2636501>q then q,z=4468809,not D W=z else q=C[r[5]]R=y(18526)k=C[r[1]]I=5390683379506 N=C[r[2]]T=y(18831)D=N(T,I)Q=k[D]R=q[R]R=R(q,Q)Q=R q=Q and 1035091 or 14696285 end else if 2680801>q then Y=y(18002)D=C[r[2]]O=6068363674143 T=C[r[3]]I=T(Y,O)N=D[I]q=12288730 k=Q[N]R=k else QJ[29]=C[r[1]]QJ[32]=C[r[3]]QJ[38]=7380984024022 QJ[33]=C[r[4]]QJ[30],QJ[36],QJ[37],QJ[35]=y(18300),7016823444290,y(18686),y(18079)QJ[34]=QJ[33](QJ[35],QJ[36])QJ[31]=QJ[32][QJ[34]]QJ[34]=C[r[3]]QJ[35]=C[r[4]]QJ[36]=QJ[35](QJ[37],QJ[38])QJ[33]=QJ[34][QJ[36]]QJ[32]=QJ[17][QJ[33]]QJ[30]=QJ[29][QJ[30]]QJ[30]=QJ[30](QJ[29],QJ[31],QJ[32])q=QJ[30]and 6305441 or 6460830 end end end else if q>2553698 then if q<2565985 then if q<2559382 then O,Y=21838472353379,y(18009)D=C[r[1]]T=C[r[2]]I=T(Y,O)N=D[I]k=Q[N]q,R=10497170,k elseif 2562189>q then q=F q=c and 7402513 or 7101830 else R={}W=R V=#O z=40 R=V<=z q=R and 11103436 or 627804 end else if 2569434>q then a,p=J+a,not e o=a<=f o=p and o p=a>=f p=e and p o=p or o p=14927843 q=o and p o=1020633 q=q or o else q,D=14024890,0 N=h>D Q=N end end else if q<2547009 then if q<2529827 then o=750 X,q=o,9066535 elseif 2540104>q then q,QJ[18]=QJ[21],QJ[20]q=14100795 else q,K,X,l=S[y(17868)],16055008<=8049952,99999,nil P,b,H,t=15303856<=12074828,nil,0,nil R={l;b,t,H,P;X;K}end else if q<2549272 then QJ[28]=25000 QJ[22]=QJ[6]>=QJ[28]QJ[20],q=QJ[22],2157645 else v,W=not z,W+V Y=W<=O Y=v and Y v=W>=O v=z and v Y=v or Y v=1870084 q=Y and v Y=2233676 q=q or Y end end end end else if q<2785302 then if q<2766150 then if q>2754292 then if 2762744>q then R=y(17689)q=S[R]D={q(k)}R,N=D[1],D[2]D=R R,q=D,D and 5696337 or 1855184 else X,z,K=y(19657),q,8869796404558 l=C[k]t=C[r[2]]H=C[r[3]]P=H(X,K)b=t[P]v=l[b]q,V=v and 12243851 or 13846094,v end else if q<2728220 then l=C[r[2]]P,H=31982873573975,y(18123)b=C[r[3]]t=b(H,P)v=l[t]z=h[v]b=C[r[2]]X=29338391874535 t=C[r[3]]P=y(19717)H=t(P,X)l=b[H]v=V[l]q=z[v]z=q v,q=z,z and 15204111 or 3995957 elseif 2743509>q then wJ,q=CJ,hJ q=15465484 else h=R q=h and 5659433 or 15522968 end end else if q<2780364 then if 2773213>q then K,o=y(19722),15640490135593 b=C[r[3]]H=C[r[4]]P=C[r[5]]X=P(K,o)t=H[X]l=b[t]X=y(19304)t=C[r[4]]K=14934733970909 H=C[r[5]]P=H(X,K)b=t[P]v=l[b]V,q=v,8182858 elseif 2778771>q then l,R,W=q,{},y(18829)O=R R=S[W]o=21490158361434 H=C[r[2]]P=C[r[3]]K=y(17620)X=P(K,o)t=H[X]b=D[t]v,q=b,b and 8937418 or 780646 else V,I,z=y(18917),y(18319),29423277290874 T=S[I]N=R I=T(N)Y=C[r[1]]O=C[r[2]]W=O(V,z)T=Y[W]D=I==T R,q=D,D and 11145199 or 16119692 end else if q<2781115 then QJ[18]=y(18829)QJ[15]=S[QJ[18]]QJ[21]={QJ[15](QJ[9])}QJ[19],q,QJ[20],QJ[18]=QJ[21][2],4158504,QJ[21][3],QJ[21][1]else h=n[1]Q,k=h,q q,j=h and 4058139 or 9431224,n[2]end end end else if q>2812903 then if q<2823556 then h,j,Q,R=nil,nil,nil,{}q,k=S[y(18217)],nil elseif 2845283>q then R=C[r[1]]h=y(18798)h=R[h]h=h(R)q=not h q=q and 12260502 or 4287754 elseif q<2863495 then R,h=y(18798),n[1]R,Q=h[R],n[3]j=m()C[j]=n[2]R=R(h)q=not R q=q and 15123621 or 228087 else q=QJ[28]q,QJ[22]=10799104,QJ[27]end else if q<2802837 then if q<2791450 then QJ[7],q=SJ,9484298 elseif 2797434>q then q,QJ[64]=12165458,3 QJ[62]=QJ[64]else o,H=not K,H+X b=H<=P b=o and b o=H>=P o=K and o b=o or b o=15944352 q=b and o b=996263 q=q or b end else if 2805345>q then R=y(17689)q=S[R]h=L(11796280,{r[1];r[2];r[3];r[4];r[5];r[6];r[7],r[8];r[9],r[10]})R=q(h)q,R=S[y(19545)],{}else t=C[k]f=21496586675292 P=C[r[2]]X=C[r[3]]o=y(18794)K=X(o,f)H=P[K]b=t[H]q,v=12539248,b end end end end end else if 3046544>q then if q<2955312 then if 2917741>q then if 2886769>q then if q<2866665 then j=C[r[2]]Q=C[r[3]]h=j==Q R,q=h,8435200 elseif 2870320>q then O,I=0,q Y=h<=O q,T=Y and 4934214 or 10844213,Y else e,q=nil,12944505 end else if q<2907344 then q,O=9776533,nil else q=V q,Y=11879744,W end end else if q<2942387 then if q<2925315 then q=CJ q=RJ and 8454494 or 8549095 elseif q<2932558 then Q=R q=Q and 6236325 or 7118041 else V=not O R,q=V,6641179 end else if 2948220>q then CJ=q mJ=C[r[1]]QJ[1]=C[r[3]]QJ[5]=7214468803876 QJ[2]=C[r[4]]QJ[4]=y(18481)QJ[3]=QJ[2](QJ[4],QJ[5])jJ=QJ[1][QJ[3]]hJ=mJ[jJ]RJ,q=hJ,hJ and 1128524 or 5784065 else V,v=O(W,V)q=V and 8326012 or 12030670 end end end else if q<3009900 then if 2995482>q then if 2967182>q then J={}o,q=J,9400517 elseif q<2978599 then U=y(18129)U,q=h[U],12317267 U=U(h,j,H)s=not U e=s else l,v=not N,q z,q=l,l and 3411916 or 8492440 end else if 3007815>q then q=QJ[40]q=QJ[39]and 15903423 or 11418820 else q,J=s,p q=16730999 end end else if q<3018277 then R,q=13512255<7090419,S[y(19361)]R={R}elseif 3029582>q then q=5662413 elseif q<3038497 then c=C[r[2]]GJ,s=y(18825),q F=C[r[3]]yJ=16868973028023 SJ=F(GJ,yJ)nJ=c[SJ]U=f[nJ]q,p=U and 9860618 or 3009790,U else QJ[37],QJ[38]=QJ[35](QJ[36],QJ[37])q=QJ[37]and 12082126 or 16346905 end end end else if q<3096678 then if q<3065036 then if 3058142>q then if 3051509>q then P=1 R=Y+P P=I+t Y,I,q=R,P,9986648 elseif q<3055831 then J,a=28297108460396,y(19696)K=C[r[2]]o=C[r[3]]f=o(a,J)e=14602532637690 X=K[f]P=h[X]o=C[r[2]]f=C[r[3]]J=y(18289)a=f(J,e)K=o[a]X=l[K]H=P[X]X,o=q,q K,q=H,H and 6756871 or 7141912 else j,Q=R,not h q,R=Q and 14875409 or 6906382,Q end else if q<3059333 then wJ,CJ=q,0 RJ=SJ>=CJ dJ,q=RJ,RJ and 8751374 or 7569516 else nJ=y(18829)U=S[nJ]yJ=C[r[3]]q,wJ,dJ=6760624,16989090971344,y(18534)qJ=C[r[4]]rJ=qJ(dJ,wJ)GJ=yJ[rJ]SJ=j[GJ]GJ={U(SJ)}c,F,nJ=GJ[2],GJ[3],GJ[1]end end else if 3075595>q then if 3071586>q then f=10 a,b,o=f,H,-10 f=3 J,q=f,7717332 f=0 e=f>J f=o-J elseif 3073627>q then J=C[r[1]]o,c,nJ=q,32500485132758,y(18593)p=C[r[2]]s=C[r[3]]U=s(nJ,c)e=p[U]a=J[e]U=y(18681)e=C[r[2]]p=C[r[3]]nJ=18704262817978 s=p(U,nJ)J=e[s]f=a[J]q,K=f and 5662012 or 7988003,f else QJ[64],q=QJ[66],QJ[67]q=1805531 end else if 3081959>q then Y=C[r[1]]z,V=33898232900206,y(19036)O=C[r[2]]q=14467038 W=O(V,z)I=Y[W]T=h[I]z=32550076538349 Y=C[r[1]]O=C[r[2]]V=y(19580)W=O(V,z)I=Y[W]D=T[I]k=D else wJ,CJ=q,1 RJ=U~=CJ dJ,q=RJ,RJ and 16563259 or 7349423 end end end else if 3115496>q then if 3108784>q then if q<3106826 then Y,V=O(I,Y)q=Y and 8914133 or 11030045 elseif q<3107843 then q,QJ[31]=15073270,nil else Y,I=3175220737318,y(19321)N=C[r[2]]D=C[r[3]]T=D(I,Y)Y,I=23058095102179,y(19428)k=N[T]R=Q[k]N=C[r[2]]D=C[r[3]]T=D(I,Y)k=N[T]q=R[k]R=y(17844)R=q[R]R=R(q)T=y(18653)q=C[r[4]]I,O=18453762625326,17435868325348 k=C[r[2]]N=C[r[3]]D=N(T,I)R=k[D]N=C[r[2]]Y,I=1681379896525,y(17893)D=C[r[3]]T=D(I,Y)Y=15636634436905 k=N[T]q[R]=k q=C[r[5]]I=y(19628)N=C[r[2]]D=C[r[3]]T=D(I,Y)R=y(17590)k=N[T]D=C[r[2]]R,Y=q[R],y(18637)T=C[r[3]]I=T(Y,O)N=D[I]O=y(19522)T=C[r[2]]I=C[r[3]]W=19232587218228 Y=I(O,W)D=T[Y]R=R(q,k,N,D)q=6746633>6577323 R={q}q=S[y(18050)]end else if q<3109927 then Y,q=0,5220077 I=j>Y D=I else q,Q=3835474,99999 R=Q end end else if q<3123683 then K,X=31174351285240,y(19728)l=C[r[1]]t=C[r[2]]z=q H=C[r[3]]P=H(X,K)b=t[P]v=l[b]V,q=v,v and 4667008 or 10210477 elseif q<3132942 then R=C[r[4]]W=C[r[2]]v,l=y(18594),23177942745742 V=C[r[3]]q=6641823 z=V(v,l)b=32890531244992 O=W[z]V=C[r[2]]l=y(17957)z=C[r[3]]v=z(l,b)W=V[v]R[O]=W elseif 3142367>q then jJ=C[r[1]]hJ,QJ[6]=q,18024010744928 QJ[2]=C[r[3]]QJ[3]=C[r[4]]QJ[5]=y(18470)QJ[4]=QJ[3](QJ[5],QJ[6])QJ[1]=QJ[2][QJ[4]]mJ=jJ[QJ[1]]CJ,q=mJ,mJ and 9513938 or 11310226 else Q=q D=C[r[1]]Y,h,O,j=y(19723),n[1],26462882290662,n[2]W=1399309533554 T=C[r[2]]I=T(Y,O)O=y(18784)N=D[I]k=h[N]T=C[r[1]]N=0 I=C[r[2]]Y=I(O,W)D=T[Y]R=k or N N=j[D]D=0 Q,k=N or D,q q=R>Q R={q}q=S[y(17956)]end end end end end end else if q>3709441 then if 4029552>q then if q<3878145 then if q>3762389 then if 3843274>q then if 3812427>q then if 3787824>q then QJ[23]=150000 QJ[22]=X>=QJ[23]QJ[20],QJ[21]=QJ[22],q q=QJ[22]and 1100837 or 16386354 elseif 3802719>q then wJ,CJ=q,3 RJ=GJ==CJ dJ,q=RJ,RJ and 15669090 or 2948105 else QJ[3],q=QJ[5],QJ[6]q=3896234 end else if q<3826592 then l,q,f=y(18829),V,y(19212)q,V=5558347,R R={}z,a=R,3876317438635 R={}v=R R=S[l]X=C[r[2]]K=C[r[3]]o=K(f,a)P=X[o]H=N[P]P={R(H)}t,b,l=P[3],P[2],P[1]else D,T,N=j,q,R q=j and 3109320 or 5220077 end end else if 3867134>q then if 3853802>q then O=12426294>16626160 R,q={O},S[y(17836)]elseif 3860655>q then v=C[r[2]]q,P,H=2006921,33371701168507,27514011612516 l=C[r[3]]t=y(19161)b=l(t,H)z=v[b]V=j[z]l=C[r[2]]H=y(17762)b=C[r[3]]t=b(H,P)v=l[t]z=D[v]W=V[z]Y=W else q,D=Y,I q=13785455 end else if 3872037>q then q=O q=T and 9811554 or 1405401 else qJ=16902844352404 F=C[r[1]]yJ=y(18369)SJ=C[r[2]]GJ=SJ(yJ,qJ)c=F[GJ]nJ,F=y(18010),q nJ=Q[nJ]nJ=nJ(Q,c,U)q,c=nJ and 13081644 or 1824173,nJ end end end else if q<3731832 then if 3721886>q then if q<3714820 then R=N>D q,R=S[y(17894)],{R}elseif q<3718287 then X,v=q,t K=v~=Q q,P=K and 16748542 or 4837603,K else q,GJ,p,I=rJ,nil,nil,qJ F,yJ,SJ,q=nil,nil,nil,6706212 end else if 3725722>q then W=q v=C[r[1]]l=C[r[2]]H,t=22735838937454,y(19664)b=l(t,H)z=v[b]V=h[z]z,P=0,9409796126454 O=V or z V=q l=C[r[1]]b=C[r[2]]q,H=S[y(17932)],y(19412)t=b(H,P)v=l[t]z=j[v]v=0 W=z or v R=O<W R={R}else QJ[21],QJ[26],QJ[27]=y(17845),y(19640),26217718280070 QJ[23]=C[r[3]]QJ[24]=C[r[4]]QJ[21],q=QJ[15][QJ[21]],4175331 QJ[25]=QJ[24](QJ[26],QJ[27])QJ[22]=QJ[23][QJ[25]]QJ[21]=QJ[21](QJ[15],QJ[22])QJ[19]=QJ[21]end end else if q>3743522 then if 3745981>q then QJ[6],q=y(17758),12321963 QJ[6]=GJ[QJ[6]]QJ[6]=QJ[6](GJ,SJ)QJ[4]=QJ[6]else T,q=Y,O q=15583380 end else if 3737370>q then o,v=not K,b+v z=l>=v z=o and z o=l<=v o=K and o z=o or z o=8419134 q=z and o z=16248021 q=q or z elseif 3740174>q then o,q=K,4806788 else T=y(17601)k=C[r[2]]N=C[r[3]]I,q=18901898714165,14205906 D=N(T,I)Q=k[D]j=h[Q]R=j end end end end else if q>3952192 then if 3992182>q then if 3977106>q then if q<3967824 then V=C[r[2]]z=C[r[3]]b,q,l=16156151564899,12965604,y(18751)v=z(l,b)W=V[v]O=D[W]I=O elseif q<3974409 then mJ=qJ<v q,CJ=905437,mJ else j=C[r[1]]D,N=494918115856,y(19014)Q=C[r[2]]k=Q(N,D)R=j[k]q=h[R]j=q Q=not j q,R=Q and 10169013 or 7100151,Q end else if q<3983525 then q,jJ,mJ=16430600,30374421016764,y(19587)RJ=C[r[2]]CJ=C[r[3]]hJ=CJ(mJ,jJ)wJ=RJ[hJ]dJ=F[wJ]rJ=not dJ yJ=rJ else QJ[1]=C[r[1]]mJ,QJ[7]=q,11780555617697 QJ[3]=C[r[3]]QJ[4]=C[r[4]]QJ[6]=y(17752)QJ[5]=QJ[4](QJ[6],QJ[7])QJ[2]=QJ[3][QJ[5]]jJ=QJ[1][QJ[2]]hJ,q=jJ,jJ and 5590036 or 9470428 end end else if q<4004157 then q=v and 9311766 or 14938066 elseif q<4014666 then R,q=3143668>11313394,S[y(19262)]R={R}elseif 4018107>q then b=m()v=m()o={}l=Z(12354612,{v,N,D;W})Y,Q,QJ[32],z=nil,nil,y(18932),{}K,e=y(18854),y(19335)W=M(W)C[v]=z O=nil z=m()C[z]=l rJ,l=y(18824),{}C[b]=l l=S[K]J=C[b]p,a,yJ,W=nil,y(18464),y(18828),6248959345067 O,f=y(18660),{[a]=J,[e]=p}K=l(o,f)p=y(19646)C[k]=K l=L(9916495,{b,v;T;N,D,z})QJ[4]=y(18140)C[j]=l v=M(v)V,F=nil,17238163040358 z=M(z)T=M(T)D=M(D)l,GJ=y(19564),20263122782874 D=C[k]T=C[j]b=M(b)N=M(N)Y=T(O,W)N=D[Y]b,W,T=11324821750184,y(19638),y(18806)D=S[T]O=S[W]V=C[k]z=C[j]v=z(l,b)W=V[v]Y=O[W]O={Y()}T=D(G(O))Q=N..T N=m()l,f=11781887684962,y(17926)C[N]=Q v=y(19148)Q=L(3232078,{k;j;N})wJ,O,J,T=y(19542),y(18413),y(18318),y(19519)D=Q()Q=m()C[Q]=D D=S[T]Y=S[O]W=C[k]V=C[j]z=V(v,l)O=W[z]b,a,l=4290761126820,12249758176570,14784073626630 W=C[Q]v=22487504346739 T=D(Y,O,W)T=y(19134)D=S[T]O=C[k]T,z=y(17859),y(18737)W=C[j]T=D[T]V=W(z,v)Y=O[V]v=y(18983)T=T(D,Y)QJ[17],o,Y=y(18073),11246541565629,y(19134)D=S[Y]W=C[k]Y,qJ=y(17859),10491387380627 V=C[j]e,Y=32154265950157,D[Y]z=V(v,l)O=W[z]Y=Y(D,O)D=m()C[D]=Y O=y(19134)Y=S[O]V=C[k]l,O=y(19424),y(17859)z=C[j]O=Y[O]v=z(l,b)l=y(17908)W=V[v]O=O(Y,W)V=C[k]z=C[j]b,CJ,jJ=3034798476847,y(18468),14991280921902 v=z(l,b)dJ=2036943768115 W=V[v]SJ,QJ[33],hJ,QJ[18]=y(18870),16985310079307,25887225790549,31813419770804 Y=T[W]W=m()C[W]=Y z=C[k]v=C[j]b=y(19677)l=v(b,o)V=z[l]z=nil l=C[k]b=C[j]o=b(f,a)v=l[o]o=C[k]l=nil f=C[j]mJ=y(19356)a=f(J,e)b=o[a]o=nil a=C[k]J=C[j]e=J(p,F)f=a[e]a=nil e=C[k]p=C[j]F=p(SJ,GJ)J=e[F]RJ,e=17257160758795,nil F=C[k]SJ=C[j]GJ=SJ(yJ,qJ)p=F[GJ]QJ[37],F=18880035289246,nil GJ=C[k]yJ=C[j]qJ=yJ(rJ,dJ)SJ=GJ[qJ]qJ=C[k]GJ=nil rJ=C[j]dJ=rJ(wJ,RJ)yJ=qJ[dJ]dJ=C[k]qJ=nil wJ=C[j]RJ=wJ(CJ,hJ)rJ=dJ[RJ]dJ=nil RJ=C[k]CJ=C[j]hJ=CJ(mJ,jJ)wJ=RJ[hJ]RJ=0 Y={[V]=z,[v]=l,[b]=o,[f]=a;[J]=e,[p]=F;[SJ]=GJ,[yJ]=qJ;[rJ]=dJ,[wJ]=RJ}V=m()v=y(18798)C[V]=Y z=C[V]Y=i(4226823,{k;j,W,D})z[v]=Y v=y(19167)z=C[V]Y=A(9105860,{k,j})z[v]=Y f=y(18926)z=C[V]Y=L(2453608,{k;j})v,QJ[28]=y(17902),y(18341)z[v]=Y Y=E(1035940,{k,j})v=y(18441)z=C[V]z[v]=Y z=C[V]Y=L(2456044,{k;j})v=y(18104)z[v]=Y Y=u(9696620,{k;j})v=y(18545)z=C[V]z[v]=Y z=C[V]hJ,v=y(17965),y(19624)Y=g(2863371,{k;j,Q})z[v]=Y Y=i(6055412,{k,j,V})z=C[V]QJ[30],v=9325070741108,y(17679)z[v]=Y Y=g(1703648,{k;j})v,a=y(18300),24506631003355 z=C[V]z[v]=Y z=C[Q]l=C[k]b=C[j]o=b(f,a)dJ,QJ[24]=y(19391),34505768220995 v=l[o]Y=z[v]a,f,o=15118048092114,1235532996701,y(17815)v=C[k]l=C[j]b=l(o,f)f=y(18394)z=v[b]QJ[20],QJ[43],v=y(19160),2176130205832,3608533>5634645 Y[z]=v z=C[Q]l=C[k]b=C[j]o=b(f,a)v=l[o]Y=z[v]v=C[k]f=21347546347197 l=C[j]o=y(19669)b=l(o,f)a,f,SJ=29707332781508,y(17791),31336215310115 z=v[b]l=C[k]b=C[j]o=b(f,a)v=l[o]Y[z]=v z=C[Q]f,a=y(19432),14019401799005 l=C[k]b=C[j]o=b(f,a)v=l[o]Y=z[v]f,o=29747765682294,y(18166)v=C[k]l=C[j]b=l(o,f)z=v[b]v=417566>980302 Y[z]=v z=C[Q]f=y(18558)l=C[k]b=C[j]a=33839821826448 o=b(f,a)QJ[1],a=23826258776606,24629889175544 v=l[o]Y=z[v]f=14961868098621 v=C[k]o=y(18853)l=C[j]b=l(o,f)z=v[b]v,f=16217517<=2972855,y(18808)Y[z]=v z=C[Q]l=C[k]b=C[j]o=b(f,a)v=l[o]Y=z[v]o=y(19704)v=C[k]f,a=18924992140020,31012098220982 l=C[j]b=l(o,f)z=v[b]v,f=5198055<4571944,y(19069)Y[z]=v QJ[6]=y(18424)z=C[Q]yJ=18143491161480 l=C[k]b=C[j]o=b(f,a)v=l[o]a,f=10242598372718,15198520433196 Y=z[v]o=y(17720)v=C[k]l=C[j]b=l(o,f)z=v[b]v=4736201<104991 Y[z]=v z=C[Q]l=C[k]f=y(19064)b=C[j]o=b(f,a)a,f=10959897517901,5038662023811 v=l[o]o=y(19422)Y=z[v]v=C[k]l=C[j]b=l(o,f)z=v[b]v=6073194<=1839406 Y[z]=v z=C[Q]l=C[k]b=C[j]f=y(18904)o=b(f,a)N=M(N)v=l[o]Y=z[v]v=C[k]f=5868516949491 l=C[j]o=y(17803)b=l(o,f)z=v[b]v=10844714<879736 Y[z]=v a=23895710881300 z=C[Q]QJ[29],f=13357005615658,y(18665)l=C[k]b=C[j]o=b(f,a)v=l[o]Y=z[v]QJ[25]=28906082678357 v=C[k]l=C[j]f,a,o=20650731713503,22405636576881,y(18536)b=l(o,f)z=v[b]v=12331714<=7370965 Y[z]=v z=C[Q]l=C[k]f=y(19497)b=C[j]o=b(f,a)v=l[o]Y=z[v]f=33889336023444 v=C[k]l=C[j]o,a=y(18635),33336293122087 b=l(o,f)f=y(17737)z=v[b]v=15742811>=15744065 Y[z]=v z=C[Q]l=C[k]b=C[j]o=b(f,a)v=l[o]Y=z[v]f=32042735013525 v=C[k]o,QJ[3]=y(19637),1917078334109 l=C[j]b=l(o,f)QJ[9]=20195801765351 z=v[b]v,f=11737705<2787612,y(18864)Y[z]=v QJ[10]=19819024844068 z=C[Q]a=7081539365621 l=C[k]b=C[j]o=b(f,a)v=l[o]o=y(18788)Y=z[v]a,f,QJ[12]=821657357441,21526738917144,32959773328098 v=C[k]l=C[j]b=l(o,f)f=y(18445)z=v[b]v=9961300<=8535120 Y[z]=v wJ=24187940615858 z=C[Q]QJ[36]=16867757828857 l=C[k]b=C[j]o=b(f,a)v=l[o]QJ[35]=23766471703990 Y=z[v]f=5476096502582 v=C[k]l=C[j]o,CJ,a=y(18994),23304256254588,16288566932506 b=l(o,f)z=v[b]v=11372000<7342167 Y[z]=v z=C[Q]f=y(19047)l=C[k]b=C[j]o=b(f,a)v=l[o]o,QJ[5]=y(18233),23251724469742 Y=z[v]v=C[k]f=11312211746883 l=C[j]b=l(o,f)z=v[b]f,e,a,v=y(19377),21996386157151,4922577024443,14292181<=5539817 rJ=133497288394 Y[z]=v z=C[Q]l=C[k]b=C[j]o=b(f,a)a=2370131383334 v=l[o]o=y(17760)Y=z[v]v=C[k]l=C[j]f=30776869882651 b=l(o,f)z=v[b]v,f=501242>16167215,y(18742)Y[z]=v z=C[Q]l=C[k]b=C[j]o=b(f,a)v=l[o]f=10046174191267 Y=z[v]o=y(17889)v=C[k]l=C[j]b=l(o,f)z=v[b]O,QJ[41],v=nil,26083729591355,13241429>=16169158 Y[z]=v f=y(19381)z=C[Q]a=16257895328240 l=C[k]b=C[j]o=b(f,a)a=3312847067068 v=l[o]Y=z[v]f,o=5818516999877,y(18163)v=C[k]l=C[j]b=l(o,f)z=v[b]v,f=5417957<=3674080,y(19759)Y[z]=v z=C[Q]l=C[k]b=C[j]o=b(f,a)v=l[o]Y=z[v]a,f=27061381524548,23559662456338 v=C[k]o=y(18734)l=C[j]b=l(o,f)F=24271614313746 z=v[b]v,mJ=13076604>=14371834,10980486564210 Y[z]=v f=y(19495)z=C[Q]l=C[k]b=C[j]o=b(f,a)v=l[o]Y=z[v]v=C[k]o,f=y(19684),30297801002410 l=C[j]b=l(o,f)z=v[b]v=.2 Y[z]=v z=C[Q]l=C[k]a,f=16337735550381,y(18001)b=C[j]o=b(f,a)f=15019904787797 v=l[o]o=y(18761)Y=z[v]QJ[21],a=12253422667173,6725318761970 v=C[k]l=C[j]b=l(o,f)z=v[b]v=1.2 Y[z]=v z=C[Q]QJ[34],f,QJ[47]=5694344583322,y(19607),27156648497945 l=C[k]b=C[j]o=b(f,a)v=l[o]a=26079524710202 Y=z[v]v=C[k]J=32150783437836 l=C[j]f,o=10659124779111,y(19045)b=l(o,f)z=v[b]p,v,f=19985430362936,.25,y(17741)Y[z]=v QJ[11]=5311599599453 z=C[Q]l=C[k]b=C[j]o=b(f,a)f=27666981787084 v=l[o]Y=z[v]v=C[k]o,a=y(18126),11213537846164 l=C[j]b=l(o,f)z=v[b]v=4 Y[z]=v f=y(17962)z=C[Q]l=C[k]b=C[j]o=b(f,a)f=16366396489862 v=l[o]Y=z[v]o=y(17658)v=C[k]a=24822418553340 l=C[j]b=l(o,f)z=v[b]v=500000 Y[z]=v z=C[Q]f=y(18083)l=C[k]b=C[j]o=b(f,a)a=13232863870291 v=l[o]Y=z[v]o=y(18173)v=C[k]f=17667078875731 l=C[j]b=l(o,f)z=v[b]v,f=1,y(18172)Y[z]=v z=C[Q]l=C[k]b=C[j]o=b(f,a)f=25745556984355 v=l[o]Y=z[v]v=C[k]l=C[j]o=y(18850)b=l(o,f)f=y(17998)z=v[b]v=6 Y[z]=v a,q=34976874218179,S[y(18171)]z=C[Q]l=C[k]b=C[j]o=b(f,a)v=l[o]o=y(18229)Y=z[v]v=C[k]l=C[j]f,a=6316149050471,20774866217861 b=l(o,f)z=v[b]v=2 Y[z]=v z=C[Q]RJ,f=y(19090),y(19719)l=C[k]b=C[j]o=b(f,a)v=l[o]jJ=y(18866)Y=z[v]o=y(19288)v=C[k]l=C[j]a,f=31029705127390,3312496452368 b=l(o,f)f=y(19483)z=v[b]v=1.5 Y[z]=v z=C[Q]l=C[k]b=C[j]o=b(f,a)v=l[o]a=29573440049458 Y=z[v]QJ[8]=y(18548)v=C[k]o=y(19758)l=C[j]f=14567937220408 b=l(o,f)z=v[b]QJ[7],v,f=27280906935372,125000,y(19386)Y[z]=v z=C[Q]l=C[k]b=C[j]o=b(f,a)a=28047898619726 v=l[o]Y=z[v]o=y(18371)v=C[k]l=C[j]f,QJ[2]=17849375501717,y(18461)b=l(o,f)f=y(18414)z=v[b]v=50000 Y[z]=v z=C[Q]l=C[k]b=C[j]o=b(f,a)v=l[o]Y=z[v]o=y(18615)v=C[k]l=C[j]f=10783240447936 b=l(o,f)z=v[b]v,f=1500000,y(19132)Y[z]=v a=17249041856042 z=C[Q]l=C[k]b=C[j]o=b(f,a)v=l[o]Y=z[v]o=y(18508)v=C[k]f=16437339454689 l=C[j]a,qJ=21383938459492,y(18227)b=l(o,f)z=v[b]l=C[k]f=y(18727)b=C[j]o=b(f,a)GJ,f=y(18540),26747509041940 v=l[o]a=14811054153451 Y[z]=v o=y(17944)v=C[k]l=C[j]b=l(o,f)z=v[b]l=C[k]b=C[j]f=y(17959)o=b(f,a)v=l[o]a=y(18887)b=C[k]o=C[j]f=o(a,J)J=y(19643)l=b[f]o=C[k]f=C[j]a=f(J,e)b=o[a]f=C[k]e=y(17695)a=C[j]J=a(e,p)p=y(18757)o=f[J]a=C[k]J=C[j]e=J(p,F)f=a[e]J=C[k]F=y(18499)e=C[j]p=e(F,SJ)a=J[p]p=C[k]J=0 F=C[j]SJ=F(GJ,yJ)e=p[SJ]SJ=C[k]GJ=C[j]yJ=GJ(qJ,rJ)F=SJ[yJ]SJ,p=0,0 yJ=C[k]qJ=C[j]QJ[23]=13371935198243 rJ=qJ(dJ,wJ)GJ=yJ[rJ]yJ=0 rJ=C[k]dJ=C[j]wJ=dJ(RJ,CJ)qJ=rJ[wJ]wJ=C[k]RJ=C[j]CJ=RJ(hJ,mJ)dJ=wJ[CJ]rJ,wJ=0,0 CJ=C[k]hJ=C[j]mJ=hJ(jJ,QJ[1])RJ=CJ[mJ]mJ=C[k]jJ=C[j]QJ[1]=jJ(QJ[2],QJ[3])hJ=mJ[QJ[1]]mJ,CJ=0,0 QJ[1]=C[k]QJ[2]=C[j]QJ[3]=QJ[2](QJ[4],QJ[5])jJ=QJ[1][QJ[3]]QJ[3]=C[k]QJ[1]=0 QJ[4]=C[j]QJ[5]=QJ[4](QJ[6],QJ[7])QJ[2]=QJ[3][QJ[5]]QJ[5]=C[k]QJ[6]=C[j]QJ[7]=QJ[6](QJ[8],QJ[9])QJ[3],QJ[9]=0,y(18746)QJ[4]=QJ[5][QJ[7]]QJ[6]=C[k]QJ[7]=C[j]QJ[8]=QJ[7](QJ[9],QJ[10])QJ[5]=QJ[6][QJ[8]]QJ[10]=y(19338)QJ[7]=C[k]QJ[8]=C[j]QJ[9]=QJ[8](QJ[10],QJ[11])QJ[6]=QJ[7][QJ[9]]QJ[8]=C[k]QJ[11]=y(18915)QJ[9]=C[j]QJ[10]=QJ[9](QJ[11],QJ[12])QJ[7]=QJ[8][QJ[10]]Y={[z]=v;[l]=b,[o]=f,[a]=J;[e]=p,[F]=SJ;[GJ]=yJ;[qJ]=rJ,[dJ]=wJ;[RJ]=CJ,[hJ]=mJ;[jJ]=QJ[1],[QJ[2]]=QJ[3];[QJ[4]]=QJ[5],[QJ[6]]=QJ[7]}hJ=L(7981570,{V,k,j})z=m()b=Z(10474955,{V;k,j})f=m()v=x(6105542,{k;j})a=m()QJ[6]=m()RJ=x(15430308,{V;k;j})qJ=m()C[z]=Y SJ=m()QJ[9]=m()l=A(11206918,{V;k;j,Q})QJ[8]=m()Y=m()F=A(15728727,{V;k;j,Y})C[Y]=v v=m()o=Z(3212286,{k,j,V})C[v]=l l=m()C[l]=b b=m()wJ=m()C[b]=o o=nil C[f]=o e=m()GJ=m()o=0 C[a]=o jJ=i(4093277,{V;k;j})J=x(9138875,{k,j,f;a,V,b})o=m()C[o]=J p=x(3248483,{V,k,j;o})J=E(13708927,{V;k,j;o})C[e]=p p=m()C[p]=F F=nil rJ=i(13384126,{V;k;j,p,e})C[SJ]=F QJ[1],F={},0 C[GJ]=F yJ=L(5389948,{V;k,j;SJ,GJ,o,e})F=m()C[F]=yJ QJ[42]=34571885323577 QJ[5]=m()C[qJ]=rJ yJ=x(15945858,{p,F})QJ[2]=m()mJ=E(950508,{V,k;j})dJ=B(11273383,{V,k;j})rJ=m()C[rJ]=dJ QJ[3]=i(5882582,{k,j;V;QJ[2]})dJ=L(11043806,{rJ})C[wJ]=RJ RJ=m()QJ[10]=A(8150328,{V;k;j;z,Q})CJ=i(1732248,{V,k,j})C[RJ]=CJ CJ=m()C[CJ]=hJ hJ=m()C[hJ]=mJ mJ=m()QJ[22]=5311073747880 QJ[7]=m()C[mJ]=jJ jJ=i(16324257,{CJ,mJ})C[QJ[2]]=QJ[1]QJ[1]=m()C[QJ[1]]=QJ[3]QJ[3]=m()QJ[4]=x(12983837,{V;k;j;CJ,QJ[1],hJ;mJ})C[QJ[3]]=QJ[4]QJ[4]=0 C[QJ[5]]=QJ[4]QJ[4]=0 C[QJ[6]]=QJ[4]QJ[4]=0 C[QJ[7]]=QJ[4]QJ[4]=nil C[QJ[8]]=QJ[4]QJ[4]=nil C[QJ[9]]=QJ[4]QJ[4]=m()R={}QJ[11]=Z(8878374,{V;z,k;j;Q;QJ[9],QJ[4],QJ[8];RJ;QJ[6],wJ,v,QJ[7];QJ[3],QJ[2];QJ[5];rJ;p;l,qJ,F})C[QJ[4]]=QJ[10]QJ[10]=m()C[QJ[10]]=QJ[11]QJ[12]=x(4713118,{Q;k;j;QJ[10];z})QJ[11]=m()C[QJ[11]]=QJ[12]QJ[12]=C[Q]QJ[14]=C[k]QJ[15]=C[j]QJ[16]=QJ[15](QJ[17],QJ[18])QJ[13]=QJ[14][QJ[16]]QJ[14]=Z(15716988,{Q;k,j;z})QJ[12][QJ[13]]=QJ[14]QJ[13]=A(2827196,{V,k,j;z,Q})QJ[12]=m()C[QJ[12]]=QJ[13]QJ[13]=C[Q]QJ[17]=C[k]QJ[18]=C[j]QJ[19]=QJ[18](QJ[20],QJ[21])QJ[16]=QJ[17][QJ[19]]QJ[21]=y(19020)QJ[18]=C[k]QJ[19]=C[j]QJ[20]=QJ[19](QJ[21],QJ[22])QJ[14]=y(18409)QJ[17]=QJ[18][QJ[20]]QJ[19]=C[k]QJ[39],QJ[22]=5504811615196,y(17746)QJ[20]=C[j]QJ[21]=QJ[20](QJ[22],QJ[23])QJ[18]=QJ[19][QJ[21]]QJ[31],QJ[23]=25248702802291,y(18295)QJ[20]=C[k]QJ[21]=C[j]QJ[22]=QJ[21](QJ[23],QJ[24])QJ[24]=y(19174)QJ[19]=QJ[20][QJ[22]]QJ[21]=C[k]QJ[22]=C[j]QJ[23]=QJ[22](QJ[24],QJ[25])QJ[20]=QJ[21][QJ[23]]QJ[24],QJ[14]=y(19647),QJ[13][QJ[14]]QJ[23]=S[QJ[24]]QJ[25]=C[k]QJ[26]=C[j]QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[29],QJ[27]=15913316274258,y(18267)QJ[22]=QJ[23][QJ[24]]QJ[24]=C[k]QJ[25]=C[j]QJ[28]=18830203046510 QJ[26]=QJ[25](QJ[27],QJ[28])QJ[23]=QJ[24][QJ[26]]QJ[21]=QJ[22][QJ[23]]QJ[15]={[QJ[16]]=QJ[17];[QJ[18]]=QJ[19];[QJ[20]]=QJ[21]}QJ[20]=y(17946)QJ[14]=QJ[14](QJ[13],QJ[15])QJ[21]=5799832689658 QJ[17]=C[k]QJ[18]=C[j]QJ[19]=QJ[18](QJ[20],QJ[21])p=M(p)QJ[16]=QJ[17][QJ[19]]QJ[22]=18246303437926 QJ[18]=C[k]QJ[19]=C[j]QJ[13],QJ[21]=y(18041),y(19582)QJ[20]=QJ[19](QJ[21],QJ[22])QJ[23]=31044439136548 QJ[17]=QJ[18][QJ[20]]QJ[19]=C[k]QJ[22]=y(18195)QJ[20]=C[j]QJ[13]=QJ[14][QJ[13]]QJ[21]=QJ[20](QJ[22],QJ[23])QJ[18]=QJ[19][QJ[21]]QJ[20]=C[k]QJ[21]=C[j]QJ[23],QJ[24]=y(19409),2787400105469 QJ[22]=QJ[21](QJ[23],QJ[24])QJ[19]=QJ[20][QJ[22]]QJ[21],QJ[15]=y(18776),{[QJ[16]]=QJ[17];[QJ[18]]=QJ[19]}QJ[13]=QJ[13](QJ[14],QJ[15])QJ[22]=22200874302141 QJ[23]=32418256859735 QJ[18]=C[k]QJ[19]=C[j]QJ[20]=QJ[19](QJ[21],QJ[22])QJ[17]=QJ[18][QJ[20]]QJ[15]=y(19565)QJ[15]=QJ[13][QJ[15]]QJ[19]=C[k]QJ[20]=C[j]QJ[22]=y(19086)QJ[21]=QJ[20](QJ[22],QJ[23])QJ[18]=QJ[19][QJ[21]]QJ[16],QJ[28]={[QJ[17]]=QJ[18]},y(18677)QJ[15]=QJ[15](QJ[13],QJ[16])QJ[24],QJ[23]=3029948039455,4424742224389 QJ[26],QJ[22]=19914953817709,y(19358)QJ[19]=C[k]QJ[20]=C[j]QJ[27]=33145593907325 QJ[21]=QJ[20](QJ[22],QJ[23])QJ[23]=y(19466)QJ[18]=QJ[19][QJ[21]]QJ[20]=C[k]QJ[21]=C[j]QJ[22]=QJ[21](QJ[23],QJ[24])QJ[19]=QJ[20][QJ[22]]QJ[16]=y(18843)QJ[16],QJ[24]=QJ[15][QJ[16]],y(19306)QJ[21]=C[k]QJ[22]=C[j]QJ[25]=8990810392192 QJ[23]=QJ[22](QJ[24],QJ[25])QJ[20]=QJ[21][QJ[23]]QJ[25]=y(17994)QJ[22]=C[k]QJ[23]=C[j]QJ[24]=QJ[23](QJ[25],QJ[26])QJ[21]=QJ[22][QJ[24]]QJ[23]=C[k]QJ[26]=y(18578)QJ[24]=C[j]QJ[25]=QJ[24](QJ[26],QJ[27])QJ[22]=QJ[23][QJ[25]]QJ[23]=3744981>7739200 QJ[25]=C[k]QJ[26]=C[j]QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[25]=x(16393805,{Q;k,j,QJ[11],z})QJ[17]={[QJ[18]]=QJ[19];[QJ[20]]=QJ[21];[QJ[22]]=QJ[23];[QJ[24]]=QJ[25]}QJ[22],QJ[26]=y(19257),14498886973833 QJ[16]=QJ[16](QJ[15],QJ[17])QJ[28],QJ[25]=y(19337),14635934743742 QJ[19]=C[k]QJ[29],QJ[23]=4908136719000,11624603523732 QJ[20]=C[j]QJ[21]=QJ[20](QJ[22],QJ[23])QJ[18]=QJ[19][QJ[21]]QJ[24]=34786879239128 QJ[20]=C[k]QJ[23]=y(19603)QJ[21]=C[j]QJ[22]=QJ[21](QJ[23],QJ[24])QJ[24]=y(18490)QJ[19]=QJ[20][QJ[22]]QJ[21]=C[k]QJ[22]=C[j]QJ[23]=QJ[22](QJ[24],QJ[25])QJ[20]=QJ[21][QJ[23]]QJ[25]=y(18161)QJ[22]=C[k]QJ[23]=C[j]QJ[24]=QJ[23](QJ[25],QJ[26])QJ[26]=y(18948)QJ[21]=QJ[22][QJ[24]]QJ[23]=C[k]QJ[24]=C[j]QJ[27]=29421192795384 QJ[25]=QJ[24](QJ[26],QJ[27])QJ[22]=QJ[23][QJ[25]]QJ[25]=C[k]QJ[26]=C[j]QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[26]=C[k]QJ[29]=y(19398)QJ[27]=C[j]QJ[28]=QJ[27](QJ[29],QJ[30])QJ[25]=QJ[26][QJ[28]]QJ[27]=C[k]QJ[28]=C[j]QJ[30]=y(19744)QJ[29]=QJ[28](QJ[30],QJ[31])QJ[26]=QJ[27][QJ[29]]QJ[23],QJ[16],QJ[29],QJ[30]={QJ[24];QJ[25];QJ[26]},y(19287),23276420839280,5853053176265 QJ[28]=y(18393)QJ[25]=C[k]QJ[26]=C[j]QJ[27]=QJ[26](QJ[28],QJ[29])QJ[31]=12890388157947 QJ[24]=QJ[25][QJ[27]]QJ[26]=C[k]QJ[27]=C[j]QJ[29]=y(18688)QJ[28]=QJ[27](QJ[29],QJ[30])QJ[30]=y(18882)QJ[25]=QJ[26][QJ[28]]QJ[27]=C[k]QJ[28]=C[j]QJ[29]=QJ[28](QJ[30],QJ[31])QJ[26]=QJ[27][QJ[29]]QJ[27]=Z(14777058,{Q;k,j})QJ[16],QJ[17]=QJ[15][QJ[16]],{[QJ[18]]=QJ[19],[QJ[20]]=QJ[21],[QJ[22]]=QJ[23];[QJ[24]]=QJ[25],[QJ[26]]=QJ[27]}QJ[16]=QJ[16](QJ[15],QJ[17])QJ[28],QJ[23],QJ[22]=5101378333027,34978011467913,y(17951)QJ[19]=C[k]QJ[20]=C[j]QJ[21]=QJ[20](QJ[22],QJ[23])QJ[18]=QJ[19][QJ[21]]QJ[19]=C[Q]QJ[27]=y(18530)QJ[24]=C[k]QJ[25]=C[j]QJ[26]=QJ[25](QJ[27],QJ[28])QJ[23]=QJ[24][QJ[26]]QJ[28]=y(18118)QJ[25]=C[k]QJ[29]=16594863910629 QJ[26]=C[j]QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[27]=C[Q]QJ[29]=C[k]QJ[30]=C[j]QJ[31]=QJ[30](QJ[32],QJ[33])QJ[28]=QJ[29][QJ[31]]QJ[32]=24034790205339 QJ[26]=QJ[27][QJ[28]]QJ[28]=C[k]QJ[29]=C[j]QJ[31]=y(17707)QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[25]=QJ[26][QJ[27]]QJ[28],QJ[22]=y(18273),{QJ[23],QJ[24];QJ[25]}QJ[25]=C[k]QJ[33]=y(17606)QJ[26]=C[j]QJ[29],QJ[30]=26241425470692,11517006981319 QJ[27]=QJ[26](QJ[28],QJ[29])QJ[46]=20311147293384 QJ[24]=QJ[25][QJ[27]]QJ[29]=y(19636)QJ[26]=C[k]QJ[27]=C[j]QJ[28]=QJ[27](QJ[29],QJ[30])QJ[25]=QJ[26][QJ[28]]QJ[28]=C[Q]QJ[30]=C[k]QJ[31]=C[j]QJ[32]=QJ[31](QJ[33],QJ[34])QJ[29]=QJ[30][QJ[32]]QJ[27]=QJ[28][QJ[29]]QJ[29]=C[k]QJ[33],QJ[32]=13321493027328,y(17668)QJ[30]=C[j]QJ[31]=QJ[30](QJ[32],QJ[33])QJ[30]=26087357117087 QJ[28]=QJ[29][QJ[31]]QJ[26]=QJ[27][QJ[28]]QJ[31],QJ[34],QJ[23]=11351714014806,y(17967),{QJ[24];QJ[25];QJ[26]}QJ[26]=C[k]QJ[27]=C[j]QJ[29]=y(19062)QJ[28]=QJ[27](QJ[29],QJ[30])QJ[25]=QJ[26][QJ[28]]QJ[30]=y(18662)QJ[27]=C[k]QJ[28]=C[j]QJ[29]=QJ[28](QJ[30],QJ[31])QJ[26]=QJ[27][QJ[29]]QJ[29]=C[Q]QJ[31]=C[k]QJ[32]=C[j]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[35]=y(19672)QJ[30]=QJ[31][QJ[33]]QJ[28]=QJ[29][QJ[30]]QJ[34]=4043063512053 QJ[30]=C[k]QJ[33]=y(19102)QJ[31]=C[j]QJ[32]=QJ[31](QJ[33],QJ[34])QJ[29]=QJ[30][QJ[32]]QJ[27]=QJ[28][QJ[29]]QJ[32],QJ[24]=15649833520792,{QJ[25],QJ[26],QJ[27]}QJ[27]=C[k]QJ[28]=C[j]QJ[31],QJ[30]=28186422544391,y(17667)QJ[29]=QJ[28](QJ[30],QJ[31])QJ[26]=QJ[27][QJ[29]]QJ[31]=y(18256)QJ[28]=C[k]QJ[29]=C[j]QJ[7]=M(QJ[7])QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[30]=C[Q]QJ[32]=C[k]QJ[33]=C[j]QJ[34]=QJ[33](QJ[35],QJ[36])QJ[35]=14226532191630 QJ[31]=QJ[32][QJ[34]]QJ[34]=y(19388)QJ[29]=QJ[30][QJ[31]]QJ[31]=C[k]QJ[32]=C[j]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[28]=QJ[29][QJ[30]]QJ[25],QJ[16]={QJ[26],QJ[27],QJ[28]},y(18084)QJ[21],QJ[20]={QJ[22],QJ[23],QJ[24];QJ[25]},y(17771)QJ[24],QJ[20],QJ[26],QJ[16]=28751611166385,QJ[19][QJ[20]],19433861664717,QJ[15][QJ[16]]QJ[20]=QJ[20](QJ[19],QJ[21])QJ[17],QJ[25]={[QJ[18]]=QJ[20]},15452225627808 QJ[16]=QJ[16](QJ[15],QJ[17])QJ[17]=m()C[QJ[17]]=QJ[16]QJ[23]=y(19491)QJ[20]=C[k]QJ[21]=C[j]QJ[22]=QJ[21](QJ[23],QJ[24])QJ[24],QJ[16]=y(19557),y(18041)QJ[16],T=QJ[14][QJ[16]],nil QJ[19]=QJ[20][QJ[22]]QJ[21]=C[k]QJ[27],QJ[38]=33773545505185,30007959878556 QJ[22]=C[j]QJ[23]=QJ[22](QJ[24],QJ[25])QJ[25]=y(18327)QJ[20]=QJ[21][QJ[23]]QJ[22]=C[k]QJ[23]=C[j]QJ[24]=QJ[23](QJ[25],QJ[26])QJ[21]=QJ[22][QJ[24]]QJ[23]=C[k]QJ[24]=C[j]QJ[26]=y(17629)QJ[25]=QJ[24](QJ[26],QJ[27])QJ[27]=14209724997035 QJ[22]=QJ[23][QJ[25]]QJ[18]={[QJ[19]]=QJ[20],[QJ[21]]=QJ[22]}QJ[16]=QJ[16](QJ[14],QJ[18])QJ[24],QJ[25],QJ[26]=y(19734),15400185114131,34183892724432 QJ[21]=C[k]QJ[30]=17858074339212 QJ[22]=C[j]QJ[23]=QJ[22](QJ[24],QJ[25])QJ[32]=22488318885001 QJ[20]=QJ[21][QJ[23]]QJ[36],QJ[25]=5032068857243,y(18317)QJ[22]=C[k]QJ[23]=C[j]QJ[24]=QJ[23](QJ[25],QJ[26])QJ[31],QJ[26]=y(19543),27784957040334 QJ[21]=QJ[22][QJ[24]]QJ[25],QJ[19],QJ[18]=y(18563),{[QJ[20]]=QJ[21]},y(19565)QJ[18]=QJ[16][QJ[18]]QJ[18]=QJ[18](QJ[16],QJ[19])QJ[22]=C[k]QJ[28]=15274513746138 QJ[23]=C[j]QJ[24]=QJ[23](QJ[25],QJ[26])QJ[21]=QJ[22][QJ[24]]W=M(W)QJ[26],QJ[33]=y(17798),y(17690)QJ[23]=C[k]QJ[19]=y(18843)QJ[24]=C[j]QJ[25]=QJ[24](QJ[26],QJ[27])QJ[27]=y(18626)QJ[22]=QJ[23][QJ[25]]QJ[24]=C[k]QJ[25]=C[j]QJ[26]=QJ[25](QJ[27],QJ[28])QJ[29]=32780981829152 QJ[23]=QJ[24][QJ[26]]QJ[19]=QJ[18][QJ[19]]QJ[25]=C[k]QJ[26]=C[j]QJ[28]=y(18510)QJ[27]=QJ[26](QJ[28],QJ[29])QJ[29]=y(19692)QJ[24]=QJ[25][QJ[27]]QJ[26]=C[k]QJ[27]=C[j]QJ[28]=QJ[27](QJ[29],QJ[30])QJ[25]=QJ[26][QJ[28]]QJ[26]=14627302<5634066 QJ[28]=C[k]QJ[13]=nil QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[28]=Z(264090,{Q,k;j,QJ[11]})QJ[20]={[QJ[21]]=QJ[22];[QJ[23]]=QJ[24];[QJ[25]]=QJ[26],[QJ[27]]=QJ[28]}QJ[19]=QJ[19](QJ[18],QJ[20])QJ[22]=C[k]QJ[23]=C[j]QJ[19],QJ[26],QJ[25],QJ[30]=y(18843),7695269203669,y(18237),27370965458633 QJ[24]=QJ[23](QJ[25],QJ[26])QJ[21]=QJ[22][QJ[24]]QJ[23]=C[k]QJ[27],QJ[28],QJ[34],QJ[31]=6487315571427,14411103840533,285341415154,y(17996)QJ[26]=y(17923)QJ[24]=C[j]QJ[25]=QJ[24](QJ[26],QJ[27])QJ[22]=QJ[23][QJ[25]]QJ[24]=C[k]QJ[25]=C[j]QJ[27]=y(18157)QJ[26]=QJ[25](QJ[27],QJ[28])QJ[29]=19922724764716 QJ[23]=QJ[24][QJ[26]]QJ[25]=C[k]QJ[26]=C[j]QJ[28]=y(19536)QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[32],QJ[19]=26927488786082,QJ[18][QJ[19]]QJ[26]=C[k]QJ[27]=C[j]QJ[29]=y(18766)QJ[28]=QJ[27](QJ[29],QJ[30])QJ[25]=QJ[26][QJ[28]]QJ[28]=C[k]QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[26],QJ[30]=9269602>12249788,8365384012396 QJ[28]=A(10174478,{Q,k,j,QJ[11]})QJ[20]={[QJ[21]]=QJ[22],[QJ[23]]=QJ[24],[QJ[25]]=QJ[26],[QJ[27]]=QJ[28]}QJ[25]=y(18993)QJ[19]=QJ[19](QJ[18],QJ[20])QJ[27],QJ[28]=2022348303047,9766942708888 QJ[22]=C[k]QJ[26]=13084781844241 QJ[23]=C[j]QJ[24]=QJ[23](QJ[25],QJ[26])QJ[31],QJ[29],QJ[19]=y(19238),11216370055449,y(18843)QJ[21]=QJ[22][QJ[24]]QJ[23]=C[k]QJ[24]=C[j]QJ[26]=y(19218)QJ[25]=QJ[24](QJ[26],QJ[27])QJ[22]=QJ[23][QJ[25]]QJ[24]=C[k]QJ[27]=y(19756)QJ[25]=C[j]QJ[26]=QJ[25](QJ[27],QJ[28])QJ[23]=QJ[24][QJ[26]]QJ[28]=y(19315)QJ[25]=C[k]QJ[26]=C[j]QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[26]=C[k]QJ[29]=y(19525)QJ[27]=C[j]QJ[28]=QJ[27](QJ[29],QJ[30])QJ[25]=QJ[26][QJ[28]]QJ[28]=C[k]QJ[26],QJ[19],QJ[32]=9136916>=10269765,QJ[18][QJ[19]],27646236426783 QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[28]=E(7504201,{Q,k,j;QJ[11]})QJ[20]={[QJ[21]]=QJ[22],[QJ[23]]=QJ[24];[QJ[25]]=QJ[26];[QJ[27]]=QJ[28]}QJ[25],QJ[27],QJ[28]=y(18072),23645567754751,10588856491596 QJ[19]=QJ[19](QJ[18],QJ[20])QJ[22]=C[k]QJ[23]=C[j]QJ[26]=30559906375701 QJ[24]=QJ[23](QJ[25],QJ[26])QJ[21]=QJ[22][QJ[24]]qJ=M(qJ)QJ[30],QJ[31],QJ[26]=15643124712777,y(19567),y(18202)QJ[23]=C[k]QJ[24]=C[j]QJ[25]=QJ[24](QJ[26],QJ[27])QJ[27]=y(18025)QJ[22]=QJ[23][QJ[25]]QJ[24]=C[k]QJ[25]=C[j]QJ[26]=QJ[25](QJ[27],QJ[28])QJ[23]=QJ[24][QJ[26]]QJ[25]=C[k]QJ[32],QJ[28],QJ[29]=34734986588438,y(17717),9668269150957 QJ[26]=C[j]QJ[27]=QJ[26](QJ[28],QJ[29])QJ[29]=y(18830)QJ[24]=QJ[25][QJ[27]]QJ[35]=y(19426)QJ[26]=C[k]QJ[27]=C[j]QJ[28]=QJ[27](QJ[29],QJ[30])QJ[25]=QJ[26][QJ[28]]QJ[28]=C[k]QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[28]=5 QJ[30]=C[k]QJ[31]=C[j]QJ[32]=QJ[31](QJ[33],QJ[34])QJ[29]=QJ[30][QJ[32]]QJ[30]=50 QJ[32]=C[k]QJ[33]=C[j]QJ[34]=QJ[33](QJ[35],QJ[36])QJ[31]=QJ[32][QJ[34]]QJ[33],QJ[34],QJ[32]=y(17767),7564042756428,20 QJ[26]={[QJ[27]]=QJ[28];[QJ[29]]=QJ[30];[QJ[31]]=QJ[32]}QJ[32]=27688341819455 QJ[28]=C[k]QJ[19]=y(19226)QJ[29]=C[j]QJ[31]=y(18102)QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[28]=5 QJ[30]=C[k]QJ[31]=C[j]QJ[32]=QJ[31](QJ[33],QJ[34])QJ[29]=QJ[30][QJ[32]]QJ[30]=i(2510313,{Q;k;j})hJ=M(hJ)QJ[20]={[QJ[21]]=QJ[22];[QJ[23]]=QJ[24];[QJ[25]]=QJ[26];[QJ[27]]=QJ[28];[QJ[29]]=QJ[30]}QJ[29],QJ[19]=16320191305280,QJ[18][QJ[19]]QJ[19]=QJ[19](QJ[18],QJ[20])QJ[22]=C[k]QJ[25]=y(18106)QJ[23]=C[j]QJ[26]=27607363527731 QJ[24]=QJ[23](QJ[25],QJ[26])QJ[27]=30582349970373 QJ[21]=QJ[22][QJ[24]]QJ[35],QJ[26],QJ[28],QJ[33]=y(18080),y(19207),4892869733151,y(19249)QJ[23]=C[k]QJ[24]=C[j]QJ[25]=QJ[24](QJ[26],QJ[27])QJ[27]=y(19144)QJ[22]=QJ[23][QJ[25]]QJ[24]=C[k]QJ[25]=C[j]QJ[26]=QJ[25](QJ[27],QJ[28])QJ[23]=QJ[24][QJ[26]]QJ[25]=C[k]QJ[28],QJ[32]=y(18815),16948640862716 QJ[26]=C[j]QJ[34]=943487067429 QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[26]=C[k]QJ[29]=y(19164)QJ[27]=C[j]QJ[36],QJ[30]=20757874345037,32450312599533 QJ[28]=QJ[27](QJ[29],QJ[30])QJ[25]=QJ[26][QJ[28]]QJ[31]=y(19330)QJ[28]=C[k]QJ[8]=M(QJ[8])QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])dJ,QJ[15]=nil,nil QJ[27]=QJ[28][QJ[30]]QJ[30]=C[k]QJ[31]=C[j]QJ[32]=QJ[31](QJ[33],QJ[34])QJ[29]=QJ[30][QJ[32]]GJ=M(GJ)QJ[30]=60 QJ[32]=C[k]QJ[33]=C[j]QJ[28]=10 QJ[34]=QJ[33](QJ[35],QJ[36])QJ[33]=y(18656)QJ[31]=QJ[32][QJ[34]]QJ[32]=25 QJ[26]={[QJ[27]]=QJ[28],[QJ[29]]=QJ[30],[QJ[31]]=QJ[32]}QJ[31],QJ[32]=y(18378),1639993714505 QJ[28]=C[k]QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[30]=C[k]QJ[34],QJ[19]=6259303671857,y(19226)QJ[19]=QJ[18][QJ[19]]QJ[31]=C[j]QJ[32]=QJ[31](QJ[33],QJ[34])QJ[29]=QJ[30][QJ[32]]QJ[30]=E(11556420,{Q,k,j})QJ[28]=5 QJ[20]={[QJ[21]]=QJ[22];[QJ[23]]=QJ[24],[QJ[25]]=QJ[26];[QJ[27]]=QJ[28];[QJ[29]]=QJ[30]}QJ[19]=QJ[19](QJ[18],QJ[20])QJ[22]=C[k]QJ[28]=1327925780071 QJ[23]=C[j]QJ[36],QJ[26],QJ[29],QJ[25]=12306388332709,1193354883731,9696080614487,y(19600)QJ[24]=QJ[23](QJ[25],QJ[26])QJ[21]=QJ[22][QJ[24]]QJ[23]=C[k]QJ[26]=y(18683)QJ[24]=C[j]QJ[27],QJ[32],QJ[33]=30500156408761,35013357956352,y(19562)QJ[25]=QJ[24](QJ[26],QJ[27])QJ[22]=QJ[23][QJ[25]]QJ[27]=y(19232)QJ[24]=C[k]QJ[25]=C[j]QJ[26]=QJ[25](QJ[27],QJ[28])QJ[23]=QJ[24][QJ[26]]QJ[31]=y(19406)QJ[25]=C[k]QJ[28],QJ[30],QJ[35]=y(18929),23787098419533,y(17709)QJ[26]=C[j]QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[29]=y(18670)QJ[26]=C[k]QJ[27]=C[j]QJ[28]=QJ[27](QJ[29],QJ[30])QJ[25]=QJ[26][QJ[28]]QJ[28]=C[k]QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])e=M(e)QJ[27]=QJ[28][QJ[30]]QJ[19],QJ[34],QJ[28]=y(19226),26464970688711,1 QJ[30]=C[k]QJ[31]=C[j]QJ[32]=QJ[31](QJ[33],QJ[34])QJ[29]=QJ[30][QJ[32]]QJ[30]=8 QJ[32]=C[k]QJ[33]=C[j]QJ[34]=QJ[33](QJ[35],QJ[36])QJ[31]=QJ[32][QJ[34]]QJ[32]=4 QJ[26]={[QJ[27]]=QJ[28];[QJ[29]]=QJ[30];[QJ[31]]=QJ[32]}QJ[28]=C[k]QJ[34],QJ[32],QJ[31],QJ[33]=25101491378580,12171660056839,y(18699),y(18448)QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[28]=1 QJ[30]=C[k]QJ[31]=C[j]QJ[19]=QJ[18][QJ[19]]QJ[32]=QJ[31](QJ[33],QJ[34])QJ[29]=QJ[30][QJ[32]]QJ[30]=i(16228369,{Q,k;j})QJ[20],QJ[35]={[QJ[21]]=QJ[22],[QJ[23]]=QJ[24],[QJ[25]]=QJ[26],[QJ[27]]=QJ[28],[QJ[29]]=QJ[30]},y(18141)QJ[26],QJ[25]=25398537585404,y(17799)QJ[19]=QJ[19](QJ[18],QJ[20])QJ[22]=C[k]QJ[36]=32458055030763 QJ[23]=C[j]QJ[27]=2668847607627 QJ[24]=QJ[23](QJ[25],QJ[26])QJ[29],QJ[26]=31362592407275,y(19387)QJ[21]=QJ[22][QJ[24]]QJ[23]=C[k]QJ[24]=C[j]QJ[25]=QJ[24](QJ[26],QJ[27])QJ[28]=14958633189710 QJ[22]=QJ[23][QJ[25]]QJ[24]=C[k]QJ[31]=y(19485)QJ[25]=C[j]QJ[27]=y(19125)QJ[26]=QJ[25](QJ[27],QJ[28])QJ[23]=QJ[24][QJ[26]]QJ[32],QJ[28]=28885635394768,y(19479)QJ[25]=C[k]QJ[26]=C[j]QJ[27]=QJ[26](QJ[28],QJ[29])QJ[34]=5852027098214 QJ[24]=QJ[25][QJ[27]]QJ[30]=17155384092825 QJ[26]=C[k]QJ[27]=C[j]QJ[29],QJ[33]=y(18031),y(17801)QJ[28]=QJ[27](QJ[29],QJ[30])QJ[25]=QJ[26][QJ[28]]QJ[28]=C[k]QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[28]=.2 QJ[30]=C[k]QJ[31]=C[j]QJ[32]=QJ[31](QJ[33],QJ[34])QJ[29]=QJ[30][QJ[32]]QJ[32]=C[k]QJ[30]=3 QJ[33]=C[j]QJ[34]=QJ[33](QJ[35],QJ[36])QJ[31]=QJ[32][QJ[34]]QJ[19],QJ[32]=y(19226),1.2 QJ[26]={[QJ[27]]=QJ[28],[QJ[29]]=QJ[30],[QJ[31]]=QJ[32]}QJ[28]=C[k]QJ[33],QJ[32]=y(19598),4774487779565 mJ=M(mJ)QJ[29]=C[j]QJ[31],QJ[34]=y(18469),2388391668356 QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[28]=.1 QJ[30]=C[k]QJ[31]=C[j]QJ[32]=QJ[31](QJ[33],QJ[34])QJ[19]=QJ[18][QJ[19]]QJ[29]=QJ[30][QJ[32]]QJ[30]=L(10519283,{Q;k,j})QJ[20]={[QJ[21]]=QJ[22],[QJ[23]]=QJ[24];[QJ[25]]=QJ[26],[QJ[27]]=QJ[28],[QJ[29]]=QJ[30]}o=M(o)QJ[25],QJ[31],QJ[26]=y(17745),4721953761664,31995653812815 QJ[19]=QJ[19](QJ[18],QJ[20])QJ[32],QJ[35]=15454098116369,y(19610)QJ[22]=C[k]QJ[23]=C[j]QJ[24]=QJ[23](QJ[25],QJ[26])QJ[21]=QJ[22][QJ[24]]QJ[30]=y(19531)QJ[22]=C[Q]QJ[23]=y(17771)QJ[27]=C[k]QJ[28]=C[j]QJ[29]=QJ[28](QJ[30],QJ[31])QJ[31]=y(18979)QJ[26]=QJ[27][QJ[29]]QJ[28]=C[k]QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[36]=954690288081 QJ[30]=C[Q]QJ[32]=C[k]QJ[23]=QJ[22][QJ[23]]a=M(a)QJ[33]=C[j]QJ[34]=QJ[33](QJ[35],QJ[36])QJ[31]=QJ[32][QJ[34]]QJ[29]=QJ[30][QJ[31]]QJ[31]=C[k]QJ[32]=C[j]QJ[34],QJ[35]=y(18054),16384551963191 QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[19],QJ[36]=y(18084),y(17781)QJ[28]=QJ[29][QJ[30]]QJ[31],QJ[25],QJ[32]=y(18591),{QJ[26];QJ[27],QJ[28]},21137729234824 QJ[28]=C[k]QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[29]=C[k]QJ[32],QJ[33]=y(18986),15470296272832 QJ[30]=C[j]QJ[31]=QJ[30](QJ[32],QJ[33])QJ[28]=QJ[29][QJ[31]]QJ[31]=C[Q]QJ[33]=C[k]QJ[34]=C[j]QJ[35]=QJ[34](QJ[36],QJ[37])QJ[32]=QJ[33][QJ[35]]QJ[30]=QJ[31][QJ[32]]QJ[36],QJ[35]=33579556519353,y(18568)QJ[32]=C[k]QJ[33]=C[j]QJ[34]=QJ[33](QJ[35],QJ[36])QJ[31]=QJ[32][QJ[34]]QJ[29]=QJ[30][QJ[31]]QJ[19],QJ[26]=QJ[18][QJ[19]],{QJ[27],QJ[28];QJ[29]}QJ[29]=C[k]QJ[34],QJ[33],QJ[32]=22402092526100,2947752313829,y(18872)QJ[30]=C[j]QJ[31]=QJ[30](QJ[32],QJ[33])QJ[37],QJ[33]=y(18401),y(18642)QJ[28]=QJ[29][QJ[31]]QJ[30]=C[k]QJ[31]=C[j]QJ[32]=QJ[31](QJ[33],QJ[34])QJ[29]=QJ[30][QJ[32]]QJ[32]=C[Q]QJ[34]=C[k]QJ[35]=C[j]QJ[36]=QJ[35](QJ[37],QJ[38])QJ[33]=QJ[34][QJ[36]]QJ[31]=QJ[32][QJ[33]]QJ[33]=C[k]QJ[36]=y(18964)QJ[34]=C[j]QJ[37]=14196902663059 QJ[35]=QJ[34](QJ[36],QJ[37])QJ[32]=QJ[33][QJ[35]]QJ[30]=QJ[31][QJ[32]]QJ[27]={QJ[28],QJ[29];QJ[30]}QJ[24]={QJ[25];QJ[26],QJ[27]}QJ[23]=QJ[23](QJ[22],QJ[24])QJ[20]={[QJ[21]]=QJ[23]}QJ[19]=QJ[19](QJ[18],QJ[20])QJ[20]=m()C[QJ[20]]=QJ[19]QJ[27],QJ[26]=7394516783862,y(18246)QJ[23]=C[k]QJ[24]=C[j]QJ[28]=19857389765318 QJ[25]=QJ[24](QJ[26],QJ[27])QJ[22]=QJ[23][QJ[25]]QJ[35],QJ[19]=19868710562644,y(18041)QJ[24]=C[k]QJ[25]=C[j]QJ[27],QJ[29]=y(18859),6800764272677 QJ[26]=QJ[25](QJ[27],QJ[28])QJ[30]=4032787229586 QJ[23]=QJ[24][QJ[26]]QJ[28]=y(18659)QJ[25]=C[k]QJ[34]=y(18452)QJ[26]=C[j]QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[26]=C[k]QJ[27]=C[j]QJ[29]=y(18836)QJ[28]=QJ[27](QJ[29],QJ[30])QJ[25]=QJ[26][QJ[28]]QJ[27],QJ[19],QJ[21]=y(19573),QJ[14][QJ[19]],{[QJ[22]]=QJ[23];[QJ[24]]=QJ[25]}QJ[19]=QJ[19](QJ[14],QJ[21])QJ[24]=C[k]QJ[28],QJ[31],QJ[21]=28699295815048,30939023440242,y(19565)QJ[25]=C[j]QJ[30],QJ[29]=16876299293292,19583937667867 QJ[26]=QJ[25](QJ[27],QJ[28])QJ[23]=QJ[24][QJ[26]]QJ[25]=C[k]QJ[26]=C[j]QJ[21],QJ[28]=QJ[19][QJ[21]],y(18918)QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[28],QJ[22]=y(18204),{[QJ[23]]=QJ[24]}QJ[21]=QJ[21](QJ[19],QJ[22])QJ[29]=30922898584045 QJ[25]=C[k]QJ[26]=C[j]QJ[27]=QJ[26](QJ[28],QJ[29])QJ[32]=18145167618523 QJ[24]=QJ[25][QJ[27]]QJ[26]=C[k]QJ[29]=y(19235)QJ[27]=C[j]QJ[28]=QJ[27](QJ[29],QJ[30])QJ[30]=y(18249)QJ[25]=QJ[26][QJ[28]]QJ[27]=C[k]QJ[28]=C[j]QJ[33]=5997943055277 QJ[29]=QJ[28](QJ[30],QJ[31])QJ[26]=QJ[27][QJ[29]]QJ[28]=C[k]QJ[29]=C[j]QJ[31]=y(18321)QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[22]=y(18843)QJ[29]=C[k]QJ[32],QJ[22],QJ[40]=y(17997),QJ[21][QJ[22]],24569956191769 QJ[30]=C[j]QJ[31]=QJ[30](QJ[32],QJ[33])QJ[28]=QJ[29][QJ[31]]QJ[29]=1024847>=2509763 QJ[31]=C[k]QJ[32]=C[j]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[32]=20610560843360 QJ[31]=i(13080469,{Q;k;j;QJ[11]})QJ[23]={[QJ[24]]=QJ[25];[QJ[26]]=QJ[27];[QJ[28]]=QJ[29];[QJ[30]]=QJ[31]}QJ[22]=QJ[22](QJ[21],QJ[23])QJ[29]=5502411662089 QJ[25]=C[k]QJ[28]=y(18793)QJ[26]=C[j]QJ[31]=22662294138256 QJ[27]=QJ[26](QJ[28],QJ[29])QJ[16],QJ[30]=nil,33997350444270 QJ[24]=QJ[25][QJ[27]]QJ[26]=C[k]QJ[29],QJ[34]=y(19553),y(18325)QJ[27]=C[j]QJ[28]=QJ[27](QJ[29],QJ[30])QJ[25]=QJ[26][QJ[28]]QJ[30]=y(18801)QJ[27]=C[k]QJ[22]=y(18843)QJ[28]=C[j]QJ[9]=M(QJ[9])QJ[33]=13398427788233 QJ[29]=QJ[28](QJ[30],QJ[31])QJ[26]=QJ[27][QJ[29]]QJ[31]=y(17942)QJ[28]=C[k]QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[35]=1593462708473 QJ[27]=QJ[28][QJ[30]]QJ[29]=C[k]QJ[32]=y(19357)QJ[30]=C[j]QJ[31]=QJ[30](QJ[32],QJ[33])QJ[28]=QJ[29][QJ[31]]QJ[29]=11414242<=4021547 QJ[31]=C[k]QJ[32]=C[j]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[31]=A(1146452,{Q;k,j;QJ[11]})QJ[23]={[QJ[24]]=QJ[25],[QJ[26]]=QJ[27];[QJ[28]]=QJ[29];[QJ[30]]=QJ[31]}QJ[29],QJ[36],QJ[31],QJ[22]=1752310711266,y(18673),13344341511861,QJ[21][QJ[22]]QJ[28]=y(18521)QJ[22]=QJ[22](QJ[21],QJ[23])QJ[25]=C[k]J=nil QJ[6]=M(QJ[6])QJ[26]=C[j]QJ[32],QJ[30]=28982988889528,9682378759630 QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[26]=C[k]QJ[29]=y(19529)QJ[27]=C[j]QJ[28]=QJ[27](QJ[29],QJ[30])QJ[37]=34635401693323 QJ[25]=QJ[26][QJ[28]]QJ[34],QJ[30]=y(19000),y(18809)QJ[27]=C[k]QJ[28]=C[j]QJ[33],QJ[35],QJ[38]=31624717270091,28336163453433,y(18633)QJ[29]=QJ[28](QJ[30],QJ[31])QJ[31]=y(19508)QJ[26]=QJ[27][QJ[29]]QJ[28]=C[k]QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[32]=y(17721)QJ[27]=QJ[28][QJ[30]]QJ[29]=C[k]QJ[30]=C[j]QJ[22]=y(19226)QJ[31]=QJ[30](QJ[32],QJ[33])QJ[28]=QJ[29][QJ[31]]QJ[31]=C[k]QJ[32]=C[j]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[33]=C[k]QJ[34]=C[j]QJ[35]=QJ[34](QJ[36],QJ[37])QJ[31]=1 QJ[32]=QJ[33][QJ[35]]QJ[33]=4 QJ[35]=C[k]f=M(f)QJ[36]=C[j]QJ[37]=QJ[36](QJ[38],QJ[39])SJ=M(SJ)b=M(b)QJ[34]=QJ[35][QJ[37]]QJ[35]=1 QJ[29]={[QJ[30]]=QJ[31],[QJ[32]]=QJ[33],[QJ[34]]=QJ[35]}QJ[35],QJ[34]=34378583890780,y(19459)QJ[31]=C[k]QJ[36]=y(17614)QJ[32]=C[j]QJ[22]=QJ[21][QJ[22]]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[31]=1 QJ[33]=C[k]QJ[34]=C[j]QJ[37]=5122580074510 QJ[35]=QJ[34](QJ[36],QJ[37])QJ[32]=QJ[33][QJ[35]]QJ[33]=Z(5331704,{Q,k,j})QJ[35]=14914885911471 v=M(v)QJ[23]={[QJ[24]]=QJ[25],[QJ[26]]=QJ[27];[QJ[28]]=QJ[29];[QJ[30]]=QJ[31];[QJ[32]]=QJ[33]}QJ[22]=QJ[22](QJ[21],QJ[23])QJ[25]=C[k]QJ[34],QJ[29],QJ[28]=y(19634),3128914376532,y(19436)QJ[26]=C[j]QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[31],QJ[33],QJ[29],QJ[30]=30933508553412,15707171856964,y(18569),23777738667913 QJ[26]=C[k]QJ[27]=C[j]QJ[28]=QJ[27](QJ[29],QJ[30])QJ[30]=y(18276)QJ[25]=QJ[26][QJ[28]]QJ[37]=13383556146944 QJ[27]=C[k]QJ[28]=C[j]QJ[29]=QJ[28](QJ[30],QJ[31])QJ[32],QJ[22]=32657355334693,y(18843)QJ[26]=QJ[27][QJ[29]]QJ[28]=C[k]QJ[22],QJ[31]=QJ[21][QJ[22]],y(19042)QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[32]=y(19163)QJ[29]=C[k]QJ[30]=C[j]QJ[31]=QJ[30](QJ[32],QJ[33])QJ[28]=QJ[29][QJ[31]]QJ[31]=C[k]QJ[32]=C[j]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[38],QJ[29]=y(18911),11307516<=11231328 QJ[30]=QJ[31][QJ[33]]QJ[31]=E(6472951,{Q;k,j,QJ[11]})QJ[23],QJ[32]={[QJ[24]]=QJ[25],[QJ[26]]=QJ[27];[QJ[28]]=QJ[29],[QJ[30]]=QJ[31]},25156858837568 QJ[28],QJ[29]=y(18296),33277484695895 QJ[22]=QJ[22](QJ[21],QJ[23])QJ[36]=y(18758)QJ[25]=C[k]QJ[26]=C[j]QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[26]=C[k]QJ[29],QJ[30]=y(19654),6782585846254 QJ[27]=C[j]QJ[31]=19051331180767 QJ[28]=QJ[27](QJ[29],QJ[30])QJ[25]=QJ[26][QJ[28]]QJ[27]=C[k]QJ[28]=C[j]QJ[30],QJ[22]=y(18528),y(19226)QJ[29]=QJ[28](QJ[30],QJ[31])QJ[33]=13415611202955 QJ[26]=QJ[27][QJ[29]]QJ[39],QJ[34]=15247988011314,y(19534)QJ[28]=C[k]QJ[29]=C[j]QJ[31]=y(19229)QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[29]=C[k]QJ[32]=y(18729)QJ[30]=C[j]QJ[35]=14834349993890 QJ[31]=QJ[30](QJ[32],QJ[33])QJ[28]=QJ[29][QJ[31]]QJ[31]=C[k]QJ[32]=C[j]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[33]=C[k]QJ[34]=C[j]QJ[35]=QJ[34](QJ[36],QJ[37])QJ[32]=QJ[33][QJ[35]]QJ[31],QJ[33]=2,8 QJ[35]=C[k]QJ[36]=C[j]QJ[5]=M(QJ[5])QJ[37]=QJ[36](QJ[38],QJ[39])QJ[34]=QJ[35][QJ[37]]QJ[35]=6 QJ[29]={[QJ[30]]=QJ[31];[QJ[32]]=QJ[33];[QJ[34]]=QJ[35]}QJ[35]=34953445311574 QJ[31]=C[k]QJ[37]=6639542357411 RJ=M(RJ)QJ[32]=C[j]QJ[22],QJ[34]=QJ[21][QJ[22]],y(18236)QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[31],QJ[36]=1,y(18961)QJ[33]=C[k]QJ[34]=C[j]QJ[35]=QJ[34](QJ[36],QJ[37])QJ[32]=QJ[33][QJ[35]]QJ[33]=i(8983036,{Q;k,j})QJ[23]={[QJ[24]]=QJ[25],[QJ[26]]=QJ[27];[QJ[28]]=QJ[29];[QJ[30]]=QJ[31],[QJ[32]]=QJ[33]}QJ[30],QJ[35]=1907743358286,30161968208462 QJ[22]=QJ[22](QJ[21],QJ[23])QJ[29],QJ[28]=247568623982,y(18069)QJ[25]=C[k]QJ[26]=C[j]QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[26]=C[k]QJ[38],QJ[29]=y(17770),y(18052)QJ[27]=C[j]QJ[28]=QJ[27](QJ[29],QJ[30])QJ[25]=QJ[26][QJ[28]]QJ[34],QJ[30],QJ[31],QJ[32]=y(19613),y(18981),6796348244580,29019483269799 QJ[27]=C[k]QJ[28]=C[j]QJ[29]=QJ[28](QJ[30],QJ[31])QJ[26]=QJ[27][QJ[29]]QJ[28]=C[k]QJ[33]=8452452760577 QJ[29]=C[j]QJ[31]=y(17608)QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[37],QJ[18]=15567543836280,nil QJ[29]=C[k]QJ[32],QJ[36]=y(18311),y(19177)QJ[30]=C[j]QJ[31]=QJ[30](QJ[32],QJ[33])QJ[28]=QJ[29][QJ[31]]QJ[31]=C[k]QJ[32]=C[j]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[33]=C[k]QJ[34]=C[j]QJ[35]=QJ[34](QJ[36],QJ[37])QJ[31],QJ[39]=1,9777101111615 QJ[32]=QJ[33][QJ[35]]QJ[35]=C[k]QJ[36]=C[j]QJ[33]=4 QJ[37]=QJ[36](QJ[38],QJ[39])QJ[22]=y(19226)QJ[34]=QJ[35][QJ[37]]QJ[35],QJ[38]=2,y(19444)QJ[29]={[QJ[30]]=QJ[31];[QJ[32]]=QJ[33];[QJ[34]]=QJ[35]}QJ[35]=21552320778966 QJ[31]=C[k]QJ[34]=y(18731)QJ[32]=C[j]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[31]=1 QJ[33]=C[k]QJ[34]=C[j]QJ[36],QJ[37]=y(18219),3785960397652 QJ[35]=QJ[34](QJ[36],QJ[37])QJ[22],QJ[34]=QJ[21][QJ[22]],y(18720)QJ[32]=QJ[33][QJ[35]]QJ[33]=i(16665158,{Q,k;j})QJ[23]={[QJ[24]]=QJ[25],[QJ[26]]=QJ[27],[QJ[28]]=QJ[29];[QJ[30]]=QJ[31],[QJ[32]]=QJ[33]}QJ[22]=QJ[22](QJ[21],QJ[23])QJ[25]=C[k]QJ[29],QJ[31]=18940665753922,28343283488696 QJ[26]=C[j]QJ[28]=y(17700)QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[29],QJ[30]=y(18403),3873262268282 QJ[26]=C[k]QJ[27]=C[j]QJ[28]=QJ[27](QJ[29],QJ[30])QJ[25]=QJ[26][QJ[28]]QJ[35]=16472793220415 QJ[27]=C[k]QJ[28]=C[j]QJ[30]=y(17727)QJ[29]=QJ[28](QJ[30],QJ[31])QJ[31]=y(19187)QJ[26]=QJ[27][QJ[29]]QJ[33],QJ[32]=13761175612579,1008521106360 QJ[28]=C[k]QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[29]=C[k]QJ[32]=y(19507)QJ[30]=C[j]QJ[31]=QJ[30](QJ[32],QJ[33])QJ[28]=QJ[29][QJ[31]]QJ[29]=6097734>=10986639 QJ[31]=C[k]QJ[22]=y(18843)QJ[1]=M(QJ[1])QJ[22]=QJ[21][QJ[22]]QJ[32]=C[j]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[32],QJ[44]=15345006405102,10850304127402 QJ[30]=QJ[31][QJ[33]]QJ[35],QJ[33]=23388741996019,24409880810497 QJ[31]=i(2067018,{Q;k,j,QJ[11]})QJ[23]={[QJ[24]]=QJ[25];[QJ[26]]=QJ[27];[QJ[28]]=QJ[29],[QJ[30]]=QJ[31]}QJ[3]=M(QJ[3])QJ[28]=y(17616)QJ[22]=QJ[22](QJ[21],QJ[23])QJ[25]=C[k]QJ[26]=C[j]QJ[29]=4505162486725 QJ[27]=QJ[26](QJ[28],QJ[29])QJ[30],QJ[45]=26534005699052,9481650135507 l=M(l)QJ[24]=QJ[25][QJ[27]]QJ[29],QJ[39]=y(18137),20835319992310 QJ[26]=C[k]QJ[27]=C[j]QJ[28]=QJ[27](QJ[29],QJ[30])QJ[25]=QJ[26][QJ[28]]QJ[27]=C[k]QJ[28]=C[j]QJ[30],QJ[31]=y(18891),18079924664132 QJ[29]=QJ[28](QJ[30],QJ[31])QJ[26]=QJ[27][QJ[29]]QJ[28]=C[k]QJ[34]=y(19363)QJ[29]=C[j]QJ[31]=y(19165)QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[32]=y(19349)QJ[29]=C[k]QJ[30]=C[j]QJ[31]=QJ[30](QJ[32],QJ[33])QJ[28]=QJ[29][QJ[31]]QJ[31]=C[k]QJ[29]=7793286<7348104 QJ[32]=C[j]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[31]=E(15092264,{Q;k,j,QJ[11]})QJ[23]={[QJ[24]]=QJ[25],[QJ[26]]=QJ[27];[QJ[28]]=QJ[29],[QJ[30]]=QJ[31]}QJ[30],QJ[22]=33248960138431,y(18843)QJ[22],QJ[32],QJ[31],QJ[28]=QJ[21][QJ[22]],17129113819118,28688707933013,y(18075)QJ[29]=3055049903453 QJ[22]=QJ[22](QJ[21],QJ[23])QJ[25]=C[k]QJ[26]=C[j]QJ[27]=QJ[26](QJ[28],QJ[29])QJ[35]=7103373144728 QJ[24]=QJ[25][QJ[27]]QJ[26]=C[k]QJ[27]=C[j]QJ[22],QJ[29]=y(18843),y(18916)QJ[28]=QJ[27](QJ[29],QJ[30])QJ[25]=QJ[26][QJ[28]]QJ[27]=C[k]QJ[34]=y(17804)QJ[28]=C[j]QJ[30],QJ[33]=y(19737),7289427445142 QJ[29]=QJ[28](QJ[30],QJ[31])QJ[26]=QJ[27][QJ[29]]QJ[28]=C[k]QJ[31]=y(18293)QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[32]=y(18724)QJ[29]=C[k]QJ[30]=C[j]QJ[31]=QJ[30](QJ[32],QJ[33])QJ[28]=QJ[29][QJ[31]]QJ[31]=C[k]QJ[29]=8233461>=8966078 QJ[32]=C[j]QJ[22]=QJ[21][QJ[22]]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[33]=y(18316)CJ=M(CJ)QJ[31]=Z(5739713,{Q;k;j;QJ[11]})QJ[23]={[QJ[24]]=QJ[25],[QJ[26]]=QJ[27];[QJ[28]]=QJ[29];[QJ[30]]=QJ[31]}QJ[22]=QJ[22](QJ[21],QJ[23])QJ[28]=y(18412)QJ[25]=C[k]QJ[26]=C[j]QJ[29]=24532330467775 QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[22]=y(18084)QJ[25]=C[Q]QJ[30]=C[k]QJ[34]=21329622603070 QJ[31]=C[j]QJ[32]=QJ[31](QJ[33],QJ[34])QJ[29]=QJ[30][QJ[32]]QJ[31]=C[k]QJ[34],QJ[35]=y(19611),24571677042247 QJ[32]=C[j]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[33]=C[Q]QJ[35]=C[k]QJ[36]=C[j]QJ[37]=QJ[36](QJ[38],QJ[39])QJ[38]=27321368816868 QJ[34]=QJ[35][QJ[37]]QJ[39]=y(18582)QJ[32]=QJ[33][QJ[34]]QJ[34]=C[k]QJ[35]=C[j]QJ[37]=y(19007)QJ[2]=M(QJ[2])QJ[36]=QJ[35](QJ[37],QJ[38])QJ[33]=QJ[34][QJ[36]]QJ[31]=QJ[32][QJ[33]]QJ[28]={QJ[29];QJ[30];QJ[31]}QJ[31]=C[k]QJ[35],QJ[26],QJ[34]=1621685084481,y(17771),y(18927)QJ[32]=C[j]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[35]=y(19693)QJ[32]=C[k]QJ[36]=947764174430 QJ[33]=C[j]QJ[34]=QJ[33](QJ[35],QJ[36])QJ[31]=QJ[32][QJ[34]]QJ[34]=C[Q]QJ[36]=C[k]QJ[22]=QJ[21][QJ[22]]QJ[37]=C[j]QJ[38]=QJ[37](QJ[39],QJ[40])QJ[35]=QJ[36][QJ[38]]QJ[33]=QJ[34][QJ[35]]QJ[35]=C[k]QJ[36]=C[j]QJ[39],QJ[38]=13177172129478,y(18436)QJ[37]=QJ[36](QJ[38],QJ[39])QJ[34]=QJ[35][QJ[37]]QJ[32]=QJ[33][QJ[34]]QJ[36],QJ[29]=27435823072287,{QJ[30],QJ[31],QJ[32]}QJ[32]=C[k]QJ[37]=26677606837372 QJ[33]=C[j]QJ[35]=y(17595)QJ[34]=QJ[33](QJ[35],QJ[36])QJ[36]=y(18234)QJ[31]=QJ[32][QJ[34]]QJ[33]=C[k]QJ[34]=C[j]QJ[40]=y(18162)QJ[35]=QJ[34](QJ[36],QJ[37])QJ[32]=QJ[33][QJ[35]]QJ[35]=C[Q]QJ[37]=C[k]QJ[38]=C[j]QJ[39]=QJ[38](QJ[40],QJ[41])QJ[36]=QJ[37][QJ[39]]QJ[40]=26347186284969 QJ[34]=QJ[35][QJ[36]]rJ=M(rJ)QJ[36]=C[k]QJ[37]=C[j]QJ[39]=y(18460)QJ[38]=QJ[37](QJ[39],QJ[40])QJ[35]=QJ[36][QJ[38]]QJ[33]=QJ[34][QJ[35]]QJ[35],QJ[34],QJ[30]=30848671119188,21546276917686,{QJ[31];QJ[32],QJ[33]}QJ[27],QJ[26]={QJ[28];QJ[29],QJ[30]},QJ[25][QJ[26]]QJ[26]=QJ[26](QJ[25],QJ[27])QJ[23]={[QJ[24]]=QJ[26]}QJ[22]=QJ[22](QJ[21],QJ[23])QJ[23]=m()C[QJ[23]]=QJ[22]QJ[31],QJ[29]=33222701808405,y(18629)QJ[26]=C[k]QJ[27]=C[j]QJ[30],QJ[33],QJ[36]=11972616307899,5978318883575,21295634123363 QJ[28]=QJ[27](QJ[29],QJ[30])QJ[25]=QJ[26][QJ[28]]QJ[27]=C[k]QJ[32]=182875128347 QJ[28]=C[j]QJ[30]=y(19572)QJ[29]=QJ[28](QJ[30],QJ[31])QJ[31]=y(17714)QJ[26]=QJ[27][QJ[29]]QJ[28]=C[k]QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[32]=y(18706)QJ[29]=C[k]QJ[30]=C[j]QJ[31]=QJ[30](QJ[32],QJ[33])QJ[22]=y(18041)QJ[28]=QJ[29][QJ[31]]QJ[22],QJ[24]=QJ[14][QJ[22]],{[QJ[25]]=QJ[26];[QJ[27]]=QJ[28]}QJ[22]=QJ[22](QJ[14],QJ[24])QJ[32],QJ[33],QJ[40]=4752666258274,22815289493296,28033235793438 QJ[27]=C[k]QJ[30]=y(18588)QJ[28]=C[j]QJ[31],QJ[24]=17392959104794,y(19565)QJ[24]=QJ[22][QJ[24]]QJ[29]=QJ[28](QJ[30],QJ[31])QJ[26]=QJ[27][QJ[29]]QJ[31]=y(18133)QJ[28]=C[k]QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[25],QJ[31],QJ[32]={[QJ[26]]=QJ[27]},y(19242),14884635890108 QJ[24]=QJ[24](QJ[22],QJ[25])QJ[38],QJ[25]=25052703516253,y(18843)QJ[28]=C[k]QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[37],QJ[25],QJ[32]=y(17895),QJ[24][QJ[25]],y(19662)QJ[29]=C[k]QJ[30]=C[j]QJ[31]=QJ[30](QJ[32],QJ[33])QJ[33]=y(18694)QJ[28]=QJ[29][QJ[31]]QJ[30]=C[k]QJ[31]=C[j]QJ[32]=QJ[31](QJ[33],QJ[34])QJ[29]=QJ[30][QJ[32]]QJ[31]=C[k]QJ[34]=y(19741)QJ[32]=C[j]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[32]=C[k]QJ[35]=y(19289)QJ[33]=C[j]QJ[34]=QJ[33](QJ[35],QJ[36])QJ[31]=QJ[32][QJ[34]]QJ[32]=9931423<6209406 QJ[34]=C[k]QJ[35]=C[j]QJ[36]=QJ[35](QJ[37],QJ[38])QJ[33]=QJ[34][QJ[36]]QJ[34]=i(12048634,{Q;k,j,QJ[11]})QJ[26]={[QJ[27]]=QJ[28],[QJ[29]]=QJ[30];[QJ[31]]=QJ[32],[QJ[33]]=QJ[34]}QJ[34]=17720655646942 QJ[25]=QJ[25](QJ[24],QJ[26])QJ[32],QJ[31]=8427014990320,y(17896)QJ[28]=C[k]QJ[38]=6039475457425 QJ[29]=C[j]QJ[33]=8629914355098 QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[32]=y(18008)QJ[29]=C[k]QJ[30]=C[j]QJ[31]=QJ[30](QJ[32],QJ[33])QJ[33]=y(18587)QJ[28]=QJ[29][QJ[31]]QJ[30]=C[k]QJ[31]=C[j]QJ[32]=QJ[31](QJ[33],QJ[34])QJ[34],QJ[25]=y(19175),y(18843)QJ[29]=QJ[30][QJ[32]]QJ[35],QJ[37]=10820307645001,y(17664)QJ[31]=C[k]QJ[32]=C[j]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[25],QJ[39],QJ[35]=QJ[24][QJ[25]],y(19713),y(19092)QJ[32]=C[k]QJ[36]=24966728252919 QJ[33]=C[j]QJ[34]=QJ[33](QJ[35],QJ[36])QJ[31]=QJ[32][QJ[34]]QJ[34]=C[k]QJ[32]=6989851>11716700 QJ[35]=C[j]QJ[36]=QJ[35](QJ[37],QJ[38])QJ[33]=QJ[34][QJ[36]]QJ[36]=4293263592220 QJ[34]=i(13468850,{Q;k;j,QJ[11]})QJ[26]={[QJ[27]]=QJ[28],[QJ[29]]=QJ[30],[QJ[31]]=QJ[32];[QJ[33]]=QJ[34]}QJ[25]=QJ[25](QJ[24],QJ[26])QJ[31],QJ[32],QJ[38]=y(18314),927700977810,22965540152276 QJ[28]=C[k]QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[29]=C[k]QJ[30]=C[j]QJ[33],QJ[32],QJ[34]=26699319196599,y(19228),24634090776191 QJ[31]=QJ[30](QJ[32],QJ[33])QJ[28]=QJ[29][QJ[31]]QJ[30]=C[k]QJ[33]=y(18880)QJ[31]=C[j]QJ[32]=QJ[31](QJ[33],QJ[34])QJ[29]=QJ[30][QJ[32]]QJ[31]=C[k]QJ[32]=C[j]QJ[25],QJ[35],QJ[34]=y(18843),27573851579720,y(18553)QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[37]=y(19614)QJ[32]=C[k]QJ[35]=y(17936)QJ[33]=C[j]QJ[34]=QJ[33](QJ[35],QJ[36])QJ[31]=QJ[32][QJ[34]]QJ[32]=9452093>=9580928 QJ[34]=C[k]QJ[35]=C[j]QJ[41]=y(18389)QJ[36]=QJ[35](QJ[37],QJ[38])QJ[33]=QJ[34][QJ[36]]QJ[25]=QJ[24][QJ[25]]QJ[34]=E(7279279,{Q,k;j,QJ[11]})QJ[26],QJ[35]={[QJ[27]]=QJ[28],[QJ[29]]=QJ[30],[QJ[31]]=QJ[32];[QJ[33]]=QJ[34]},6201801534240 QJ[25]=QJ[25](QJ[24],QJ[26])QJ[37]=30392629507346 QJ[28]=C[k]QJ[32],QJ[31],QJ[25]=9371182222549,y(17853),y(19066)QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[36]=23688248596397 QJ[27]=QJ[28][QJ[30]]QJ[33],QJ[32]=13171637780630,y(17952)QJ[29]=C[k]QJ[30]=C[j]QJ[31]=QJ[30](QJ[32],QJ[33])QJ[33]=y(18353)QJ[28]=QJ[29][QJ[31]]QJ[38]=21333576404604 QJ[30]=C[k]QJ[31]=C[j]QJ[34]=29022457086817 QJ[32]=QJ[31](QJ[33],QJ[34])QJ[29]=QJ[30][QJ[32]]Y=M(Y)QJ[31]=C[k]QJ[32]=C[j]QJ[34]=y(18465)QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[32]=C[k]QJ[35]=y(19469)QJ[33]=C[j]QJ[34]=QJ[33](QJ[35],QJ[36])QJ[22]=nil QJ[31]=QJ[32][QJ[34]]QJ[33]=C[k]QJ[34]=C[j]QJ[36]=y(18467)QJ[35]=QJ[34](QJ[36],QJ[37])QJ[32]=QJ[33][QJ[35]]QJ[34]=C[k]QJ[35]=C[j]QJ[37]=y(18781)QJ[36]=QJ[35](QJ[37],QJ[38])QJ[35]=6191123656973 QJ[33]=QJ[34][QJ[36]]QJ[34]=x(13120004,{Q,k,j})QJ[26],QJ[37],QJ[25]={[QJ[27]]=QJ[28];[QJ[29]]=QJ[30],[QJ[31]]=QJ[32],[QJ[33]]=QJ[34]},y(18791),QJ[24][QJ[25]]QJ[25]=QJ[25](QJ[24],QJ[26])QJ[32],QJ[36]=20636474799387,2208662799276 QJ[28]=C[k]QJ[31]=y(19236)QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[34]=23299428519034 QJ[27]=QJ[28][QJ[30]]QJ[33],QJ[32]=2637439736586,y(17971)QJ[29]=C[k]QJ[38]=24511787900029 QJ[30]=C[j]QJ[31]=QJ[30](QJ[32],QJ[33])QJ[33]=y(18551)QJ[28]=QJ[29][QJ[31]]QJ[30]=C[k]QJ[31]=C[j]QJ[32]=QJ[31](QJ[33],QJ[34])QJ[29]=QJ[30][QJ[32]]QJ[31]=C[k]QJ[32]=C[j]QJ[34]=y(19484)QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[32]=C[k]QJ[35]=y(18622)QJ[33]=C[j]QJ[34]=QJ[33](QJ[35],QJ[36])QJ[31]=QJ[32][QJ[34]]QJ[34]=C[k]QJ[25]=y(19226)QJ[35]=C[j]QJ[36]=QJ[35](QJ[37],QJ[38])QJ[33]=QJ[34][QJ[36]]QJ[36]=C[k]QJ[37]=C[j]QJ[34]=.5 QJ[38]=QJ[37](QJ[39],QJ[40])QJ[35]=QJ[36][QJ[38]]QJ[36]=10 QJ[38]=C[k]QJ[39]=C[j]QJ[40]=QJ[39](QJ[41],QJ[42])QJ[42]=25091805881649 QJ[37]=QJ[38][QJ[40]]QJ[40],QJ[38]=7841709634218,1.5 QJ[32]={[QJ[33]]=QJ[34],[QJ[35]]=QJ[36];[QJ[37]]=QJ[38]}QJ[38]=8094830056387 QJ[34]=C[k]QJ[35]=C[j]QJ[37]=y(18347)QJ[36]=QJ[35](QJ[37],QJ[38])QJ[33]=QJ[34][QJ[36]]QJ[34],QJ[39]=.5,y(18842)QJ[36]=C[k]QJ[37]=C[j]QJ[38]=QJ[37](QJ[39],QJ[40])QJ[35]=QJ[36][QJ[38]]QJ[25]=QJ[24][QJ[25]]QJ[36]=x(550697,{Q,k,j})QJ[37],QJ[26]=29223409771275,{[QJ[27]]=QJ[28],[QJ[29]]=QJ[30],[QJ[31]]=QJ[32];[QJ[33]]=QJ[34],[QJ[35]]=QJ[36]}QJ[25]=QJ[25](QJ[24],QJ[26])QJ[32]=28920105814109 QJ[28]=C[k]QJ[31]=y(19253)QJ[29]=C[j]QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[28]=C[Q]QJ[33]=C[k]QJ[36]=y(19286)QJ[34]=C[j]QJ[35]=QJ[34](QJ[36],QJ[37])QJ[32]=QJ[33][QJ[35]]QJ[34]=C[k]QJ[37],QJ[38]=y(19513),2086087320461 QJ[35]=C[j]QJ[36]=QJ[35](QJ[37],QJ[38])QJ[33]=QJ[34][QJ[36]]QJ[36]=C[Q]QJ[38]=C[k]QJ[39]=C[j]QJ[41]=y(17723)D=M(D)QJ[40]=QJ[39](QJ[41],QJ[42])QJ[37]=QJ[38][QJ[40]]QJ[35]=QJ[36][QJ[37]]QJ[37]=C[k]QJ[38]=C[j]QJ[42],QJ[41],QJ[40]=y(19625),18743817796964,y(18858)QJ[39]=QJ[38](QJ[40],QJ[41])QJ[36]=QJ[37][QJ[39]]QJ[38]=1035502312845 QJ[34]=QJ[35][QJ[36]]QJ[37],QJ[31]=y(18627),{QJ[32],QJ[33],QJ[34]}QJ[34]=C[k]QJ[39]=7556282029296 QJ[35]=C[j]QJ[36]=QJ[35](QJ[37],QJ[38])QJ[38]=y(18138)QJ[33]=QJ[34][QJ[36]]QJ[35]=C[k]QJ[36]=C[j]QJ[37]=QJ[36](QJ[38],QJ[39])QJ[34]=QJ[35][QJ[37]]QJ[37]=C[Q]QJ[39]=C[k]QJ[40]=C[j]QJ[41]=QJ[40](QJ[42],QJ[43])QJ[38]=QJ[39][QJ[41]]QJ[36]=QJ[37][QJ[38]]QJ[41],QJ[25]=y(19334),y(18084)QJ[38]=C[k]QJ[42]=1522247440766 QJ[39]=C[j]QJ[40]=QJ[39](QJ[41],QJ[42])wJ=M(wJ)QJ[29],QJ[39]=y(17771),27690632828491 QJ[37]=QJ[38][QJ[40]]QJ[38]=y(19602)QJ[35]=QJ[36][QJ[37]]QJ[32]={QJ[33];QJ[34],QJ[35]}QJ[35]=C[k]QJ[36]=C[j]QJ[37]=QJ[36](QJ[38],QJ[39])QJ[39]=y(18386)QJ[34]=QJ[35][QJ[37]]QJ[29]=QJ[28][QJ[29]]QJ[36]=C[k]QJ[37]=C[j]QJ[40]=27909171854701 QJ[38]=QJ[37](QJ[39],QJ[40])QJ[35]=QJ[36][QJ[38]]QJ[38]=C[Q]QJ[40]=C[k]QJ[43]=y(18225)QJ[41]=C[j]QJ[42]=QJ[41](QJ[43],QJ[44])QJ[39]=QJ[40][QJ[42]]QJ[37]=QJ[38][QJ[39]]QJ[43]=29531708677898 QJ[39]=C[k]QJ[42]=y(18301)QJ[40]=C[j]QJ[41]=QJ[40](QJ[42],QJ[43])QJ[25]=QJ[24][QJ[25]]QJ[38]=QJ[39][QJ[41]]QJ[36]=QJ[37][QJ[38]]QJ[19],QJ[33]=nil,{QJ[34];QJ[35];QJ[36]}QJ[35],QJ[30]=24847369509151,{QJ[31];QJ[32];QJ[33]}QJ[29]=QJ[29](QJ[28],QJ[30])QJ[26],QJ[32],QJ[33]={[QJ[27]]=QJ[29]},y(19537),21036825433338 QJ[25]=QJ[25](QJ[24],QJ[26])QJ[26]=m()C[QJ[26]]=QJ[25]QJ[29]=C[k]QJ[30]=C[j]QJ[31]=QJ[30](QJ[32],QJ[33])QJ[28]=QJ[29][QJ[31]]QJ[30]=C[k]QJ[34]=5428393788199 QJ[31]=C[j]QJ[33]=y(19095)QJ[32]=QJ[31](QJ[33],QJ[34])QJ[34]=y(19460)QJ[29]=QJ[30][QJ[32]]QJ[31]=C[k]QJ[32]=C[j]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[36]=6047382772544 QJ[32]=C[k]QJ[25]=y(18041)QJ[25],QJ[35]=QJ[14][QJ[25]],y(18713)QJ[33]=C[j]QJ[34]=QJ[33](QJ[35],QJ[36])QJ[31]=QJ[32][QJ[34]]QJ[27]={[QJ[28]]=QJ[29],[QJ[30]]=QJ[31]}QJ[25]=QJ[25](QJ[14],QJ[27])QJ[35],QJ[37],QJ[33],QJ[27]=24038896196744,14385939929061,y(18280),y(19565)QJ[34]=22391870092895 QJ[30]=C[k]QJ[44],QJ[27]=y(18153),QJ[25][QJ[27]]QJ[31]=C[j]QJ[32]=QJ[31](QJ[33],QJ[34])QJ[29]=QJ[30][QJ[32]]QJ[39]=4637569817718 QJ[31]=C[k]QJ[24]=nil QJ[32]=C[j]QJ[34]=y(19267)QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[28]={[QJ[29]]=QJ[30]}QJ[27]=QJ[27](QJ[25],QJ[28])QJ[34],QJ[38]=y(19323),1263505383437 QJ[31]=C[k]QJ[35]=25458818506706 QJ[32]=C[j]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[36],QJ[28]=7995582647423,y(18843)QJ[30]=QJ[31][QJ[33]]QJ[40]=y(17786)QJ[32]=C[k]QJ[35]=y(17676)QJ[33]=C[j]QJ[41]=16273834175326 QJ[34]=QJ[33](QJ[35],QJ[36])QJ[31]=QJ[32][QJ[34]]QJ[33]=C[k]QJ[36]=y(19246)QJ[34]=C[j]QJ[35]=QJ[34](QJ[36],QJ[37])QJ[32]=QJ[33][QJ[35]]QJ[34]=C[k]QJ[37]=y(19022)QJ[35]=C[j]QJ[36]=QJ[35](QJ[37],QJ[38])QJ[33]=QJ[34][QJ[36]]QJ[35]=C[k]QJ[36]=C[j]QJ[38]=y(19569)QJ[37]=QJ[36](QJ[38],QJ[39])QJ[34]=QJ[35][QJ[37]]QJ[37]=C[k]QJ[38]=C[j]QJ[39]=QJ[38](QJ[40],QJ[41])QJ[36]=QJ[37][QJ[39]]QJ[37]=A(10600820,{Q,k;j,QJ[11]})QJ[28],QJ[35]=QJ[27][QJ[28]],13936265<4541608 QJ[29]={[QJ[30]]=QJ[31],[QJ[32]]=QJ[33];[QJ[34]]=QJ[35];[QJ[36]]=QJ[37]}QJ[36]=16394948129501 QJ[28]=QJ[28](QJ[27],QJ[29])QJ[41],QJ[28]=23613503010430,y(18843)QJ[31]=C[k]QJ[32]=C[j]QJ[38],QJ[34],QJ[35]=22316589422324,y(18136),1424818001295 QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[28],QJ[35]=QJ[27][QJ[28]],y(17665)QJ[32]=C[k]QJ[33]=C[j]QJ[34]=QJ[33](QJ[35],QJ[36])QJ[39],QJ[14],yJ,QJ[36]=26792410069479,nil,nil,y(17671)QJ[31]=QJ[32][QJ[34]]QJ[37]=2381652661584 QJ[33]=C[k]QJ[34]=C[j]QJ[35]=QJ[34](QJ[36],QJ[37])QJ[32]=QJ[33][QJ[35]]QJ[37]=y(17730)QJ[34]=C[k]QJ[35]=C[j]QJ[36]=QJ[35](QJ[37],QJ[38])QJ[33]=QJ[34][QJ[36]]QJ[38]=y(18384)QJ[35]=C[k]QJ[36]=C[j]QJ[37]=QJ[36](QJ[38],QJ[39])QJ[40]=y(19359)QJ[34]=QJ[35][QJ[37]]QJ[35]=10512533<=4945485 QJ[37]=C[k]F=M(F)QJ[38]=C[j]QJ[39]=QJ[38](QJ[40],QJ[41])QJ[36]=QJ[37][QJ[39]]QJ[37]=A(11187377,{Q;k;j,QJ[11]})QJ[29],QJ[38]={[QJ[30]]=QJ[31],[QJ[32]]=QJ[33];[QJ[34]]=QJ[35];[QJ[36]]=QJ[37]},23055803857403 QJ[35],QJ[37],QJ[41]=31652216838113,18784719889028,4308511161590 QJ[28]=QJ[28](QJ[27],QJ[29])QJ[31]=C[k]QJ[32]=C[j]QJ[34]=y(18785)QJ[33]=QJ[32](QJ[34],QJ[35])QJ[36]=24733642331018 QJ[30]=QJ[31][QJ[33]]QJ[32]=C[k]QJ[33]=C[j]QJ[28],QJ[40],QJ[35]=y(18843),y(17733),y(18644)QJ[34]=QJ[33](QJ[35],QJ[36])QJ[39]=26854090149373 QJ[31]=QJ[32][QJ[34]]QJ[33]=C[k]QJ[36]=y(19138)QJ[34]=C[j]QJ[35]=QJ[34](QJ[36],QJ[37])QJ[32]=QJ[33][QJ[35]]QJ[34]=C[k]QJ[35]=C[j]QJ[37]=y(18284)QJ[36]=QJ[35](QJ[37],QJ[38])QJ[33]=QJ[34][QJ[36]]QJ[38]=y(19632)QJ[35]=C[k]QJ[36]=C[j]QJ[37]=QJ[36](QJ[38],QJ[39])QJ[34]=QJ[35][QJ[37]]QJ[28]=QJ[27][QJ[28]]QJ[37]=C[k]QJ[38]=C[j]QJ[39]=QJ[38](QJ[40],QJ[41])QJ[35]=7273873>8898965 QJ[36]=QJ[37][QJ[39]]QJ[37]=Z(5839079,{Q;k;j,QJ[11]})QJ[29]={[QJ[30]]=QJ[31],[QJ[32]]=QJ[33],[QJ[34]]=QJ[35],[QJ[36]]=QJ[37]}QJ[28]=QJ[28](QJ[27],QJ[29])QJ[39],QJ[41]=11929169254335,23218673989683 QJ[10]=M(QJ[10])QJ[31]=C[k]QJ[35],QJ[34]=16861774339569,y(18313)QJ[32]=C[j]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[28],QJ[36],QJ[38],QJ[35]=y(18168),25678711242997,27606725353358,y(17833)QJ[30]=QJ[31][QJ[33]]QJ[32]=C[k]QJ[33]=C[j]QJ[34]=QJ[33](QJ[35],QJ[36])QJ[31]=QJ[32][QJ[34]]QJ[33]=C[k]QJ[37]=29555503787188 QJ[34]=C[j]QJ[36]=y(17773)QJ[35]=QJ[34](QJ[36],QJ[37])QJ[37]=y(17903)QJ[32]=QJ[33][QJ[35]]QJ[34]=C[k]QJ[35]=C[j]QJ[36]=QJ[35](QJ[37],QJ[38])QJ[38],QJ[28]=y(18792),QJ[27][QJ[28]]QJ[33]=QJ[34][QJ[36]]QJ[35]=C[k]QJ[36]=C[j]QJ[37]=QJ[36](QJ[38],QJ[39])QJ[34]=QJ[35][QJ[37]]QJ[35]=B(1572122,{QJ[4]})QJ[29]={[QJ[30]]=QJ[31],[QJ[32]]=QJ[33],[QJ[34]]=QJ[35]}QJ[28]=QJ[28](QJ[27],QJ[29])QJ[37]=8867913582 QJ[31]=C[k]QJ[32]=C[j]QJ[34],QJ[36],QJ[35]=y(19270),17082413190602,20889240832893 QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[35]=y(18444)QJ[32]=C[k]QJ[33]=C[j]QJ[34]=QJ[33](QJ[35],QJ[36])QJ[36],QJ[39]=y(17656),3298232676483 QJ[31]=QJ[32][QJ[34]]jJ=nil QJ[33]=C[k]QJ[34]=C[j]QJ[35]=QJ[34](QJ[36],QJ[37])QJ[32]=QJ[33][QJ[35]]QJ[34]=C[k]QJ[38],QJ[37]=27453090576310,y(18623)QJ[35]=C[j]QJ[36]=QJ[35](QJ[37],QJ[38])QJ[33]=QJ[34][QJ[36]]QJ[38]=y(18517)QJ[35]=C[k]QJ[28]=y(18168)QJ[4]=M(QJ[4])QJ[25]=nil QJ[36]=C[j]QJ[37]=QJ[36](QJ[38],QJ[39])QJ[34]=QJ[35][QJ[37]]QJ[40]=6202132406998 QJ[35]=B(1366628,{V,k;j,Q})QJ[29],QJ[28]={[QJ[30]]=QJ[31];[QJ[32]]=QJ[33];[QJ[34]]=QJ[35]},QJ[27][QJ[28]]QJ[28]=QJ[28](QJ[27],QJ[29])QJ[34]=y(18199)QJ[31]=C[k]QJ[35]=26966864758202 QJ[32]=C[j]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[39]=y(18991)QJ[31]=C[Q]QJ[36]=C[k]QJ[37]=C[j]QJ[38]=QJ[37](QJ[39],QJ[40])QJ[35]=QJ[36][QJ[38]]QJ[40]=y(17939)QJ[37]=C[k]QJ[38]=C[j]QJ[39]=QJ[38](QJ[40],QJ[41])QJ[36]=QJ[37][QJ[39]]QJ[39]=C[Q]QJ[41]=C[k]QJ[42]=C[j]QJ[43]=QJ[42](QJ[44],QJ[45])QJ[40]=QJ[41][QJ[43]]QJ[38]=QJ[39][QJ[40]]QJ[43],QJ[44]=y(19743),34581802075505 QJ[40]=C[k]QJ[41]=C[j]QJ[32]=y(17771)QJ[42]=QJ[41](QJ[43],QJ[44])QJ[45]=y(17883)QJ[39]=QJ[40][QJ[42]]QJ[37]=QJ[38][QJ[39]]QJ[40],QJ[41],QJ[34]=y(18101),21826815520450,{QJ[35];QJ[36],QJ[37]}QJ[37]=C[k]QJ[38]=C[j]QJ[39]=QJ[38](QJ[40],QJ[41])QJ[36]=QJ[37][QJ[39]]QJ[38]=C[k]QJ[39]=C[j]QJ[41],QJ[42]=y(18643),9633323765652 QJ[40]=QJ[39](QJ[41],QJ[42])QJ[37]=QJ[38][QJ[40]]QJ[40]=C[Q]QJ[42]=C[k]QJ[43]=C[j]QJ[44]=QJ[43](QJ[45],QJ[46])QJ[41]=QJ[42][QJ[44]]QJ[46],QJ[45],QJ[44]=y(18709),8649494644980,y(19511)QJ[39]=QJ[40][QJ[41]]QJ[11]=M(QJ[11])QJ[41]=C[k]QJ[42]=C[j]QJ[43]=QJ[42](QJ[44],QJ[45])QJ[40]=QJ[41][QJ[43]]QJ[38]=QJ[39][QJ[40]]QJ[42],QJ[43],QJ[35]=7720711684613,20427264012348,{QJ[36];QJ[37],QJ[38]}QJ[38]=C[k]QJ[41]=y(17977)QJ[39]=C[j]QJ[40]=QJ[39](QJ[41],QJ[42])QJ[32]=QJ[31][QJ[32]]QJ[37]=QJ[38][QJ[40]]QJ[39]=C[k]QJ[40]=C[j]QJ[42]=y(17928)QJ[41]=QJ[40](QJ[42],QJ[43])QJ[38]=QJ[39][QJ[41]]QJ[41]=C[Q]QJ[43]=C[k]QJ[44]=C[j]QJ[21]=nil QJ[45]=QJ[44](QJ[46],QJ[47])QJ[42]=QJ[43][QJ[45]]QJ[40]=QJ[41][QJ[42]]QJ[42]=C[k]QJ[46],QJ[45]=6964842914264,y(19530)QJ[43]=C[j]QJ[44]=QJ[43](QJ[45],QJ[46])QJ[41]=QJ[42][QJ[44]]QJ[39]=QJ[40][QJ[41]]QJ[36]={QJ[37],QJ[38],QJ[39]}QJ[33]={QJ[34];QJ[35];QJ[36]}QJ[36],QJ[28]=21015326419743,y(18084)QJ[32]=QJ[32](QJ[31],QJ[33])QJ[28],QJ[29]=QJ[27][QJ[28]],{[QJ[30]]=QJ[32]}QJ[30]=y(17814)QJ[28]=QJ[28](QJ[27],QJ[29])QJ[29]=m()C[QJ[29]]=QJ[28]QJ[28]=C[Q]QJ[32]=C[k]QJ[35]=y(19256)QJ[33]=C[j]V=M(V)QJ[34]=QJ[33](QJ[35],QJ[36])QJ[31]=QJ[32][QJ[34]]QJ[30]=QJ[28][QJ[30]]QJ[32]=i(2804801,{QJ[12];QJ[17];Q;k,j,z,QJ[20],QJ[23];QJ[26],QJ[29]})QJ[33],QJ[36]=.5,24753354373836 QJ[30]=QJ[30](QJ[28],QJ[31],QJ[32],QJ[33])QJ[28]=C[Q]QJ[20]=M(QJ[20])QJ[32]=C[k]QJ[35]=y(18695)QJ[33]=C[j]QJ[34]=QJ[33](QJ[35],QJ[36])QJ[31]=QJ[32][QJ[34]]QJ[33]=C[k]QJ[36],QJ[37]=y(18324),9922644954225 QJ[12]=M(QJ[12])QJ[34]=C[j]QJ[23]=M(QJ[23])QJ[35]=QJ[34](QJ[36],QJ[37])QJ[32]=QJ[33][QJ[35]]QJ[26]=M(QJ[26])QJ[38]=15897116559546 QJ[34]=C[k]QJ[17]=M(QJ[17])k=M(k)QJ[35]=C[j]QJ[37],QJ[30]=y(18350),y(17590)QJ[36]=QJ[35](QJ[37],QJ[38])Q=M(Q)QJ[27]=nil QJ[33]=QJ[34][QJ[36]]QJ[30]=QJ[28][QJ[30]]QJ[29]=M(QJ[29])z=M(z)QJ[30]=QJ[30](QJ[28],QJ[31],QJ[32],QJ[33])j=M(j)else H,P=q,not D t,q=P,P and 882731 or 9130538 end end else if 3925791>q then if 3911915>q then if 3888968>q then N,k=not j,q q,Q=N and 4408671 or 10539669,N elseif 3899371>q then q=QJ[4]q=QJ[3]and 3439648 or 6755786 else q,R=9557562<=11160328,{}C[r[1]]=q q=S[y(19324)]end else if 3922350>q then I=q W=C[r[1]]z=C[r[2]]b,t=y(18697),29249255248012 v=C[r[3]]l=v(b,t)V=z[l]O=W[V]V=C[r[2]]l,b=y(17634),2570911291572 z=C[r[3]]v=z(l,b)W=V[v]Y=O[W]q,T=Y and 7652600 or 15086794,Y else o,q=a,J q=10813955 end end else if q>3936542 then if q<3941367 then q=p q=e and 1644834 or 12944505 else QJ[62]=C[r[2]]QJ[73]=C[r[3]]QJ[55]=q QJ[74]=C[r[4]]QJ[76],QJ[77]=y(18122),31490810795285 QJ[75]=QJ[74](QJ[76],QJ[77])QJ[76]=8789714568556 QJ[63]=QJ[73][QJ[75]]QJ[61]=QJ[62][QJ[63]]QJ[75]=y(17769)QJ[63]=C[r[3]]QJ[73]=C[r[4]]QJ[74]=QJ[73](QJ[75],QJ[76])QJ[62]=QJ[63][QJ[74]]QJ[60]=QJ[61]==QJ[62]q,QJ[54]=QJ[60]and 14295299 or 12751078,QJ[60]end else if 3928918>q then D=C[r[1]]Y=y(19368)T=C[r[2]]O,q=14338326401353,10674696 I=T(Y,O)N=D[I]k=h[N]N=2 Q=k>N R=Q elseif 3930985>q then QJ[3],q,hJ=11093754320384,RJ,y(18423)CJ=S[hJ]QJ[6],QJ[4],QJ[5],QJ[2]=15366274208814,12686372200256,11371813556382,y(18037)mJ=C[r[2]]jJ=C[r[3]]QJ[1]=jJ(QJ[2],QJ[3])hJ=mJ[QJ[1]]RJ=CJ[hJ]jJ=C[r[2]]QJ[1]=C[r[3]]QJ[3]=y(18533)QJ[2]=QJ[1](QJ[3],QJ[4])mJ=jJ[QJ[2]]QJ[4]=y(18188)QJ[1]=C[r[2]]QJ[2]=C[r[3]]QJ[3]=QJ[2](QJ[4],QJ[5])jJ=QJ[1][QJ[3]]QJ[2]=C[r[2]]QJ[3]=C[r[3]]QJ[5]=y(18111)QJ[4]=QJ[3](QJ[5],QJ[6])QJ[6]=y(18272)QJ[1]=QJ[2][QJ[4]]QJ[3]=C[r[2]]QJ[4]=C[r[3]]QJ[7]=31184167983659 QJ[5]=QJ[4](QJ[6],QJ[7])QJ[6],QJ[4]=q,q QJ[2]=QJ[3][QJ[5]]QJ[5],q=p,p and 11434322 or 16400997 else QJ[34],QJ[26],QJ[35]=y(18848),H,9588409501565 C[r[13]]=QJ[26]QJ[28]=C[r[15]]QJ[31]=C[r[3]]QJ[32]=C[r[4]]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[34]=20817338132722 QJ[30]=QJ[31][QJ[33]]QJ[29]=QJ[17][QJ[30]]QJ[30]=H QJ[28][QJ[29]]=QJ[30]QJ[28]=C[r[2]]QJ[40]=27029451222246 QJ[30]=C[r[3]]QJ[33]=y(17884)QJ[31]=C[r[4]]QJ[32]=QJ[31](QJ[33],QJ[34])QJ[39]=y(18278)QJ[29]=QJ[30][QJ[32]]QJ[32]=q QJ[34]=C[r[2]]QJ[36]=C[r[3]]QJ[37]=C[r[4]]QJ[38]=QJ[37](QJ[39],QJ[40])QJ[35]=QJ[36][QJ[38]]QJ[33]=QJ[34][QJ[35]]QJ[32],QJ[34],QJ[36]=1,0,y(19083)QJ[31]=QJ[33]or QJ[34]QJ[30]=QJ[31]+QJ[32]QJ[28][QJ[29]]=QJ[30]QJ[28]=C[r[2]]QJ[30]=C[r[3]]QJ[33],QJ[34]=y(18251),7511195626247 QJ[31]=C[r[4]]QJ[32]=QJ[31](QJ[33],QJ[34])QJ[29]=QJ[30][QJ[32]]QJ[40],QJ[38],QJ[32]=17546624503549,y(17918),y(19488)QJ[31]=S[QJ[32]]QJ[37]=7978821623056 QJ[33]=C[r[3]]QJ[39]=9320825472576 QJ[34]=C[r[4]]QJ[35]=QJ[34](QJ[36],QJ[37])QJ[37]=15522071430308 QJ[32]=QJ[33][QJ[35]]QJ[30]=QJ[31][QJ[32]]QJ[33]=C[r[3]]QJ[36]=y(18215)QJ[34]=C[r[4]]QJ[35]=QJ[34](QJ[36],QJ[37])QJ[32]=QJ[33][QJ[35]]QJ[35]=C[r[3]]QJ[36]=C[r[4]]QJ[37]=QJ[36](QJ[38],QJ[39])QJ[34]=QJ[35][QJ[37]]QJ[33]=QJ[17][QJ[34]]QJ[36]=C[r[3]]QJ[39]=y(19698)QJ[37]=C[r[4]]QJ[38]=QJ[37](QJ[39],QJ[40])QJ[35]=QJ[36][QJ[38]]QJ[34]=QJ[17][QJ[35]]QJ[31]=QJ[30](QJ[32],QJ[33],QJ[34])QJ[28][QJ[29]]=QJ[31]QJ[28]=C[r[5]]QJ[37]=y(17648)QJ[31]=C[r[3]]QJ[34],QJ[35]=y(19213),20436481236154 QJ[32]=C[r[4]]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[33],QJ[38],QJ[29]=y(19488),19715994278075,y(17590)QJ[32]=S[QJ[33]]QJ[40]=29260907828749 QJ[34]=C[r[3]]QJ[35]=C[r[4]]QJ[39]=y(17589)QJ[36]=QJ[35](QJ[37],QJ[38])QJ[33]=QJ[34][QJ[36]]QJ[38],QJ[41]=4385451304342,17030715183493 QJ[31]=QJ[32][QJ[33]]QJ[34]=C[r[3]]QJ[37],QJ[29]=y(18639),QJ[28][QJ[29]]QJ[35]=C[r[4]]QJ[36]=QJ[35](QJ[37],QJ[38])QJ[33]=QJ[34][QJ[36]]QJ[36]=C[r[3]]QJ[37]=C[r[4]]QJ[38]=QJ[37](QJ[39],QJ[40])q,QJ[40]=7599983,y(19191)QJ[35]=QJ[36][QJ[38]]QJ[34]=QJ[17][QJ[35]]QJ[37]=C[r[3]]QJ[38]=C[r[4]]QJ[39]=QJ[38](QJ[40],QJ[41])QJ[36]=QJ[37][QJ[39]]QJ[35]=QJ[17][QJ[36]]QJ[32]=QJ[31](QJ[33],QJ[34],QJ[35])QJ[31]=4 QJ[29]=QJ[29](QJ[28],QJ[30],QJ[32],QJ[31])end end end end end else if q<4183104 then if 4093564>q then if q>4073368 then if q<4089443 then if q<4084454 then o,K=not I,q q,X=o and 8960729 or 16679403,o elseif q<4087782 then q,R=S[y(18647)],{}else D=C[r[2]]T=C[r[3]]Y,O=y(19190),16357750704535 I=T(Y,O)z,V=11293387116074,492858984731 N=D[I]k=j[N]N=2000 R=k or N N,v,k,W=q,5495788892708,R,y(18841)I=C[r[2]]Y=C[r[3]]O=Y(W,V)T=I[O]D=j[T]T=1000 R=D or T Y=C[r[2]]V,N,D=y(18298),R,q O=C[r[3]]W=O(V,z)z=y(17872)I=Y[W]T=h[I]I=0 R=T or I D=R O=C[r[2]]W=C[r[3]]R={}T=R R={}I=R V=W(z,v)Y=O[V]R=h[Y]q=R and 10970732 or 442505 end else if q<4092187 then O,Y,q=28936012452138,y(18968),7011373 D=C[r[2]]T=C[r[3]]I=T(Y,O)N=D[I]k=h[N]R=k else j=n[2]R=C[r[1]]Q,h=y(18798),n[1]Q=R[Q]Q=Q(R)q=not Q q=q and 4990734 or 14932717 end end else if q>4052758 then if 4061871>q then D,q=0,9431224 N=h>D Q=N else h=n[1]j=not h q,R=j and 1750259 or 4300363,j end else if 4041695>q then Y=C[r[2]]V=y(18110)O=C[r[3]]z,q=20810790547133,14589851 W=O(V,z)I=Y[W]T=N[I]R=T elseif q<4045451 then QJ[15],q=QJ[18],QJ[19]q=QJ[18]and 12665318 or 14826580 else W=C[r[4]]q,l=8132939,32519497210141 V=C[r[5]]v=y(18774)z=V(v,l)O=W[z]I=O end end end else if q>4151599 then if q<4157735 then QJ[3]=y(19453)jJ=C[r[2]]QJ[4]=9792005613925 QJ[1]=C[r[3]]QJ[2]=QJ[1](QJ[3],QJ[4])mJ=jJ[QJ[2]]GJ=k[mJ]mJ=GJ(F,b)GJ=90 SJ=mJ<=GJ q=SJ and 274201 or 11247615 elseif 4166641>q then QJ[20],QJ[21]=QJ[18](QJ[19],QJ[20])q=QJ[20]and 10795503 or 1693611 elseif 4175055>q then q=2859303>11100462 R={q}q=S[y(19043)]else q=QJ[20]QJ[21],QJ[20]=q,QJ[15]q=QJ[15]and 5055846 or 12311188 end else if q>4140399 then if q<4146106 then I,R,D,T=1788108<=1654617,nil,nil,0 q,O,Y=nil,15240862<=6886977,99999 R={q;R;D,T,I;Y,O}q=S[y(18064)]else X=#V K=0 H=X==K q=H and 7197706 or 8509008 end else if q<4094382 then k=C[r[2]]q,I,T=2523235,14762624473549,y(18704)N=C[r[3]]D=N(T,I)Q=k[D]j=h[Q]R=j elseif q<4114866 then U=y(18129)U=h[U]U=U(h,j,t)s=not U e,q=s,19259 else qJ,yJ,q,nJ=nil,nil,130304,nil end end end end else if 4263889>q then if q<4224482 then if 4200833>q then if 4193278>q then q=O q,T=6943994,Y elseif q<4195937 then q,qJ=3719096,GJ else O=12975678512436 k=C[r[3]]D=C[r[1]]Y=y(17986)T=C[r[2]]I=T(Y,O)T=q N=D[I]R=k[N]N,k=q,R D,q=k,k and 15567394 or 10065499 end else if 4213806>q then GJ,q=nil,295236 else q,o=K,29565641047099 P=H(X)l[b]=P l=C[r[2]]J=y(18599)H=C[r[3]]K,e=y(18261),30960815689864 P=C[r[4]]X=P(K,o)P=q b=H[X]o=C[r[3]]f=C[r[4]]a=f(J,e)K=o[a]o=17279207428157 X=O[K]J,K=y(18507),0 H=X or K l[b]=H l=C[r[2]]K=y(18901)H=C[r[3]]P=C[r[4]]X=P(K,o)P,e=q,5760710674934 b=H[X]o=C[r[3]]f=C[r[4]]a=f(J,e)K=o[a]o=25568933335170 X=O[K]K=0 H=X or K K=y(18953)l[b]=H l=C[r[2]]H=C[r[3]]P=C[r[4]]e=31247661753603 X=P(K,o)b=H[X]J,P=y(18973),q o=C[r[3]]f=C[r[4]]a=f(J,e)K=o[a]X=O[K]K,e,J=0,22426405175789,y(17657)H=X or K l[b]=H l=C[r[2]]H=C[r[3]]o=34684163028758 P=C[r[4]]K=y(18576)X=P(K,o)P=q b=H[X]o=C[r[3]]f=C[r[4]]a=f(J,e)J=y(18497)K=o[a]X=O[K]o,K=15700761998112,0 H=X or K l[b]=H K,e=y(18405),7706285007486 l=C[r[2]]H=C[r[3]]P=C[r[4]]X=P(K,o)b=H[X]o=C[r[3]]P=q f=C[r[4]]a=f(J,e)K=o[a]X=O[K]K=0 H=X or K l[b]=H b,J,e=q,y(18888),29783420063537 X=C[r[2]]o=C[r[3]]f=C[r[4]]a=f(J,e)K=o[a]a=y(19676)P=X[K]K=C[r[3]]J=26620854069412 o=C[r[4]]f=o(a,J)X=K[f]H=P==X q,l=H and 11757412 or 5077793,H end end else if 4253498>q then if q<4228255 then D,j=y(18152),y(19638)h=m()C[h]=n[1]R=S[j]T=33728004047055 Q=C[r[1]]k=C[r[2]]N=k(D,T)j=Q[N]q=R[j]R=q()Y,O,j=y(19518),6301505732633,R k=C[h]D=C[r[1]]T=C[r[2]]I=T(Y,O)N=D[I]Q=k[N]R=j-Q Q=.5 q=R<Q q=q and 12647347 or 3189849 elseif 4239781>q then Y,q=W,V q=1466621 else QJ[30]=17130084727560 QJ[24]=C[r[5]]QJ[26]=C[r[3]]QJ[27]=C[r[4]]QJ[29]=y(18376)QJ[28]=QJ[27](QJ[29],QJ[30])QJ[25]=QJ[26][QJ[28]]QJ[23]=QJ[24][QJ[25]]QJ[25]=C[r[3]]q,QJ[28],QJ[29]=2518298,y(19578),12384037023745 QJ[26]=C[r[4]]QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[22]=QJ[23][QJ[24]]QJ[20]=QJ[22]end else if 4258582>q then wJ,q=CJ,hJ q=3929634 else q,K,X=1794218,nil,nil end end end else if 4290076>q then if 4284174>q then if 4272082>q then q,SJ=15662203,CJ elseif 4279702>q then e=y(18129)e=j[e]e=e(j,Q,v)q,J=5829272,not e f=J else QJ[19],QJ[26],QJ[27]=q,y(17935),5838590665610 QJ[23]=C[r[3]]QJ[28]=26863996347454 QJ[24]=C[r[4]]QJ[25]=QJ[24](QJ[26],QJ[27])QJ[22]=QJ[23][QJ[25]]QJ[21]=QJ[15][QJ[22]]QJ[24]=C[r[3]]QJ[27]=y(19028)QJ[25]=C[r[4]]QJ[26]=QJ[25](QJ[27],QJ[28])QJ[23]=QJ[24][QJ[26]]QJ[22]=O[QJ[23]]QJ[20]=QJ[21]==QJ[22]QJ[18],q=QJ[20],QJ[20]and 4506297 or 14100795 end else if q<4286564 then k=C[r[3]]j,O=q,22328630693131 D=C[r[1]]Y=y(19241)T=C[r[2]]I=T(Y,O)N=D[I]Q=k==N R,q=Q,Q and 2182858 or 62572 else D=18254239246711 R=C[r[1]]j=C[r[2]]Q=C[r[3]]N=y(18492)k=Q(N,D)h=j[k]q=R[h]T,h,D=26314909564738,q,y(19551)R=C[r[1]]Q=C[r[2]]k=C[r[3]]N=k(D,T)j=Q[N]q=R[j]j,Q=q,not h q,R=Q and 8234372 or 7650145,Q end end else if 4296381>q then QJ[63]=y(19468)QJ[58]=C[r[5]]QJ[60]=C[r[3]]QJ[64]=17245569376177 QJ[61]=C[r[4]]QJ[62]=QJ[61](QJ[63],QJ[64])QJ[59]=QJ[60][QJ[62]]QJ[57]=QJ[58][QJ[59]]QJ[63]=20081328927232 QJ[59]=C[r[3]]QJ[62]=y(17874)QJ[60]=C[r[4]]QJ[61]=QJ[60](QJ[62],QJ[63])QJ[58]=QJ[59][QJ[61]]QJ[56]=QJ[57][QJ[58]]q,QJ[54]=16675224,QJ[56]elseif q<4301114 then Y=9402630751773 N=C[r[1]]D=C[r[2]]q,I=1750259,y(18042)T=D(I,Y)k=N[T]Q=h[k]j=not Q R=j elseif 4305134>q then a=y(19153)a,J=h[a],0 a=a(h,P)f=a==J q,K=4725151,f else F,U=not c,nJ+U p=s>=U p=F and p F=U>=s F=c and F p=F or p F=15016820 q=p and F p=6706212 q=q or p end end end end end else if q>3356578 then if 3521850>q then if 3452736>q then if 3410281>q then if q>3387821 then if q<3399938 then q=R and 8088449 or 6977851 else QJ[5],q=1,566551 QJ[4]=nJ+QJ[5]nJ=QJ[4]end else if q<3365090 then F=1 c=J[F]U,q=c,7650027 elseif q<3376608 then U,nJ=e(p,U)q=U and 11842716 or 15826430 else I,Y=q,not j T,q=Y,Y and 11922102 or 13552686 end end else if q<3434465 then if q<3418260 then q=v q,W=4229688,z elseif 3426943>q then V,z=q,y(18715)z=T[z]z=z(T,O)q,W=z and 1206290 or 14725313,z else QJ[21],QJ[30],QJ[29],QJ[19]=q,27327378480401,y(18310),q QJ[24]=C[r[5]]QJ[26]=C[r[3]]QJ[27]=C[r[4]]QJ[28]=QJ[27](QJ[29],QJ[30])QJ[25]=QJ[26][QJ[28]]QJ[23]=QJ[24][QJ[25]]QJ[28]=y(17922)QJ[25]=C[r[3]]QJ[26]=C[r[4]]QJ[29]=3454437145974 QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[22]=QJ[23][QJ[24]]q,QJ[20]=QJ[22]and 2518298 or 4249875,QJ[22]end else if 3442148>q then QJ[3]=C[r[1]]QJ[6]=C[r[3]]QJ[10]=27663918012254 QJ[7]=C[r[4]]QJ[9]=y(18367)QJ[8]=QJ[7](QJ[9],QJ[10])QJ[5]=QJ[6][QJ[8]]QJ[7]=q q,QJ[6]=jJ and 751689 or 5433896,jJ else l=C[r[2]]b=C[r[3]]H,P,q=y(17848),29589863551858,13277052 t=b(H,P)v=l[t]z=Y[v]V=not z O=V end end end else if q>3489737 then if 3515725>q then if 3496048>q then q,b=2800873,nil elseif q<3506347 then q=C[r[3]]R={q}q=S[y(19113)]else a,q=0,9160404 f=K>a R=f end else if 3518643>q then q,J=4591314,.85 a=X*J f=h>=a K=f else X=C[r[2]]K=C[r[3]]f,a=y(18544),26221996546093 o=K(f,a)P=X[o]q=11483873 H=z[P]P=0 t=H>P l=t end end else if q<3482998 then if q<3464413 then q=yJ q=GJ and 7267355 or 11648431 elseif 3474471>q then QJ[11]=not nJ q=QJ[11]and 14930087 or 3700383 else wJ=CJ jJ=P+wJ QJ[5]=0 QJ[1]=K+GJ QJ[3]=q QJ[4]=jJ>=QJ[5]QJ[2],q=QJ[4],QJ[4]and 13662186 or 15604249 end else if q<3485194 then f=y(18434)X=C[r[2]]q=7093166 K=C[r[3]]a=30858501967573 o=K(f,a)P=X[o]H=z[P]t=not H l=t else q=2470120 qJ=C[T]rJ=3000 yJ=qJ>=rJ R=yJ end end end end else if q<3643819 then if 3579921>q then if q>3552832 then if q<3568876 then e=U SJ=C[r[2]]GJ=C[r[3]]qJ,rJ=y(17684),19994547124554 yJ=GJ(qJ,rJ)dJ=y(17708)F=SJ[yJ]c=k[F]yJ=C[r[2]]wJ=30216380647599 qJ=C[r[3]]rJ=qJ(dJ,wJ)GJ=yJ[rJ]SJ=nJ[GJ]F=c(SJ,b)SJ=90 c=F<=SJ q=c and 16406139 or 1979891 else K,q=17722406174064,2034782 t=C[r[2]]H=C[r[3]]X=y(18019)P=H(X,K)b=t[P]l=j[b]v=#l V=v end else if 3533084>q then W,V=q,not Q q,O=V and 2509478 or 6235676,V elseif 3544569>q then QJ[19]=C[r[5]]QJ[21]=C[r[3]]QJ[24],QJ[25]=y(19594),24161608396900 QJ[22]=C[r[4]]QJ[23]=QJ[22](QJ[24],QJ[25])QJ[20]=QJ[21][QJ[23]]q=16547888 QJ[18]=QJ[19][QJ[20]]QJ[24],QJ[23]=13271249151267,y(18238)QJ[20]=C[r[3]]QJ[21]=C[r[4]]QJ[22]=QJ[21](QJ[23],QJ[24])QJ[19]=QJ[20][QJ[22]]QJ[17]=QJ[18][QJ[19]]QJ[14]=QJ[17]else O=0 X,V=y(19172),y(18829)W=S[V]t=C[r[1]]K=17415054080193 H=C[r[2]]P=H(X,K)b=t[P]l=T[b]b={W(l)}v,V,q,z=b[3],b[1],1261928,b[2]end end else if q>3609745 then if q<3629406 then T=not h q,R=T and 12719501 or 2868492,T else QJ[4],q=QJ[6],QJ[7]q=5335288 end else if q<3589794 then q,V,v=1139985,nil,nil elseif 3599191>q then q,QJ[63],QJ[64]=14935422,nil,nil else z,N=y(17756),y(18319)k=S[N]I=C[h]v=4483168880671 O=C[r[1]]W=C[r[2]]V=W(z,v)Y=O[V]T=I[Y]q=1108938 Y=C[r[1]]O=C[r[2]]z,V=10336231601798,y(19502)W=O(V,z)I=Y[W]D=T[I]N=k(D)D=C[r[1]]O,Y=15538627841319,y(18646)T=C[r[2]]I=T(Y,O)k=D[I]Q=N~=k R=Q end end end else if 3695820>q then if q<3681923 then if q<3658441 then q=QJ[11]q=QJ[9]and 9668818 or 10967965 elseif 3673675>q then hJ,q=GJ,14930254 else q,QJ[11]=13977946,9640874>=3762288 QJ[9]=QJ[11]end else if q<3688392 then H=q K=C[r[1]]p,e=34201821228920,y(17766)f=C[r[2]]a=C[r[3]]J=a(e,p)o=f[J]e=12560950696848 X=K[o]o=C[r[2]]J=y(18260)f=C[r[3]]a=f(J,e)K=o[a]P=X[K]q,t=P and 11779638 or 11901837,P else q=C[r[4]]Y=2190786195082 N=C[r[1]]D=C[r[2]]I=y(18730)T=D(I,Y)R=N[T]N=k q[R]=N W=1552609236651 q=C[r[4]]I=y(19332)N=C[r[1]]D=C[r[2]]Y,O=3579229566004,y(18698)T=D(I,Y)R=N[T]N=y(18526)N=k[N]T=C[r[1]]I=C[r[2]]Y=I(O,W)D=T[Y]N=N(k,D)q[R]=N q=2819917 end end else if 3700378>q then q=qJ q=yJ and 11904689 or 2184067 elseif 3703213>q then QJ[20],QJ[15]=8,q QJ[19]=f<QJ[20]QJ[18]=q q,QJ[17]=QJ[19]and 8833686 or 8444989,QJ[19]elseif q<3706381 then q=14789313 else q=QJ[26]q=QJ[25]and 7915899 or 5466221 end end end end else if 3250128>q then if 3203026>q then if 3191685>q then if q>3187164 then if 3188630>q then RJ,q=nil,8810158 else q=C[h]D,O,T=y(17878),y(17789),23597089049830 Q=C[r[1]]k=C[r[2]]N=k(D,T)R=Q[N]Q=j q[R]=Q R=y(17689)Q=B(5993073,{r[1];r[2];r[3],h;r[4]})q=S[R]R=q(Q)N=C[h]T=C[r[1]]W=12303055167292 I=C[r[2]]Y=I(O,W)D=T[Y]k=N[D]N=nil Q=k~=N R,q=Q,Q and 12085786 or 4854698 end else if 3165974>q then z,P=q,y(18348)b=C[r[2]]t=C[r[3]]X=3677417625352 H=t(P,X)l=b[H]v=Y[l]l,q=2000,12398834 V=v or l R=V elseif 3181241>q then c=y(18129)c=Q[c]c=c(Q,k,e)nJ,q=not c,405780 s=nJ else e,q=s,U q=11437772 end end else if 3197317>q then if q<3193571 then W,V,z=y(19425),30538794142708,18818009214494 I=C[r[1]]Y=C[r[2]]N=q O=Y(W,V)T=I[O]D=h[T]V,T=y(17585),0 R=D or T Y=C[r[1]]O=C[r[2]]D,N=q,R W=O(V,z)I=Y[W]T=j[I]I=0 R=T or I D=R R=N~=D q=R and 10381547 or 14834179 elseif 3193784>q then q=S[y(18197)]j=C[r[1]]h=#j k=nil Q=C[r[1]]j=Q[h]R={j}Q=C[r[1]]Q[h]=k else Y,W,I=4442434779462,12081105045573,y(18349)N=C[r[2]]O=y(17711)D=C[r[3]]T=D(I,Y)k=N[T]Q=h[k]k=0 R=Q or k Q=R T=C[r[2]]k=q I=C[r[3]]Y=I(O,W)D=T[Y]N=j[D]D=0 R=N or D k=R R=Q~=k q=R and 1196829 or 11372672 end else if 3201466>q then q=nil R={q}q=S[y(17809)]else q,R=S[y(18782)],{h}end end end else if 3227067>q then if 3221881>q then if 3208046>q then QJ[51],QJ[49]=21132721699800,y(19159)QJ[46]=C[r[3]]QJ[42],QJ[50]=q,25741651874767 QJ[47]=C[r[4]]QJ[48]=QJ[47](QJ[49],QJ[50])QJ[45]=QJ[46][QJ[48]]QJ[50]=y(18592)QJ[44]=QJ[38][QJ[45]]QJ[47]=C[r[3]]QJ[48]=C[r[4]]QJ[49]=QJ[48](QJ[50],QJ[51])QJ[46]=QJ[47][QJ[49]]QJ[45]=O[QJ[46]]QJ[43]=QJ[44]==QJ[45]QJ[41],q=QJ[43],QJ[43]and 11207439 or 13895498 elseif 3217034>q then h=n[1]j=not h q,R=j and 9528822 or 14121095,j else q=6082392 N=C[r[2]]I,Y=y(19182),16777080448250 D=C[r[3]]T=D(I,Y)k=N[T]Q=j[k]R=Q end else if 3222018>q then a,b,f=17080035613544,q,y(18404)X=C[r[2]]K=C[r[3]]o=K(f,a)P=X[o]H=z[P]t=H==k q,l=t and 3485056 or 7093166,t else q=dJ q=rJ and 6538200 or 10910595 end end else if q<3244171 then if q<3233323 then R=y(19509)q=S[R]N=y(19166)R=q()j=C[r[1]]h,D=R,24126291856404 Q=C[r[2]]k=Q(N,D)R=j[k]q=h[R]q=q and 5909184 or 11491095 elseif 3237701>q then q=R and 15082695 or 2030209 else q=2280995>=3686030 R={q}q=S[y(19071)]end else if q<3247995 then X=24084482723411 b=C[r[1]]P=y(19051)t=C[r[2]]H=t(P,X)q=11696265 l=b[H]R=l else k,h,Q=n[4],n[1],n[3]R=C[r[1]]N=y(18798)N,j=R[N],n[2]N=N(R)q=not N q=q and 13772657 or 6430223 end end end end else if q<3299394 then if 3275519>q then if 3266493>q then if 3253276>q then QJ[36]=1500 QJ[35]=P>=QJ[36]QJ[33],q=QJ[35],15061430 elseif q<3260541 then q=W and 3337655 or 1139985 else k,Q,N,q=0,nil,3897855<2249004,nil T,R,D=11336339<4184250,nil,99999 R={q,R,Q;k,N,D,T}q=S[y(18286)]end else if q<3270702 then SJ,QJ[7],QJ[8]=mJ,y(17641),20197834596578 QJ[4]=C[r[3]]QJ[5]=C[r[4]]QJ[6]=QJ[5](QJ[7],QJ[8])QJ[3]=QJ[4][QJ[6]]QJ[2]=F[QJ[3]]QJ[1]=QJ[2][jJ]QJ[2],QJ[3]=QJ[1],q q=QJ[1]and 15008310 or 11931422 else QJ[14],QJ[15]=QJ[11](QJ[13],QJ[14])q=QJ[14]and 5353767 or 10348148 end end else if 3289829>q then if q<3277369 then l,b=z(v,l)q=l and 14647117 or 3254779 elseif q<3280366 then q=QJ[36]q,hJ=6508970,QJ[35]else f,q,H=nil,2024268,nil end else if q<3298086 then q,R=t,b q=5804318 else o=o+J X,GJ=o<=a,not F X=GJ and X GJ=a<=o GJ=F and GJ X=GJ or X GJ=13294473 q=X and GJ X=261781 q=q or X end end end else if q<3338734 then if q<3314539 then if 3301203>q then QJ[62]=34417864453084 QJ[58]=C[r[3]]QJ[59]=C[r[4]]QJ[61],q=y(18221),9088700 QJ[60]=QJ[59](QJ[61],QJ[62])QJ[57]=QJ[58][QJ[60]]QJ[56]=j[QJ[57]]QJ[55]=QJ[56][QJ[53]]QJ[32]=QJ[55]elseif q<3304583 then U=C[r[2]]J,F=a,y(19279)nJ=C[r[3]]SJ=3330612033456 c=nJ(F,SJ)s=U[c]p=D[s]s=p(e,K)R=s<=I q=R and 3010010 or 12037310 else Q,q=N,D q=6700089 end else if 3330004>q then GJ=C[r[5]]rJ,qJ,q=135,nil,7510349 yJ=GJ(qJ,o,rJ)c=yJ else V=W%T l=y(18117)q,K=9558058,15562745834911 v=S[l]b=C[r[2]]X=y(17850)t=C[r[3]]P=t(X,K)l=b[P]z=v[l]l=W/T v=z(l)z,l=2,12 b=l l=1 t=l l=0 P=l>t l=z-t end end else if q<3341301 then e=C[r[3]]U=y(18143)p=C[r[4]]f,nJ=q,34112295854532 s=p(U,nJ)J=e[s]a=b[J]f,J=100,0 o,q=a or J,13970766 K=o>f P=K elseif 3346372>q then QJ[54]=not QJ[15]QJ[52],q=QJ[54],11833525 elseif 3350867>q then I=C[r[4]]O=C[r[1]]z=y(18590)W=C[r[2]]v,q=12698953589534,14816008 V=W(z,v)Y=O[V]T=I[Y]z,V=114977878358,y(19617)Y=C[r[1]]O=C[r[2]]W=O(V,z)I=Y[W]D=T[I]k=D else q=hJ q=CJ and 10419262 or 3187411 end end end end end end end end else if q<6436724 then if q<5347375 then if q<4795040 then if q>4564392 then if q>4674394 then if q>4749742 then if q<4773814 then if 4765393>q then if q<4752914 then q=P q=H and 1880689 or 1014326 elseif 4759619>q then q,k=1886265,nil else q,QJ[24]=16384447,not SJ QJ[22]=QJ[24]end else if q<4766720 then mJ=C[r[2]]RJ,QJ[7],QJ[6]=q,17153126335886,y(18950)jJ=C[r[3]]QJ[3]=jJ(QJ[6],QJ[7])hJ=mJ[QJ[3]]CJ=yJ[hJ]q,wJ=CJ and 7488337 or 15465484,CJ else U,SJ,q=nil,nil,6760624 end end else if q<4781495 then q,QJ[37]=QJ[41],QJ[40]q=4943648 elseif 4784066>q then V,z,q=y(19293),16096734338266,236437 Y=C[r[2]]O=C[r[3]]W=O(V,z)I=Y[W]T=N[I]R=T elseif q<4789737 then p,q=U,nJ q=5677089 else mJ=C[r[3]]QJ[9],c=31980383452424,nil jJ=C[r[4]]QJ[20],QJ[8]=y(19227),y(18459)QJ[6]=jJ(QJ[8],QJ[9])jJ=q hJ=mJ[QJ[6]]QJ[9]=C[r[5]]QJ[17]=C[r[3]]QJ[21],jJ=12801614969655,0 QJ[18]=C[r[4]]QJ[19]=QJ[18](QJ[20],QJ[21])QJ[15]=QJ[17][QJ[19]]QJ[20]=15346711959345 QJ[8]=QJ[9][QJ[15]]QJ[15]=C[r[3]]QJ[21],QJ[19]=31011488730264,y(18248)QJ[17]=C[r[4]]QJ[18]=QJ[17](QJ[19],QJ[20])QJ[19],QJ[20]=22206117763272,y(18442)QJ[9]=QJ[15][QJ[18]]QJ[6]=QJ[8][QJ[9]]QJ[8],QJ[18]=.2,y(19718)mJ=QJ[6]or QJ[8]QJ[6]=0 QJ[9]=C[r[3]]QJ[15]=C[r[4]]QJ[17]=QJ[15](QJ[18],QJ[19])QJ[8]=QJ[9][QJ[17]]QJ[17]=C[r[3]]QJ[18]=C[r[4]]QJ[19]=QJ[18](QJ[20],QJ[21])QJ[15]=QJ[17][QJ[19]]QJ[9]=j[QJ[15]]QJ[17]=y(18441)QJ[15]=C[r[1]]QJ[17],QJ[18]=QJ[15][QJ[17]],q QJ[17]=QJ[17](QJ[15])q,QJ[15]=QJ[9]and 11978594 or 8056654,QJ[9]end end else if q>4714558 then if q>4734139 then if q<4744849 then q=7222169 else f,c,J=q,y(18755),y(18480)a=S[J]s=C[r[3]]F=10471503987878 U=C[r[4]]nJ=U(c,F)p=s[nJ]e=O[p]J=a(e)e,a=y(18480),0 o,F=J or a,y(18135)a,SJ=q,4975072829915 J=S[e]U=C[r[3]]nJ=C[r[4]]c=nJ(F,SJ)s=U[c]p=O[s]e=J(p)J=0 f,q=e or J,4521104 K=o<f P=K end else if 4720574>q then q=R and 12624762 or 8853055 elseif 4726190>q then R,q=K,o q=13874018 else l,v,q=nil,nil,16058968 end end else if q>4697890 then if 4710048>q then k,T=N(Q,k)q=k and 7709564 or 11852597 else Y=16272662066331 Q=C[r[1]]N=C[r[2]]D=C[r[3]]I=y(18988)T=D(I,Y)k=N[T]j=Q[k]T=y(18100)k=C[r[2]]N=C[r[3]]I=12485231645933 D=N(T,I)Q=k[D]h=j[Q]R,q=h,h and 2746318 or 4486261 end else if q<4683634 then QJ[52]=C[r[2]]QJ[54]=C[r[3]]QJ[55]=C[r[4]]QJ[61],q,QJ[62]=y(18304),6622908,15487269840484 QJ[60]=QJ[55](QJ[61],QJ[62])QJ[53]=QJ[54][QJ[60]]QJ[63]=32349797582382 QJ[55]=C[r[3]]QJ[60]=C[r[4]]QJ[62]=y(19154)QJ[61]=QJ[60](QJ[62],QJ[63])QJ[54]=QJ[55][QJ[61]]QJ[52][QJ[53]]=QJ[54]elseif 4687144>q then q=2149018 else QJ[19],QJ[17]=q,q QJ[22]=C[r[5]]QJ[27]=y(17653)QJ[24]=C[r[3]]QJ[28]=27025777515463 QJ[25]=C[r[4]]QJ[26]=QJ[25](QJ[27],QJ[28])QJ[23]=QJ[24][QJ[26]]QJ[21]=QJ[22][QJ[23]]QJ[26],QJ[27]=y(18098),16614526316470 QJ[23]=C[r[3]]QJ[24]=C[r[4]]QJ[25]=QJ[24](QJ[26],QJ[27])QJ[22]=QJ[23][QJ[25]]QJ[20]=QJ[21][QJ[22]]QJ[18],q=QJ[20],QJ[20]and 6402267 or 6963927 end end end end else if q>4613109 then if 4638542>q then if q<4631827 then if q<4617544 then N=#j Q,q=N,5279379 elseif q<4625549 then q=QJ[13]q=QJ[11]and 3678328 or 7578933 else q=V q=W and 16147708 or 8444211 end else if q<4634042 then l=0 v=V>l q,W=16146135,v else I,q=O,W q=O and 8132939 or 4047378 end end else if q<4649973 then if 4643658>q then q=QJ[15]and 9907409 or 6572089 elseif 4645951>q then N=y(19219)j=C[r[1]]D=13112287974022 Q=C[r[2]]k=Q(N,D)R=j[k]q=h[R]j,k=q,q Q,q=j,j and 4614778 or 5279379 else O=Y>=Q q=O and 10387905 or 2362643 end else if q<4660251 then t=q P=C[k]H=not P q,b=H and 14703683 or 15164523,H else a,K,X=10219745428105,4041687572797,y(19169)t=C[r[2]]q=10210477 H=C[r[3]]P=H(X,K)b=t[P]l=Y[b]H=C[r[1]]X=C[r[2]]f=y(17999)K=C[r[3]]o=K(f,a)P=X[o]t=H[P]P=C[r[2]]o,f=y(19667),14935958647806 X=C[r[3]]K=X(o,f)H=P[K]b=t[H]v=l==b V=v end end end else if 4591582>q then if q>4578652 then if 4588751>q then R=y(17731)q=S[R]R=q(Q)N=R q=N and 11523123 or 8455892 else q=o q=K and 1133195 or 10142661 end else if q<4566183 then QJ[34]=35000000 QJ[33]=X>=QJ[34]QJ[31],q=QJ[33],13533141 elseif q<4568665 then q,QJ[52],QJ[53],QJ[36]=11835320,nil,nil,nil else H=L(7500683,{N})q=S[y(19448)]P={H()}R={G(P)}end end else if q>4601482 then if q<4610006 then jJ=0 mJ=o==jJ q=mJ and 10121862 or 2021245 else q=R and 8576258 or 4285375 end else if 4592853>q then q=C[r[1]]v,D=28116470666309,R R=y(18441)R=q[R]R=R(q)V,T,t,W=21548636915165,R,9682086465268,y(19033)I=C[r[2]]Y=C[r[3]]O=Y(W,V)z=y(18799)R=I[O]b=y(17825)q=j[R]I=q R=C[r[1]]O=C[r[2]]W=C[r[3]]V=W(z,v)Y=O[V]q=R[Y]z=C[r[2]]v=C[r[3]]l=v(b,t)Y=q V=z[l]W=j[V]O=not W q,R=O and 2204549 or 3523122,O elseif 4594124>q then Y,q=W,V q=11949702 else QJ[31]=C[r[3]]QJ[35],QJ[34]=9067241316913,y(19504)QJ[32]=C[r[4]]QJ[33]=QJ[32](QJ[34],QJ[35])q=15236397 QJ[28]=QJ[31][QJ[33]]QJ[25]=QJ[28]end end end end end else if q>4449344 then if q<4511676 then if q>4486186 then if 4498583>q then if 4488219>q then N=C[r[1]]O=y(17628)T=C[r[2]]j,W=q,7427546826469 I=C[r[3]]Y=I(O,W)D=T[Y]Y=y(18945)k=N[D]D=C[r[2]]T=C[r[3]]O=33726222380450 I=T(Y,O)N=D[I]Q=k[N]q,h=Q and 1814506 or 10123983,Q elseif q<4490523 then R,K=y(18898),q R=N[R]R=R(N,P)R,p=1,y(19382)a=C[r[2]]s=25766888143677 J=C[r[3]]e=J(p,s)f=a[e]o=N[f]X,q=o,o and 1398008 or 13827314 else q=9878806 QJ[37]=C[r[18]]QJ[49]=y(17588)QJ[46]=C[r[3]]QJ[50]=22152763293461 QJ[47]=C[r[4]]QJ[48]=QJ[47](QJ[49],QJ[50])QJ[45]=QJ[46][QJ[48]]QJ[46]={QJ[37](QJ[45])}QJ[42],QJ[43]=QJ[46][1],QJ[46][2]QJ[34],QJ[35],QJ[44]=QJ[42],QJ[43],QJ[46][3]QJ[36]=QJ[44]end else if q<4506834 then QJ[29]=17919041820041 QJ[25]=C[r[3]]QJ[26]=C[r[4]]QJ[21],QJ[28]=q,y(18617)QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[23]=QJ[15][QJ[24]]QJ[24]=2 QJ[22]=QJ[23]==QJ[24]q,QJ[20]=QJ[22]and 516385 or 2535004,QJ[22]else q=4741050 end end else if q<4473944 then if 4454236>q then P=C[r[2]]f,b,o=18047351952366,q,y(17960)X=C[r[3]]K=X(o,f)H=P[K]t=z[H]l,q=t,t and 15520090 or 9737892 elseif q<4463956 then q=SJ q=F and 9574213 or 5734856 else Y,q=W,V q=4190878 end else if q<4482595 then q=2005119 else q,R=S[y(18187)],2433944>=6049922 R={R}end end end else if 4521460>q then if q>4519218 then if 4520331>q then q=l q=V and 13310185 or 11614863 else q=X q=P and 1246438 or 1767882 end else if q<4516764 then QJ[70],q=not QJ[15],8761414 QJ[68]=QJ[70]elseif q<4518213 then QJ[15],q=QJ[18],QJ[19]q=9473651 else T=y(17586)R=C[r[1]]k=C[r[2]]N=C[r[3]]I=31319797837984 D=N(T,I)T=y(18425)Q=k[D]q=R[Q]I=4493384425120 k=C[r[2]]N=C[r[3]]D=N(T,I)Q=q R=k[D]q=Q[R]R,k=y(18441),q q=C[r[1]]R=q[R]R=R(q)N=R D=not N q,R=D and 4406560 or 11104589,D end end else if q<4524134 then z,v=y(18241),21120735582828 O=C[r[1]]W=C[r[2]]V=W(z,v)q=12160388 Y=O[V]I=D[Y]T=not I R=T elseif 4534313>q then v,l,q=nil,nil,8718051 elseif q<4552403 then O,R,v=y(18220),y(18312),y(19364)R,V=T[R],y(18220)V,K=T[V],.8 R=R(T,h)W,P,O=R,.4,T[O]R,H=y(18312),.2 R,q=T[R],11789319 O=O(T,h)R=R(T,j)X=.6 V=V(T,j)z,t=R,{H;P;X,K}R=S[v]H={R(t)}b,l,v=H[3],H[2],H[1]else R,q={},S[y(17945)]end end end else if q>4405294 then if q>4428867 then if q<4435853 then if q<4431541 then q=14826156 elseif q<4434231 then QJ[19],QJ[16],q,QJ[22]=31154026821800,5773329326320,QJ[13],15525337101622 QJ[15],QJ[13]=y(18346),0 QJ[10]=QJ[12]or QJ[13]QJ[12]=C[r[2]]QJ[13]=C[r[3]]QJ[18]=y(18868)QJ[14]=QJ[13](QJ[15],QJ[16])QJ[16],QJ[21]=y(19173),29060989814865 QJ[11]=QJ[12][QJ[14]]QJ[13]=C[r[2]]QJ[17]=21086919274917 QJ[14]=C[r[3]]QJ[20]=14904762608303 QJ[15]=QJ[14](QJ[16],QJ[17])q=11787805 QJ[12]=QJ[13][QJ[15]]QJ[13]=y(19018)QJ[13]=Q[QJ[13]]QJ[13]=QJ[13](Q,e)QJ[15]=C[r[2]]p=nil QJ[16]=C[r[3]]QJ[17]=QJ[16](QJ[18],QJ[19])QJ[14]=QJ[15][QJ[17]]QJ[16]=C[r[2]]QJ[17]=C[r[3]]QJ[19]=y(18602)QJ[18]=QJ[17](QJ[19],QJ[20])QJ[15]=QJ[16][QJ[18]]QJ[17]=C[r[2]]QJ[18]=C[r[3]]QJ[20]=y(18513)QJ[19]=QJ[18](QJ[20],QJ[21])QJ[16]=QJ[17][QJ[19]]QJ[18]=C[r[2]]QJ[19]=C[r[3]]QJ[21]=y(17909)QJ[20]=QJ[19](QJ[21],QJ[22])QJ[17]=QJ[18][QJ[20]]QJ[5]={[QJ[6]]=J;[QJ[7]]=e;[QJ[8]]=s;[QJ[9]]=QJ[10];[QJ[11]]=U;[QJ[12]]=QJ[13];[QJ[14]]=nJ;[QJ[15]]=SJ,[QJ[16]]=QJ[1],[QJ[17]]=QJ[2]}nJ,QJ[1],U,QJ[2]=nil,nil,nil,nil QJ[4]=QJ[3](z,QJ[5])s,SJ=nil,nil else p,s=y(18323),28130765811361 a=C[r[2]]J=C[r[3]]K,q=y(18129),13295889 e=J(p,s)K=h[K]f=a[e]o=V[f]K=K(h,j,o)X=not K H=X end else if 4443355>q then a=y(18198)a,o=h[a],q a=a(h,P)f=not a q,K=f and 4301866 or 4725151,f else q,U=S[y(18565)],14050032<10712939 R={U}end end else if q>4408891 then if 4418955>q then q=z q=V and 14164836 or 11343695 else q=C[r[1]]R=y(19167)R=q[R]R=R(q)N,Q=q,R k,q=Q,Q and 10332205 or 585196 end else if q<4406462 then a,q=nil,15251889 elseif 4407615>q then q=R and 4145980 or 15910860 else q,R=k,Q q=7266413 end end end else if q>4354850 then if q<4387106 then if q<4358193 then q=K q=X and 11861566 or 7407616 elseif 4369740>q then v=33475804086358 O=C[r[2]]W=C[r[3]]T,z=q,y(17933)V=W(z,v)Y=O[V]I=h[Y]Y=0 W=C[r[2]]R=I or Y T=R V=C[r[3]]I,l,v=q,7318092143917,y(19623)z=V(v,l)O=W[z]W=y(18117)Y=j[O]O=0 R=Y or O O=S[W]I=R V=C[r[2]]l,b=y(19627),1702953156887 z=C[r[3]]v=z(l,b)W=V[v]Y=O[W]W=T-I O=Y(W)Y=100 R=O>Y q=R and 12800898 or 1145015 else QJ[2]=3000 QJ[1]=s<=QJ[2]q,mJ=9702567,QJ[1]end else if 4399670>q then QJ[1]=y(18089)hJ=C[r[3]]QJ[2]=26832259626871 mJ=C[r[4]]jJ=mJ(QJ[1],QJ[2])CJ=hJ[jJ]SJ=GJ[CJ]q=SJ and 12150951 or 10303559 else q,rJ=13749749,1 qJ=a+rJ a=qJ end end else if 4318312>q then if 4310612>q then q=c c=0 R=nJ or c U,F,nJ=R,0,q c=I>F q=c and 9902974 or 7866816 elseif q<4313603 then R=y(18829)q=S[R]z,V=16766907089276,y(17612)Y=C[r[2]]O=C[r[3]]W=O(V,z)I=Y[W]T=h[I]I={q(T)}N,R=I[2],I[1]T,q,D=R,2075862,I[3]else k,N=Q,q q=Q and 10462200 or 6745049 end else if q<4337520 then q=J q=a and 1753224 or 12838413 else q,W=3747424,not D Y=W end end end end end end else if q<5051378 then if q>4944417 then if q>5013360 then if 5044231>q then if 5020952>q then if q<5019132 then q=12765011 elseif 5019768>q then I=C[r[4]]q,v,z=10698916,28005698420831,y(19584)O=C[r[1]]W=C[r[2]]V=W(z,v)Y=O[V]T=I[Y]Y=C[r[1]]z=30985186844890 O=C[r[2]]V=y(18184)W=O(V,z)I=Y[W]D=T[I]k=D else R,q=T,I q=1855184 end else if 5032992>q then q=3597927 else R=C[j]q=y(17845)q=N[q]q=q(N,R)D=q T=not D R,q=T,T and 12160388 or 4521817 end end else if q<5045008 then R=C[r[1]]j=C[r[2]]D=20012411695324 Q=C[r[3]]N=y(19049)k=Q(N,D)h=j[k]q=R[h]h=q q,R=h and 16431665 or 3057359,h elseif 5047589>q then T=y(18423)R=S[T]V=34684752365095 I=C[r[1]]Y=C[r[2]]W=y(18194)O=Y(W,V)T=I[O]q=R[T]I=1 T=h-I R=q(D,T)q=12203627 elseif q<5049960 then R,J,q,e=15424676>=1232890,nil,5148172,nil p,X=nil,R else W=Q-O Y,V=I,90 R=W<V q=R and 12521386 or 11128040 end end else if q<4979764 then if q<4964889 then if 4951433>q then q,R=V,W q=11658709 elseif 4957684>q then D=C[r[1]]q,Y=12419404,y(19742)T=C[r[2]]O=31673364080656 I=T(Y,O)N=D[I]k=Q[N]R=k else l=C[r[2]]H=y(19753)b=C[r[3]]P=27310169769939 t=b(H,P)v=l[t]q=8038601 z=Y[v]V=not z W=V end else if 4975345>q then QJ[33],q=QJ[35],QJ[36]q=QJ[35]and 3251773 or 15061430 else l=C[r[5]]K,X=32135740947781,y(19539)t=C[r[3]]H=C[r[4]]P=H(X,K)b=t[P]X=27892026358764 v=l[b]P=y(18738)b=C[r[3]]t=C[r[4]]q=4630789 H=t(P,X)l=b[H]z=v[l]W=z end end else if q<4993536 then if 4981530>q then q,RJ=13749749,1 wJ=p+RJ p=wJ elseif 4986433>q then rJ,q=wJ,RJ q=wJ and 14680727 or 6865848 else q,R=0,0 R={q,R}q=S[y(18886)]end else if q<5002174 then V=C[r[1]]l,I=y(17719),q z=C[r[2]]b=20729963220086 v=z(l,b)W=V[v]O=j[W]Y=not O T,q=Y,Y and 1111143 or 1898255 else V=C[r[1]]b,I=15422590288655,q z=C[r[2]]l=y(18905)v=z(l,b)W=V[v]O=Q[W]W=200 Y=O==W T,q=Y,Y and 8758784 or 6249941 end end end end else if q<4861721 then if 4826812>q then if q>4807391 then if q<4812972 then O=C[r[2]]l=3370867482377 W=C[r[3]]z,v=y(18676),17833647736485 V=W(z,v)v=y(18176)Y=O[V]I=h[Y]T=not I R=not T T=R W=C[r[2]]V=C[r[3]]z=V(v,l)O=W[z]Y=j[O]I=not Y R=not I I=R R=T~=I q=R and 1677246 or 13384346 else q=V q,Y=W and 15060023 or 1093274,W end else if 4799056>q then l,v=32065281993753,y(19423)W=C[r[1]]V=C[r[2]]z=V(v,l)O=W[z]q=h[O]O=q W,q=O,O and 9752866 or 16112244 elseif 4804213>q then QJ[10],q=QJ[12],QJ[13]q=16149767 else q=f f=y(18910)f,J=D[f],q f=f(D,o)a,q=f,f and 5770562 or 4321344 end end else if 4851318>q then if q<4836639 then q=QJ[4]q=QJ[3]and 16100847 or 6722979 elseif q<4842771 then q=X q=P and 8834970 or 16528310 else q,z=16197530,nil end else if q<4858148 then R,q={R},S[y(18023)]else a,e=o(f,a)q=a and 10819105 or 5148172 end end end else if q>4910200 then if 4938757>q then if 4923024>q then V=q z=C[Y]W,q=z,z and 1520619 or 922124 elseif 4935778>q then q=I q,R=12719501,T else Y=y(19638)I=S[Y]v=19274484751860 O=C[r[3]]W=C[r[4]]z=y(18000)V=W(z,v)Y=O[V]N=I[Y]I=N()Y=C[r[8]]N=not Y q=N and 2067644 or 1353944 end else if 4941910>q then T=C[r[1]]W,O=18321324793610,y(18476)I=C[r[2]]Y=I(O,W)D=T[Y]N=Q[D]R,q=N,N and 2780195 or 14931947 else q=QJ[38]q=QJ[37]and 16704532 or 9490507 end end else if q>4886033 then if 4901793>q then q,T=O,Y q=4934214 else p,SJ=q,y(19626)nJ=C[r[2]]c=C[r[3]]GJ=32303874659958 F=c(SJ,GJ)U=nJ[F]s=Q[U]q,R=s and 8584124 or 8192600,s end else if 4864886>q then q=QJ[5]q,QJ[5]=13855518,0 QJ[2]=QJ[4]or QJ[5]mJ=QJ[2]elseif q<4872487 then q=CJ q=RJ and 11737017 or 12947034 else GJ=1 SJ=J[GJ]GJ,c=15898652<15357084,q F=SJ==GJ q,nJ=F and 12730444 or 15371443,F end end end end end else if q<5220766 then if q<5130320 then if 5070310>q then if q>5058685 then if q<5062931 then q=QJ[36]q=QJ[32]and 11504392 or 11835320 else R,q=Q,k q=14875409 end else if 5054084>q then q,GJ=16602259,nil elseif 5055810>q then QJ[3],QJ[4],QJ[5]=q,CJ,q q=CJ and 2493382 or 4861845 else QJ[27],QJ[22],QJ[28]=y(18575),y(17845),2326069742820 QJ[24]=C[r[3]]QJ[25]=C[r[4]]q,QJ[22]=12311188,QJ[15][QJ[22]]QJ[26]=QJ[25](QJ[27],QJ[28])QJ[23]=QJ[24][QJ[26]]QJ[22]=QJ[22](QJ[15],QJ[23])QJ[20]=QJ[22]end end else if q<5096744 then if 5077037>q then GJ=1 SJ=f+GJ f,q=SJ,4428935 elseif q<5080785 then o=C[r[2]]P,p=q,y(18960)a=C[r[3]]J=C[r[4]]s=21215223360253 e=J(p,s)p=466994623662 f=a[e]K=o[f]f=C[r[3]]a=C[r[4]]e=y(17697)J=a(e,p)o=f[J]X=K==o H,q=X,X and 8129886 or 5606840 else nJ=C[j]U,s=q,nJ q=nJ and 4877047 or 8951911 end else if 5111655>q then RJ=y(17687)RJ=T[RJ]RJ=RJ(T,rJ)q,dJ=2015805,RJ else W=not N Y,O=W,q q=W and 3747424 or 4353697 end end end else if q<5180704 then if q<5167709 then if 5147607>q then O,W=y(17990),3489184792513 T=C[r[1]]q=11738446 I=C[r[2]]Y=I(O,W)D=T[Y]N=k[D]R=N elseif 5152564>q then o=not X q=o and 8417920 or 13386394 else q,Y,I=12960719,nil,nil end else if 5178959>q then q=R and 7650471 or 461545 else O=y(19500)T=C[r[1]]W=11501371517380 I=C[r[2]]Y=I(O,W)q=12652504 D=T[Y]N=k[D]R=N end end else if 5201941>q then if q<5187143 then qJ=C[r[2]]wJ,RJ,GJ=y(18651),21722260637417,y(18010)GJ=D[GJ]rJ=C[r[3]]dJ=rJ(wJ,RJ)yJ=qJ[dJ]GJ=GJ(D,yJ,SJ)qJ=q q,yJ=GJ and 13082520 or 9871664,GJ elseif q<5195922 then QJ[77]=y(17739)QJ[63]=C[r[2]]QJ[82],q,QJ[78]=25917855921518,14787948,9935359948638 QJ[74]=C[r[3]]QJ[75]=C[r[4]]QJ[76]=QJ[75](QJ[77],QJ[78])QJ[78]=y(18655)QJ[73]=QJ[74][QJ[76]]QJ[75]=C[r[3]]QJ[76]=C[r[4]]QJ[77]=QJ[76](QJ[78],QJ[82])QJ[74]=QJ[75][QJ[77]]QJ[63][QJ[73]]=QJ[74]else U,nJ=p(s,U)q=U and 12978292 or 769487 end else if q<5212225 then v=C[r[2]]t=y(19076)l=C[r[3]]H=1485900720724 b=l(t,H)z=v[b]V=Q[z]v=q z,q=V,V and 8116895 or 15384115 else q=T q=D and 6605287 or 2273451 end end end end else if q<5291835 then if q<5247224 then if 5244714>q then if q<5231529 then QJ[9],q=3000,3639777 QJ[8]=s<=QJ[9]QJ[6]=QJ[8]elseif q<5243024 then z=C[r[2]]b,t=y(18703),5305045314761 v=C[r[3]]l=v(b,t)V=z[l]W=Y[V]q,O=W and 16098765 or 6436302,W else I,q=23017427781546,14356361 k=C[r[2]]N=C[r[3]]T=y(18971)D=N(T,I)Q=k[D]j=h[Q]R=j end else if q<5245435 then V=z C[r[6]]=V q=6893687 else a=C[r[3]]s=3860809357161 J=C[r[4]]p,X=y(17696),q e=J(p,s)f=a[e]o=b[f]f=1 K=o==f P,q=K,K and 3339813 or 13970766 end end else if q<5273847 then if q<5258571 then W=y(19364)R=S[W]v={R(O)}z,V,q,W=v[3],v[2],10807489,v[1]elseif 5269539>q then k,q=D,T q=15876947 else T=C[r[1]]Y=C[r[2]]V,z=y(17729),25581460805704 O=C[r[3]]q=823046 W=O(V,z)I=Y[W]D=T[I]I=C[r[4]]T=D(j,I)R=T end else if 5278289>q then q=8881344 else q=k k=0 R=Q or k Q,k=R,0 R=Q>k q=R and 4196196 or 11597079 end end end else if q>5333496 then if q<5336622 then q=QJ[5]q,QJ[2]=13981644,QJ[4]elseif q<5338150 then q=W and 14934034 or 15284779 elseif q<5339663 then N=C[r[1]]I=y(18839)D=C[r[2]]Y=4525003644752 T=D(I,Y)q=y(18526)q=k[q]R=N[T]q=q(k,R)q=q and 5913618 or 11699559 else e=y(19281)f=C[r[1]]p,X,q=6652792661442,y(18129),14509681 a=C[r[2]]J=a(e,p)o=f[J]K=O[o]X=j[X]X=X(j,Q,K)P=not X t=P end else if q>5317031 then if q<5326688 then V=C[r[4]]v=C[r[2]]l=C[r[3]]t,H,Y=y(18606),14227449779009,q b=l(t,H)z=v[b]t=4269503323071 W=V[z]z=C[r[2]]b=y(19234)v=C[r[3]]l=v(b,t)V=z[l]O=W==V I,q=O,O and 14756054 or 11917026 else D=y(19526)R=C[r[1]]Q=C[r[2]]T=14326711252153 k=C[r[3]]N=k(D,T)h=n[1]j=Q[N]D=25897645387107 q=R[j]j=C[r[2]]N=y(19192)Q=C[r[3]]k=Q(N,D)R=j[k]j=h h=nil q[R]=j q,R=S[y(18778)],{}end else if 5305448>q then hJ,CJ=q,dJ q=dJ and 4257121 or 8988848 elseif 5309497>q then J,K,q,a=0,0,f,3081838>=14461905 p,f,q=y(19364),0,10830103 X=o or f f=10824041<4687327 e=S[p]o=0 nJ={e(T)}U,p,s=nJ[3],nJ[1],nJ[2]else QJ[64],QJ[36],QJ[65]=q,1403193~=8607476,0 QJ[64],QJ[32],QJ[63]=QJ[62],QJ[36],QJ[55]or QJ[65]QJ[65]=q q=QJ[62]and 1805531 or 8531873 end end end end end end end else if q<5849814 then if q>5607345 then if q>5734882 then if 5821875>q then if q<5771618 then if q<5746144 then if 5737311>q then qJ=q rJ=c<T yJ,q=rJ,rJ and 12089273 or 12468115 elseif 5742732>q then T,h=23634421111774,n[1]R=C[r[1]]Q=C[r[2]]D=y(18018)k=C[r[3]]N=k(D,T)j=Q[N]q=R[j]j=C[r[2]]N=y(17812)Q=C[r[3]]D=15573181536765 k=Q(N,D)R=j[k]j=h q[R]=j q=C[r[4]]h=nil R=q()q,R=S[y(17873)],{}else T,q,t,R={I;Y;O},W,24004025493478,y(18939)O=C[r[4]]v,z=3639874368632,y(18185)W=C[r[5]]b=y(18437)V=W(z,v)Y=O[V]P,R=3570684387443,q[R]W=C[r[6]]z=C[r[4]]v=C[r[5]]H=y(18869)l=v(b,t)V=z[l]O=W[V]z=C[r[3]]l=C[r[4]]b=C[r[5]]t=b(H,P)v=l[t]t=y(18091)V=z[v]H=22325990187126 v=C[r[4]]l=C[r[5]]b=l(t,H)z=v[b]W=V[z]z,I=21848097881770,{Y;O,W}Q,Y={k,N,D,T,I},y(19576)k,l,b=y(17771),y(19570),5221347594214 k=h[k]j={k(h,Q)}O=25631526140534 R=R(q,G(j))q=C[r[7]]h=C[r[3]]D=C[r[4]]T=C[r[5]]I=T(Y,O)V=y(18336)N=D[I]I=y(19488)T=S[I]Y=C[r[4]]O=C[r[5]]W=O(V,z)z,V=25573052826094,y(18206)I=Y[W]D=T[I]Y=C[r[4]]O=C[r[5]]W=O(V,z)I=Y[W]O=C[r[6]]V=C[r[4]]z=C[r[5]]v=z(l,b)W=V[v]l=21337072639074 Y=O[W]T=D(I,Y)Y=C[r[3]]v=y(18489)W=C[r[4]]V=C[r[5]]z=V(v,l)v=20482161274796 O=W[z]I=Y[O]O=C[r[4]]W=C[r[5]]z=y(17597)V=W(z,v)Y=O[V]H,W=32460952057160,3510649139047 D=I[Y]k={N;T,D}T=C[r[4]]O=y(18396)I=C[r[5]]Y=I(O,W)D=T[Y]b,Y,v,z=y(19366),y(19488),20190526702649,y(18584)I=S[Y]O=C[r[4]]W=C[r[5]]t=14179111119123 V=W(z,v)R,z=y(18939),y(18920)Y=O[V]v=14952134168355 T=I[Y]O=C[r[4]]W=C[r[5]]V=W(z,v)Y=O[V]W=C[r[6]]z=C[r[4]]v=C[r[5]]l=v(b,t)b=23325165548010 V=z[l]O=W[V]I=T(Y,O)O=C[r[3]]t,l=y(18893),y(19708)V=C[r[4]]z=C[r[5]]v=z(l,b)W=V[v]Y=O[W]W=C[r[4]]v,R=y(18046),q[R]V=C[r[5]]X,l=y(17718),6061435046409 z=V(v,l)O=W[z]T=Y[O]N={D;I;T}I=C[r[4]]W,V=y(18482),25709789900937 Y=C[r[5]]O=Y(W,V)T=I[O]O=y(19488)Y=S[O]v=y(19433)W=C[r[4]]V=C[r[5]]l=19646856349101 z=V(v,l)l,v=23756696013208,y(19465)O=W[z]I=Y[O]P=26714589453261 W=C[r[4]]V=C[r[5]]z=V(v,l)O=W[z]V=C[r[6]]v=C[r[4]]l=C[r[5]]b=l(t,H)H=y(17963)z=v[b]W=V[z]z=C[r[6]]l=C[r[4]]b=C[r[5]]t=b(H,P)v=l[t]V=z[v]Y=I(O,W,V)W=C[r[3]]t=34798774559357 z=C[r[4]]b=y(19347)v=C[r[5]]l=v(b,t)b=9378198533554 V=z[l]O=W[V]V=C[r[4]]l=y(18400)z=C[r[5]]v=z(l,b)W=V[v]b=y(18598)I=O[W]D={T,Y;I}Q={k;N;D}k,O=y(17771),19233920745045 k,Y,v=h[k],y(17672),y(19399)j={k(h,Q)}R=R(q,G(j))q=C[r[8]]l=833929031 h=C[r[3]]D=C[r[4]]T=C[r[5]]I=T(Y,O)z=13633645761730 N=D[I]T=C[r[6]]Y=C[r[4]]V=y(18989)O=C[r[5]]W=O(V,z)I=Y[W]R=y(18939)D=T[I]Y=C[r[3]]W=C[r[4]]V=C[r[5]]z=V(v,l)O=W[z]I=Y[O]O=C[r[4]]z=y(19274)W=C[r[5]]v=8742691537733 V=W(z,v)Y=O[V]W=1852773857507 T=I[Y]k,K,O={N;D,T},4350996463395,y(19331)T=C[r[4]]z=y(19016)I=C[r[5]]Y=I(O,W)D=T[Y]v,Y,t=14803756700936,y(19488),14561560601110 I=S[Y]O=C[r[4]]W=C[r[5]]V=W(z,v)R,v,z=q[R],11378387871296,y(18636)Y=O[V]T=I[Y]O=C[r[4]]W=C[r[5]]V=W(z,v)Y=O[V]W=C[r[6]]z=C[r[4]]v=C[r[5]]l=v(b,t)V=z[l]O=W[V]l=C[r[3]]t=C[r[4]]H=C[r[5]]V=q P=H(X,K)b=t[P]v=l[b]X=21745037683795 b=C[r[4]]P=y(19024)t=C[r[5]]H=t(P,X)l=b[H]z=v[l]P,v,l=y(17862),6,y(19221)W,b=z or v,31822822577980 I=T(Y,O,W)O=C[r[3]]V=C[r[4]]z=C[r[5]]v=z(l,b)W=V[v]l=26528448076851 Y=O[W]W=C[r[4]]V=C[r[5]]v=y(18857)z=V(v,l)v=y(17645)O=W[z]W,V=y(17966),25776788310193 T=Y[O]N={D,I,T}I=C[r[4]]Y=C[r[5]]O=Y(W,V)l=8069145368823 T=I[O]O,X=y(19488),22881672484571 Y=S[O]W=C[r[4]]V=C[r[5]]z=V(v,l)O=W[z]I=Y[O]v,l=y(19111),673218224900 W=C[r[4]]V=C[r[5]]z=V(v,l)O=W[z]V=q v=C[r[6]]b=C[r[4]]t=C[r[5]]H=t(P,X)t=14546774641569 l=b[H]b=y(18542)z=v[l]v=0 W=z or v Y=I(O,W)W=C[r[3]]z=C[r[4]]v=C[r[5]]P=26688778227743 l=v(b,t)V=z[l]b=9714901351142 O=W[V]l=y(19200)V=C[r[4]]z=C[r[5]]v=z(l,b)W=V[v]I=O[W]D,W={T,Y;I},30155055393500 Q={k,N;D}k,O=y(17771),y(17655)k=h[k]j={k(h,Q)}R=R(q,G(j))b=y(19327)R=C[r[9]]z,v,t=y(18603),10962005506872,23567512767610 j=C[r[3]]T=C[r[4]]I=C[r[5]]Y=I(O,W)h=y(18939)D=T[Y]Y=y(19488)I=S[Y]O=C[r[4]]W=C[r[5]]V=W(z,v)Y=O[V]z=y(18987)T=I[Y]O=C[r[4]]v=2149223932628 W=C[r[5]]V=W(z,v)Y=O[V]W=C[r[6]]z=C[r[4]]v=C[r[5]]l=v(b,t)V=z[l]O=W[V]l=y(19510)I=T(Y,O)O=C[r[3]]V=C[r[4]]b=3314410410912 z=C[r[5]]H=10375935390232 v=z(l,b)l=30621299564283 W=V[v]Y=O[W]v=y(18634)W=C[r[4]]V=C[r[5]]z=V(v,l)O=W[z]W,t,l=y(18923),y(18472),684819978157 T=Y[O]v,N=y(18368),{D,I,T}I=C[r[4]]Y=C[r[5]]V=26014229940079 O=Y(W,V)T=I[O]O=y(19488)Y=S[O]W=C[r[4]]V=C[r[5]]z=V(v,l)O=W[z]l=22691953633494 I=Y[O]v=y(17678)W=C[r[4]]V=C[r[5]]X=32039336293851 z=V(v,l)O=W[z]V=C[r[6]]v=C[r[4]]l=C[r[5]]b=l(t,H)z=v[b]h=R[h]W=V[z]Y=I(O,W)W=C[r[3]]z=C[r[4]]t=23594262026640 v=C[r[5]]b=y(18274)l=v(b,t)V=z[l]O=W[V]V=C[r[4]]b=23501095540174 z=C[r[5]]l=y(19735)v=z(l,b)W=V[v]V=y(18908)I=O[W]H,D=y(17914),{T,Y;I}Y=C[r[4]]O=C[r[5]]l,z=y(19087),18006086777692 W=O(V,z)I=Y[W]W,b=y(19488),21986359262539 O=S[W]V=C[r[4]]z=C[r[5]]v=z(l,b)l=y(18230)W=V[v]Y=O[W]V=C[r[4]]b=34087639385707 z=C[r[5]]v=z(l,b)W=V[v]z=C[r[6]]l=C[r[4]]b=C[r[5]]t=b(H,P)H=34020927393498 v=l[t]V=z[v]O=Y(W,V)t=y(18344)V=C[r[3]]v=C[r[4]]l=C[r[5]]b=l(t,H)t=35146959356548 z=v[b]W=V[z]z=C[r[4]]b=y(17688)v=C[r[5]]l=v(b,t)P=y(18691)V=z[l]Y=W[V]T={I,O,Y}k={N,D;T}N,z,v=y(17771),y(17640),4725800816678 N=j[N]Q={N(j,k)}W=21931722434074 h=h(R,G(Q))R=C[r[10]]j=C[r[3]]T=C[r[4]]O=y(18567)I=C[r[5]]Y=I(O,W)l=y(17826)D=T[Y]I=C[r[6]]O=C[r[4]]W=C[r[5]]b=9848500144431 V=W(z,v)Y=O[V]T=I[Y]O=C[r[3]]V=C[r[4]]z=C[r[5]]v=z(l,b)W=V[v]l=33591746054194 Y=O[W]v=y(17904)W=C[r[4]]V=C[r[5]]z=V(v,l)O=W[z]I=Y[O]V,N=31867945499692,{D;T,I}I=C[r[4]]Y=C[r[5]]W=y(19449)O=Y(W,V)T=I[O]W=q v=C[r[3]]b=C[r[4]]t=C[r[5]]Y=q H=t(P,X)l=b[H]P,H=12927847421895,y(19575)z=v[l]l=C[r[4]]b=C[r[5]]t=b(H,P)v=l[t]V=z[v]q,O=V and 1113709 or 4635219,V end else if q<5758549 then I=C[r[3]]Y=C[r[4]]V,W=24616600407550,y(18112)O=Y(W,V)T=I[O]q,k=420632,T else nJ=C[r[2]]GJ,SJ=25548263076414,y(18435)c=C[r[3]]p=q F=c(SJ,GJ)U=nJ[F]s=f[U]q,e=s and 1715401 or 11437772,s end end else if q<5794191 then if q<5774742 then CJ,mJ,QJ[2],rJ=y(19251),11887802418425,21588249243372,y(18423)qJ=S[rJ]QJ[1]=y(19275)dJ=C[r[2]]wJ=C[r[3]]hJ=15159108426142 RJ=wJ(CJ,hJ)rJ=dJ[RJ]GJ=qJ[rJ]jJ=7535667708045 wJ=C[r[2]]RJ=C[r[3]]hJ=y(18109)CJ=RJ(hJ,mJ)dJ=wJ[CJ]RJ=C[r[2]]QJ[7],QJ[3],mJ=5583071242184,12283602013745,y(19635)CJ=C[r[3]]hJ=CJ(mJ,jJ)wJ=RJ[hJ]hJ=C[r[2]]mJ=C[r[3]]QJ[8]=32643240873187 jJ=mJ(QJ[1],QJ[2])CJ=hJ[jJ]RJ=H[CJ]QJ[1]=y(18446)hJ=C[r[2]]mJ=C[r[3]]QJ[2]=6926420417182 jJ=mJ(QJ[1],QJ[2])CJ=hJ[jJ]mJ=C[r[2]]QJ[6],QJ[2]=y(19140),y(19384)jJ=C[r[3]]QJ[1]=jJ(QJ[2],QJ[3])jJ=q hJ=mJ[QJ[1]]QJ[3]=C[r[2]]QJ[4]=C[r[3]]QJ[5]=QJ[4](QJ[6],QJ[7])QJ[2]=QJ[3][QJ[5]]QJ[1]=H[QJ[2]]QJ[2],QJ[4]=0,y(18432)mJ,QJ[7]=QJ[1]or QJ[2],11855652546552 QJ[1]=C[r[2]]QJ[6]=27396476554778 QJ[2]=C[r[3]]QJ[5]=25268776331948 QJ[3]=QJ[2](QJ[4],QJ[5])jJ=QJ[1][QJ[3]]QJ[2]=C[r[2]]QJ[5]=y(19060)QJ[3]=C[r[3]]QJ[4]=QJ[3](QJ[5],QJ[6])QJ[1]=QJ[2][QJ[4]]QJ[6],q=y(18059),14973767 QJ[3]=C[r[2]]QJ[4]=C[r[3]]QJ[5]=QJ[4](QJ[6],QJ[7])QJ[2]=QJ[3][QJ[5]]QJ[7]=y(17969)QJ[4]=C[r[2]]QJ[5]=C[r[3]]QJ[6]=QJ[5](QJ[7],QJ[8])QJ[3]=QJ[4][QJ[6]]rJ={[dJ]=v;[wJ]=RJ,[CJ]=X;[hJ]=mJ;[jJ]=o,[QJ[1]]=p,[QJ[2]]=a;[QJ[3]]=c}qJ=GJ(W,rJ)elseif q<5780437 then q=1120848 Y=C[r[5]]v,l=y(18483),17213405306544 W=C[r[3]]V=C[r[4]]z=V(v,l)v=21129479860144 O=W[z]z=y(19757)I=Y[O]O=C[r[3]]W=C[r[4]]V=W(z,v)Y=O[V]T=I[Y]R=T else q=CJ q,dJ=15669090,RJ end else if 5812823>q then q=l q=R and 7361605 or 11467500 else a=M(a)f=M(f)J,q=nil,10175525 o=M(o)t=M(t)e=M(e)p=M(p)end end end else if 5833827>q then if q<5829489 then if q<5825847 then I=0 T=#j q=7872711 D=T>I k=D elseif 5829370>q then K,q=f,a q=13479822 else t,b=not W,q l,q,v=t,t and 12982791 or 2288632,R end else if q<5831465 then T,D=not h,R R,q=T,T and 3234569 or 3384412 else QJ[20],QJ[21]=QJ[18](QJ[19],QJ[20])q=QJ[20]and 15486518 or 502853 end end else if 5836656>q then F,GJ=q,0 SJ=p>=GJ c,q=SJ,SJ and 10692773 or 12003527 elseif 5839230>q then h=n[1]R=C[r[1]]D=y(17905)Q=C[r[2]]T=16737390773367 k=C[r[3]]N=k(D,T)j=Q[N]D=11040565068328 q=R[j]j=C[r[2]]Q=C[r[3]]N=y(17796)k=Q(N,D)R=j[k]j=h q[R]=j q=C[r[4]]R=q()R,h,q={},nil,S[y(19034)]elseif q<5843234 then wJ,q=20,7168228 dJ=wJ*GJ rJ=o+dJ o=rJ else q=V q,T=3869487,W end end end else if 5667491>q then if q>5633805 then if 5660722>q then if q<5644800 then V=C[r[1]]b=10703242483259 z=C[r[2]]l=y(19439)v=z(l,b)W=V[v]O=T[W]b=28171873970415 V=C[r[1]]z=C[r[2]]l,q=y(19004),16675840 v=z(l,b)W=V[v]Y=O==W R=Y elseif q<5656219 then I=999 R=T+I q=15165331 C[r[6]]=R I=C[r[7]]Y=I()else R=C[r[1]]Q=C[r[2]]k=C[r[3]]D,T,I=y(19396),14835978457039,12796760418199 N=k(D,T)D=25040291739848 j=Q[N]N=y(17673)q=R[j]j=C[r[2]]Q=C[r[3]]k=Q(N,D)R=j[k]j=1632718<=10065008 q[R]=j j=m()T,q=y(17955),0 C[j]=q q=C[r[1]]k=C[r[2]]N=C[r[3]]D=N(T,I)Q=k[D]k=x(11773228,{r[4];r[2],r[3],j})j=M(j)N,R=.3,y(17814)R=q[R]R=R(q,Q,k,N)q=10218775 end else if q<5662212 then P,q=K,o q=1073668 else h,q,R,Q=nil,S[y(17900)],{},nil j=nil end end else if 5629761>q then if 5610878>q then q=v v={q(z)}q,W,R=154857,v[2],v[1]z,V=R,v[3]elseif q<5621251 then q=yJ q=GJ and 10366288 or 5377083 else e=y(17758)e,q=T[e],10359773 e=e(T,v)a=e end else if q<5630970 then qJ=y(18914)J=P%k U,rJ=y(18117),26018096244923 p=S[U]nJ=C[r[2]]F=C[r[3]]yJ=F(qJ,rJ)q=1443710 U=nJ[yJ]nJ=0 e=p[U]U=P/k p=e(U)e,yJ,F=0,15,-15 U=0 qJ=yJ yJ=5 rJ=yJ yJ=0 dJ=rJ<yJ yJ=F-rJ else R=C[r[1]]N=y(19673)j=C[r[2]]D=23641356376534 Q=C[r[3]]k=Q(N,D)h=j[k]q=R[h]D,R=34195101833055,y(17716)R,I=q[R],18812857327944 R=R(q)q=C[r[4]]N=y(17972)j=C[r[2]]Q=C[r[3]]k=Q(N,D)h=j[k]D=y(18559)Q=C[r[2]]R,T=y(17590),18348498847036 k=C[r[3]]N=k(D,T)j=Q[N]k=C[r[2]]N=C[r[3]]T,R=y(19205),q[R]D=N(T,I)Q=k[D]R=R(q,h,j,Q)q=12554939 end end end else if q>5701541 then if q<5714996 then if q<5707178 then V,b=V+v,not l W=V<=z W=b and W b=V>=z b=l and b W=b or W b=7311263 q=W and b W=5018712 q=q or W elseif 5710919>q then QJ[15]=C[r[1]]QJ[22],QJ[23]=y(18790),21988506707545 QJ[19]=C[r[3]]QJ[20]=C[r[4]]QJ[17]=y(19624)QJ[21]=QJ[20](QJ[22],QJ[23])QJ[17]=QJ[15][QJ[17]]QJ[18]=QJ[19][QJ[21]]QJ[17]=QJ[17](QJ[15],QJ[18],P)q=QJ[17]and 7518287 or 13194203 else q,QJ[69]=11648277,.18 QJ[67]=QJ[69]end else if q<5725311 then q,W,V=3106213,nil,nil else nJ,q,e=nil,5199508,nil end end else if q>5686423 then if q<5696047 then QJ[13],q=7828586<=16522862,13977946 QJ[9]=QJ[13]else b,W,I,l=20993113496033,y(18319),q,y(18664)O=S[W]W=O(N)V=C[r[1]]z=C[r[2]]v=z(l,b)O=V[v]Y=W==O T,q=Y,Y and 9265723 or 5019984 end else if q<5674342 then QJ[64]=21337414193960 QJ[60]=C[r[3]]QJ[63]=y(18919)QJ[61]=C[r[4]]QJ[62]=QJ[61](QJ[63],QJ[64])QJ[59]=QJ[60][QJ[62]]QJ[58]=QJ[32][QJ[59]]QJ[56],q=QJ[58],1815230 elseif q<5676601 then QJ[15],q=QJ[18],QJ[19]q=15270798 else q=s q=p and 8048061 or 2872148 end end end end end else if 5468363>q then if q<5391855 then if q<5373643 then if q<5362525 then if q<5354973 then QJ[17],QJ[24],QJ[25],QJ[20]=q,y(18696),25263799210945,y(18319)QJ[9]=QJ[14]QJ[19]=S[QJ[20]]QJ[20]=QJ[19](QJ[15])QJ[21]=C[r[3]]QJ[22]=C[r[4]]QJ[23]=QJ[22](QJ[24],QJ[25])QJ[19]=QJ[21][QJ[23]]QJ[18]=QJ[20]==QJ[19]q,QJ[16]=QJ[18]and 4282974 or 7476478,QJ[18]elseif q<5358607 then l=y(18423)v=S[l]b=C[r[2]]P=y(19202)t=C[r[3]]X=7902181733015 H=t(P,X)l=b[H]z=v[l]q=2399070 v=z(W,V)else v,l,q=nil,nil,154857 end else if q<5368164 then q={}h=q Q=C[r[9]]j,k=1,Q Q=1 N,q=Q,14808852 Q=0 D=N<Q Q=j-N else QJ[8],q=20,13123984 QJ[7]=qJ+QJ[8]qJ=QJ[7]end end else if 5380923>q then if 5376028>q then t,o,v,V=y(18319),14185611052259,q,W b=S[t]t=b(z)H=C[r[2]]K=y(18092)P=C[r[3]]X=P(K,o)b=H[X]l=t==b q,R=l and 3221980 or 206787,l elseif 5377347>q then F,q,SJ=nil,10808580,nil else nJ=q SJ=e~=k q,U=SJ and 133469 or 4785869,SJ end else if 5387092>q then q={}W=q q=C[r[4]]v=C[r[2]]l=C[r[3]]H,t=1079745528932,y(18297)b=l(t,H)l=q z=v[b]V=q(z)b=C[k]q,v=b and 2805890 or 12539248,b else R=C[r[1]]h=y(18798)h=R[h]h=h(R)q=not h q=q and 5889496 or 907117 end end end else if q<5448242 then if q>5445850 then if 5447585>q then q=S[y(17943)]j=C[r[3]]R={j}else q=nil R={q}q=S[y(17763)]end else if q<5413829 then q=RJ q=wJ and 12631022 or 13866703 elseif q<5439061 then q,QJ[6]=751689,P else W,q=z,v q=2913299 end end else if 5462363>q then if 5454541>q then v=C[r[3]]b=C[r[4]]X=8540032385774 t=C[r[5]]P=y(17795)H=t(P,X)l=b[H]H=y(17890)z=v[l]P=12425576135448 l=C[r[4]]b=C[r[5]]t=b(H,P)v=l[t]V=z[v]q,O=10728023,V elseif q<5461181 then v,q=y(18826),9450040 W=C[r[3]]l=19673625853125 V=C[r[4]]z=V(v,l)l,v=25904068798590,y(19340)O=W[z]Y=N[O]W=C[r[3]]V=C[r[4]]z=V(v,l)O=W[z]I=Y[O]D=I else l,b=z(v,l)q=l and 13855443 or 16066770 end else if 5464439>q then O=1 R=C[r[4]]q=R[O]O=q R,q=O,O and 3424604 or 4715998 else QJ[28]=q QJ[29]=X>=QJ[23]QJ[27],q=QJ[29],QJ[29]and 11672827 or 12457770 end end end end else if 5559050>q then if q>5531969 then if q<5558076 then if q<5539446 then R=C[r[1]]T=3802201807755 j=C[r[2]]D,N=10993157552160,y(19329)Q=C[r[3]]k=Q(N,D)D=y(18357)h=j[k]q=R[h]R=C[r[1]]Q=C[r[2]]k=C[r[3]]N=k(D,T)j=Q[N]h=q q=R[j]j=q q,R=j and 3221782 or 6082392,j elseif 5549749>q then q=nil R={q}q=S[y(18040)]else F,RJ,q=yJ,15,11932158 CJ,wJ=RJ,-15 RJ=5 hJ=RJ RJ=0 mJ=RJ>hJ RJ=wJ-hJ end else if 5558549>q then t=l(b,t)q=t and 11393586 or 1065808 else QJ[13],q,QJ[12]=1500000,10112510,1 QJ[10]=p+QJ[12]QJ[12]=X-QJ[13]p,X,QJ[22],QJ[19]=QJ[10],QJ[12],29329743148917,27840509372568 QJ[13]=C[r[2]]QJ[15]=C[r[3]]QJ[18]=y(18495)QJ[16]=C[r[4]]QJ[21]=y(17879)QJ[17]=QJ[16](QJ[18],QJ[19])QJ[14]=QJ[15][QJ[17]]QJ[17]=y(19488)QJ[16]=S[QJ[17]]QJ[18]=C[r[3]]QJ[19]=C[r[4]]QJ[20]=QJ[19](QJ[21],QJ[22])QJ[17]=QJ[18][QJ[20]]QJ[15]=QJ[16][QJ[17]]QJ[22]=26133988386196 QJ[18]=C[r[3]]QJ[19]=C[r[4]]QJ[21]=y(17901)QJ[20]=QJ[19](QJ[21],QJ[22])QJ[17]=QJ[18][QJ[20]]QJ[16]=QJ[15](QJ[17],p)QJ[13][QJ[14]]=QJ[16]end end else if q>5507459 then if 5523127>q then V,W,q=1128796888834,y(17980),{}T=q I=C[r[2]]Y=C[r[3]]O=Y(W,V)R=I[O]q=h[R]q=q and 2570256 or 12225292 else q=hJ QJ[1],mJ,jJ=q,q,CJ q=CJ and 6144452 or 14190429 end else if q<5477592 then s=p<K q=s and 14561050 or 15440938 elseif q<5490042 then D,T=R,not Q q,R=T and 704645 or 7908850,T else QJ[46]=C[r[3]]QJ[47]=C[r[4]]QJ[43],QJ[50],QJ[49]=q,31253924339255,y(17598)QJ[48]=QJ[47](QJ[49],QJ[50])QJ[45]=QJ[46][QJ[48]]QJ[44]=QJ[17][QJ[45]]QJ[42],q=QJ[44],QJ[44]and 7561958 or 34867 end end end else if q>5588458 then if 5590412>q then QJ[3]=C[r[1]]QJ[8]=y(19754)QJ[5]=C[r[3]]QJ[9]=21938792007840 QJ[6]=C[r[4]]QJ[7]=QJ[6](QJ[8],QJ[9])QJ[4]=QJ[5][QJ[7]]q=9470428 QJ[2]=QJ[3][QJ[4]]QJ[8]=34673077023879 QJ[4]=C[r[3]]QJ[7]=y(18621)QJ[5]=C[r[4]]QJ[6]=QJ[5](QJ[7],QJ[8])QJ[3]=QJ[4][QJ[6]]QJ[1]=QJ[2][QJ[3]]jJ=GJ==QJ[1]hJ=jJ elseif q<5594108 then o=C[r[1]]e,J=14024388240327,y(18675)f=C[r[2]]a=f(J,e)s=y(19649)K=o[a]q=10856763 X=z[K]f=C[r[3]]J=C[r[1]]e=C[r[2]]U=34483032800741 p=e(s,U)s=25404350277133 a=J[p]p=y(19691)o=f[a]a=C[r[1]]J=C[r[2]]e=J(p,s)f=a[e]K=o[f]P=X==K t=P elseif 5602134>q then jJ=2000000 mJ=C[T]hJ=mJ>=jJ q=hJ and 7442514 or 7132053 else s=4754263259981 o=C[r[2]]a=C[r[3]]J=C[r[4]]p=y(19521)e=J(p,s)f=a[e]K=o[f]f=C[r[3]]e=y(18291)a=C[r[4]]p=31841433274523 J=a(e,p)o=f[J]q=8129886 X=K==o H=X end else if q>5576883 then if 5583096>q then QJ[24],q=QJ[19],QJ[22]QJ[25]=q QJ[23]=q q=QJ[19]and 10979747 or 16384456 else CJ,jJ=CJ+hJ,not mJ wJ=CJ<=RJ wJ=jJ and wJ jJ=RJ<=CJ jJ=mJ and jJ wJ=jJ or wJ jJ=3480941 q=wJ and jJ wJ=5052395 q=q or wJ end else if 5563450>q then QJ[4],QJ[3]=q,a q=a and 15910958 or 2362841 elseif 5571003>q then CJ,mJ=q,5 hJ=GJ==mJ RJ,q=hJ,hJ and 153108 or 3988407 else QJ[12],QJ[5]=17398651667211,q QJ[8]=C[r[2]]QJ[11]=y(19707)QJ[9]=C[r[3]]QJ[10]=QJ[9](QJ[11],QJ[12])QJ[7]=QJ[8][QJ[10]]QJ[6]=QJ[3][QJ[7]]QJ[4],q=QJ[6],QJ[6]and 14231245 or 15989591 end end end end end end else if q>6157248 then if 6283485>q then if 6236000>q then if 6199897>q then if 6181995>q then if q<6166506 then q=0 Q=q q=0 N=C[r[2]]I,k=y(18946),q D=C[r[3]]Y=11991848407669 T=D(I,Y)R=N[T]q=h[R]q=q and 4311927 or 10891831 elseif 6172982>q then z=0 V=C[I]O=q W=V>z q,T=W and 2110578 or 3869487,W else Y,O=T,y(18480)q=S[O]O=q(Y)q,W=O and 1154287 or 487224,O end else if 6188313>q then q=b q=R and 8439829 or 14223139 else I,q=nil,2085992 end end else if q<6229233 then if 6212012>q then W,V=q,not I O,q=V,V and 14851268 or 12116622 elseif 6220006>q then e=y(17758)e=D[e]e=e(D,H)a,q=e,1232003 else SJ,q,F=16451682751690,14670920,y(19171)U=C[r[2]]nJ=C[r[3]]c=nJ(F,SJ)s=U[c]p=Q[s]s=p(b,a)J=s end else if 6234498>q then v,q=l,b q=12692425 else l,z=0,q v=Q==l V,q=v,v and 11298362 or 16421600 end end end else if 6250656>q then if 6246342>q then if q<6240502 then R=C[r[1]]N=C[r[3]]D=C[r[4]]I,Y=y(19254),14488306353823 T=D(I,Y)k=N[T]q=R[k]k=q q,R=k and 12317003 or 11387255,k elseif q<6245284 then q,QJ[4]=6755786,nil else hJ,rJ=10067663837563,y(18117)qJ=S[rJ]CJ=y(19055)dJ=C[r[1]]wJ=C[r[2]]RJ=wJ(CJ,hJ)rJ=dJ[RJ]yJ=qJ[rJ]qJ=yJ(o)GJ=qJ==b q,F=12131468,GJ end else if 6248369>q then p,q=y(18829),5199508 e=S[p]QJ[1],jJ=25860479991151,y(18210)SJ=C[r[2]]GJ=C[r[3]]mJ=GJ(jJ,QJ[1])F=SJ[mJ]nJ=h[F]F={e(nJ)}p,U,s=F[1],F[3],F[2]else l=y(19124)V=C[r[1]]b=2876420339497 z=C[r[2]]v=z(l,b)W=V[v]O=Q[W]W=200 Y=O==W q,T=8758784,Y end end else if q<6254963 then R,q={D},S[y(19157)]elseif q<6259502 then q=14992896 O=C[r[4]]W=O()R=W elseif q<6269423 then q,R=0,0 R={q;R}q=S[y(17593)]else W=23468578197312 T=C[r[1]]O=y(18088)I=C[r[2]]Y=I(O,W)D=T[Y]N=j[D]q,Q=10397866,N end end end else if q>6353050 then if q>6406385 then if 6417608>q then q=CJ q=SJ and 4395116 or 16430849 elseif 6427467>q then QJ[17]=1500000 QJ[15]=X>=QJ[17]QJ[13],q=QJ[15],14860486 elseif q<6433262 then Y=y(18995)R=C[r[1]]O=3081734839221 D=C[r[2]]T=C[r[3]]I=T(Y,O)O=y(19430)N=D[I]q=R[N]W=8903564538786 R=C[r[1]]N=q T=C[r[2]]I=C[r[3]]Y=I(O,W)D=T[Y]q=R[D]R,D=N,q q=N and 4782264 or 236437 else z=C[r[2]]b,t=y(19390),8746162123284 v=C[r[3]]l=v(b,t)q=16098765 V=z[l]W=Y[V]O=W end else if q<6378847 then if 6357611>q then QJ[63]=not QJ[61]QJ[52],q=QJ[63],440169 elseif 6367193>q then j=C[r[3]]Q=154 h=j*Q j,Q=257,1 R=h%j C[r[3]]=R j=C[r[3]]h=j~=Q q=h and 15133002 or 6359082 else q=5998241 P=V==z t=P end else if q<6392329 then O=#N W=0 T=O>W q=T and 6167965 or 12813144 else q,QJ[15]=QJ[19],QJ[18]q=QJ[18]and 15759565 or 15270798 end end end else if q<6319007 then if 6308291>q then if q<6289670 then q,QJ[17]=9788445,hJ elseif 6298104>q then QJ[4]=C[T]QJ[6]=8 QJ[5]=s*QJ[6]QJ[3]=QJ[4]>=QJ[5]q,QJ[1]=5996082,QJ[3]else QJ[29]=H C[r[13]]=QJ[29]QJ[37],QJ[43],QJ[44]=y(18061),33841042209150,4692937157630 QJ[31]=C[r[15]]QJ[38]=13985995493242 QJ[34]=C[r[3]]QJ[35]=C[r[4]]QJ[36]=QJ[35](QJ[37],QJ[38])QJ[33]=QJ[34][QJ[36]]QJ[32]=QJ[17][QJ[33]]QJ[33],QJ[36]=H,y(19135)QJ[31][QJ[32]]=QJ[33]QJ[31]=C[r[2]]QJ[33]=C[r[3]]QJ[37]=28429962740609 QJ[34]=C[r[4]]QJ[35]=QJ[34](QJ[36],QJ[37])QJ[32]=QJ[33][QJ[35]]QJ[35]=q QJ[37]=C[r[2]]QJ[39]=C[r[3]]QJ[35],q=1,6460830 QJ[40]=C[r[4]]QJ[42]=y(18383)QJ[41]=QJ[40](QJ[42],QJ[43])QJ[38]=QJ[39][QJ[41]]QJ[36]=QJ[37][QJ[38]]QJ[37]=0 QJ[34],QJ[39]=QJ[36]or QJ[37],y(18700)QJ[33]=QJ[34]+QJ[35]QJ[41]=y(18281)QJ[31][QJ[32]]=QJ[33]QJ[31]=C[r[2]]QJ[33]=C[r[3]]QJ[36]=y(18846)QJ[34]=C[r[4]]QJ[40],QJ[37]=18041285765951,20066249544505 QJ[35]=QJ[34](QJ[36],QJ[37])QJ[32]=QJ[33][QJ[35]]QJ[35]=y(19488)QJ[34]=S[QJ[35]]QJ[36]=C[r[3]]QJ[37]=C[r[4]]QJ[38]=QJ[37](QJ[39],QJ[40])QJ[35]=QJ[36][QJ[38]]QJ[40]=22337750345373 QJ[33]=QJ[34][QJ[35]]QJ[39]=y(19443)QJ[36]=C[r[3]]QJ[37]=C[r[4]]QJ[38]=QJ[37](QJ[39],QJ[40])QJ[42]=25288497936599 QJ[35]=QJ[36][QJ[38]]QJ[38]=C[r[3]]QJ[39]=C[r[4]]QJ[40]=QJ[39](QJ[41],QJ[42])QJ[43]=8356305739630 QJ[37]=QJ[38][QJ[40]]QJ[36]=QJ[17][QJ[37]]QJ[39]=C[r[3]]QJ[42]=y(18770)QJ[40]=C[r[4]]QJ[41]=QJ[40](QJ[42],QJ[43])QJ[42]=y(17609)QJ[38]=QJ[39][QJ[41]]QJ[37]=QJ[17][QJ[38]]QJ[34]=QJ[33](QJ[35],QJ[36],QJ[37])QJ[31][QJ[32]]=QJ[34]QJ[31]=C[r[5]]QJ[40]=y(17682)QJ[34]=C[r[3]]QJ[37],QJ[41]=y(18038),21649770480587 QJ[35]=C[r[4]]QJ[38]=33602049352230 QJ[36]=QJ[35](QJ[37],QJ[38])QJ[33]=QJ[34][QJ[36]]QJ[36]=y(19488)QJ[35]=S[QJ[36]]QJ[37]=C[r[3]]QJ[38]=C[r[4]]QJ[39]=QJ[38](QJ[40],QJ[41])QJ[36]=QJ[37][QJ[39]]QJ[40],QJ[41]=y(19527),28641733432512 QJ[34]=QJ[35][QJ[36]]QJ[37]=C[r[3]]QJ[38]=C[r[4]]QJ[39]=QJ[38](QJ[40],QJ[41])QJ[32]=y(17590)QJ[36]=QJ[37][QJ[39]]QJ[32]=QJ[31][QJ[32]]QJ[39]=C[r[3]]QJ[40]=C[r[4]]QJ[43]=31696394421925 QJ[41]=QJ[40](QJ[42],QJ[43])QJ[38]=QJ[39][QJ[41]]QJ[37]=QJ[17][QJ[38]]QJ[43]=y(19702)QJ[40]=C[r[3]]QJ[41]=C[r[4]]QJ[42]=QJ[41](QJ[43],QJ[44])QJ[39]=QJ[40][QJ[42]]QJ[38]=QJ[17][QJ[39]]QJ[35]=QJ[34](QJ[36],QJ[37],QJ[38])QJ[34]=4 QJ[32]=QJ[32](QJ[31],QJ[33],QJ[35],QJ[34])end else if 6313305>q then R,q=h,h and 16345714 or 7789775 else U=0 p,q=U,10267309 end end else if 6338716>q then if 6325629>q then W=C[r[2]]l=14749334175107 V=C[r[3]]v=y(18039)z=V(v,l)O=W[z]Y=T[O]I,q=Y,Y and 12103164 or 365036 elseif q<6329099 then q,v=5337957,150 z=#N V=z>=v W=V else QJ[16]=y(18407)QJ[13]=C[r[2]]QJ[14]=C[r[3]]q,QJ[17]=6708647,11115079243138 QJ[15]=QJ[14](QJ[16],QJ[17])QJ[12]=QJ[13][QJ[15]]QJ[11]=H[QJ[12]]QJ[9]=QJ[11]end else if 6348953>q then o,q=a,J q=a and 7896651 or 1786283 else q=qJ q=yJ and 9384288 or 8801832 end end end end end else if 5994577>q then if q<5899340 then if 5870480>q then if q<5858182 then if 5852581>q then jJ,hJ=6000,q mJ=s<=jJ q,CJ=mJ and 13339000 or 16581381,mJ elseif q<5854538 then Y=0 I=#Q T=I>Y N,q=T,13837651 else z,D,v,Y=y(18430),q,21752370717330,y(18319)I=S[Y]Y=I(Q)O=C[r[1]]W=C[r[2]]V=W(z,v)I=O[V]T=Y==I q,N=T and 5008009 or 2507615,T end else if q<5865141 then q=rJ q=qJ and 4404224 or 16663644 else T=I(D,T)q=T and 6177999 or 14008830 end end else if 5881329>q then if q<5873589 then W=C[r[1]]v,l=y(17750),829236939214 V=C[r[2]]z=V(v,l)O=W[z]q=9961013 Y=k[O]T=Y elseif 5878333>q then mJ=C[T]jJ=3000 hJ=mJ>=jJ RJ,q=hJ,11718540 else q=QJ[5]q=QJ[4]and 3408646 or 566551 end else if 5886039>q then h,j,Q,T=n[1],n[2],y(19638),y(18616)R=S[Q]I=12791072320684 k=C[r[1]]N=C[r[2]]W=17028987853345 D=N(T,I)Q=k[D]q=R[Q]O,k=y(19715),70 R=q()N=C[r[3]]Q=R R=j or k T=C[r[1]]k=R I=C[r[2]]Y=I(O,W)D=T[Y]R=N[D]N=R R=not N q=R and 1530045 or 6825985 else h,j,R,q=nil,0,nil,nil R={q,R;h,j}q=S[y(17618)]end end end else if q>5952477 then if q>5985508 then if 5992113>q then q,a=3282309,nil else T,I,Q=y(19023),24223769187761,y(19509)j=S[Q]Q=j()k=C[r[1]]N=C[r[2]]D=N(T,I)j=k[D]h=Q[j]R,q=h,h and 15449823 or 7484204 end else if 5955342>q then mJ,jJ=CJ(hJ,mJ)q=mJ and 3266683 or 14299773 elseif q<5968768 then R=C[j]q=y(17845)q=N[q]q=q(N,R)D=q T=not D q,R=T and 14058808 or 9517241,T else R,q=U,nJ q=8693675 end end else if 5932502>q then if 5911401>q then I,Y,R=y(19556),33474072029213,y(17689)q=S[R]N=C[r[1]]D=C[r[2]]T=D(I,Y)k=N[T]I,Y=y(18485),5005422055874 Q=h[k]N=C[r[1]]D=C[r[2]]T=D(I,Y)k=N[T]N={q(Q,k)}j,R=N[2],N[1]Q=R R,q=Q,Q and 11504184 or 14621503 elseif q<5922430 then W=y(19297)q=C[r[4]]N=C[r[1]]V,I=26077856844763,y(18170)D=C[r[2]]Y=34170670341494 T=D(I,Y)R=N[T]I=C[r[1]]Y=C[r[2]]O=Y(W,V)T=I[O]D=k[T]N=h(D)q[R]=N q=11699559 else QJ[63]=C[r[2]]QJ[78],QJ[77]=13486249787279,y(19176)QJ[74]=C[r[3]]QJ[75]=C[r[4]]QJ[76]=QJ[75](QJ[77],QJ[78])QJ[82],QJ[78]=21775738846638,y(19659)QJ[73]=QJ[74][QJ[76]]QJ[75]=C[r[3]]q=9939714 QJ[76]=C[r[4]]QJ[77]=QJ[76](QJ[78],QJ[82])QJ[74]=QJ[75][QJ[77]]QJ[63][QJ[73]]=QJ[74]end else if 5942853>q then e=q U=C[r[1]]yJ=26140174017062 c=C[r[2]]GJ=y(17831)F=C[r[3]]SJ=F(GJ,yJ)GJ=35029850894825 nJ=c[SJ]s=U[nJ]SJ=y(18845)nJ=C[r[2]]c=C[r[3]]F=c(SJ,GJ)U=nJ[F]p=s[U]J,q=p,p and 7871131 or 1178851 else K=C[r[1]]o=C[r[2]]H,a,J=q,y(17984),27886378292000 f=o(a,J)X=K[f]P=b[X]q,t=P and 10603578 or 8610443,P end end end end else if q<6078088 then if q>6033527 then if q<6062362 then if q<6041562 then W=1 O=Q+W Q,V=O,1 W=k+V q,k=7868857,W elseif q<6051195 then nJ,c=y(19745),25497457151301 p=C[r[2]]a=q s=C[r[3]]U=s(nJ,c)e=p[U]J=H[e]f,q=J,J and 4276430 or 5829272 else R,h=y(18798),n[1]R=h[R]R=R(h)q=not R q=q and 1804682 or 7536081 end else if 6071548>q then q=8900191 else c,F=U(nJ,c)q=c and 15981255 or 14778654 end end else if q<6015904 then if 5997161>q then QJ[5]=1 q=QJ[2]QJ[3]=q QJ[4]=U==QJ[5]QJ[2],q=QJ[4],QJ[4]and 13981644 or 14094571 elseif q<6001855 then q=H C[j]=t H=C[j]q=H and 11609013 or 9198106 else R,q={},S[y(19065)]end else if 6028624>q then q=D q=N and 12982065 or 1525531 else R,h=y(18909),y(19705)q=S[R]R=S[h]h=y(19705)S[h]=q h=y(18909)S[h]=R h=C[r[1]]q=14422472 j=h()end end end else if q>6125993 then if 6128246>q then z=W(V,z)q=z and 8775006 or 2563281 elseif q<6136513 then QJ[81],QJ[83]=q,0 QJ[82]=QJ[76]==QJ[83]QJ[80],q=QJ[82],QJ[82]and 10184841 or 209252 elseif q<6146950 then QJ[8]=8744779469456 QJ[4]=C[r[2]]QJ[7]=y(19006)QJ[5]=C[r[3]]QJ[6]=QJ[5](QJ[7],QJ[8])QJ[3]=QJ[4][QJ[6]]q=14190429 QJ[2]=CJ[QJ[3]]jJ=QJ[2]else q=12448982 end else if 6106781>q then if 6082755>q then Q=R R,q=Q,Q and 1972902 or 10159966 elseif 6094330>q then q=nil R={q}q=S[y(18060)]else j,Q,N,Y=n[2],n[3],y(18117),y(18583)h=n[1]q=h%j R=S[N]D=C[r[1]]T=C[r[2]]O,k=16101879674416,q I=T(Y,O)N=D[I]q=R[N]N=h/j R=q(N)N=R R,q=0,{}D=q q=k>R q=q and 5045619 or 12203627 end else if q<6116044 then o,K,f=l,T,0 a=o<f R=-T X,q,f=H,16548126,R-o else o=q X=#Y F=6492167482529 e=C[r[4]]c=y(19179)s=C[r[2]]U=C[r[3]]nJ=U(c,F)p=s[nJ]J=e[p]p=C[r[2]]nJ,c,q=y(19523),7092493224980,9419599 s=C[r[3]]U=s(nJ,c)e=p[U]a=J[e]J=6 K=a or J P=X<K b=P end end end end end end end end else if q<7442426 then if q<6972144 then if q<6727058 then if q<6616284 then if 6517282>q then if q>6487988 then if q<6509343 then if 6504342>q then J=C[r[2]]U=6008996613104 e=C[r[3]]s=y(19178)p=e(s,U)K=q a=J[p]f=Q[a]o=b==f q,X=o and 14524968 or 1548706,o elseif 6507314>q then SJ,q=180,8636023 s=SJ else q,QJ[32]=15881128,nil end else if 6510314>q then q,b={},y(18951)I=q q={}Y=q z=C[r[2]]v=C[r[3]]t=9145231841381 l=v(b,t)V=z[l]W=N[V]q,V=450654,2000 O=W or V V=y(19364)W=S[V]l={W(T)}v,V,z=l[3],l[1],l[2]else T,I,Q=y(17774),6440387911154,y(19638)R=S[Q]k=C[r[2]]N=C[r[3]]D=N(T,I)Q=k[D]q=R[Q]R=q()Q=R k=C[r[4]]R=Q-k k=3 q=R>k q=q and 15634761 or 10983336 end end else if q>6454476 then if 6466890>q then QJ[30],q=nil,15073270 else h,D,T=n[1],y(19403),1427424513959 R=C[r[1]]Q=C[r[2]]k=C[r[3]]N=k(D,T)D=32912980764093 j=Q[N]q=R[j]N=y(19374)j=C[r[2]]Q=C[r[3]]k=Q(N,D)R=j[k]j=h h=nil q[R]=j q=C[r[4]]R=q()q,R=S[y(18628)],{}end else if 6438072>q then v,q=nil,16633003 elseif 6443560>q then QJ[40],QJ[32]=9556511759541,q QJ[36]=C[r[3]]QJ[37]=C[r[4]]QJ[39]=y(19658)QJ[38]=QJ[37](QJ[39],QJ[40])QJ[35]=QJ[36][QJ[38]]QJ[34]=QJ[17][QJ[35]]QJ[35]=120 QJ[33]=QJ[34]>=QJ[35]QJ[31],q=QJ[33],QJ[33]and 13533141 or 4566153 else R,q=10506803~=16474037,S[y(18874)]R={R}end end end else if 6591852>q then if 6556572>q then if q<6530926 then q=6908346 QJ[8]=C[r[2]]QJ[11]=y(19701)QJ[9]=C[r[3]]QJ[12]=16972281422829 QJ[10]=QJ[9](QJ[11],QJ[12])QJ[11]=y(19101)QJ[7]=QJ[8][QJ[10]]QJ[12]=7432167145380 QJ[6]=RJ[QJ[7]]QJ[8]=C[r[2]]QJ[9]=C[r[3]]QJ[10]=QJ[9](QJ[11],QJ[12])QJ[7]=QJ[8][QJ[10]]QJ[5]=QJ[6]==QJ[7]QJ[3]=QJ[5]elseif 6539628>q then dJ=y(19364)rJ=S[dJ]CJ={rJ(W)}wJ,q,RJ,dJ=CJ[2],12971704,CJ[3],CJ[1]else q,QJ[54],QJ[55],QJ[32]=4566213,nil,nil,nil end else if q<6580569 then QJ[76],QJ[77],QJ[79]=y(19690),23087621864866,y(18192)QJ[68]=C[r[2]]QJ[80]=15228733997016 QJ[73]=C[r[3]]q=5021920 QJ[74]=C[r[4]]QJ[75]=QJ[74](QJ[76],QJ[77])QJ[72]=QJ[73][QJ[75]]QJ[75]=y(19488)QJ[74]=S[QJ[75]]QJ[76]=C[r[3]]QJ[77]=C[r[4]]QJ[78]=QJ[77](QJ[79],QJ[80])QJ[80]=16301319172237 QJ[75]=QJ[76][QJ[78]]QJ[73]=QJ[74][QJ[75]]QJ[76]=C[r[3]]QJ[79]=y(17855)QJ[77]=C[r[4]]QJ[78]=QJ[77](QJ[79],QJ[80])QJ[75]=QJ[76][QJ[78]]QJ[77]=y(18806)QJ[76]=S[QJ[77]]QJ[77]=QJ[76](QJ[53])QJ[74]=QJ[73](QJ[75],QJ[77],P,QJ[63])QJ[68][QJ[72]]=QJ[74]else J,q=p,s q=7871131 end end else if 6604190>q then if 6595732>q then QJ[25]=y(18600)QJ[22]=C[r[3]]QJ[23]=C[r[4]]QJ[26]=7517742029066 QJ[24]=QJ[23](QJ[25],QJ[26])QJ[21]=QJ[22][QJ[24]]QJ[20]=QJ[18][QJ[21]]q,QJ[15]=572230,QJ[20]elseif q<6599952 then W,b,q=nil,nil,13540740 else R=y(17689)q=S[R]k=Z(2093557,{h;r[1];r[2];j})N={q(k)}R,Q=N[1],N[2]k,q=R,S[y(19541)]R={k}end else if 6607474>q then T=C[r[1]]V=y(19126)Y=C[r[2]]q,z=15684471,6470656153167 O=C[r[3]]W=O(V,z)I=Y[W]D=T[I]I=C[r[4]]T=D(j,I)R=T else f,K=150,q o=b<=f q,X=o and 11644291 or 2593333,o end end end end else if q>6679138 then if 6703150>q then if 6693761>q then if q<6684928 then l,X,V=y(18319),34570881780415,q v=S[l]l=v(O)b=C[r[1]]D,P=Y,y(18693)t=C[r[2]]H=t(P,X)v=b[H]z=l==v q,W=z and 12323785 or 2582959,z elseif 6690493>q then GJ=C[r[1]]wJ,hJ,dJ,rJ=1142596875767,17351332557707,3660144393770,y(18638)mJ=y(19383)yJ=C[r[2]]qJ=yJ(rJ,dJ)SJ=GJ[qJ]yJ=C[r[1]]qJ=C[r[2]]dJ,RJ=y(19648),1717086278034 rJ=qJ(dJ,wJ)CJ=3308903442116 GJ=yJ[rJ]qJ=C[r[1]]rJ=C[r[2]]jJ,wJ=34576971203401,y(18379)dJ=rJ(wJ,RJ)yJ=qJ[dJ]rJ=C[r[1]]RJ=y(18937)dJ=C[r[2]]wJ=dJ(RJ,CJ)qJ=rJ[wJ]CJ=y(18154)dJ=C[r[1]]wJ=C[r[2]]RJ=wJ(CJ,hJ)rJ=dJ[RJ]RJ=C[r[1]]CJ=C[r[2]]q=S[y(18381)]hJ=CJ(mJ,jJ)wJ=RJ[hJ]dJ=nJ[wJ]F={[SJ]=GJ,[yJ]=qJ;[rJ]=dJ}SJ=y(17902)SJ=h[SJ]c={SJ(h,F)}R={G(c)}else q=QJ[17]q=QJ[15]and 12823757 or 247330 end else if q<6697713 then z=l K=z X=-z o=1 a=o o,q=0,16171024 J=o>a o=X-a else q,R=k,Q q=2928448 end end else if q<6707429 then q=I and 13646870 or 6677221 elseif 6711655>q then q=QJ[10]q,QJ[7]=QJ[9]and 14765099 or 2384576,QJ[9]elseif q<6718821 then l=C[r[2]]P,H,V=20880722921297,y(17703),q b=C[r[3]]t=b(H,P)v=l[t]z=Y[v]q,W=z and 7236741 or 15824599,z else q,QJ[2]=13430275,nil end end else if 6648672>q then if q<6643104 then if 6632043>q then q=9364333 elseif q<6641501 then q=W q=R and 357089 or 10907593 else Y,q,I=nil,15513574,nil end else if q<6644465 then K,q=f,a q=5662012 else D,N,T=j,R,q q=j and 1406855 or 15135775 end end else if q>6672617 then if q<6676682 then t,q,V,l=nil,11614863,nil,nil b=nil else o,q=nil,2568689 end else if 6653157>q then QJ[53]=q QJ[58]=C[r[5]]QJ[60]=C[r[3]]QJ[64],QJ[55],QJ[63]=21424986184887,q,y(19273)QJ[61]=C[r[4]]QJ[62]=QJ[61](QJ[63],QJ[64])QJ[59]=QJ[60][QJ[62]]QJ[62]=y(18338)QJ[57]=QJ[58][QJ[59]]QJ[63]=27721057107690 QJ[59]=C[r[3]]QJ[60]=C[r[4]]QJ[61]=QJ[60](QJ[62],QJ[63])QJ[58]=QJ[59][QJ[61]]QJ[56]=QJ[57][QJ[58]]QJ[54],q=QJ[56],QJ[56]and 16675224 or 4292399 elseif q<6661302 then q,W=8690202,1492754429963 T=C[r[1]]O=y(17958)I=C[r[2]]Y=I(O,W)D=T[Y]N=k[D]R=N else QJ[2],QJ[1]=q,f q=f and 160315 or 5559348 end end end end end else if 6867079>q then if q>6760856 then if q>6802922 then if q<6841026 then if 6825184>q then QJ[16],QJ[17]=y(18151),5525267052078 QJ[13]=C[r[2]]QJ[14]=C[r[3]]QJ[15]=QJ[14](QJ[16],QJ[17])QJ[12]=QJ[13][QJ[15]]QJ[16],QJ[17]=y(19581),8825539872623 QJ[11]=QJ[3][QJ[12]]q=12810597 QJ[13]=C[r[2]]QJ[14]=C[r[3]]QJ[15]=QJ[14](QJ[16],QJ[17])QJ[12]=QJ[13][QJ[15]]QJ[10]=QJ[11]==QJ[12]QJ[8]=QJ[10]elseif q<6832596 then D,q=y(18829),961486 R=S[D]Y=C[r[4]]O={R(Y)}T,I,D=O[2],O[3],O[1]else q=s q,J=7579287,p end else if 6854347>q then X=C[r[3]]K=C[r[4]]q,H,f,a=6886222,y(18486),y(19641),32196803328250 o=K(f,a)H=h[H]P=X[o]H=H(h,P)l=H else yJ,q=rJ,dJ q=9871664 end end else if 6769831>q then if q<6761918 then q=y(19415)q=N[q]q=q(N,j,T)I=q q,R=I and 14603714 or 7944555,I elseif 6766207>q then z=y(18129)z=h[z]z=z(h,j,W)q,V=11288931,not z R=V else j,R=nil,y(18743)q=S[R]D=C[r[1]]Y,h,Q=y(18067),nil,nil T=C[r[2]]O,k=11893191934869,nil I=T(Y,O)N=D[I]R=q(N)R,q={},S[y(19408)]end else if q<6775728 then z,I,O,H=y(18319),T,q,23117617213012 V=S[z]z=V(Y)v=C[r[2]]l=C[r[3]]t=y(19665)b=l(t,H)V=v[b]W=z==V R,q=W,W and 16558973 or 11658709 else QJ[11]=q QJ[12]=p<QJ[6]q,QJ[10]=QJ[12]and 10495655 or 16149767,QJ[12]end end end else if q>6743622 then if q<6756328 then if 6748040>q then q=N N=5 R,q=k or N,12960719 N,k,v=y(18829),R,27512855897064 R=S[N]O=C[r[2]]z=y(19601)W=C[r[3]]V=W(z,v)Y=O[V]I=h[Y]Y={R(I)}D,N,T=Y[2],Y[1],Y[3]elseif q<6753409 then dJ,RJ=q,4 wJ=SJ==RJ q,rJ=wJ and 10201522 or 2347353,wJ else QJ[6]=q QJ[11]=C[r[5]]QJ[8]=q QJ[13]=C[r[3]]QJ[17],QJ[16]=1400462272955,y(18519)QJ[14]=C[r[4]]QJ[15]=QJ[14](QJ[16],QJ[17])QJ[12]=QJ[13][QJ[15]]QJ[15]=y(18463)QJ[10]=QJ[11][QJ[12]]QJ[16]=5213239533572 QJ[12]=C[r[3]]QJ[13]=C[r[4]]QJ[14]=QJ[13](QJ[15],QJ[16])QJ[11]=QJ[12][QJ[14]]QJ[9]=QJ[10][QJ[11]]QJ[7],q=QJ[9],QJ[9]and 13176796 or 12929513 end else if q<6758747 then s=y(18998)J=C[r[2]]e=C[r[3]]U,q=3096904971508,7141912 p=e(s,U)a=J[p]f=H[a]K=f else F,SJ=nJ(c,F)q=F and 2110551 or 11092546 end end else if 6738991>q then if q<6732957 then q=nil R={q}q=S[y(18630)]elseif 6735981>q then p=C[r[2]]K=q s=C[r[3]]nJ,c,f=y(18543),2331635976715,q U=s(nJ,c)e=p[U]J=v[e]a=J==T o,q=a,a and 15459934 or 15451015 else T=C[r[1]]I=C[r[2]]O,q,W=y(17988),9812727,23988249978699 Y=I(O,W)D=T[Y]N=k[D]R=N end else if q<6741496 then f=o%z nJ,H,e,c=y(18573),K,y(18117),12754791825880 J=S[e]q=1665294 p=C[r[2]]s=C[r[3]]U=s(nJ,c)e=p[U]a=J[e]e=o/z J=a(e)e=y(19364)a=S[e]U={a(l)}s,e=U[3],U[1]p=U[2]else QJ[32],QJ[34],QJ[33]=q,q,O q=O and 13502045 or 9921197 end end end end else if q<6910311 then if q<6889954 then if q>6877521 then if 6883199>q then Y=8334080698857 q=C[r[4]]k=C[r[2]]N=C[r[3]]I,T=35073612037422,y(19181)D=N(T,I)R=k[D]N=C[r[2]]D=C[r[3]]I=y(19082)T=D(I,Y)k=N[T]q[R]=k q=3026544 else q=b q=l and 12940509 or 12474613 end else if q<6868722 then mJ,CJ=1,q hJ=SJ==mJ RJ,q=hJ,hJ and 4867927 or 8497443 elseif q<6872000 then q=nil R={q}q=S[y(18943)]else v,z,q=nil,nil,343232 end end else if 6906785>q then if q<6895760 then b=C[r[6]]l=z-b b=3 v=l>=b q=v and 7297944 or 4847939 elseif 6902108>q then q,V=8444211,nil else W,k=y(17624),q I=C[r[2]]V=8497229127121 Y=C[r[3]]O=Y(W,V)T=I[O]D=h[T]N=not D Q,q=N,N and 5064339 or 14483733 end else if q<6907767 then f=C[r[2]]a=C[r[3]]e,P,p=y(17701),q,1780638060100 J=a(e,p)o=f[J]K=V[o]X=not K q,H=X and 4434315 or 13295889,X else q,QJ[1]=QJ[4],QJ[3]q=15947560 end end end else if q>6943509 then if q<6950336 then R,q=T,I q=555811 elseif 6960302>q then b=y(18423)l=S[b]t=C[r[2]]X,K=y(17615),4308084751506 H=C[r[3]]P=H(X,K)b=t[P]R=l[b]o,K=26547753760743,y(19435)H=C[r[2]]P=C[r[3]]X=P(K,o)t=H[X]b=z[t]l=R(T,b)q=6437146 elseif 6965182>q then QJ[22]=C[r[5]]QJ[28]=4418286323596 QJ[24]=C[r[3]]QJ[25]=C[r[4]]QJ[27]=y(18679)QJ[26]=QJ[25](QJ[27],QJ[28])QJ[23]=QJ[24][QJ[26]]QJ[26]=y(18907)QJ[21]=QJ[22][QJ[23]]QJ[23]=C[r[3]]QJ[24]=C[r[4]]QJ[27]=31466880890720 QJ[25]=QJ[24](QJ[26],QJ[27])q=6402267 QJ[22]=QJ[23][QJ[25]]QJ[20]=QJ[21][QJ[22]]QJ[18]=QJ[20]else q=c and 13961712 or 959371 end else if q<6930143 then if 6919014>q then O=y(19320)q=C[r[4]]T=C[r[2]]I=C[r[3]]D,V,W=R,5885895913857,32714110722984 Y=I(O,W)R=T[Y]I=C[r[2]]W,z=y(18557),6679424947495 Y=C[r[3]]O=Y(W,V)T=I[O]q[R]=T O=y(17861)q=C[r[4]]T=C[r[2]]V,W=y(19265),18375445323660 I=C[r[3]]Y=I(O,W)R=T[Y]Y=C[r[2]]O=C[r[3]]W=O(V,z)I=Y[W]O=y(18806)Y=S[O]O=Y(D)D=nil T=I..O q[R]=T q=5662413 elseif 6926907>q then q=nil R={q}q=S[y(19237)]else q=15937031 end else if 6937624>q then z,V=not N,q q,W=z and 4468809 or 2612980,z else q=k q,R=15232048,Q end end end end end end else if 7249538>q then if q>7116603 then if q>7190393 then if q>7228365 then if 7234879>q then QJ[53],QJ[46],QJ[54]=y(19407),q,25686944964821 QJ[50]=C[r[3]]QJ[51]=C[r[4]]QJ[52]=QJ[51](QJ[53],QJ[54])QJ[49]=QJ[50][QJ[52]]QJ[48]=QJ[38][QJ[49]]QJ[49]=3 QJ[47]=QJ[48]==QJ[49]QJ[45],q=QJ[47],QJ[47]and 14251507 or 13174334 elseif 7235969>q then q,p=3923380,2 e=b==p a=e elseif q<7238756 then b=C[r[2]]P,X=y(19117),27101352199426 t=C[r[3]]q=15824599 H=t(P,X)l=b[H]v=Y[l]l=0 z=v>l W=z else dJ=200000 rJ=C[T]qJ=rJ>=dJ q=qJ and 12262121 or 2223409 end else if 7209732>q then if 7194617>q then QJ[37],QJ[45]=QJ[34],QJ[36]c,QJ[46]=QJ[37],q q=QJ[36]and 9851321 or 13046457 elseif 7199211>q then H,q,K,o=nil,S[y(19751)],nil,0 X=nil R={H,X,K,o}else p,s=q,not j q,R=s and 16377860 or 14758282,s end else if q<7220459 then q=t q=R and 10462790 or 13690987 else q,T=16245116,nil end end end else if 7140874>q then if q<7127307 then if 7119486>q then T=C[r[3]]I=C[r[4]]W,O=28158557458746,y(17817)Y=I(O,W)D=T[Y]N=j[D]D=2 k=N==D q=k and 10133909 or 15710237 elseif q<7121746 then q,c=16550761,F a=c else QJ[30]=q QJ[34]=C[r[3]]QJ[37],QJ[28]=y(18538),q QJ[35]=C[r[4]]QJ[38]=26550079147920 QJ[36]=QJ[35](QJ[37],QJ[38])QJ[33]=QJ[34][QJ[36]]QJ[32]=QJ[17][QJ[33]]QJ[33]=3 QJ[31]=QJ[32]>=QJ[33]QJ[29],q=QJ[31],QJ[31]and 13956058 or 6438998 end else if 7135944>q then jJ=C[T]QJ[1]=200000 mJ=jJ>=QJ[1]q=mJ and 2606562 or 9274519 else W,z=Y(O,W)q=W and 8410529 or 10075479 end end else if q<7168250 then if 7154918>q then q=o f,o=q,0 P=K or o o,K=H,q q=H and 10933552 or 5306604 elseif q<7168076 then W=C[r[2]]v,l=y(18856),13434460034767 V=C[r[3]]z=V(v,l)O=W[z]Y=D[O]T,q=Y,10545987 else SJ,q,GJ=nil,1979891,nil end else if q<7178764 then rJ=25255214291396 SJ=C[r[2]]qJ=y(19761)GJ=C[r[3]]yJ=GJ(qJ,rJ)F=SJ[yJ]c=Q[F]F=c(K,V)c=F<P q=c and 7818630 or 8533055 else q=dJ q=rJ and 7305835 or 3798294 end end end end else if q<7052836 then if 7004843>q then if 6991012>q then if q<6978806 then q,Q=2660022,nil elseif 6984841>q then q=R and 8931685 or 15394365 else N=M(N)N=m()z,q,V,T=nil,3736897,nil,nil v,Q=nil,nil D=M(D)Y=M(Y)l=nil W=M(W)V=y(18117)O=M(O)z,Q=y(19488),nil j=M(j)j=nil b=M(b)W=y(18117)k=M(k)k=m()C[k]=j j=m()C[j]=Q Q=0 C[N]=Q Q=2 D=m()C[D]=Q T=m()Q={}C[T]=Q Q={}O=S[W]W=y(18906)Y=O[W]W=S[V]V,v=y(17639),y(18423)O=W[V]W=m()C[W]=O V=S[z]z=y(19184)O=V[z]z=S[v]v=y(18214)V=z[v]z,v=1,256 l=v v=1 b=v v=0 K=v>b v=z-b end else if 6996501>q then q=yJ q=GJ and 13233155 or 4766902 else W=not k Y,q=W,16336961 end end else if q>7033412 then if q<7045129 then QJ[16],QJ[17]=y(19142),24283275849201 QJ[11]=C[r[5]]QJ[13]=C[r[3]]QJ[8]=q QJ[14]=C[r[4]]QJ[15]=QJ[14](QJ[16],QJ[17])QJ[12]=QJ[13][QJ[15]]QJ[16]=27069538708467 QJ[10]=QJ[11][QJ[12]]QJ[12]=C[r[3]]QJ[15]=y(19700)QJ[13]=C[r[4]]QJ[14]=QJ[13](QJ[15],QJ[16])QJ[11]=QJ[12][QJ[14]]QJ[9]=QJ[10][QJ[11]]q,QJ[7]=QJ[9]and 2788906 or 9484298,QJ[9]else QJ[40],QJ[41]=QJ[17],q q=QJ[17]and 5495405 or 4780727 end else if 7010080>q then q=T T=R q=T and 13038154 or 10919179 elseif q<7017687 then k=R R=y(18104)q=C[r[1]]R=q[R]R=R(q)N=R q,R=N and 8011231 or 5829510,N else QJ[3],q,QJ[4]=y(18270),4982133,34989062872952 jJ=C[r[2]]QJ[1]=C[r[3]]QJ[2]=QJ[1](QJ[3],QJ[4])QJ[3]=y(18566)mJ=jJ[QJ[2]]hJ=GJ[mJ]QJ[4]=25464209659719 jJ=C[r[2]]QJ[1]=C[r[3]]QJ[2]=QJ[1](QJ[3],QJ[4])mJ=jJ[QJ[2]]CJ=hJ==mJ wJ=CJ end end end else if q>7096507 then if 7106781>q then if 7098826>q then hJ=.75 CJ=yJ<=hJ q,wJ=11871102,CJ elseif 7100990>q then k=q I=C[r[1]]V=22791409601595 Y=C[r[2]]W=y(19548)O=Y(W,V)T=I[O]D=j[T]N=not D Q,q=N,N and 12911129 or 15724458 else q,e=13803246,nil end else if q<7113449 then RJ,hJ=q,4 CJ=GJ==hJ q,wJ=CJ and 1202259 or 3138978,CJ else q=v q=R and 8040026 or 16633003 end end else if 7091129>q then if q<7069694 then q=Y q,D=11730626,I elseif q<7085123 then q=QJ[15]q=QJ[14]and 1035184 or 8702368 else P,q=nil,16528310 end else if q<7094339 then q,R=b,l q=206787 else q=QJ[27]QJ[27]=750000 QJ[24]=QJ[26]or QJ[27]QJ[26]=q QJ[27]=X>=QJ[22]QJ[25],q=QJ[27],QJ[27]and 7122561 or 3706719 end end end end end else if q<7349051 then if q<7300243 then if 7280190>q then if q<7267928 then if q<7262359 then q=O q,T=11922102,Y elseif q<7266884 then Q=R q=Q and 2007688 or 711046 else q,GJ=3087143,6605851~=11262502 SJ=GJ end else if q<7273890 then q=wJ q,qJ=5859910,dJ else h,T,D=n[1],14909545135927,y(18539)R=C[r[1]]Q=C[r[2]]k=C[r[3]]N=k(D,T)j=Q[N]q=R[j]j=C[r[2]]D,N=25489618003461,y(19493)Q=C[r[3]]k=Q(N,D)R=j[k]j=h q[R]=j h=nil q=C[r[4]]R=q()q,R=S[y(17807)],{}end end else if 7290220>q then if 7284487>q then QJ[23],QJ[24]=q,not nJ q,QJ[22]=QJ[24]and 14057787 or 1792673,QJ[24]elseif 7288135>q then qJ=35 yJ=o+qJ o,q,qJ=yJ,7168228,11651988>=10150528 f=qJ else W=C[r[2]]v,T=y(17930),q V=C[r[3]]l=11888850628562 z=V(v,l)v=y(19660)O=W[z]Y=Q[O]l=14980551905921 W=C[r[2]]V=C[r[3]]z=V(v,l)O=W[z]I=Y[O]q,D=I and 8308262 or 11154017,I end else if 7294994>q then e=y(18471)f=C[r[2]]a=C[r[3]]P,p=q,24282414578251 J=a(e,p)o=f[J]K=Q[o]X=b==K H,q=X,X and 12176858 or 6503026 else l,q=999,4847939 v=z+l C[r[6]]=v l=C[r[7]]b=l()end end end else if q<7332847 then if q>7318651 then if 7328715>q then q,dJ=10540174,0 nJ=dJ else q,QJ[72]=12757274,1.15 QJ[71]=QJ[63]*QJ[72]QJ[70]=P>=QJ[71]QJ[68]=QJ[70]end else if 7304188>q then q=R and 6925752 or 10198966 elseif 7308549>q then dJ,q=1,13749749 rJ=J+dJ J=rJ else o=4360079345893 H=C[r[2]]P=C[r[3]]K=y(19307)X=P(K,o)W=V t=H[X]b=j[t]q=b[W]b=q q=y(17687)q=Q[q]q=q(Q,b)q=q and 1201351 or 10801350 end end else if q<7338947 then N=C[r[2]]D=C[r[3]]I,Y=y(18804),515653579484 T=D(I,Y)k=N[T]Q=j[k]R,q=Q,Q and 2488474 or 15697711 elseif 7344041>q then q=P and 12144435 or 2054752 elseif q<7346585 then SJ,q,jJ=nil,13409524,nil else QJ[2],q=nil,9172206 end end end else if 7404774>q then if q<7384469 then if q<7370364 then if q<7355514 then q=wJ RJ,hJ=q,1 CJ=U==hJ wJ,q=CJ,CJ and 3929634 or 5304292 elseif 7364324>q then K=12702045687968 b=C[r[2]]X,P=4573658719350,y(19554)t=C[r[3]]H=t(P,X)l=b[H]R=v[l]l=R t=C[r[2]]f=y(19099)H=C[r[3]]X=y(19481)P=H(X,K)b=t[P]R=N[b]t=q b=R(l,j)X=C[r[2]]a=25624164985222 K=C[r[3]]o=K(f,a)P=X[o]H=v[P]P=1 R,K,o=H or P,1,15 t=R X=t-K H,K=70,12 P=X*K R=H+P P,H=q,R K=H+o X=b<=K R,q=X,X and 12244153 or 6609661 else q,a,J=12838413,nil,nil end else if 7378716>q then q,CJ=13749749,1 RJ=e+CJ e=RJ else O,z,q,V=nil,nil,6448122,nil W=nil end end else if q>7401766 then if q<7403549 then c=V+e F=v+X qJ=0 GJ=q yJ=c>=qJ SJ,q=yJ,yJ and 5734909 or 1226561 else QJ[24],QJ[27]=QJ[23],q QJ[32]=C[r[3]]QJ[36],QJ[6],QJ[35]=6341960898113,QJ[24],y(18900)QJ[33]=C[r[4]]QJ[34]=QJ[33](QJ[35],QJ[36])QJ[31]=QJ[32][QJ[34]]QJ[28]=QJ[22][QJ[31]]QJ[25],q=QJ[28],QJ[28]and 15236397 or 4594392 end else if q<7386983 then U,q=1.25,16588051 e=U elseif q<7394898 then H,nJ,F=K,5835662963337,24375672109945 e=C[r[2]]U=y(18982)p=C[r[3]]s=p(U,nJ)J=e[s]a=Q[J]s=C[r[2]]U=C[r[3]]c=y(18363)nJ=U(c,F)p=s[nJ]e=b[p]J=a(e,o)a=60 f=J<=a q=f and 14004307 or 13745971 else q=2054752 end end end else if 7426061>q then if q<7407489 then if q<7406153 then q=S[y(17617)]D=C[r[3]]R={D}elseif 7407352>q then q=nil R={q}q=S[y(18525)]else b=y(18423)l=S[b]b=y(17917)v=l[b]q,V=14186897,v end else if q<7415787 then f=C[P]K,a=q,300000 o=f>=a q=o and 2524650 or 8591966 else o,q=35116868469663,15483076 b=C[r[3]]H=C[r[4]]P=C[r[5]]K=y(18555)X=P(K,o)t=H[X]K=26755139124265 l=b[t]t=C[r[4]]X=y(19472)H=C[r[5]]P=H(X,K)b=t[P]v=l[b]V=v end end else if 7431918>q then v,z=not W,q V,q=v,v and 12572895 or 4409112 elseif q<7437667 then q=4897844>4770670 q=q and 13801590 or 13655026 elseif 7441001>q then q=QJ[10]q,QJ[7]=11338373,QJ[9]else hJ=30 CJ=qJ-hJ q,qJ=4608572,CJ end end end end end end else if q>8021252 then if q>8222360 then if q<8407176 then if q<8308235 then if 8282714>q then if q>8271926 then if 8277519>q then J=y(19153)J=j[J]J=J(j,P)a=J==v q,o=14183222,a else Q,Y,O=q,y(18456),8676332713516 D=C[r[1]]T=C[r[2]]I=T(Y,O)N=D[I]k=h[N]j,q=k,k and 2371752 or 11372160 end else if q<8244938 then q=R and 6005470 or 9252677 elseif q<8262438 then D,T=R,not Q R,q=T,T and 12951454 or 14369691 else q,V=4895020,0 W=j<=V Y=W end end else if 8291657>q then if 8287227>q then q=15733216 O=C[r[3]]l=y(17989)V=C[r[1]]b=21767261666748 z=C[r[2]]v=z(l,b)W=V[v]Y=O[W]T=Y elseif 8289685>q then q=16430849 else q=R and 15213537 or 12708786 end else if q<8300868 then QJ[39],QJ[40]=y(18235),4807419943172 QJ[36]=C[r[3]]QJ[37]=C[r[4]]QJ[38]=QJ[37](QJ[39],QJ[40])QJ[35]=QJ[36][QJ[38]]q=11570844 QJ[34]=O[QJ[35]]QJ[32]=QJ[34]else N=400000 R=C[r[3]]q=R>=N q=q and 7899386 or 11239269 end end end else if q<8336144 then if q<8322402 then if q<8308339 then l=y(19609)V=C[r[2]]b=466464249345 z=C[r[3]]v=z(l,b)W=V[v]l=y(19687)O=Q[W]V=C[r[2]]z=C[r[3]]b=5104281627931 v=z(l,b)W=V[v]q,l=11154017,34822415611124 Y=O[W]W=C[r[2]]V=C[r[3]]v=y(19604)z=V(v,l)O=W[z]I=Y[O]D=I elseif q<8313604 then q,Y=W,O q=177547 else R=1 T,q=R,15362023 end else if 8327426>q then z,l,f,H=V,q,18129697451819,y(18319)t=S[H]H=t(v)o=y(17968)P=C[r[2]]X=C[r[3]]K=X(o,f)t=P[K]b=H==t q,R=b and 9792268 or 5804318,b else N,q=nil,13172444 end end else if q<8354716 then Y=q z=C[r[1]]v=C[r[2]]t,b=18588728234832,y(18326)l=v(b,t)t=10634448850024 V=z[l]b=y(19346)W=T[V]z=C[r[1]]v=C[r[2]]l=v(b,t)V=z[l]O=W==V q,I=O and 14534842 or 1297055,O elseif q<8370623 then k,N,q,R=nil,0,6021624>=7893410,nil Q=nil R={q;R;Q;k;N}q=S[y(18669)]elseif 8389543>q then D,l,v=y(18319),19671747876094,y(18834)N=S[D]Y=C[h]W=C[r[1]]V=C[r[2]]z=V(v,l)O=W[z]v,z=34304589018210,y(19123)I=Y[O]O=C[r[1]]W=C[r[2]]V=W(z,v)Y=O[V]T=I[Y]D=N(T)W,O=28361628837474,y(18491)T=C[r[1]]I=C[r[2]]q=8289786 Y=I(O,W)N=T[Y]k=D~=N R=k else QJ[30]=QJ[32]QJ[35]=C[r[1]]QJ[41],q,QJ[44]=y(19452),9021533,20521321492001 QJ[38]=C[r[3]]QJ[42],QJ[30]=17045803312020,nil QJ[39]=C[r[4]]QJ[40]=QJ[39](QJ[41],QJ[42])QJ[37]=QJ[38][QJ[40]]QJ[36]=y(18300)QJ[36],QJ[43]=QJ[35][QJ[36]],y(18529)QJ[40]=C[r[3]]QJ[41]=C[r[4]]QJ[42]=QJ[41](QJ[43],QJ[44])QJ[39]=QJ[40][QJ[42]]QJ[38]=QJ[17][QJ[39]]QJ[42]=6525683507351 QJ[36]=QJ[36](QJ[35],QJ[37],QJ[38])QJ[37]=y(18048)QJ[36]=S[QJ[37]]QJ[38]=C[r[3]]QJ[39]=C[r[4]]QJ[41]=y(19574)QJ[40]=QJ[39](QJ[41],QJ[42])QJ[37]=QJ[38][QJ[40]]QJ[35]=QJ[36][QJ[37]]QJ[37]=.35 QJ[36]=QJ[35](QJ[37])end end end else if q<8448531 then if q>8435899 then if 8444600>q then if q<8438214 then s=19982971488928 a=C[r[2]]J=C[r[3]]X,p=P,y(18420)e=J(p,s)f=a[e]U,s=12067229799839,y(19199)o=K[f]J=C[r[2]]e=C[r[3]]p=e(s,U)a=J[p]f=l[a]R=o~=f q=R and 10213225 or 4260044 elseif q<8442020 then o,t=33244857539442,y(18423)b=S[t]H=C[r[2]]P=C[r[3]]K=y(17635)X=P(K,o)q=14223139 t=H[X]R=b[t]b=R(O,l)else q,R=S[y(17877)],{}end else if 8445045>q then q=QJ[18]q,QJ[14]=QJ[17]and 7081153 or 7751441,QJ[17]else T,j=y(19084),R R=C[r[1]]k=C[r[2]]N=C[r[3]]I=29849609066200 D=N(T,I)Q=k[D]q=R[Q]k,Q=not j,q q,R=k and 14039676 or 13407392,k end end else if q>8418527 then if 8427167>q then z=v o,q=z,3736897 Q[z]=o z=nil else q=R and 11797353 or 327875 end else if q<8412875 then K=8802789619811 t=C[r[2]]v,V=q,W H=C[r[3]]X=y(19724)P=H(X,K)b=t[P]l=z[b]q,R=l and 4449369 or 7115166,l elseif q<8416570 then QJ[5]=y(19001)QJ[2]=C[r[2]]QJ[3]=C[r[3]]QJ[6]=26001785884413 QJ[4]=QJ[3](QJ[5],QJ[6])QJ[1]=QJ[2][QJ[4]]q=13364037 jJ=k[QJ[1]]mJ=SJ==jJ CJ=mJ else o,q=0,3368804 f,a=0,99999 e=y(19364)J=S[e]nJ={J(I)}e,U,p=nJ[1],nJ[3],nJ[2]end end end else if 8466776>q then if q>8456698 then if q<8459652 then W=y(19703)q=C[h]z,V=8818877836306,831849759317 I=C[r[1]]Y=C[r[2]]O=Y(W,V)V=y(18789)T=I[O]Y=C[r[1]]O=C[r[2]]W=O(V,z)z=y(19063)I=Y[W]O=C[r[1]]v=26257372562488 W=C[r[2]]V=W(z,v)Y=O[V]l,v=13839102336222,y(18560)W=C[r[1]]V=C[r[2]]z=V(v,l)O=W[z]D={[T]=I,[Y]=j;[O]=Q}T=y(17902)T=q[T]R={T(q,D)}R,q={G(R)},S[y(17808)]else nJ=C[r[2]]SJ=y(17743)c=C[r[3]]GJ,p=3272381956233,q F=c(SJ,GJ)U=nJ[F]s=f[U]e,q=s,s and 2972075 or 12317267 end else if q<8453227 then q,QJ[37]=303369,50000 QJ[36]=QJ[19]>=QJ[37]QJ[34]=QJ[36]elseif q<8455193 then q,CJ=4608572,35 RJ=qJ+CJ qJ=RJ else N,q=nil,6769666 end end else if q<8475950 then z=C[r[1]]v=C[r[2]]b,t=y(19650),12854202083629 l=v(b,t)t,O=y(18303),q V=z[l]W=h[V]V=0 v=C[r[1]]Y,H=W or V,2311816268835 W=q l=C[r[2]]b=l(t,H)z=v[b]V=j[z]z=0 O=V or z R=Y<O R,q={R},S[y(19074)]elseif q<8484637 then nJ=12026478973363 e=C[r[2]]U=y(19755)p=C[r[3]]s=p(U,nJ)J=e[s]a=o[J]e=q q,J=a and 14428740 or 8915967,a elseif q<8489867 then QJ[2],dJ,QJ[1]=34558977071926,q,y(17891)RJ=C[r[1]]hJ=C[r[3]]mJ=C[r[4]]jJ=mJ(QJ[1],QJ[2])CJ=hJ[jJ]wJ=RJ[CJ]rJ,q=wJ,wJ and 13397794 or 10633419 else z,V=not N,q W,q=z,z and 4593856 or 15673030 end end end end else if q>8126038 then if q<8174325 then if 8145878>q then if q<8135922 then if q<8130528 then l,q=H,P q=11757412 elseif 8132054>q then Y,O=T(I,Y)q=Y and 6681055 or 7404964 else K,q=20053569943731,Y O,V=q,q l=C[r[3]]X=y(17835)t=C[r[4]]H=C[r[5]]P=H(X,K)X=31638673135922 b=t[P]P=y(17646)v=l[b]b=C[r[4]]t=C[r[5]]H=t(P,X)l=b[H]z=v[l]q,W=z and 1628689 or 13491593,z end else if q<8140614 then q=O q=R and 14374570 or 6448122 else T,V=y(18423),11495925071667 R=S[T]W=y(19072)I=C[r[1]]Y=C[r[2]]O=Y(W,V)T=I[O]q=R[T]I=1 T=h+I R=q(D,T)q=9170742 end end else if q<8161412 then if q<8149881 then O=y(19167)I=C[r[1]]O,z=I[O],nil O=O(I)W=q V=O==z q,I=V and 13466133 or 11227352,V elseif 8153917>q then R=C[r[1]]h=y(18798)h=R[h]h=h(R)q=not h q=q and 15221375 or 5537198 else q=R and 6761088 or 2085992 end else if 8167145>q then q=QJ[9]and 5707611 or 12446850 else QJ[3]=16399863624212 mJ=C[r[2]]QJ[2]=y(17820)jJ=C[r[3]]QJ[1]=jJ(QJ[2],QJ[3])hJ=mJ[QJ[1]]q=14540743 CJ=k[hJ]RJ=SJ==CJ dJ=RJ end end end else if 8196924>q then if 8192302>q then if 8181268>q then QJ[69],QJ[71]=q,400000 QJ[70]=P>=QJ[71]QJ[68],q=QJ[70],QJ[70]and 7331392 or 12757274 elseif 8187431>q then O,q=V,z q=V and 10728023 or 5448789 else o,f,a,q=nil,nil,nil,13386394 end else if 8192845>q then q=p s,p=q,R U,nJ=p,q q=p and 16594297 or 12218840 else QJ[19],QJ[17]=1,q QJ[18]=a>=QJ[19]QJ[15],q=QJ[18],QJ[18]and 3429282 or 9473651 end end else if 8203010>q then l={}z,q=l,5607851 elseif q<8206741 then W,V=y(18466),10609474791432 R=C[r[4]]z=17976026322794 I=C[r[2]]Y=C[r[3]]O=Y(W,V)T=I[O]Y=C[r[2]]V=y(19078)O=C[r[3]]W=O(V,z)I=Y[W]R[T]=I q=16495692 elseif 8209284>q then N=C[r[1]]Y=9184411880496 D=C[r[2]]I=y(18253)T=D(I,Y)q=12125750 k=N[T]Q=j[k]R=Q else q,R=S[y(18838)],15772862<623191 R={R}end end end else if q>8068236 then if q>8097246 then if q<8115123 then if q<8106729 then f,J=q,0 a=P>J o,q=a,a and 8274480 or 14183222 elseif 8110383>q then e,H=12221242049641,q o=C[r[1]]f=C[r[2]]J=y(19193)a=f(J,e)K=o[a]X=O[K]P=X~=Q q,t=P and 5340984 or 14509681,P else I=q Y=C[r[3]]q,T=Y and 8284871 or 15733216,Y end else if 8119542>q then b,q=0,15384115 l=V>b z=l else q=k q=R and 16611098 or 8210349 end end else if q>8075989 then if 8083014>q then q=2073532 else V,T,I=y(18362),y(18333),16134195441646 q=C[r[4]]k=C[r[1]]N=C[r[2]]z=25609610735723 D=N(T,I)W=25244139943623 R=k[D]O=y(19156)T=C[r[1]]I=C[r[2]]Y=I(O,W)D=T[Y]T,I=y(17886),6588052346094 N=Q[D]k=h(N)q[R]=k q=C[r[4]]k=C[r[1]]N=C[r[2]]D=N(T,I)N=q R=k[D]T=C[r[4]]Y=C[r[1]]O=C[r[2]]W=O(V,z)I=Y[W]D=T[I]q,k=D and 5019552 or 10698916,D end else if 8072782>q then q=z and 2715740 or 5715766 elseif 8074233>q then j=C[r[2]]Q=141 h=j*Q j=9766882514757 R=h+j h=35184372088832 q=R%h C[r[2]]=q q=6359082 else q,R=S[y(19517)],{k;j;Q}end end end else if 8052357>q then if q>8041915 then if 8045933>q then v,q=0,1108666 z=Q>v W=z else s,U=q,not j p,q=U,U and 14031709 or 9495670 end else if q<8034937 then p,J,SJ,e=nil,nil,y(18812),99999 nJ=C[r[2]]GJ=7268176573073 c=C[r[3]]F=c(SJ,GJ)U=nJ[F]s=h[U]q=s and 10778960 or 11087772 elseif q<8039313 then q=W and 12452263 or 2901390 else P,o,l,X=y(19058),y(18146),y(18423),1695735958316 v=S[l]b=C[r[2]]t=C[r[3]]f,K=25416007196451,20968181799455 H=t(P,X)l=b[H]X=y(19313)R=v[l]t=C[r[2]]H=C[r[3]]P=H(X,K)b=t[P]P=C[r[2]]X=C[r[3]]K=X(o,f)H=P[K]t=z[H]o,p=y(17754),15750379100978 P=C[r[2]]e,f=y(18523),2648991369573 X=C[r[3]]K=X(o,f)H=P[K]f=C[r[2]]X=q a=C[r[3]]J=a(e,p)a=y(19339)o=f[J]K=z[o]o=0 P,e=K or o,y(19059)K=C[r[2]]J=17271000601907 o=C[r[3]]p=13334067293037 f=o(a,J)X=K[f]f=C[r[2]]a=C[r[3]]J=a(e,p)o=f[J]K=z[o]l,o={[b]=t;[H]=P,[X]=K},5628857188033 K=y(17834)v=R(I,l)H=C[r[2]]v=q P=C[r[3]]X=P(K,o)t=H[X]b=z[t]P=C[r[2]]f=27150507610508 X=C[r[3]]o=y(18531)K=X(o,f)H=P[K]t=Q[H]l=b==t R,q=l,l and 12872856 or 11503664 end end else if q<8062467 then if 8059077>q then q=QJ[18]q=QJ[15]and 10953369 or 8900191 elseif 8061733>q then q=10891831 else o,q=31200540735219,10807489 H=C[r[2]]P=C[r[3]]K=y(18422)X=P(K,o)t=H[X]H=b l[t]=H b,l,v=nil,nil,nil end else if q<8063971 then W=nil R,q={W},S[y(18562)]else QJ[7],CJ=19338814190696,y(18829)SJ=S[CJ]QJ[6]=y(18978)QJ[3]=C[r[3]]QJ[4]=C[r[4]]QJ[5]=QJ[4](QJ[6],QJ[7])q=13409524 QJ[1]=QJ[3][QJ[5]]jJ=F[QJ[1]]QJ[1]={SJ(jJ)}mJ,CJ,hJ=QJ[1][3],QJ[1][1],QJ[1][2]end end end end end end else if 7719147>q then if q<7574224 then if 7502442>q then if q>7473822 then if q>7486270 then if q<7494510 then hJ=q QJ[6]=C[r[2]]QJ[9]=y(18570)QJ[7]=C[r[3]]QJ[10]=3512438968811 QJ[8]=QJ[7](QJ[9],QJ[10])QJ[3]=QJ[6][QJ[8]]jJ=yJ[QJ[3]]QJ[10]=11530914560690 QJ[6]=C[r[2]]QJ[7]=C[r[3]]QJ[9]=y(19344)QJ[8]=QJ[7](QJ[9],QJ[10])QJ[3]=QJ[6][QJ[8]]mJ=jJ==QJ[3]CJ,q=mJ,mJ and 2740700 or 821710 else q=14422472 end else if q<7479767 then q=QJ[17]q=QJ[16]and 392918 or 795262 elseif q<7483630 then QJ[35],QJ[36]=q,not QJ[33]QJ[34],q=QJ[36],QJ[36]and 8451960 or 303369 else j=y(19041)h=S[j]R,q=h,15449823 end end else if 7456981>q then if q<7445191 then mJ=C[T]QJ[1]=.95 jJ=s*QJ[1]hJ=mJ>=jJ SJ,q=hJ,719172 elseif 7447991>q then GJ,yJ=y(18511),26083277695599 c=C[r[2]]q=10267309 F=C[r[3]]SJ=F(GJ,yJ)nJ=c[SJ]U=Y[nJ]nJ=U(e,o)p=nJ else V,t=y(18423),18100370273440 W=S[V]P,H=8420741534942,y(17947)z=C[r[2]]b=y(18949)v=C[r[3]]l=v(b,t)V=z[l]q=W[V]z=C[k]l=C[r[2]]b=C[r[3]]t=b(H,P)v=l[t]V=z[v]W=q(O,V)q=5384236 end else if q<7468507 then q,QJ[76]=740239,not QJ[15]QJ[74]=QJ[76]else q=v q,W=1339216,z end end end else if 7538388>q then if q>7524452 then if 7533349>q then GJ,q=qJ,rJ q=6992103 else q=y(18104)q=h[q]q=q(h)j=q q,R=j and 8208219 or 12125750,j end else if q<7507275 then R=C[r[1]]h,T=n[1],28594069929529 Q=C[r[2]]k=C[r[3]]D=y(17681)N=k(D,T)D=21506434953091 j=Q[N]q=R[j]j=C[r[2]]N=y(19108)Q=C[r[3]]k=Q(N,D)R=j[k]j=h q[R]=j q=C[r[4]]h=nil R=q()q,R=S[y(18564)],{}elseif 7514318>q then q=c and 5772674 or 14973767 else QJ[15]=C[r[2]]QJ[23],QJ[22],QJ[24]=21016129236858,y(17692),10642759274799 QJ[19]=C[r[3]]QJ[20]=C[r[4]]QJ[21]=QJ[20](QJ[22],QJ[23])QJ[18]=QJ[19][QJ[21]]QJ[20]=C[r[3]]QJ[21]=C[r[4]]QJ[23]=y(18107)QJ[22]=QJ[21](QJ[23],QJ[24])QJ[19]=QJ[20][QJ[22]]QJ[15][QJ[18]]=QJ[19]q=13194203 end end else if q>7557446 then if 7565737>q then QJ[44]=y(17758)QJ[44]=QJ[17][QJ[44]]QJ[44]=QJ[44](QJ[17],QJ[22])q,QJ[42]=34867,QJ[44]else q,qJ=wJ,dJ q=10822521 end else if 7543069>q then QJ[49],q=.15,8508899 QJ[46]=QJ[49]elseif q<7549188 then q=J q=a and 14128075 or 3282309 else V={}t=C[r[2]]K,X=14488109762983,y(17840)H=C[r[3]]P=H(X,K)b=t[P]v=q l=D[b]z,q=l,l and 8925069 or 9873521 end end end end else if q<7647560 then if q>7604123 then if q>7626211 then if q<7637794 then q=nil R={q}q=S[y(18058)]else Y=y(19167)R=C[r[1]]O,Y=q,R[Y]Y=Y(R)q,R=Y and 6714663 or 9733323,Y end else if q<7614202 then H,z,t=281778543943,y(18423),y(18518)V=S[z]v=C[r[2]]q=S[y(19151)]l=C[r[3]]b=l(t,H)z=v[b]W=V[z]z=i(15805927,{r[2];r[3]})V=W(I,z)V=1 W=I[V]R={W}elseif q<7621034 then h,q=nil,327875 C[r[5]]=R else U=v[J]p,X,s=q,a,not U e,q=s,s and 11216000 or 3940749 end end else if q<7591099 then if q<7579110 then QJ[13],QJ[14]=U,q q=U and 6424712 or 14860486 elseif q<7581931 then q=e e,p=a,q q=a and 10285877 or 200379 else RJ=C[r[2]]mJ=y(19046)CJ=C[r[3]]qJ,jJ=q,377521217886 hJ=CJ(mJ,jJ)wJ=RJ[hJ]dJ=F[wJ]rJ=dJ==H q,yJ=rJ and 3978644 or 16430600,rJ end else if 7598803>q then QJ[4]=C[r[1]]QJ[6],QJ[11]=y(19624),y(17625)QJ[8]=C[r[3]]QJ[9]=C[r[4]]QJ[12]=6835985232958 QJ[10]=QJ[9](QJ[11],QJ[12])QJ[7]=QJ[8][QJ[10]]QJ[6]=QJ[4][QJ[6]]QJ[6]=QJ[6](QJ[4],QJ[7],P)q=QJ[6]and 10047855 or 1659579 else QJ[27],q=nil,2109930 end end end else if q>7691693 then if 7696979>q then l,v=y(18480),V q=S[l]l=q(v)q,b=l and 13587881 or 8008633,l elseif q<7705907 then q,QJ[18]=2589075,5 QJ[17]=f<QJ[18]QJ[14]=QJ[17]elseif q<7713448 then D,v,Y=k,30928874746846,y(18319)I=S[Y]Y=I(T)O=C[r[2]]z=y(19591)W=C[r[3]]V=W(z,v)I=O[V]q=Y==I q=q and 6322544 or 13149401 else f,p=J+f,not e o=a>=f o=p and o p=a<=f p=e and p o=p or o p=16275037 q=o and p o=14634241 q=q or o end else if 7651535>q then if 7650086>q then C[j]=U GJ=C[a]yJ=1 SJ=GJ+yJ F=J[SJ]c=V+F q=nJ q,F=5821328,256 nJ=c%F V=nJ SJ=C[f]F=z+SJ SJ=256 c=F%SJ z=c elseif q<7650308 then Q,q=not j,8234372 R=Q else q=5309660~=10052370 R={q}q=S[y(18474)]end else if q<7672138 then q,N=I,T q=13828256 else q=v q,W=2582959,z end end end end end else if q>7870197 then if q<7962658 then if 7898018>q then if 7877950>q then if 7871921>q then f,q=J,e q=6644386 elseif 7873423>q then R,q=k,N q=14621503 else q=10801350 end else if 7889208>q then QJ[35],QJ[34],QJ[33],QJ[36]=nil,nil,nil,nil q,QJ[19],QJ[32]=14708633,nil,nil else U=y(18503)e=C[r[3]]nJ=15357239486176 p=C[r[4]]s=p(U,nJ)J=e[s]q=1786283 a=O[J]o=a end end else if 7930227>q then if 7904118>q then O,W,V=y(18418),26379297124806,y(19057)T=C[r[1]]I=C[r[2]]Y=I(O,W)D=T[Y]N=h[D]z,D=12495549402565,0 R=N or D Y=C[r[1]]N=R O=C[r[2]]v=1383544252095 W=O(V,z)I=Y[W]Y,D=y(18117),q T=j[I]I=0 R=T or I D,z=R,y(18205)I=S[Y]O=C[r[1]]W=C[r[2]]V=W(z,v)Y=O[V]T=I[Y]Y=N-D I=T(Y)T=200 R=I>T q=R and 3712163 or 9539790 elseif 7912374>q then l=y(18763)V=C[r[2]]z=C[r[3]]I,b=q,28078421536384 v=z(l,b)W=V[v]O=Q[W]Y=not O T,q=Y,Y and 14133165 or 15609821 else QJ[27]=y(18300)QJ[26]=C[r[1]]QJ[29]=C[r[3]]QJ[35]=30638898664028 QJ[30]=C[r[4]]QJ[33],QJ[32]=30901240721609,y(17929)QJ[31]=QJ[30](QJ[32],QJ[33])QJ[28]=QJ[29][QJ[31]]QJ[34]=y(19616)QJ[31]=C[r[3]]QJ[32]=C[r[4]]QJ[27]=QJ[26][QJ[27]]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[29]=QJ[17][QJ[30]]QJ[27]=QJ[27](QJ[26],QJ[28],QJ[29])q=QJ[27]and 3932336 or 7599983 end else if q<7947165 then q=R and 9943348 or 6190635 else R,q={yJ},qJ q=S[y(18218)]end end end else if q>7986406 then if q<7989536 then SJ=34735990934115 p=C[r[1]]U=C[r[2]]nJ=C[r[3]]F=y(18957)c=nJ(F,SJ)a=q s=U[c]F=17512237654542 e=p[s]s=C[r[2]]c=y(17728)U=C[r[3]]nJ=U(c,F)p=s[nJ]J=e[p]f,q=J,J and 6644386 or 5933762 elseif 7999851>q then q=QJ[52]q=QJ[36]and 9603815 or 2119000 elseif q<8009932 then q=b and 16095874 or 5361034 else I=C[r[2]]W,q=y(18956),5829510 Y=C[r[3]]V=5700975349700 O=Y(W,V)T=I[O]D=N[T]R=D end else if q<7982933 then if q<7975624 then R,O=h,q q=h and 11449977 or 8138906 elseif 7978638>q then O,q=V,z q=12116622 else R=C[r[1]]h=y(18798)h=R[h]h=h(R)q=not h q=q and 6869135 or 16082055 end else if q<7984553 then h,Q=y(18743),0 q=S[h]j=C[r[8]]h=q(j,Q)q=5364017 else q=R and 1697646 or 14888107 end end end end else if q<7795422 then if q<7757170 then if q>7742422 then if 7753786>q then q,QJ[18]=7081153,28000000 QJ[17]=X>=QJ[18]QJ[14]=QJ[17]else QJ[92]=30370738419141 QJ[82]=C[r[2]]QJ[85]=C[r[3]]QJ[86]=C[r[4]]QJ[88],QJ[89]=y(18878),12135201084032 QJ[87]=QJ[86](QJ[88],QJ[89])QJ[91]=y(18294)QJ[84]=QJ[85][QJ[87]]QJ[87]=y(19488)QJ[86]=S[QJ[87]]QJ[88]=C[r[3]]QJ[89]=C[r[4]]QJ[90]=QJ[89](QJ[91],QJ[92])QJ[87]=QJ[88][QJ[90]]QJ[92]=20398969570881 QJ[85]=QJ[86][QJ[87]]QJ[88]=C[r[3]]QJ[89]=C[r[4]]q,QJ[91]=9300031,y(18429)QJ[90]=QJ[89](QJ[91],QJ[92])QJ[89]=y(18806)QJ[87]=QJ[88][QJ[90]]QJ[88]=S[QJ[89]]QJ[89]={QJ[88](QJ[74])}QJ[86]=QJ[85](QJ[87],G(QJ[89]))QJ[82][QJ[84]]=QJ[86]end else if q<7726522 then I,Y=D(T,I)q=I and 12434184 or 11984747 elseif 7732742>q then z,q=l,b q=5444226 else QJ[17],QJ[14]=300000,q QJ[15]=X>=QJ[17]q,QJ[13]=QJ[15]and 8193091 or 8779656,QJ[15]end end else if q<7782635 then if q<7760088 then QJ[32]=X>=QJ[28]q,QJ[30]=9001052,QJ[32]elseif 7768732>q then q=V q=W and 9128742 or 14209717 else D,T,q=nil,nil,8455892 end else if 7792361>q then q=R and 13174414 or 10840764 else J=70 f=C[r[5]]a=f(b,J)q,o=2232068,not a X=o end end end else if 7846785>q then if q<7825582 then if 7799070>q then q=l q,V=11298362,v elseif 7810436>q then T=C[r[1]]W=4875602725663 I=C[r[2]]q,O=14973154,y(19434)Y=I(O,W)D=T[Y]N=h[D]k=N>j R=k else SJ,c,q=K,F,8533055 t,P=SJ,c end else if 7838362>q then q=QJ[32]q=QJ[19]and 6742196 or 14708633 else R,q={N},S[y(17604)]end end else if q<7867836 then if 7856860>q then QJ[16]=C[r[2]]QJ[20]=7130453791565 QJ[17]=C[r[3]]QJ[19]=y(18361)QJ[18]=QJ[17](QJ[19],QJ[20])QJ[15]=QJ[16][QJ[18]]q=4434147 QJ[14]=p[QJ[15]]QJ[12]=QJ[14]elseif q<7865577 then q,s=16245233,nil else q,c=8810656,0 R=c end else if 7869060>q then q=6149449 else QJ[44],QJ[35]=25433206176940,y(18829)QJ[34]=S[QJ[35]]QJ[40]=C[r[3]]QJ[43]=y(18322)QJ[41]=C[r[4]]q=3044375 QJ[42]=QJ[41](QJ[43],QJ[44])QJ[39]=QJ[40][QJ[42]]QJ[38]=j[QJ[39]]QJ[39]={QJ[34](QJ[38])}QJ[37],QJ[36],QJ[35]=QJ[39][3],QJ[39][2],QJ[39][1]end end end end end end end end end end else if q>12598975 then if q<14596813 then if 13553965>q then if q>13076442 then if q>13339012 then if q<13423983 then if 13385780>q then if q<13368220 then if q>13362424 then if q<13365067 then q=hJ q=CJ and 9648453 or 10000039 else q=4591851 I=C[r[2]]V=21516255918028 Y=C[r[3]]W=y(17694)O=Y(W,V)T=I[O]D=N[T]R=D end else if q<13341112 then T,q=1943539069085,y(18526)Q=C[r[1]]k=C[r[2]]D,q=y(19746),j[q]N=k(D,T)R=Q[N]q=q(j,R)Q=q R,q=Q,Q and 900983 or 3391230 elseif q<13352005 then T,W=y(18423),y(19619)R=S[T]V=11078868609911 I=C[r[1]]Y=C[r[2]]O=Y(W,V)T=I[O]q=R[T]T=h-j R=q(D,T)q=13619393 else z,q=nil,8642413 end end else if 13384236>q then if 13376617>q then z=C[r[1]]t=1883798376136 v=C[r[2]]b=y(19392)l=v(b,t)V=z[l]W=O[V]q,R=W and 14198654 or 9049037,W elseif q<13383508 then QJ[58]=7520514978659 QJ[52]=C[r[5]]QJ[57]=y(19019)QJ[54]=C[r[3]]QJ[55]=C[r[4]]q=4972090 QJ[56]=QJ[55](QJ[57],QJ[58])QJ[53]=QJ[54][QJ[56]]QJ[51]=QJ[52][QJ[53]]QJ[53]=C[r[3]]QJ[57]=12164001935323 QJ[54]=C[r[4]]QJ[56]=y(19133)QJ[55]=QJ[54](QJ[56],QJ[57])QJ[52]=QJ[53][QJ[55]]QJ[47]=QJ[51][QJ[52]]QJ[35]=QJ[47]else h=n[1]R=C[r[1]]j=y(18798)j=R[j]j=j(R)q=not j q=q and 16699691 or 14311741 end else if q<13384756 then b=25430760065436 V=C[r[2]]t,Y=27949127169289,q z=C[r[3]]l=y(18641)v=z(l,b)b=y(19211)W=V[v]O=h[W]W=0 R=O or W Y,O=R,q z=C[r[2]]H=16360098229298 v=C[r[3]]l=v(b,t)V=z[l]W=j[V]z,V,t=y(18117),0,y(18963)R=W or V O=R V=S[z]v=C[r[2]]l=C[r[3]]b=l(t,H)z=v[b]W=V[z]z=Y-O V=W(z)W=25 R=V>W q=R and 2398765 or 387816 else R,q=2988592<15517581,3087143 SJ=R end end end else if q<13395213 then if q<13388930 then if q<13387072 then q,K,X=710043,nil,nil elseif q<13387790 then z,q=v,l q=8071498 else s=C[r[16]]q=a J=H-s a=J>=f q=a and 14515177 or 9093675 end else if q<13392557 then l,P=y(18423),y(17702)v=S[l]b=C[r[1]]t=C[r[2]]X=26610331671584 H=t(P,X)X,K=y(18750),29844116534486 l=b[H]q=v[l]t=C[r[1]]H=C[r[2]]P=H(X,K)b=t[P]l=z[b]v=q(I,l)q=2060321 else q,b,l=11149526,17314041311706,y(18428)V=C[r[2]]z=C[r[3]]v=z(l,b)W=V[v]Y=W end end else if q>13408458 then if 13414929>q then mJ,jJ=CJ(hJ,mJ)q=mJ and 2476813 or 1753880 else QJ[8],QJ[4]=0,1 QJ[3]=U+QJ[4]QJ[7]=y(19153)QJ[7]=h[QJ[7]]QJ[7]=QJ[7](h,QJ[2])QJ[6]=QJ[7]==QJ[8]QJ[5]=q q,U,QJ[4]=QJ[6]and 13215008 or 5880076,QJ[3],QJ[6]end else if q<13396568 then RJ,q=9754958<=13552423,719172 SJ=RJ elseif 13402593>q then hJ=C[r[1]]jJ=C[r[3]]QJ[4],QJ[3]=27964705643563,y(17927)QJ[1]=C[r[4]]QJ[2]=QJ[1](QJ[3],QJ[4])mJ=jJ[QJ[2]]CJ=hJ[mJ]mJ=C[r[3]]QJ[3]=16125505863884 jJ=C[r[4]]QJ[2]=y(17591)QJ[1]=jJ(QJ[2],QJ[3])hJ=mJ[QJ[1]]RJ=CJ[hJ]wJ=GJ==RJ rJ,q=wJ,10633419 else N,D=q,not h k,q=D,D and 922076 or 13122610 end end end end else if q>13488865 then if q<13536940 then if 13501461>q then if 13491511>q then O=8419931<10021495 Y=C[j]I=Y==O q=I and 14416291 or 2415190 elseif q<13496235 then Y,q=W,V q=W and 785824 or 743861 else q=t q=R and 1927806 or 12560174 end else if 13517593>q then QJ[37]=C[r[3]]QJ[40],QJ[41],q=y(19155),500539288571,9921197 QJ[38]=C[r[4]]QJ[39]=QJ[38](QJ[40],QJ[41])QJ[36]=QJ[37][QJ[39]]QJ[35]=O[QJ[36]]QJ[33]=QJ[35]else q=QJ[32]q,QJ[29]=13956058,QJ[31]end end else if 13541906>q then O,q=nil,8518232 elseif 13544547>q then q,yJ=dJ,rJ q=12468115 elseif 13549354>q then N,D,q=nil,nil,4754991 else O,V=q,0 W=j==V Y,q=W,W and 7258305 or 588279 end end else if q>13467491 then if q<13478949 then if q<13471352 then D,h=y(18532),n[1]R=C[r[1]]Q=C[r[2]]k=C[r[3]]T=19013857783101 N=k(D,T)j=Q[N]q=R[j]N,D=y(19633),21132823471644 j=C[r[2]]Q=C[r[3]]k=Q(N,D)R=j[k]j=h h=nil q[R]=j q=C[r[4]]R=q()R,q={},S[y(18245)]elseif q<13475965 then W=24366158862029 T=C[r[1]]q=8862154 I=C[r[2]]O=y(18116)Y=I(O,W)D=T[Y]N=k[D]R=N else R,q={R},S[y(17768)]end else if q<13483062 then q,P=o,K q=4837603 else j,q,R,h=nil,S[y(19110)],{},nil end end else if q>13442446 then if q<13458448 then W,q=nil,8853055 else q=W q=I and 13775056 or 11471263 end else if 13428954>q then D=982974887291 R=C[r[1]]N=y(19750)j=C[r[3]]Q=C[r[4]]k=Q(N,D)h=j[k]q=R[h]D,h,T=y(18071),q,2891521366334 R=C[r[1]]Q=C[r[3]]k=C[r[4]]N=k(D,T)j=Q[N]q=R[j]j,Y=q,y(19405)D=C[r[3]]O=23425292268128 T=C[r[4]]I=T(Y,O)N=D[I]k=h[N]N=0 Q=k==N q,R=Q and 2928448 or 10386219,Q elseif q<13432202 then q,QJ[1],jJ,wJ=5586880,nil,nil,nil else QJ[21],QJ[19]=2,q QJ[20]=a<QJ[21]QJ[18],q=QJ[20],QJ[20]and 3777354 or 15516176 end end end end end else if q>13185499 then if q<13295181 then if q>13244973 then if q<13275871 then if q<13260028 then q=QJ[9]q=QJ[8]and 9583143 or 9347239 elseif 13268977>q then D=y(18117)N=S[D]W,O=3182193183786,y(19025)T=C[r[2]]I=C[r[3]]q=S[y(18840)]Y=I(O,W)D=T[Y]R=N[D]D=.05 N={R(h,D)}R={G(N)}else jJ,SJ,QJ[1]=nil,nil,11928293~=13421732 c,q=QJ[1],1753880 end else if q<13285762 then q=W q=O and 10439168 or 6149449 else qJ,X=1,o GJ=-X q,rJ,yJ=16602259,qJ,X qJ=0 dJ=rJ<qJ qJ=GJ-rJ end end else if 13217517>q then if 13194388>q then QJ[17],q=nil,12446850 elseif q<13204790 then q,R=S[y(18705)],{Q}else QJ[6]=y(17687)QJ[6]=j[QJ[6]]QJ[6]=QJ[6](j,QJ[2])QJ[4],q=QJ[6],5880076 end else if q<13226590 then V,O=0,q W=k==V q,Y=W and 4190878 or 6932224,W else qJ=C[r[3]]wJ,RJ=y(18739),20550574178972 rJ=C[r[4]]dJ=rJ(wJ,RJ)yJ=qJ[dJ]GJ=SJ[yJ]qJ,dJ=q,0 rJ=GJ==dJ q,yJ=rJ and 6349959 or 8489126,rJ end end end else if q>13315044 then if q<13324052 then q=dJ q=rJ and 10935641 or 4134818 elseif q<13334887 then mJ=.9 hJ=yJ>mJ q=hJ and 9432238 or 4608572 elseif q<13338218 then z,q=nil,9558058 else jJ=C[T]QJ[1],q=7500,16581381 mJ=jJ>=QJ[1]CJ=mJ end else if q<13307621 then if q<13297088 then b,q=H,P q=9819625 elseif q<13301673 then QJ[19]=C[r[3]]QJ[20]=C[r[4]]QJ[23],QJ[22]=34479005853549,y(17777)QJ[21]=QJ[20](QJ[22],QJ[23])QJ[18]=QJ[19][QJ[21]]QJ[15]=QJ[17][QJ[18]]q=QJ[15]and 2780533 or 6069312 else q=C[r[4]]T=C[r[2]]O,W=y(18913),15645665528492 I=C[r[3]]Y=I(O,W)R=T[Y]I=C[r[2]]V,W=28926353103025,y(19107)Y=C[r[3]]O=Y(W,V)T=I[O]q[R]=T q=13568339 end else if q<13312254 then V,o,t=nil,y(18873),y(18117)b=S[t]P=C[r[2]]a=13534828386345 X=C[r[3]]K=X(o,a)t=P[K]l=b[t]P=v t,X=q,q q=v and 12104108 or 15241414 else W,z=Y(O,W)q=W and 5374974 or 10613745 end end end end else if q<13123297 then if q<13087739 then if q>13082082 then if q<13083706 then RJ=q mJ=C[r[2]]QJ[2],QJ[3]=y(18771),5671038187199 jJ=C[r[3]]dJ=q QJ[1]=jJ(QJ[2],QJ[3])hJ=mJ[QJ[1]]CJ=GJ[hJ]q,wJ=CJ and 4982133 or 7024002,CJ else q,V=13360811,nil end else if 13080806>q then R=C[r[1]]Q=C[r[2]]T,D=33039588564336,y(18211)k=C[r[3]]N=k(D,T)j=Q[N]q=R[j]h,N,D=n[1],y(18813),28739987134264 j=C[r[2]]Q=C[r[3]]k=Q(N,D)R=j[k]j=h q[R]=j q=C[r[4]]R=q()h,q,R=nil,S[y(18057)],{}elseif q<13081394 then q,H,v=16028682,y(19695),y(18423)z=S[v]l=C[r[1]]b=C[r[2]]P=418906881821 t=b(H,P)v=l[t]W=z[v]v=C[r[3]]z=W(v,V)else yJ=C[r[1]]dJ=y(18614)qJ=C[r[2]]wJ=29410596279808 rJ=qJ(dJ,wJ)GJ=yJ[rJ]SJ=nJ[GJ]q,c=1824173,SJ end end else if q>13111863 then if q<13121307 then h,R=n[1],y(18480)q=S[R]R=q(h)j=R R,q=j,j and 14283630 or 7984810 else D=not Q k,q=D,922076 end else if 13092607>q then q,QJ[9]=7439664,U elseif 13099176>q then q,QJ[6]=5526740,1724412377869 QJ[2]=C[r[2]]QJ[3]=C[r[3]]QJ[5]=y(18684)QJ[4]=QJ[3](QJ[5],QJ[6])QJ[1]=QJ[2][QJ[4]]jJ=h[QJ[1]]mJ=jJ[dJ]CJ=mJ else q,j=2073532,nil end end end else if q<13164474 then if q>13139724 then if 13153939>q then T,D,q=nil,nil,4706979 else q=K q=X and 82103 or 7089093 end else if 13126719>q then QJ[16],QJ[12],QJ[10]=y(19668),y(18423),2.5 QJ[9]=nJ*QJ[10]QJ[17],QJ[20],F=16916328343209,23702757746619,nil QJ[8]=qJ+QJ[9]QJ[11]=15 QJ[10]=f*QJ[11]qJ=QJ[8]QJ[9]=qJ+QJ[10]qJ=QJ[9]QJ[11]=S[QJ[12]]QJ[13]=C[r[2]]QJ[18],QJ[19]=4824128994215,10772018871032 QJ[14]=C[r[3]]QJ[15]=QJ[14](QJ[16],QJ[17])QJ[12]=QJ[13][QJ[15]]QJ[10]=QJ[11][QJ[12]]nJ=nil QJ[14]=C[r[2]]QJ[17]=y(19710)QJ[15]=C[r[3]]QJ[16]=QJ[15](QJ[17],QJ[18])QJ[21]=33121044404357 QJ[13]=QJ[14][QJ[16]]QJ[15]=C[r[2]]QJ[16]=C[r[3]]QJ[18]=y(18515)QJ[17]=QJ[16](QJ[18],QJ[19])QJ[14]=QJ[15][QJ[17]]QJ[16]=C[r[2]]QJ[19]=y(19615)QJ[17]=C[r[3]]QJ[26]=5533840278627 QJ[18]=QJ[17](QJ[19],QJ[20])QJ[20]=y(18990)QJ[15]=QJ[16][QJ[18]]QJ[17]=C[r[2]]QJ[18]=C[r[3]]QJ[19]=QJ[18](QJ[20],QJ[21])QJ[16]=QJ[17][QJ[19]]QJ[22],QJ[23],QJ[21]=11927842927776,26056337521,y(19451)QJ[18]=C[r[2]]QJ[19]=C[r[3]]QJ[20]=QJ[19](QJ[21],QJ[22])QJ[17]=QJ[18][QJ[20]]QJ[19]=C[r[2]]QJ[22]=y(18334)QJ[20]=C[r[3]]QJ[21]=QJ[20](QJ[22],QJ[23])QJ[18]=QJ[19][QJ[21]]QJ[21],e=y(18117),nil QJ[20]=S[QJ[21]]U=nil QJ[22]=C[r[2]]QJ[23]=C[r[3]]q,QJ[25]=8192004,y(18177)QJ[24]=QJ[23](QJ[25],QJ[26])QJ[21]=QJ[22][QJ[24]]QJ[22]=100 QJ[19]=QJ[20][QJ[21]]QJ[21]=yJ*QJ[22]QJ[20]=QJ[19](QJ[21])QJ[12]={[QJ[13]]=P;[QJ[14]]=qJ;[QJ[15]]=J,[QJ[16]]=p;[QJ[17]]=o,[QJ[18]]=QJ[20]}p,yJ,J,qJ=nil,nil,nil,nil QJ[11]=QJ[10](V,QJ[12])elseif q<13129751 then R=C[r[1]]D=17658121250569 j=C[r[2]]N=y(18597)Q=C[r[3]]k=Q(N,D)h=j[k]q=R[h]R,h=y(18441),q q=C[r[1]]R=q[R]R=R(q)j=R Q=not j q,R=Q and 166764 or 13897850,Q else V,v=O(W,V)q=V and 9193180 or 4542176 end end else if q>13174374 then if 13175605>q then N=C[r[2]]D=C[r[3]]I,Y=y(18579),24901373578808 T=D(I,Y)k=N[T]V,N=19505661995802,q q=y(18890)R=h[k]q=h[q]I=C[r[2]]W=y(18148)Y=C[r[3]]O=Y(W,V)T=I[O]D=h[T]T=0 k,Y,O=D or T,18922832197176,23883265692513 q=q(h,R,k)R=C[r[4]]N=C[r[2]]I,V=y(17838),5228746734112 D=C[r[3]]T=D(I,Y)k=N[T]Y=y(19738)D=C[r[2]]T=C[r[3]]I=T(Y,O)W,q,O=668514226482,S[y(19341)],2415808910379 N=D[I]Y=y(19622)R[k]=N R=C[r[5]]D=C[r[2]]T=C[r[3]]I=T(Y,O)N=D[I]T=C[r[2]]O=y(19147)I=C[r[3]]Y=I(O,W)D=T[Y]k=y(17590)I=C[r[2]]W,k=y(19725),R[k]Y=C[r[3]]O=Y(W,V)T=I[O]k=k(R,N,D,T)R=10192747<15305473 R={R}else q,QJ[4]=QJ[8],QJ[7]q=QJ[7]and 13617919 or 1822325 end else if q<13171457 then F,q=nil,1443710 elseif 13173389>q then Q,k,q=nil,nil,14522896 else QJ[48]=q QJ[50]=C[r[1]]QJ[56],QJ[55]=28896254347581,y(18355)QJ[52]=C[r[3]]QJ[53]=C[r[4]]QJ[54]=QJ[53](QJ[55],QJ[56])QJ[51]=QJ[52][QJ[54]]QJ[49]=QJ[50][QJ[51]]QJ[47],q=QJ[49],QJ[49]and 11575024 or 14564538 end end end end end end else if q>12849734 then if q>12968654 then if 13007493>q then if q>12983314 then if q>12998374 then if 13003658>q then V=q l=C[r[1]]t=C[r[2]]K,X=5288982072961,y(18340)H=C[r[3]]P=H(X,K)b=t[P]v=l[b]X=9096144091842 b=C[r[2]]t=C[r[3]]P=y(17698)H=t(P,X)l=b[H]z=v[l]W,q=z,z and 2913299 or 16294367 else QJ[60]=y(19699)QJ[57]=C[r[3]]QJ[61],QJ[54]=16592658344176,q QJ[58]=C[r[4]]QJ[59]=QJ[58](QJ[60],QJ[61])QJ[56]=QJ[57][QJ[59]]QJ[55]=j[QJ[56]]q,QJ[32]=QJ[55]and 3299965 or 9088700,QJ[55]end else if q<12985291 then h=y(18798)R=C[r[1]]h=R[h]h=h(R)q=not h q=q and 13623918 or 13998447 elseif q<12990222 then QJ[17],q=nil,8630840 else s,X=y(17880),y(18829)H=S[X]J=C[r[2]]U=21442704709216 e=C[r[3]]q=2024268 p=e(s,U)a=J[p]f=h[a]a={H(f)}K,X,o=a[2],a[1],a[3]end end else if q>12980178 then if 12982428>q then q=S[y(18885)]N=C[r[3]]R={N}else H=0 t=v>=H l,q=t,2288632 end else if q<12973757 then RJ,CJ=dJ(wJ,RJ)q=RJ and 15265237 or 13660130 elseif q<12977051 then q=jJ q=p and 15829611 or 530922 else SJ,e=q,U GJ=e~=j q,F=GJ and 14610835 or 4459104,GJ end end end else if q<13035314 then if q>13027954 then if q<13032280 then U,p,s,o=nil,nil,nil,nil q=7717332 else hJ,mJ=y(19255),31788197170200 wJ=C[r[2]]RJ=C[r[3]]qJ=q CJ=RJ(hJ,mJ)dJ=wJ[CJ]rJ=GJ[dJ]yJ,q=rJ,rJ and 7949775 or 11651872 end else if q<13017089 then z=q W=C[r[6]]V=W(O)q,W=V and 4632866 or 16146135,V elseif q<13023640 then e,s=q,0 p=b>s q=p and 6225147 or 12827553 else q=R and 3497954 or 9453144 end end else if q<13040477 then I=q z=C[r[2]]O,t,b=q,30537197266092,y(17622)v=C[r[3]]l=v(b,t)V=z[l]W=j[V]Y,q=W,W and 3856530 or 2006921 elseif 13044628>q then a,nJ,c=s,4,250 F=c c=4 SJ=c c,q=0,130304 GJ=SJ<c c=nJ-SJ elseif q<13059436 then QJ[45],q=QJ[22],9851321 else QJ[5],QJ[6],q=1,50000,6244680 QJ[3]=s+QJ[5]QJ[5]=X-QJ[6]QJ[6]=C[r[2]]QJ[11],X=y(18119),QJ[5]QJ[8]=C[r[3]]s,QJ[13]=QJ[3],24473991240431 QJ[9]=C[r[4]]QJ[12]=33439253361810 QJ[10]=QJ[9](QJ[11],QJ[12])QJ[12]=y(19365)QJ[7]=QJ[8][QJ[10]]QJ[9]=C[r[3]]QJ[10]=C[r[4]]QJ[11]=QJ[10](QJ[12],QJ[13])QJ[8]=QJ[9][QJ[11]]QJ[6][QJ[7]]=QJ[8]end end end else if q>12927490 then if q<12947475 then if q<12942507 then if q<12928759 then N,D=y(19167),q R=C[r[1]]N=R[N]N=N(R)R,q=N,N and 4039866 or 14589851 elseif 12935011>q then QJ[16],QJ[17]=y(18936),12496744187084 QJ[11]=C[r[5]]q=13176796 QJ[13]=C[r[3]]QJ[14]=C[r[4]]QJ[15]=QJ[14](QJ[16],QJ[17])QJ[12]=QJ[13][QJ[15]]QJ[15]=y(18224)QJ[10]=QJ[11][QJ[12]]QJ[12]=C[r[3]]QJ[16]=3890962233036 QJ[13]=C[r[4]]QJ[14]=QJ[13](QJ[15],QJ[16])QJ[11]=QJ[12][QJ[14]]QJ[9]=QJ[10][QJ[11]]QJ[7]=QJ[9]else f=C[r[3]]a=C[r[4]]X,e,p,H=q,y(18090),9766734500106,q J=a(e,p)o=f[J]K=j[o]P,q=K,K and 10906262 or 704582 end else if q<12945769 then q,J,X=16277415,nil,nil else jJ,hJ=2,q mJ=SJ==jJ CJ,q=mJ,mJ and 13364037 or 8415221 end end else if q<12956086 then if q<12949220 then q,I=5268582,not Q D=I elseif q<12950989 then q,CJ=14808375,y(18844)dJ=C[r[2]]hJ=6060513760310 wJ=C[r[3]]RJ=wJ(CJ,hJ)rJ=dJ[RJ]qJ=F[rJ]GJ=qJ else q=R and 12548902 or 8924160 end else if q<12963161 then T,Y=N(D,T)q=T and 6769997 or 12928006 else l,q=6759054966183,Y Y,v=0,y(18421)T=I or Y I=m()C[I]=T Y=C[r[1]]W=C[r[2]]V=C[r[3]]z=V(v,l)O=W[z]T=Y[O]Y=m()W=0 C[Y]=T O=#k T=O>W q=T and 233685 or 6382391 end end end else if q>12894777 then if q>12911495 then if q<12919418 then v,l=q,not k z,q=l,l and 7471167 or 9829965 else Y,H=y(18829),11307844714380 R=S[Y]v=C[r[2]]t,q=y(18450),13314323 l=C[r[3]]b=l(t,H)z=v[b]V=Q[z]z={R(V)}O,W,Y=z[2],z[3],z[1]end else if 12902195>q then q=16186633<=9415 R={q}q=S[y(19533)]elseif 12908882>q then QJ[27],q=QJ[29],QJ[30]q=12457770 else q,R=k,Q q=10169013 end end else if q>12872820 then if q<12882328 then q=v l,v=q,R R,q=v,v and 1815881 or 97725 else V=q q,W=O and 8516513 or 12340242,O end else if q<12854554 then q,X,P,H=11789319,nil,nil,nil t,K=nil,nil elseif 12864044>q then Y=C[r[2]]V=y(19583)O=C[r[3]]z=15715209907337 W=O(V,z)I=Y[W]q=1241871 T=j[I]I=0 D=T>I k=D else Y,V,b=q,y(18319),y(18209)W=S[V]V=W(D)z=C[r[1]]t=10209974995096 v=C[r[2]]l=v(b,t)W=z[l]O=V==W I,q=O,O and 1246338 or 1750527 end end end end end else if q>12748996 then if 12806529>q then if 12762071>q then if q<12758587 then if 12754176>q then QJ[77]=9277655470553 QJ[62]=C[r[2]]QJ[73]=C[r[3]]QJ[74]=C[r[4]]QJ[76]=y(18930)QJ[75]=QJ[74](QJ[76],QJ[77])QJ[63]=QJ[73][QJ[75]]QJ[61]=QJ[62][QJ[63]]QJ[63]=C[r[3]]QJ[75],QJ[76]=y(19030),20104543238435 QJ[73]=C[r[4]]QJ[74]=QJ[73](QJ[75],QJ[76])QJ[62]=QJ[63][QJ[74]]q=14295299 QJ[60]=QJ[61]==QJ[62]QJ[54]=QJ[60]elseif 12757647>q then QJ[66],q=QJ[68],QJ[69]q=3074414 else O=C[r[3]]z,q,v=y(18884),3306725,18984567881569 W=C[r[4]]V=W(z,v)Y=O[V]I=j[Y]Y=0 T=I==Y N=T end else if q<12760526 then c=C[j]nJ,U=q,c q=c and 3361377 or 7650027 else F=5 s,q=F,12700735 end end else if q>12783146 then if 12801680>q then q=S[y(18331)]R=T>I R={R}else q=t and 1984361 or 6676143 end else if q<12763627 then V=y(17792)T=C[r[2]]Y=C[r[3]]z=20087127984977 O=C[r[4]]W=O(V,z)I=Y[W]O=C[r[3]]z=y(17832)W=C[r[4]]v=9696602927171 V=W(z,v)v=405290286903 Y=O[V]T[I]=Y Y,T=y(18048),y(17716)T=h[T]T=T(h)I=S[Y]O=C[r[3]]q=12220308 W=C[r[4]]z=y(18045)V=W(z,v)Y=O[V]T=I[Y]Y=1 I=T(Y)elseif 12765202>q then z=#k v=50 V=z>=v W,q=V,V and 5337957 or 6328714 else z=y(17917)V=S[z]q,O=9196372,V end end end else if q>12825655 then if q<12832983 then p,q=99999,14670920 J=p elseif q<12839865 then K,q,f,o=nil,10142661,nil,nil elseif q<12843490 then QJ[9]=y(19245)QJ[6]=C[r[2]]QJ[7]=C[r[3]]QJ[10]=4489384702740 QJ[8]=QJ[7](QJ[9],QJ[10])QJ[5]=QJ[6][QJ[8]]QJ[2],QJ[9]=q,y(17906)QJ[4]=RJ[QJ[5]]QJ[6]=C[r[2]]QJ[10]=7567538642176 QJ[7]=C[r[3]]QJ[8]=QJ[7](QJ[9],QJ[10])QJ[5]=QJ[6][QJ[8]]QJ[3]=QJ[4]==QJ[5]QJ[1],q=QJ[3],QJ[3]and 15947560 or 1396359 else V=y(18066)T=C[r[2]]z=22714221094944 Y=C[r[3]]v=31620240721706 O=C[r[4]]W=O(V,z)I=Y[W]O=C[r[3]]W=C[r[4]]z=y(17912)V=W(z,v)Y=O[V]z=19310481584388 T[I]=Y T=C[r[2]]Y=C[r[3]]v,V=27560264670029,y(18702)O=C[r[4]]W=O(V,z)I=Y[W]z=y(19186)O=C[r[3]]W=C[r[4]]V=W(z,v)Y=O[V]T[I]=Y b,I=y(18718),q W=C[r[5]]t=27682090331079 z=C[r[3]]v=C[r[4]]l=v(b,t)V=z[l]O=W[V]V=C[r[3]]l=y(18650)z=C[r[4]]b=34250609994892 v=z(l,b)W=V[v]Y=O[W]T,q=Y,Y and 16385668 or 1806769 end else if 12813091>q then if 12810652>q then q,QJ[6]=QJ[9],QJ[8]q=QJ[8]and 16165129 or 12009168 elseif q<12811873 then H=C[r[2]]P=C[r[3]]K,o=y(19621),9795581909396 X=P(K,o)W=v t=H[X]a,p=y(18708),y(19549)b=l[t]X=y(18117)P=S[X]K=C[r[2]]o=C[r[3]]J=34098585422446 f=o(a,J)J=10675731143519 X=K[f]o,a=40,y(19343)H=P[X]K=b%O s=16508851214908 X=K/o P=H(X)K=C[r[2]]o=C[r[3]]f=o(a,J)X=K[f]f=y(18117)o=S[f]a=C[r[2]]J=C[r[3]]e=J(p,s)f=a[e]K=o[f]J=40 a=b/O f=a/J o=K(f)H=X..o t=P..H P=q K=Y[t]X=not K H,q=X,X and 8699311 or 4750837 else q,R=S[y(19395)],9740805>=14648098 R={R}end else if q<12818450 then T=nil R,q={T},S[y(17907)]else QJ[17],QJ[23],q,QJ[22]=y(19624),3074967988510,247330,y(18974)QJ[15]=C[r[1]]QJ[19]=C[r[3]]QJ[20]=C[r[4]]QJ[21]=QJ[20](QJ[22],QJ[23])QJ[17]=QJ[15][QJ[17]]QJ[18]=QJ[19][QJ[21]]QJ[17]=QJ[17](QJ[15],QJ[18],P)end end end end else if q<12693185 then if 12642767>q then if q>12634548 then if 12638131>q then b,X,K=y(18423),y(18849),9495761498367 l=S[b]t=C[r[2]]H=C[r[3]]P=H(X,K)X,f=y(18520),17646512963766 b=t[P]v=l[b]b=E(11344522,{r[2];r[3],k})l=v(W,b)o,K,l=34242042263600,14953310499200,1 v=W[l]t=C[r[2]]H=C[r[3]]P=H(X,K)b=t[P]l=v[b]H=C[r[2]]P=C[r[3]]K=y(19671)X=P(K,o)t=H[X]b=v[t]o=y(19721)P=C[r[2]]q=S[y(18899)]X=C[r[3]]K=X(o,f)H=P[K]t=v[H]R={l,b;t}else b=12466104~=11029310 R,q={b},S[y(18065)]end else if 12613010>q then I=2 R=T==I q=R and 9909603 or 295568 elseif q<12627892 then q=y(19153)q=h[q]q=q(h,O)W=q V=W~=j R,q=V,V and 6762748 or 11288931 else mJ=C[r[2]]QJ[2],RJ=y(17749),q jJ=C[r[3]]QJ[3]=34408386183242 QJ[1]=jJ(QJ[2],QJ[3])hJ=mJ[QJ[1]]CJ=D[hJ]q,wJ=CJ and 15184242 or 11417555,CJ end end else if q>12678117 then if 12691671>q then T=y(18762)k=C[r[2]]N=C[r[3]]q,I=8445102,1623138756275 D=N(T,I)Q=k[D]j=h[Q]R=j else q=v and 13390030 or 2060321 end else if 12649925>q then N=C[h]T=C[r[1]]O,W=y(17921),16089034043325 I=C[r[2]]Y=I(O,W)D=T[Y]k=N[D]N=nil Q=k~=N q,R=Q and 11886331 or 16247608,Q elseif q<12658911 then N=R q=not N q=q and 10292964 or 5044065 else QJ[21],QJ[19]=2,q QJ[20]=J<QJ[21]QJ[18],q=QJ[20],QJ[20]and 10505508 or 11187842 end end end else if 12719064>q then if q<12704957 then if q<12697340 then q=R and 4586188 or 6769666 elseif 12700932>q then q=c c=U>=s q=c and 11745543 or 4793606 else QJ[14]=y(19089)QJ[11]=C[r[3]]QJ[12]=C[r[4]]QJ[8],QJ[15]=q,22224286842717 QJ[13]=QJ[12](QJ[14],QJ[15])QJ[10]=QJ[11][QJ[13]]QJ[9]=QJ[1][QJ[10]]QJ[10]=0 QJ[7]=QJ[9]or QJ[10]QJ[9]=1.1 QJ[8]=K*QJ[9]QJ[6]=QJ[7]>QJ[8]q,QJ[4]=9189559,QJ[6]end else if q<12713707 then q=C[h]R=y(18104)R=q[R]R=R(q)k=R q,R=k and 5179457 or 12652504,k else QJ[27]=q QJ[32]=C[r[3]]QJ[33]=C[r[4]]QJ[35],QJ[36]=y(19150),25279342032164 QJ[34]=QJ[33](QJ[35],QJ[36])QJ[31]=QJ[32][QJ[34]]QJ[28]=QJ[22][QJ[31]]QJ[25],q=QJ[28],QJ[28]and 13621396 or 2518890 end end else if q>12728233 then if q<12738679 then GJ=2 SJ=J[GJ]q=15371443 GJ=C[p]F=SJ==GJ nJ=F else SJ,QJ[1],q,jJ=nil,nil,5953010,nil end else if 12720406>q then q=R and 69053 or 2097908 elseif 12723667>q then c,X,F,p=y(18802),q,5765900289027,14326528855069 e=y(19139)f=C[r[3]]a=C[r[4]]J=a(e,p)o=f[J]K=O[o]o=0 P=K or o K=q J,f=q,q s=C[r[3]]U=C[r[4]]nJ=U(c,F)p=s[nJ]e=O[p]q,a=e and 2007847 or 6347948,e else QJ[30],QJ[32],QJ[31]=1,1,QJ[27]QJ[33]=QJ[32]QJ[32],q=0,9021533 QJ[34]=QJ[32]>QJ[33]QJ[32]=QJ[30]-QJ[33]end end end end end end end else if q<14057262 then if q>13839236 then if q>13966239 then if q<14024877 then if q>14001377 then if q>14010257 then if q<14018274 then dJ=y(19153)dJ,RJ=h[dJ],q dJ=dJ(h,rJ)CJ=dJ~=j q,wJ=CJ and 11396715 or 5393762,CJ else I=C[r[4]]O=C[r[1]]v,z=14768258207548,y(18085)W=C[r[2]]V=W(z,v)Y=O[V]q,z=14284946,16370491663898 T=I[Y]Y=C[r[1]]V=y(19492)O=C[r[2]]W=O(V,z)I=Y[W]D=T[I]k=D end else if q<14005054 then f,H,q=4150067~=13543161,nil,10985444 t,o=f,nil elseif q<14007316 then q,O=T,y(18117)Y=S[O]W,O=y(18423),y(18906)T=Y[O]Y=m()C[Y]=T O=S[W]W,l=y(19259),y(18423)T=O[W]z=q v=S[l]V,W=v,q q=v and 7407362 or 14186897 else D=y(19167)q=C[r[1]]D,Y=q[D],q D=D(q)q,I=D and 3962398 or 12965604,D end end else if 13987687>q then if q<13974356 then q,t=X,P q=14303838 elseif q<13979795 then q=8702368 else QJ[5]=y(18423)QJ[4]=S[QJ[5]]QJ[11]=1202380748755 QJ[6]=C[r[2]]QJ[10],QJ[9],q,QJ[12]=7698544926134,y(18354),QJ[3],9500949258998 QJ[7]=C[r[3]]QJ[8]=QJ[7](QJ[9],QJ[10])QJ[5]=QJ[6][QJ[8]]QJ[3]=QJ[4][QJ[5]]QJ[7]=C[r[2]]QJ[10]=y(18124)QJ[8]=C[r[3]]QJ[9]=QJ[8](QJ[10],QJ[11])QJ[11]=y(17854)QJ[6]=QJ[7][QJ[9]]QJ[13]=31290957308726 QJ[8]=C[r[2]]QJ[9]=C[r[3]]QJ[10]=QJ[9](QJ[11],QJ[12])QJ[12]=y(19081)QJ[7]=QJ[8][QJ[10]]QJ[9]=C[r[2]]QJ[10]=C[r[3]]QJ[11]=QJ[10](QJ[12],QJ[13])QJ[14]=8906169195495 QJ[8]=QJ[9][QJ[11]]QJ[10]=C[r[2]]QJ[13]=y(18685)QJ[11]=C[r[3]]QJ[12]=QJ[11](QJ[13],QJ[14])QJ[13],QJ[11]=q,q QJ[9]=QJ[10][QJ[12]]q,QJ[12]=p and 7849382 or 4434147,p end else if 13996089>q then O=1 T=k[O]q,R=S[y(19482)],{T}else N=y(18231)R=C[r[1]]j=C[r[2]]D=32938193183174 Q=C[r[3]]k=Q(N,D)h=j[k]q=R[h]V,N=y(18115),y(18290)j=C[r[2]]h,D=q,23537058004997 Q=C[r[3]]k=Q(N,D)z=7449800581677 R=j[k]q=h[R]R,j,I=y(19167),q,y(19414)q=C[r[1]]R=q[R]R=R(q)Q=R R=C[r[1]]Y=21111274062889 N=C[r[2]]D=C[r[3]]T=D(I,Y)k=N[T]q=R[k]Y=7769062906081 N=C[r[2]]I=y(19397)D=C[r[3]]k=q T=D(I,Y)R=N[T]q=h[R]N=q Y=C[r[2]]O=C[r[3]]W=O(V,z)I=Y[W]T=h[I]D=not T R,q=D,D and 7302542 or 15213153 end end end else if q<14042293 then if q>14035692 then if q<14040067 then q=R and 2094055 or 4087788 else q=R and 253332 or 587856 end else if 14026735>q then q=k q=Q and 15486622 or 10071489 elseif 14030144>q then mJ,QJ[6]=q,29283739676114 QJ[2]=C[r[3]]QJ[3]=C[r[4]]QJ[5]=y(18024)QJ[4]=QJ[3](QJ[5],QJ[6])QJ[1]=QJ[2][QJ[4]]jJ=F[QJ[1]]hJ,q=jJ,jJ and 3669022 or 14930254 else q=s q=p and 9115229 or 11787805 end end else if 14048496>q then QJ[15]=C[r[1]]QJ[17],QJ[22]=y(19624),y(17911)QJ[19]=C[r[3]]QJ[20]=C[r[4]]QJ[23]=28479015448577 QJ[21]=QJ[20](QJ[22],QJ[23])q=4688802 QJ[18]=QJ[19][QJ[21]]QJ[17]=QJ[15][QJ[17]]QJ[17]=QJ[17](QJ[15],QJ[18])elseif 14053306>q then I=C[r[2]]Y=C[r[3]]V,W=21088923023007,y(19644)O=Y(W,V)T=I[O]D=h[T]N,z=not D,6399894761269 R=not N Y=C[r[2]]O=C[r[3]]V,N=y(19593),R W=O(V,z)I=Y[W]T=j[I]D=not T R=not D D=R R=N~=D q=R and 7844189 or 14958454 elseif q<14055243 then QJ[8],q=P,649921 else q,h=k,Q q=1814506 end end end else if 13894606>q then if 13867077>q then if q>13855480 then if 13861110>q then q=jJ QJ[5]=0 QJ[4]=dJ==QJ[5]QJ[3]=q q=QJ[4]and 348933 or 12440674 else qJ,yJ,rJ,nJ=nil,nil,nil,nil dJ,q=nil,15455703 end else if q<13843457 then h,R,q=nil,{},S[y(19336)]elseif 13850768>q then W,q=V,z q=8898403 else V,a=l,y(18269)K=C[r[3]]o=C[r[4]]J,H=25324477260653,q f=o(a,J)X=K[f]P=b[X]q,t=P and 5245888 or 14303838,P end end else if q<13887586 then if q<13870734 then q,D=8328840,nil elseif q<13880289 then q=X q=R and 11854319 or 710043 else QJ[54]=q QJ[61]=C[r[5]]QJ[66]=y(19031)QJ[63]=C[r[3]]QJ[67]=15847486080924 QJ[64]=C[r[4]]QJ[65]=QJ[64](QJ[66],QJ[67])QJ[62]=QJ[63][QJ[65]]QJ[60]=QJ[61][QJ[62]]QJ[66]=15349635426152 QJ[62]=C[r[3]]QJ[65]=y(19417)QJ[63]=C[r[4]]QJ[64]=QJ[63](QJ[65],QJ[66])QJ[61]=QJ[62][QJ[64]]QJ[55]=QJ[60][QJ[61]]q,QJ[53]=QJ[55]and 8989326 or 8873105,QJ[55]end else if q<13891163 then R,T=0,Q q=T==R q=q and 14782572 or 15821051 else QJ[3],q=nil,6722979 end end end else if q>13923475 then if q<13953528 then if q<13929511 then q=T q,k=871455,D elseif q<13942598 then QJ[10],QJ[11]=y(19547),5005287852403 QJ[7]=C[r[3]]QJ[8]=C[r[4]]QJ[4]=q QJ[9]=QJ[8](QJ[10],QJ[11])QJ[6]=QJ[7][QJ[9]]QJ[5]=jJ[QJ[6]]QJ[6]=0 QJ[3]=QJ[5]or QJ[6]QJ[5]=1.1 QJ[4]=K*QJ[5]QJ[1]=QJ[3]>QJ[4]q=QJ[1]and 13274691 or 11011857 else R,q={N},S[y(19457)]end else if q<13958885 then QJ[27],q=QJ[29],QJ[30]q=QJ[29]and 8586743 or 15059533 else QJ[53]=y(18545)QJ[52]=C[r[1]]QJ[53]=QJ[52][QJ[53]]QJ[53]=QJ[53](QJ[52],c,mJ)q=QJ[53]and 11255612 or 9159761 end end else if q>13908058 then if q<13916910 then q=7435671 else I=Z(10205781,{h,r[1],r[2],j,Q})R=y(17689)q=S[R]Y={q(I)}q,T,R=S[y(19596)],Y[2],Y[1]I=R R={I}end else if 13896674>q then QJ[39],q=QJ[41],QJ[42]q=3005840 elseif q<13901137 then O,Y,q=27602187958862,y(18811),166764 D=C[r[2]]T=C[r[3]]I=T(Y,O)N=D[I]k=j[N]Q=not k R=Q else SJ=C[r[1]]jJ,q=y(17839),c CJ=C[r[3]]hJ=C[r[4]]QJ[1],c=20236734059363,4169972>6078446 mJ=hJ(jJ,QJ[1])GJ=CJ[mJ]F=SJ[GJ]CJ,GJ=q,y(18441)SJ=C[r[1]]q,GJ=F and 14028580 or 6410504,SJ[GJ]GJ=GJ(SJ)SJ=F end end end end end else if q>13722210 then if q>13790364 then if 13811143>q then if q>13802418 then if q<13803290 then s=s+U e,c=s<=p,not nJ e=c and e c=p<=s c=nJ and c e=c or e c=1576711 q=e and c e=13803334 q=q or e else q,X=16171024,nil end else if 13795432>q then O=8660582551525 D=C[r[2]]Y=y(18279)T=C[r[3]]I=T(Y,O)N=D[I]W=13776645688220 k=h[N]Q,O=not k,y(18043)R=not Q T=C[r[2]]I=C[r[3]]Q=R Y=I(O,W)D=T[Y]N=j[D]k=not N R=not k k=R R=Q~=k q=R and 12373961 or 14052863 elseif 13798590>q then s,q=1.5,16588051 e=s else q=7435671 end end else if q<13823133 then N=R q=C[r[1]]R=y(18441)R=q[R]R=R(q)V,D=y(18013),R T=C[r[2]]W,O=18934535383050,y(18765)I=C[r[3]]Y=I(O,W)R=T[Y]q=h[R]T=q R=C[r[1]]z,l=21975493327267,y(18954)Y=C[r[2]]O=C[r[3]]b=26502344604310 W=O(V,z)I=Y[W]q=R[I]V=C[r[2]]z=C[r[3]]I=q v=z(l,b)W=V[v]O=h[W]Y=not O q,R=Y and 6979761 or 16025824,Y elseif 13827785>q then U,s=2336738207689,y(17864)J=C[r[2]]e=C[r[3]]q=1398008 p=e(s,U)a=J[p]f=N[a]o=#f X=o elseif q<13832953 then q=D q,Q=14056737,N else R,q=N,D q=12693945 end end else if q>13747860 then if q<13773856 then if q<13755905 then q,GJ=4766902,nil elseif 13767359>q then s=1 U,q,p=s,13803246,z e=-z X,s=o,0 nJ=U<s s=e-U else q=6903902>=1536305 R={q}q=S[y(19442)]end else if 13780255>q then K=5577243553227 W=C[r[2]]t=6949140852332 z=C[r[3]]H=14693759657540 v=C[r[4]]b=y(19490)l=v(b,t)t=y(19319)V=z[l]v=C[r[3]]l=C[r[4]]b=l(t,H)X=y(19674)z=v[b]W[V]=z l=C[r[5]]V=q t=C[r[3]]H=C[r[4]]P=H(X,K)b=t[P]P=y(18366)v=l[b]b=C[r[3]]t=C[r[4]]X=10676891238037 H=t(P,X)l=b[H]z=v[l]q,W=z and 4630789 or 4978601,z else q,R=T,D q=7302542 end end else if 13745170>q then if q<13739103 then QJ[33],q=y(17758),15936421 QJ[33]=QJ[17][QJ[33]]QJ[33]=QJ[33](QJ[17],QJ[15])QJ[31]=QJ[33]elseif q<13743860 then QJ[9]=C[r[2]]QJ[19],QJ[18]=28403044091894,y(19401)QJ[14]=C[r[3]]QJ[15]=C[r[4]]QJ[17]=QJ[15](QJ[18],QJ[19])QJ[13]=QJ[14][QJ[17]]QJ[17],QJ[21]=y(19488),y(18343)QJ[15]=S[QJ[17]]QJ[22]=8816990865718 QJ[18]=C[r[3]]QJ[19]=C[r[4]]QJ[20]=QJ[19](QJ[21],QJ[22])QJ[17]=QJ[18][QJ[20]]QJ[14]=QJ[15][QJ[17]]QJ[18]=C[r[3]]QJ[22],q,QJ[21]=21811263004339,657279,y(17693)QJ[19]=C[r[4]]QJ[20]=QJ[19](QJ[21],QJ[22])QJ[17]=QJ[18][QJ[20]]QJ[19]=1 QJ[18]=QJ[8]+QJ[19]QJ[15]=QJ[14](QJ[17],QJ[18])QJ[9][QJ[13]]=QJ[15]else q,v=S[y(18714)],nil R={v}end else if 13745652>q then k,N=q,not j q,Q=N and 6943025 or 1381477,N else o,H,q=nil,nil,14145241 end end end end else if 13625086>q then if 13613357>q then if 13578110>q then if 13558837>q then q=P q=H and 344742 or 8520266 elseif 13565384>q then q=QJ[6]q,QJ[3]=QJ[5]and 8508931 or 3896234,QJ[5]else q,D=5662413,nil end else if 13598338>q then t,q=y(17599),8008633 t=I[t]t=t(I,l)b=t else t=C[r[1]]X,K,q=y(19128),17844035272459,11696265 H=C[r[2]]P=H(X,K)b=t[P]R=b end end else if 13622657>q then if 13618656>q then QJ[8],QJ[10]=q,1 QJ[9]=e<QJ[10]q,QJ[7]=QJ[9]and 9941760 or 11338373,QJ[9]elseif 13620394>q then T=1 R=Q-T q=N<R q=q and 11901619 or 11339533 else QJ[34]=C[r[3]]QJ[37],QJ[38]=y(18332),26761365174425 QJ[35]=C[r[4]]QJ[36]=QJ[35](QJ[37],QJ[38])QJ[31]=y(18129)QJ[31]=j[QJ[31]]QJ[33]=QJ[34][QJ[36]]QJ[32]=O[QJ[33]]QJ[31]=QJ[31](j,QJ[32],QJ[21])q,QJ[28]=2518890,not QJ[31]QJ[25]=QJ[28]end else if 13624185>q then q=nil R={q}q=S[y(17979)]else QJ[63]=not QJ[52]q=QJ[63]and 15737099 or 5192336 end end end else if 13657578>q then if q<13647405 then if 13628629>q then Y=C[r[6]]I=T-Y Y=3 R=I>=Y q=R and 5653005 or 15165331 elseif q<13639204 then QJ[41],q=QJ[43],QJ[44]q=13895498 else q,o=1020633,nil end else if q<13651483 then QJ[78],QJ[87],QJ[82],QJ[83]=y(18117),12747091144987,y(19456),27127863660919 QJ[77]=S[QJ[78]]QJ[79]=C[r[3]]QJ[80]=C[r[4]]QJ[81]=QJ[80](QJ[82],QJ[83])QJ[84],QJ[80]=9377946873496,35000 QJ[78]=QJ[79][QJ[81]]QJ[79]=.15 QJ[63]=QJ[77][QJ[78]]QJ[78]=P*QJ[79]QJ[83],QJ[79]=y(18070),5000 QJ[77]=QJ[63](QJ[78],QJ[79],QJ[80])QJ[79]=y(18117)QJ[78]=S[QJ[79]]QJ[80]=C[r[3]]QJ[86]=y(19119)QJ[81]=C[r[4]]QJ[82]=QJ[81](QJ[83],QJ[84])QJ[79]=QJ[80][QJ[82]]QJ[82]=y(18117)QJ[63]=QJ[78][QJ[79]]QJ[81]=S[QJ[82]]QJ[83]=C[r[3]]QJ[84]=C[r[4]]QJ[85]=QJ[84](QJ[86],QJ[87])QJ[82]=QJ[83][QJ[85]]QJ[80]=QJ[81][QJ[82]]QJ[82]=1 QJ[81]=QJ[80](QJ[82],P)QJ[80]=.0001 QJ[79]=QJ[77]/QJ[81]QJ[81]=.25 QJ[78]=QJ[63](QJ[79],QJ[80],QJ[81])QJ[79]=q QJ[80]=not QJ[76]QJ[63],q=QJ[80],QJ[80]and 399907 or 6128574 else q=11174871 end end else if 13680846>q then if q<13661158 then q=10910595 elseif q<13666445 then QJ[5]=q QJ[6]=jJ<T q,QJ[4]=QJ[6]and 14126376 or 11412100,QJ[6]else qJ,q=y(17687),9261094 qJ=k[qJ]qJ=qJ(k,SJ)GJ=qJ end else if q<13699957 then b,q=nil,4526451 else R=C[r[1]]I,h,T=18157045080744,n[1],y(19499)k=C[r[2]]j=n[2]N=C[r[3]]D=N(T,I)Q=k[D]q=R[Q]Q=q q=not Q q=q and 8680058 or 1194005 end end end end end end else if q>14301805 then if 14500455>q then if q<14384884 then if q<14358064 then if q>14346515 then if q<14354255 then q,R,h,j=14730385<4683735,nil,nil,nil Q=0 R={q,R,h,j;Q}q=S[y(19730)]else Q=not h q,j=Q and 15232048 or 13745334,R R=Q end else if 14307789>q then q=H q=t and 1287665 or 1408308 elseif 14326311>q then R=C[r[1]]T=283810435354 Q=C[r[2]]D=y(17661)k=C[r[3]]N=k(D,T)j=Q[N]q=R[j]D=y(17704)Q=C[r[2]]k=C[r[3]]j,T=q,6590013415457 N=k(D,T)k=m()R=Q[N]q=j[R]R,Q=y(19167),q q=C[r[1]]R=q[R]R=R(q)C[k]=R R=y(18104)q=C[r[1]]R=q[R]R=R(q)N=R R,q=N,N and 13366097 or 4591851 else QJ[76]=nJ<QJ[62]QJ[74],QJ[75]=QJ[76],q q=QJ[76]and 7465848 or 740239 end end else if 14375291>q then if 14364729>q then QJ[7],q=15,15967956 QJ[6]=o*QJ[7]QJ[2]=qJ-QJ[6]qJ=QJ[2]elseif q<14372130 then I,Y=q,not k q,T=Y and 15583380 or 5113599,Y else O=y(19364)R=S[O]z={R(Y)}O,q,W,V=z[1],13130047,z[2],z[3]end else if 14378944>q then U=34367267510802 J=C[r[2]]s=y(19503)e=C[r[3]]p=e(s,U)a=J[p]q=4356003 f=H[a]o=not f X=o else RJ,wJ=27544695590199,y(19233)qJ=C[r[2]]rJ=C[r[3]]dJ=rJ(wJ,RJ)yJ=qJ[dJ]GJ=F[yJ]SJ=y(18287)SJ=N[SJ]SJ=SJ(N,GJ)rJ=0 qJ=SJ>=rJ yJ=q q=qJ and 133405 or 12950524 end end end else if q>14474514 then if q<14482861 then z,V,q=nil,nil,13314323 elseif q<14488255 then T,D=not j,q N,q=T,T and 16192149 or 607159 elseif 14495479>q then R,j,Q=16755019,y(18096),6700683 h=j^Q q=R-h R,h=y(18034),q q=R/h R={q}q=S[y(17976)]else CJ,mJ=q,.75 hJ=yJ>mJ RJ,q=hJ,hJ and 12091393 or 2922183 end else if q>14425606 then if 14447889>q then s=0 p=a>s J,q=p,8915967 else q=N q,j=2371752,k end else if 14402092>q then b,a=q,28436935832562 X=C[r[2]]f=y(17865)K=C[r[3]]o=K(f,a)P=X[o]H=Y[P]t=H==k q,l=t and 16128656 or 12484534,t elseif 14419381>q then q=15937031 else q=3847902>1902971 q=q and 6030910 or 11754852 end end end end else if 14537792>q then if q<14521646 then if q>14515830 then if 14518440>q then q=nil R={q}q=S[y(19130)]else q=K K=0 H=X or K P=m()C[P]=H X=C[P]K=300000 H=X>=K q=H and 12993698 or 4146232 end else if 14506206>q then q,O=9578677,nil elseif 14512429>q then l,q=t,H q=11637209 else CJ,GJ,a,s=25751747973012,y(19224),H,q C[r[16]]=a c=C[r[3]]F=C[r[4]]SJ=F(GJ,CJ)nJ=c[SJ]U=O[nJ]nJ,SJ=0,1000000 s=C[r[17]]J=U or nJ c={s()}U=c[1]F=P>=SJ nJ=c[2]c=q q=F and 12761899 or 194261 end end else if 14528108>q then if q<14523932 then R,O=y(17689),y(18823)q=S[R]D=y(19134)N=S[D]T=C[r[1]]W=25714903974150 I=C[r[2]]Y=I(O,W)D=T[Y]k=N[D]D=y(19134)N=S[D]D=C[r[3]]T={q(k,N,D)}R=T[1]k=R R,q,Q=k,k and 16107031 or 12693945,T[2]elseif q<14526201 then H,q=X,K q=12176858 else W,q=1,y(18898)q,P=j[q],y(19651)q=q(j,O)X,z=34251000812112,q b=C[r[2]]t=C[r[3]]H=t(P,X)l=b[H]v=j[l]V,q=v,v and 2034782 or 3578181 end else if q<14531811 then b=C[r[3]]X=24025416512727 t=C[r[4]]P=y(18226)H=t(P,X)l=b[H]q=1758212 v=h[l]V=v else R,q=I,Y q=8157506 end end end else if q<14566491 then if 14560697>q then if q<14546405 then q=wJ q=dJ and 8986577 or 6868310 elseif 14556206>q then H=q P=C[j]t,q=P,P and 6375304 or 5998241 else X,H,o=24333021555107,y(19486),y(17991)z=C[r[1]]P=33142962982082 v=C[r[2]]q=S[y(18183)]b=v(H,P)K,P=24898854713750,y(19420)V=z[b]f=14607346732631 v=C[r[1]]b=C[r[2]]H=b(P,X)X=y(18053)z=v[H]b=C[r[1]]H=C[r[2]]P=H(X,K)v=b[P]b=C[j]P=C[r[1]]X=C[r[2]]K=X(o,f)H=P[K]W={[V]=z;[v]=b;[H]=I}V=y(17902)V=h[V]O={V(h,W)}R={G(O)}end else if q<14562794 then s,q=p,15440938 K=s else q=QJ[48]q,QJ[45]=14251507,QJ[47]end end else if q<14569839 then t,f,s,U=y(18977),12982498872506,y(18580),29899465057967 o,t=y(19299),h[t]t=t(h,V)t=C[r[2]]P=C[r[3]]X=C[r[4]]V,J=nil,16437698038155 K=X(o,f)a=y(17787)H=P[K]K=C[r[3]]o=C[r[4]]f=o(a,J)o=y(18806)X=K[f]K=S[o]J=C[r[3]]e=C[r[4]]p=e(s,U)a=J[p]f=b[a]o=K(f)a=y(18419)P=X..o J=19327831453063 t[H]=P t=13229547<=14819247 W,X=t,y(18048)P=S[X]K=C[r[3]]o=C[r[4]]b=nil f=o(a,J)X=K[f]H=P[X]X,q=1,16066770 P=H(X)elseif 14580542>q then z=y(18829)V=S[z]H=C[r[3]]K,o=y(19524),14614086793229 P=C[r[4]]X=P(K,o)t=H[X]b=j[t]t={V(b)}z,q,v,l=t[1],5462069,t[2],t[3]elseif 14592622>q then q=D q,R=S[y(18618)],{R}else wJ,CJ=q,0 RJ=SJ==CJ dJ,q=RJ,RJ and 14540743 or 8168972 end end end end else if q<14188663 then if 14127238>q then if q<14088518 then if q<14068464 then if 14058297>q then QJ[24],q=not SJ,1792673 QJ[22]=QJ[24]elseif q<14061529 then q=R and 9471481 or 209413 else q=9023224<2926815 R={q}q=S[y(19040)]end else if q<14077571 then QJ[63]=C[r[21]]QJ[77]={QJ[63]()}QJ[76]=QJ[77][4]QJ[75],QJ[74]=QJ[77][3],QJ[77][2]QJ[73]=QJ[77][1]q=QJ[73]and 13647940 or 16773529 else X,q=nil,3298824 end end else if q>14123735 then if q<14126389 then QJ[9]=0 QJ[8]=QJ[1]>=QJ[9]QJ[6],QJ[7]=QJ[8],q q=QJ[8]and 2225234 or 15481965 else t=C[r[2]]z,X=V,y(19225)H=C[r[3]]K=11074130379065 P=H(X,K)b=t[P]l=D[b]b=l(v,j)R=b<=I q=R and 11084335 or 6874865 end else if 14097683>q then QJ[5],QJ[4]=q,QJ[1]q=QJ[1]and 5335288 or 1394116 elseif q<14110945 then QJ[16],q=QJ[18],QJ[19]q=7476478 else k=C[r[1]]I=7927104213642 N=C[r[2]]T=y(19400)D=N(T,I)q=9528822 Q=k[D]j=h[Q]R=j end end end else if 14152700>q then if q>14132534 then if q<14139203 then q,R=I,T q=704645 else K,o=P(X,K)q=K and 7388776 or 10985444 end else if 14129382>q then J,c=q,y(19454)s=C[r[2]]U=C[r[3]]F=12364221006353 nJ=U(c,F)p=s[nJ]e=D[p]q,a=e and 6214865 or 1232003,e elseif 14131296>q then q,QJ[23]=300916,nil else e,p,q,s=nil,nil,7367044,nil end end else if q>14184968 then if q<14186805 then P=200 H=O>=P q=H and 6596811 or 1004409 else O,q=V,z q=V and 9196372 or 12765394 end else if 14162498>q then H=H+X b,o=P>=H,not K b=o and b o=H>=P o=K and o b=o or b o=3070333 q=b and o b=12358118 q=q or b elseif q<14174029 then v=y(19638)z=S[v]l=C[r[3]]X=15190895059535 b=C[r[4]]P=y(18892)H=b(P,X)v=l[H]V=z[v]z=V()v=C[r[6]]V=not v q=V and 5244983 or 6893687 else X,q=o,f q=13158478 end end end end else if q>14265536 then if 14290185>q then if q<14284288 then if 14280588>q then q=12853804 elseif 14282621>q then b,q=H,P q=14703683 else k,q=0,7984810 Q=j>=k R=Q end else if 14286837>q then T,q=y(19655),N q[R]=k q=C[r[4]]k=C[r[1]]N=C[r[2]]I=30158549020757 D=N(T,I)V,N=y(19467),q R=k[D]T=C[r[4]]Y=C[r[1]]z=30296939778765 O=C[r[2]]W=O(V,z)I=Y[W]D=T[I]q,k=D and 3349955 or 14816008,D else q=10870062>=11398647 R={q}q=S[y(19272)]end end else if q<14292627 then QJ[37]=430635984290 QJ[33]=C[r[3]]QJ[34]=C[r[4]]QJ[36]=y(19217)QJ[35]=QJ[34](QJ[36],QJ[37])QJ[32]=QJ[33][QJ[35]]QJ[31]=QJ[20][QJ[32]]QJ[29],q=QJ[31],12906636 elseif q<14294455 then q=QJ[32]q=QJ[19]and 10750932 or 15881128 elseif 14297536>q then q=QJ[55]q,QJ[52]=8824930,QJ[54]else q=8289584 end end else if 14213384>q then if 14202280>q then if q<14190772 then q=QJ[1]QJ[1],QJ[2]=0,0 hJ=jJ or QJ[1]QJ[1]=dJ==QJ[2]jJ=q q=QJ[1]and 1764178 or 5055774 elseif q<14194885 then q=T q=D and 16406928 or 5746537 else I,q=R,14502731 end else if 14207811>q then j=R R=C[r[1]]T,I=y(18777),12967672336032 k=C[r[2]]N=C[r[3]]D=N(T,I)Q=k[D]q=R[Q]k,Q=not h,q q,R=k and 11814645 or 15492903,k else W=nil C[r[6]]=W q=16580923 end end else if q>14231686 then if q<14241817 then o,q=nil,4260044 else QJ[43],q=QJ[45],QJ[46]q=13631539 end else if 14220095>q then QJ[33]=3 QJ[32]=QJ[27]<=QJ[33]QJ[30],QJ[31]=QJ[32],q q=QJ[32]and 7758208 or 9001052 elseif q<14227192 then v,l,q=nil,nil,6127919 else R,q={QJ[4]},QJ[5]q=S[y(19645)]end end end end end end end end else if 15738074>q then if 15194176>q then if q>14867947 then if q>15012940 then if q>15089529 then if q<15134388 then if q>15120288 then if q<15128311 then q=4099710>14714164 R={q}q=S[y(18015)]else O,Q=2,32 j=C[r[3]]h=j%Q V=256 D=C[r[3]]q=3193621 N=D-h D,v,Q=32,256,13 k=N/D j=Q-k N=C[r[4]]I=C[r[2]]Y=O^j T=I/Y Y=1 D=N(T)N=4294967296 k=D%N D=2 N=D^h Q=k/N N=C[r[4]]I=Q%Y Y=4294967296 T=I*Y D=N(T)N=C[r[4]]T=N(Q)k=D+T Q,D=nil,65536 N=k%D I=65536 Y=256 T=k-N D=T/I I=N%Y W=N%V h=nil O=N-W j,W=nil,256 Y=O/W W=256 O=D%W z=D%v V=D-z z,N,k=256,nil,nil W=V/z D,T=nil,{I,Y;O;W}C[r[1]]=T end else if q<15102602 then h=n[1]R=C[r[1]]D,T=y(18552),31619633931634 Q=C[r[2]]k=C[r[3]]N=k(D,T)j=Q[N]q=R[j]N=y(17973)j=C[r[2]]Q=C[r[3]]D=5730323409519 k=Q(N,D)R=j[k]j=h q[R]=j h=nil q=C[r[4]]R=q()q,R=S[y(18985)],{}elseif 15114948>q then v=C[r[4]]t,H,q=y(18955),12370990238224,4817949 l=C[r[5]]b=l(t,H)z=v[b]W=z else X,H=4,b P=H*X K=y(17687)K=j[K]R=W(Y,P)P=R K=K(j,P)X=q q,R=K and 4437391 or 13874018,K end end else if 15150149>q then q=T q=D and 5270496 or 15677292 elseif q<15164927 then X,P=not T,q H,q=X,X and 14281612 or 4081133 elseif q<15174786 then R,q={},S[y(19105)]else jJ,hJ=0,q mJ=dJ~=jJ q,CJ=mJ and 1481874 or 372744,mJ end end else if q<15059778 then if q>15037505 then if 15049217>q then Q=C[r[2]]T=11803201719282 k=C[r[3]]D=y(19389)N=k(D,T)R=Q[N]q=h[R]Q=q q=not Q q=q and 15948901 or 361290 else QJ[25],q=QJ[27],QJ[28]q=3706719 end else if q<15022266 then CJ,hJ,SJ,rJ=y(19145),2630766283881,q,y(18117)p=U qJ=S[rJ]dJ=C[r[1]]wJ=C[r[2]]RJ=wJ(CJ,hJ)rJ=dJ[RJ]yJ=qJ[rJ]qJ=yJ(p)GJ=qJ==b F,q=GJ,GJ and 12131468 or 6245888 elseif q<15031910 then q=QJ[38]q,QJ[35]=2337547,y(19624)QJ[35]=QJ[34][QJ[35]]QJ[35]=QJ[35](QJ[34],QJ[36],QJ[37])else q,nJ=13032086,nil end end else if q>15077982 then if 15084744>q then q=nil R={q}q=S[y(18145)]else z=C[r[1]]H,O,P=y(19620),q,13126801959436 l=C[r[2]]b=C[r[3]]t=b(H,P)v=l[t]V=z[v]H=9766255460715 v=C[r[2]]t=y(19103)l=C[r[3]]b=l(t,H)z=v[b]W=V[z]Y,q=W,W and 11879744 or 13003051 end else if 15060726>q then b=C[r[3]]o,q=15184016553439,O W,z=q,q H=C[r[4]]P=C[r[5]]K=y(17755)X=P(K,o)t=H[X]X,K=y(17751),15379720646671 l=b[t]t=C[r[4]]H=C[r[5]]P=H(X,K)b=t[P]v=l[b]q,V=v and 2769080 or 8182858,v elseif q<15067350 then q=QJ[34]q,QJ[19]=14293612,QJ[33]else q,QJ[28],QJ[27]=2109930,nil,nil end end end end else if q<14934728 then if q>14928965 then if q>14932332 then if 14933375>q then R=C[r[1]]I,T=26284921658336,y(18099)k=C[r[2]]N=C[r[3]]D=N(T,I)Q=k[D]q=R[Q]Q=q q,R=Q and 15774028 or 1424174,Q else Y,O,q=nil,nil,14008830 end else if q<14930170 then QJ[13],QJ[14]=q,not U q,QJ[11]=QJ[14]and 14702660 or 4620310,QJ[14]elseif q<14931100 then q,SJ=mJ,hJ q=6410504 else q,W,O=2780195,2608558797892,y(19608)T=C[r[1]]I=C[r[2]]Y=I(O,W)D=T[Y]N=Q[D]R=N end end else if q<14894515 then if q<14881758 then q=R and 8365985 or 11663884 elseif q<14890664 then h,j,R,q=nil,nil,{},S[y(19661)]else H=C[Y]X,K=1,6 P=H(X,K)H=y(18909)S[H]=P K=y(18909)X=S[K]K=2 H=X>K q=H and 16623675 or 14895808 end else if q<14911825 then K=y(18909)H=S[K]K,q=y(19705),11330480 S[K]=H else o=a p=-b q,s,U=4308402,b,4 nJ=U U=0 c=nJ<U U=p-nJ end end end else if 14973460>q then if 14962009>q then if q<14936744 then QJ[61],q,QJ[62],QJ[53]=nil,2119000,nil,nil QJ[52],QJ[55],QJ[60],QJ[54]=nil,nil,nil,nil elseif q<14948260 then q,z=5715766,nil else T=C[r[4]]I=400000 R=T>=I q=R and 4360384 or 4807995 end else if q<14969359 then q,QJ[15],QJ[21]=4158504,nil,nil else q=Q q=R and 4012357 or 13103723 end end else if q<15003681 then if 14983331>q then c,q=nil,14131903 elseif q<14995974 then q=Y Y,W=R,0 O=#Y R=O==W q=R and 9547728 or 481536 else O=R R,q=I,I and 12891800 or 10024976 end else if q<15008685 then QJ[5]=q QJ[8]=C[r[3]]QJ[11],QJ[12]=y(19421),23546098313029 QJ[9]=C[r[4]]QJ[10]=QJ[9](QJ[11],QJ[12])QJ[7]=QJ[8][QJ[10]]QJ[6]=QJ[1][QJ[7]]QJ[4],q=QJ[6],QJ[6]and 12701129 or 9189559 else N=C[h]T=C[r[1]]W=10986096171224 I=C[r[2]]O=y(17995)Y=I(O,W)D=T[Y]k=N[D]Q=not k q,R=Q and 1108938 or 3600455,Q end end end end end else if 14757168>q then if q<14675823 then if q>14616169 then if 14640679>q then if q<14624756 then q=R and 673009 or 1886265 elseif 14631125>q then R,O,q=nil,nil,nil R={q;R;O}q=S[y(18889)]else q,b=14160160,nil end else if 14659018>q then t=12291248<412954 V,P=l,y(19364)H=S[P]o={H(Y)}q,X,P,K=14145241,o[2],o[1],o[3]else q=e e=J<l q=e and 12101775 or 16149212 end end else if q<14602128 then if 14599048>q then q=C[r[5]]D=5682127608353 j=C[r[2]]T=5047964351629 Q=C[r[3]]N=y(18769)k=Q(N,D)R=j[k]D=y(17602)Q=C[r[2]]k=C[r[3]]N=k(D,T)j=Q[N]q[R]=j q=13840821 elseif q<14600203 then D,N=7400658622062,y(19362)R=C[r[1]]j=C[r[2]]Q=C[r[3]]k=Q(N,D)h=j[k]q=R[h]h=q q,R=h and 12690917 or 8445102,h else I=not T R,q=I,5178462 end else if q<14607274 then O=y(18074)Y=S[O]q=7944555 O=Y(I)R=O else QJ[5],QJ[6]=y(17828),30242426766579 QJ[2]=C[r[2]]mJ=q QJ[3]=C[r[3]]QJ[4]=QJ[3](QJ[5],QJ[6])QJ[1]=QJ[2][QJ[4]]jJ=nJ[QJ[1]]q,GJ=jJ and 15899712 or 586715,jJ end end end else if 14706158>q then if 14701480>q then if q<14688506 then hJ=C[r[2]]QJ[1],QJ[2],q=y(19711),4482149552559,6865848 mJ=C[r[3]]jJ=mJ(QJ[1],QJ[2])CJ=hJ[jJ]RJ=GJ[CJ]wJ=not RJ rJ=wJ elseif q<14698292 then Y=31593398981843 q=C[r[5]]R=y(18526)N=C[r[1]]I=y(18035)D=C[r[2]]T=D(I,Y)R=q[R]k=N[T]R=R(q,k)k=R q=k and 3691266 or 2819917 else a,J,q=nil,nil,1276522 end else if q<14703171 then QJ[15],QJ[18]=q,125000 QJ[17]=X>=QJ[18]QJ[14],q=QJ[17],QJ[17]and 7702250 or 2589075 else q=t q,v=7795898,b end end else if 14737944>q then if q<14711269 then QJ[32],QJ[33]=q,not c QJ[19],q=QJ[33],QJ[33]and 11500947 or 14293612 elseif 14719609>q then l=q q,v=W and 16104866 or 337071,W else R,q=W,V q=4715998 end else if q<14753315 then H,q=X,K q=2518160 else R,q=I,Y q=15709746 end end end end else if q<14809429 then if 14785260>q then if 14777856>q then if 14761690>q then s=e==j q,R=16377860,s elseif 14771078>q then q=QJ[8]QJ[9]=C[r[2]]QJ[12],QJ[13],QJ[19]=y(17849),6123013875473,24417577970078 QJ[10]=C[r[3]]QJ[25]=y(18431)QJ[11]=QJ[10](QJ[12],QJ[13])QJ[22],QJ[13],QJ[14],QJ[15]=24763574720355,y(19736),29075011920801,2706685019003 QJ[8]=QJ[9][QJ[11]]QJ[10]=C[r[2]]QJ[16]=18110070549398 QJ[11]=C[r[3]]QJ[12]=QJ[11](QJ[13],QJ[14])QJ[9]=QJ[10][QJ[12]]QJ[11]=C[r[2]]q,QJ[17],QJ[20]=530922,1862616957372,30915812206732 QJ[12]=C[r[3]]QJ[14]=y(18931)QJ[13]=QJ[12](QJ[14],QJ[15])QJ[10]=QJ[11][QJ[13]]QJ[15]=y(18810)QJ[12]=C[r[2]]QJ[21]=25908996307574 QJ[13]=C[r[3]]QJ[14]=QJ[13](QJ[15],QJ[16])QJ[16],QJ[18]=y(19116),8693181631655 QJ[11]=QJ[12][QJ[14]]QJ[13]=C[r[2]]QJ[14]=C[r[3]]QJ[15]=QJ[14](QJ[16],QJ[17])QJ[12]=QJ[13][QJ[15]]QJ[26]=21155173219028 QJ[14]=C[r[2]]QJ[17]=y(19429)QJ[15]=C[r[3]]QJ[16]=QJ[15](QJ[17],QJ[18])QJ[18]=y(19462)QJ[13]=QJ[14][QJ[16]]QJ[15]=C[r[2]]QJ[16]=C[r[3]]QJ[17]=QJ[16](QJ[18],QJ[19])QJ[14]=QJ[15][QJ[17]]QJ[19]=y(18258)QJ[16]=C[r[2]]QJ[17]=C[r[3]]QJ[18]=QJ[17](QJ[19],QJ[20])QJ[15]=QJ[16][QJ[18]]QJ[17]=C[r[2]]QJ[20]=y(18942)QJ[18]=C[r[3]]QJ[19]=QJ[18](QJ[20],QJ[21])QJ[21]=y(17975)QJ[16]=QJ[17][QJ[19]]QJ[23]=988877754338 QJ[18]=C[r[2]]QJ[19]=C[r[3]]QJ[20]=QJ[19](QJ[21],QJ[22])QJ[17]=QJ[18][QJ[20]]QJ[19]=C[r[2]]QJ[22]=y(17610)QJ[20]=C[r[3]]QJ[21]=QJ[20](QJ[22],QJ[23])QJ[18]=QJ[19][QJ[21]]QJ[21]=y(19488)QJ[20]=S[QJ[21]]QJ[22]=C[r[2]]QJ[23]=C[r[3]]QJ[24]=QJ[23](QJ[25],QJ[26])QJ[21]=QJ[22][QJ[24]]QJ[19]=QJ[20][QJ[21]]QJ[25]=y(18178)QJ[22]=C[r[2]]QJ[26]=14763823178491 QJ[23]=C[r[3]]QJ[24]=QJ[23](QJ[25],QJ[26])QJ[21]=QJ[22][QJ[24]]QJ[20]=QJ[19](QJ[21],K,J)QJ[3]={[QJ[4]]=QJ[5],[QJ[6]]=QJ[7],[QJ[8]]=b,[QJ[9]]=o;[QJ[10]]=K,[QJ[11]]=J,[QJ[12]]=f;[QJ[13]]=a;[QJ[14]]=jJ,[QJ[15]]=QJ[1],[QJ[16]]=P,[QJ[17]]=X,[QJ[18]]=QJ[20]}QJ[2]=p(I,QJ[3])QJ[1],jJ=nil,nil else T,D,h=13248141524721,y(17663),n[1]R=C[r[1]]Q=C[r[2]]k=C[r[3]]N=k(D,T)D=16802234452829 j=Q[N]q=R[j]j=C[r[2]]N=y(18625)Q=C[r[3]]k=Q(N,D)R=j[k]j=h q[R]=j R,h,q={},nil,S[y(18668)]end else if 14780613>q then q=11087772 else R=C[j]I=y(19258)q=R~=I q=q and 13911693 or 11174871 end end else if q>14808248 then if 14808613>q then q=yJ yJ=y(18910)yJ=N[yJ]yJ=yJ(N,GJ)dJ=q rJ,q=yJ,yJ and 4766539 or 3222057 else Q,T=N+Q,not D j=Q<=k j=T and j T=Q>=k T=D and T j=T or j T=474384 q=j and T j=16383798 q=q or j end else if 14788630>q then QJ[53],QJ[54],q,QJ[61]=nil,nil,6966438,nil QJ[60],QJ[55],QJ[62],QJ[52]=nil,nil,nil,nil elseif q<14798717 then q,e=14700300,nil else W,V=Q,q q=Q and 8043805 or 1108666 end end end else if 14837453>q then if q>14826368 then if q<14830379 then q=QJ[17]q=QJ[15]and 14044129 or 4688802 else I=q W=C[r[1]]V=C[r[2]]l,v=26183673408581,y(17675)z=V(v,l)b=34751337926261 O=W[z]l=y(17937)Y=h[O]O=0 T=Y or O Y=q V=C[r[1]]z=C[r[2]]v=z(l,b)W=V[v]O=j[W]W,q=0,S[y(19682)]I=O or W R=T>I R={R}end else if 14813007>q then O=y(19153)O=Y[O]O=O(Y,j)q,R=14999053,O elseif 14821082>q then q,I=N,16413162360547 q[R]=k V=y(19318)q=C[r[4]]k=C[r[1]]N=C[r[2]]T=y(17954)D=N(T,I)N=q R=k[D]T=C[r[4]]z=14681566289954 Y=C[r[1]]O=C[r[2]]W=O(V,z)I=Y[W]D=T[I]k,q=D,D and 16767240 or 10175472 else F,J,q,nJ=nil,nil,3368804,nil end end else if q<14842591 then QJ[65]=QJ[52]c,QJ[66],QJ[68]=QJ[65],QJ[54],q jJ,q=QJ[66],QJ[62]and 5714227 or 819555 elseif 14847861>q then QJ[18]=y(18104)QJ[15]=C[r[1]]QJ[19],QJ[18]=q,QJ[15][QJ[18]]QJ[18]=QJ[18](QJ[15])QJ[15],q=QJ[18],QJ[18]and 6594654 or 572230 elseif q<14855877 then z,V=q,T q=T and 11995237 or 7975706 else q=QJ[14]q=QJ[13]and 5695757 or 13977946 end end end end end else if 15493597>q then if q<15373139 then if q>15268017 then if q<15323990 then if q>15314390 then if q<15315355 then q,O=z,V q=11094696 else c=C[r[1]]qJ=y(19712)SJ=C[r[2]]rJ,q=9535000457379,6589050 GJ=C[r[3]]yJ=GJ(qJ,rJ)F=SJ[yJ]nJ=c[F]F=C[r[2]]qJ,yJ=3579618155290,y(18894)SJ=C[r[3]]GJ=SJ(yJ,qJ)c=F[GJ]U=nJ[c]p=U end else if q<15277788 then q=QJ[17]q=QJ[15]and 10587748 or 8630840 elseif q<15299492 then q,O,Y=5870373,nil,nil else q,K=9706442,not I P=K end end else if q>15354332 then if q<15366733 then O,l=y(18117),22418542615812 Y=S[O]W=C[r[1]]v=y(19009)V=C[r[2]]z=V(v,l)O=W[z]I=Y[O]z=100 V=N-D W=V*z O=W/T Y=I(O)O=0 I=Y<O q=I and 2464485 or 4646452 else q,s=c,nJ q=8951911 end else if q<15334132 then jJ,mJ=3354358290963,y(18546)RJ=C[r[2]]CJ=C[r[3]]q=10540174 hJ=CJ(mJ,jJ)wJ=RJ[hJ]dJ=O[wJ]wJ=dJ(J,I)nJ=wJ elseif q<15341530 then q=X q=R and 4490177 or 7343591 else f,q=o,13387830 end end end else if q<15226711 then if q>15215424 then if q<15219343 then h,j=n[1],n[2]q=not j q=q and 3202246 or 4428799 else q=8908003<=5018738 R={q}q=S[y(17631)]end else if 15208632>q then f,t=y(19568),q t=2000 X=C[r[2]]a,q=26600244682410,3995957 K=C[r[3]]o=K(f,a)P=X[o]H=z[P]P=0 b=H or P l=b>=t v=l elseif 15213345>q then T,I=q,not j D,q=I,I and 13785455 or 11798950 else q=14662885<=14180892 R={q}q=S[y(18240)]end end else if q<15246651 then if q<15234222 then q=R and 2084170 or 6165048 elseif 15238905>q then q=QJ[27]q,QJ[8]=14130689,QJ[25]else q=X X,a=0,q b=P or X P=y(18829)t=S[P]nJ=y(18803)p=C[r[2]]c=24580912749369 s=C[r[3]]U=s(nJ,c)e=p[U]J=h[e]q,o=J and 9400517 or 2962290,J end else if 15258563>q then t,q,o=nil,10121050,nil else QJ[8]=7920240128865 jJ=C[r[2]]QJ[7]=y(18881)QJ[3]=C[r[3]]rJ=RJ QJ[6]=QJ[3](QJ[7],QJ[8])mJ=jJ[QJ[6]]hJ=I[mJ]mJ=hJ(CJ,GJ)hJ=mJ<e q=hJ and 9103107 or 167490 end end end end else if 15456843>q then if q>15435623 then if 15452912>q then if q<15445380 then J,p,e,q=nil,nil,nil,4861598 elseif q<15450419 then q=C[r[3]]Q=C[r[1]]k=C[r[2]]D,T=y(19440),2767125794214 N=k(D,T)j=Q[N]h=R R=y(18526)R=q[R]R=R(q,j)j=R q=j and 13339024 or 2660022 else p=C[r[2]]s=C[r[3]]nJ,c=y(17841),14486949585193 U=s(nJ,c)q=15459934 e=p[U]J=v[e]e=4 a=J==e o=a end else if 15455256>q then q,s=10671060,.2 p=K<s J=p else U,a,q=nil,nil,1665294 end end else if q>15389859 then if q<15412336 then Y,z=y(19638),y(18186)R=S[Y]v=26095024091223 O=C[r[2]]W=C[r[3]]V=W(z,v)Y=O[V]q=R[Y]R=q()O=C[r[4]]Y,q=R,O and 10718381 or 11023880 R=O else R=C[r[1]]h=y(18798)h=R[h]h=h(R)q=not h q=q and 14352149 or 5044398 end else if q<15379475 then P,o=y(18934),31899796982882 b=C[r[2]]X=23509902414046 t=C[r[3]]K=y(18818)H=t(P,X)l=b[H]v=N[l]H=C[r[2]]P=C[r[3]]X=P(K,o)t=H[X]b=z[t]l=v(b,h)R=l<=I q=R and 16338377 or 11548539 elseif q<15384734 then q=v q=z and 5356180 or 15867523 else T=not Q q,D=T and 555811 or 9786403,R R=T end end end else if 15482520>q then if q>15464472 then if 15473724>q then rJ,q=wJ,RJ q=3222057 else q,QJ[4]=QJ[7],QJ[6]q=11412100 end else if 15458958>q then q=1730195 I=C[r[2]]V,W=22558330012846,y(17824)Y=C[r[3]]O=Y(W,V)T=I[O]D=h[T]k=D elseif 15461697>q then q=f q,X=o and 8765734 or 14750576,o else jJ,mJ=31684623851640,y(19037)RJ=C[r[2]]CJ=C[r[3]]q=16672350 hJ=CJ(mJ,jJ)wJ=RJ[hJ]dJ=p[wJ]nJ=dJ end end else if q<15484797 then O,q=V,z q=V and 5745752 or 1082559 elseif 15486570>q then QJ[15]=QJ[20]QJ[22]=QJ[9][QJ[21]]QJ[24]=q q,QJ[23]=QJ[22]and 12718628 or 10348794,QJ[22]elseif 15489762>q then O,Y=6006514749752,y(19264)k=C[r[1]]D=C[r[2]]T=C[r[3]]I=T(Y,O)N=D[I]Q=k[N]N=C[r[4]]q=6644544 k=Q(h,N)R=k else z,V,N=17892797155664,y(17735),q Y=C[r[2]]O=C[r[3]]W=O(V,z)I=Y[W]T=h[I]D=not T k,q=D,D and 15876947 or 1351044 end end end end else if q<15647064 then if q<15561851 then if q>15521529 then if q>15543068 then if q<15550106 then q=O and 4796474 or 6209159 else q=GJ q=SJ and 14381876 or 10569027 end else if 15528334>q then T=2919772694589 R=C[r[1]]Q=C[r[2]]D=y(18707)k=C[r[3]]N=k(D,T)j=Q[N]N=y(19550)q=R[j]j=C[r[2]]Q=C[r[3]]D=8742025962463 k=Q(N,D)R=j[k]j=4177662>5961618 q[R]=j R,D=y(18984),y(18004)q=C[r[1]]T=2657383183959 Q=C[r[2]]k=C[r[3]]N=k(D,T)D,T=34891262035111,31539629312833 j=Q[N]R=q[R]R=R(q,j)N=y(19080)q=C[r[5]]j=C[r[2]]Q=C[r[3]]k=Q(N,D)R=j[k]Q=C[r[2]]k=C[r[3]]D=y(18505)N=k(D,T)j=Q[N]q[R]=j q=10218775 elseif 15537966>q then QJ[18],QJ[22],q=y(19364),y(18373),5833420 QJ[15]=S[QJ[18]]QJ[22]=QJ[17][QJ[22]]QJ[21]={QJ[22](QJ[17])}QJ[22]={QJ[15](G(QJ[21]))}QJ[19],QJ[18],QJ[20]=QJ[22][2],QJ[22][1],QJ[22][3]else b=y(18423)l=S[b]t=C[r[2]]q,K=S[y(19280)],489370504284 H=C[r[3]]X=y(18741)P=H(X,K)b=t[P]v=l[b]b=E(12290124,{r[2],r[3]})l=v(V,b)l=1 v=V[l]t=C[r[2]]K,X=26467150758582,y(19666)H=C[r[3]]P=H(X,K)b=t[P]l=v[b]R={l}end end else if q<15514875 then if 15498995>q then q=R and 6251372 or 7775495 elseif q<15508636 then QJ[31]=C[r[3]]QJ[23],QJ[35],QJ[34]=q,13893057288745,y(19215)QJ[32]=C[r[4]]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[28]=QJ[31][QJ[33]]QJ[27]=QJ[21][QJ[28]]QJ[28]=0 QJ[22]=QJ[27]or QJ[28]QJ[23]=QJ[22]>QJ[6]q=QJ[23]and 11144905 or 1819367 else T,q=nil,13568339 end else if q<15518133 then q,QJ[15]=QJ[19],QJ[18]q=6692185 else a,q=9701412237242,9737892 X=C[r[2]]f=y(18003)K=C[r[3]]o=K(f,a)P=X[o]H=z[P]P=0 t=H>P l=t end end end else if q>15613051 then if q<15625521 then J,t,X=35025013396251,b,y(18117)P=S[X]K=C[r[2]]a=y(18239)o=C[r[3]]f=o(a,J)X=K[f]J=y(18063)R=P[X]o=z-W K=o*H X=W+K e=9851050438640 P=R(X)K=y(18117)X=S[K]o=C[r[2]]f=C[r[3]]a=f(J,e)K=o[a]R=X[K]f=V-O o=f*H K=O+o X=R(K)o,R=q,y(18081)R=T[R]R=R(T,P,X)K=R q,R=K and 3514741 or 9160404,K elseif 15639629>q then q,k=Q,y(18488)C[r[4]]=q W=5031309580127 R=S[k]T=C[r[2]]O=y(18105)I=C[r[3]]Y=I(O,W)D=T[Y]q,I=10983336,y(18806)T=S[I]I=T(h)N=D..I k=R(N)elseif q<15645496 then o,a,q=-1,-1,l l=C[r[6]]P,X,q,H=0,0,1842100,1 b=l()J,t=-1,{H;P}P=-1 H,e,K={P;X},1,1 X,f=0,1 P={X,K}K=0 X={K,o}o=1 K={o,f}f=-1 o={f,a}a=1 f={a,J}J=-1 a={J,e}l={t,H,P,X,K;o,f,a}P=y(19364)H=S[P]t={}o={H(W)}P,K=o[1],o[3]X=o[2]else l=C[r[2]]q=10220853 H=C[r[3]]f,o,K=14795304525698,9295372753827,y(17888)P=C[r[4]]X=P(K,o)o=y(19762)b=H[X]P=C[r[3]]X=C[r[4]]K=X(o,f)H=P[K]l[b]=H end else if q<15606715 then if q<15575387 then z=y(19012)O=C[r[1]]q,v=10065499,1430096149351 W=C[r[2]]V=W(z,v)Y=O[V]I=k[Y]D=I elseif 15593814>q then R,q=T,I q=12951454 else q=QJ[3]q=QJ[2]and 16209544 or 13430275 end else if 15609501>q then QJ[57]=C[r[3]]QJ[61],QJ[60]=21253603374907,y(18395)QJ[58]=C[r[4]]q=9460197 QJ[59]=QJ[58](QJ[60],QJ[61])QJ[56]=QJ[57][QJ[59]]QJ[54]=QJ[56]else W,O=not k,q Y,q=W,W and 11949702 or 8490608 end end end end else if q<15694553 then if q>15673038 then if 15687473>q then if q<15675169 then U=C[r[2]]CJ,GJ=12277182540523,y(19726)c=C[r[3]]F=C[r[4]]SJ=F(GJ,CJ)nJ=c[SJ]c=p U[nJ]=c GJ=y(18608)U=C[r[2]]c=C[r[3]]F=C[r[4]]CJ=33276857777057 SJ=F(GJ,CJ)nJ=c[SJ]c=f U[nJ]=c nJ,F=q,30000 c=o>=F q,U=c and 10697316 or 835959,c elseif q<15680881 then q,D=823046,99999 R=D else I,W,O=R,99999,99999 R=N or O O,Y=q,q Y=I or W q=R<Y R={q}q=S[y(19470)]end else if 15690935>q then Y=y(19018)Y,H,q=h[Y],y(19379),16019253~=1736334 Y=Y(h,I)V=C[r[2]]z=C[r[3]]l,b=y(19120),21692165857815 v=z(l,b)W=V[v]O=T[W]V,P=q,26452817969655 l=C[r[2]]b=C[r[3]]t=b(H,P)v=l[t]z=T[v]v=0 W=z or v R={q,Y,I;O,W}q=S[y(17649)]else q=1408308 end end else if 15669919>q then if q<15654917 then J,t=q,K e=t~=j a,q=e,e and 2430358 or 1182769 elseif 15665646>q then QJ[9]=C[r[5]]QJ[15],q=29727762231594,QJ[3]QJ[11]=C[r[3]]QJ[12]=C[r[4]]QJ[4],QJ[6],QJ[14]=q,q,y(17666)QJ[13]=QJ[12](QJ[14],QJ[15])QJ[10]=QJ[11][QJ[13]]QJ[8]=QJ[9][QJ[10]]QJ[10]=C[r[3]]QJ[14],QJ[13]=14757212312109,y(19763)QJ[11]=C[r[4]]QJ[12]=QJ[11](QJ[13],QJ[14])QJ[9]=QJ[10][QJ[12]]QJ[7]=QJ[8][QJ[9]]q,QJ[5]=QJ[7]and 13562430 or 7042822,QJ[7]else q=wJ q=dJ and 9804432 or 7111733 end else if q<15671889 then D=C[r[1]]Y=y(17736)T=C[r[2]]q,O=13478076,33051991788878 I=T(Y,O)O=y(19716)N=D[I]k=j[N]T=C[r[1]]W=14825359287795 I=C[r[2]]Y=I(O,W)D=T[Y]N=j[D]Q=k[N]R=Q else z,q=not D,4593856 W=z end end end else if q>15726451 then if q<15728586 then I=C[r[2]]W,V=y(19438),4672674476576 Y=C[r[3]]O=Y(W,V)T=I[O]q=5484679 D=Q[T]R=D elseif q<15730971 then h=m()C[h]=n[1]j,Q=n[2],y(18798)R=C[r[1]]Q=R[Q]Q=Q(R)q=not Q q=q and 3266304 or 4518878 elseif 15735157>q then q=I I=0 R=T or I I,T=400000,R R=T>=I q=R and 1791485 or 16526231 else q=QJ[53]and 5931242 or 9939714 end else if 15713612>q then if q<15703728 then q=R and 7630495 or 15038901 elseif q<15709991 then q=T q=R and 8205264 or 16495692 else k,q=nil,8149435 C[r[8]]=k end else if q<15720723 then N=y(18150)R=C[r[1]]j=C[r[2]]Q=C[r[3]]D=22451930198579 k=Q(N,D)h=j[k]q=R[h]N=22335136761051 h=C[r[2]]k=y(18574)j=C[r[3]]Q=j(k,N)R=h[Q]h=9139808>12438512 q[R]=h q=C[r[1]]N=y(18305)j=C[r[2]]D,R=24640325836330,y(18984)R=q[R]Q=C[r[3]]k=Q(N,D)h=j[k]R=R(q,h)N=1165235991130 q=C[r[4]]k=y(18928)h=C[r[2]]j=C[r[3]]Q=j(k,N)R=h[Q]D=34361192240778 j=C[r[2]]N=y(19243)Q=C[r[3]]k=Q(N,D)h=j[k]q[R]=h R,q={},S[y(19210)]else V=18189730122909 I=C[r[1]]q,W=12911129,y(19250)Y=C[r[2]]O=Y(W,V)T=I[O]D=j[T]T=0 N=D==T Q=N end end end end end end end else if q>16247814 then if 16569831>q then if 16390079>q then if q>16337669 then if 16384122>q then if 16362382>q then if q<16342045 then q,R=S[y(19294)],11330290>=12534062 R={R}elseif 16346309>q then N=q Y=C[r[2]]z=5462732172899 O=C[r[3]]V=y(18006)W=O(V,z)I=Y[W]T=h[I]I=1 D=T==I k,q=D,D and 15457983 or 1730195 else q=7483056 end else if 16380829>q then q=p q=R and 4908566 or 3706044 else q=C[r[10]]j=C[r[11]]h[q]=j q=C[r[12]]j={q(h)}R,q={G(j)},S[y(18585)]end end else if 16385266>q then if q<16384451 then q=QJ[23]q,QJ[20]=16386354,QJ[22]elseif 16384660>q then q=QJ[25]QJ[25]=25000000 QJ[22]=QJ[24]or QJ[25]QJ[24],QJ[26]=q,q QJ[25],q=QJ[20],QJ[20]and 12032348 or 11486594 else q=S[y(19375)]R=I>Y R={R}end else if q<16386011 then Y=y(18093)Y=h[Y]Y=Y(h)q,T=1806769,Y else QJ[18],q=QJ[20],QJ[21]q=15516176 end end end else if q>16276226 then if q<16319739 then if 16285891>q then a,J=o(f,a)q=a and 7621928 or 11615329 elseif q<16304794 then v,f=q,22388701044084 t=C[r[1]]o=y(18820)P=C[r[2]]X=C[r[3]]K=X(o,f)H=P[K]b=t[H]H=C[r[2]]o=28769003714700 P=C[r[3]]K=y(19284)X=P(K,o)t=H[X]l=b[t]q,z=l and 5444226 or 10847834,l else dJ=7500 rJ=C[T]q=3460825 qJ=rJ>=dJ GJ=qJ end else if q<16330609 then h=n[1]q=C[r[1]]R=q()j=R q=j and 12039221 or 6260450 else q,T=O,Y q=1111143 end end else if q>16269441 then if 16272746>q then q=R and 5631015 or 12554939 else o=f p=l+o c=y(18715)s=t+b c=D[c]nJ=s*Y U=nJ+p c=c(D,U)nJ=not c q=nJ and 3874587 or 13032086 end else if 16255537>q then q=10708517 elseif 16265740>q then N=C[r[1]]Y=14075043246717 D=C[r[2]]I=y(18952)T=D(I,Y)k=N[T]Q=j[k]q,R=8575382,Q else q,O,D=8131170,nil,nil end end end end else if q>16491855 then if q>16548007 then if 16549443>q then f=o+f R,J=f<=K,not a R=J and R J=K<=f J=a and J R=J or R J=9563814 q=R and J R=10925945 q=q or R elseif 16554867>q then GJ=80 SJ=F<=GJ q=SJ and 10960924 or 14826156 elseif 16561116>q then X=11945709085381 b=C[r[2]]P,V=y(18554),q t=C[r[3]]H=t(P,X)l=b[H]v=Y[l]z=v==j q,W=z and 594773 or 4945187,z else CJ=C[T]mJ=8 hJ=s*mJ RJ=CJ>=hJ q,dJ=7349423,RJ end else if q>16531985 then if q<16541774 then SJ,q=10000000,13904424 F=X>=SJ nJ=F else QJ[11],q=QJ[14],QJ[15]q=QJ[14]and 1466551 or 2070467 end else if 16510961>q then O=y(18319)Y=S[O]t=20828505111196 z=C[r[2]]T,b=q,y(19748)v=C[r[3]]l=v(b,t)V=z[l]W=h[V]O=Y(W)W=C[r[2]]v=y(18721)V=C[r[3]]l=21548861340143 z=V(v,l)Y=W[z]I=O==Y R,q=I,I and 10999165 or 7008788 elseif 16527270>q then I,l=q,16191496179642 W=C[r[1]]b=1934860264872 V=C[r[2]]t,v=34230599537115,y(18680)z=V(v,l)l=y(18174)O=W[z]Y=h[O]O=0 R=Y or O Y,I=q,R V=C[r[1]]z=C[r[2]]v=z(l,b)W=V[v]O=j[W]W=0 R=O or W Y,V=R,y(18117)W=S[V]b=y(19411)z=C[r[1]]v=C[r[2]]l=v(b,t)V=z[l]O=W[V]V=I-Y W=O(V)O=20 R=W>O q=R and 11383624 or 3724677 else q,v,H=1110127,nil,nil end end end else if q<16420960 then if 16406533>q then if q<16397401 then D,T,h=y(19678),14577261642219,n[1]R=C[r[1]]Q=C[r[2]]k=C[r[3]]N=k(D,T)j=Q[N]q=R[j]D=21396688932887 j=C[r[2]]Q=C[r[3]]N=y(19208)k=Q(N,D)R=j[k]j=h q[R]=j q=C[r[4]]R=q()q=h and 10771720 or 14598233 elseif 16403568>q then q=QJ[6]q,QJ[6]=3706044,0 QJ[3]=QJ[5]or QJ[6]QJ[5]=C[r[2]]QJ[9],QJ[14]=11789544763704,12731440744966 QJ[6]=C[r[3]]QJ[8],QJ[12]=y(17897),11852895096727 QJ[7]=QJ[6](QJ[8],QJ[9])QJ[4]=QJ[5][QJ[7]]QJ[10],QJ[9],QJ[11]=16515224696960,y(18142),y(19681)QJ[6]=C[r[2]]QJ[7]=C[r[3]]QJ[8]=QJ[7](QJ[9],QJ[10])QJ[5]=QJ[6][QJ[8]]QJ[6]=y(19018)QJ[6],p=Q[QJ[6]],nil QJ[6]=QJ[6](Q,e)QJ[8]=C[r[2]]QJ[13]=30350180441697 QJ[9]=C[r[3]]QJ[10]=QJ[9](QJ[11],QJ[12])QJ[12]=y(19532)QJ[7]=QJ[8][QJ[10]]QJ[9]=C[r[2]]QJ[10]=C[r[3]]QJ[11]=QJ[10](QJ[12],QJ[13])QJ[8]=QJ[9][QJ[11]]QJ[13]=y(17607)QJ[10]=C[r[2]]QJ[11]=C[r[3]]QJ[12]=QJ[11](QJ[13],QJ[14])QJ[9]=QJ[10][QJ[12]]QJ[11]=C[r[2]]QJ[12]=C[r[3]]QJ[15],QJ[14]=20187939006986,y(18062)QJ[13]=QJ[12](QJ[14],QJ[15])QJ[10]=QJ[11][QJ[13]]hJ={[mJ]=J;[jJ]=e,[QJ[1]]=s;[QJ[2]]=QJ[3];[QJ[4]]=U,[QJ[5]]=QJ[6],[QJ[7]]=nJ,[QJ[8]]=SJ;[QJ[9]]=dJ,[QJ[10]]=wJ}wJ,s,U=nil,nil,nil CJ=RJ(z,hJ)dJ,SJ,nJ=nil,nil,nil else SJ,dJ=1,y(18255)c=K+SJ yJ=C[r[2]]hJ,wJ=10014415195285,35024890413622 qJ=C[r[3]]rJ=qJ(dJ,wJ)GJ=yJ[rJ]SJ=nJ[GJ]CJ=y(18764)dJ=C[r[2]]K,yJ=c,q wJ=C[r[3]]RJ=wJ(CJ,hJ)rJ=dJ[RJ]dJ=5 qJ=nJ[rJ]rJ=1 GJ=qJ or rJ rJ=SJ==dJ qJ=q q=rJ and 10487087 or 139051 yJ=rJ end else if q<16413624 then Y=C[r[3]]V,q,z=y(19494),420632,30944320437312 O=C[r[4]]W=O(V,z)I=Y[W]T=j[I]D=y(19018)D=j[D]D=D(j,T)k=D else QJ[86]=1.1 QJ[85]=QJ[76]*QJ[86]QJ[84]=QJ[77]>=QJ[85]QJ[82],q=QJ[84],10813932 end end else if q>16431257 then if 16459841>q then q,T,I=3057359,y(19220),20492844455921 k=C[r[2]]N=C[r[3]]D=N(T,I)Q=k[D]j=h[Q]R=j else D=R q,R=D and 5776810 or 1120848,D end else if q<16426100 then b=not D v,l=b,q q=b and 7795898 or 4653494 elseif 16430724>q then SJ,q=yJ,qJ q=15556308 else SJ=C[r[11]]QJ[3]={SJ()}mJ,SJ,jJ,hJ=QJ[3][3],c,QJ[3][4],QJ[3][2]CJ=QJ[3][1]QJ[3]=q q=c and 15662203 or 4267735 end end end end end else if q>16672692 then if q>16717765 then if 16752320>q then if 16747993>q then if 16738003>q then q=e q=J and 8031274 or 5991153 elseif 16746317>q then q=O q=T and 12270832 or 13993731 else o,q=P,4806788 end else if 16748451>q then wJ=RJ QJ[1]=J+wJ jJ=QJ[1]%k QJ[1]=p+F QJ[3],QJ[5]=q,0 QJ[4]=QJ[1]>=QJ[5]q,QJ[2]=QJ[4]and 1455276 or 10737118,QJ[4]else J=C[r[2]]o,U=q,17881921333496 e=C[r[3]]s=y(17778)p=e(s,U)a=J[p]f=H[a]q,K=f and 6046979 or 13479822,f end end else if 16761669>q then D=C[h]W,V=y(19326),32934335642579 I=C[r[1]]Y=C[r[2]]O=Y(W,V)T=I[O]N=D[T]k=not N R,q=k,k and 8289786 or 8375262 elseif q<16770384 then v=11877800294749 I=C[r[4]]O=C[r[1]]z=y(19538)W=C[r[2]]V=W(z,v)Y=O[V]q,z=10175472,19967920579590 T=I[Y]V=y(18134)Y=C[r[1]]O=C[r[2]]W=O(V,z)I=Y[W]D=T[I]k=D elseif 16774755>q then QJ[74],QJ[76],QJ[73],q=nil,nil,nil,14787948 QJ[75]=nil else QJ[2]=20 QJ[1]=qJ+QJ[2]q,qJ=15967956,QJ[1]end end else if 16682413>q then if q>16677621 then if 16680034>q then o=not Y X,q=o,8960729 else QJ[2]=0 QJ[1]=F>QJ[2]jJ=q q,mJ=QJ[1]and 11085227 or 1819753,QJ[1]end else if 16674129>q then z,q=l,b q=3411916 elseif 16675532>q then QJ[52],q=QJ[54],QJ[55]q=QJ[54]and 3342790 or 11833525 else Y,V=R,y(17818)R=C[r[1]]O=C[r[2]]z=22581156111797 W=O(V,z)O=y(17902)q=R[W]R=D(Q,Y)I[q]=R q=C[h]O=q[O]R={O(q,I)}q,R=S[y(17898)],{G(R)}end end else if q>16700742 then if q<16703163 then q=U q=s and 8560910 or 9709637 else QJ[37]=C[r[18]]QJ[47]=13165832904222 QJ[43]=C[r[3]]q=9490507 QJ[44]=C[r[4]]QJ[46]=y(17974)QJ[45]=QJ[44](QJ[46],QJ[47])QJ[42]=QJ[43][QJ[45]]QJ[43]={QJ[37](QJ[42],QJ[22])}QJ[38],QJ[40]=QJ[43][1],QJ[43][2]QJ[35],QJ[41]=QJ[40],QJ[43][3]QJ[36],QJ[34]=QJ[41],QJ[38]end else if q<16686611 then q,CJ=5586880,1 wJ=-X hJ,RJ=CJ,X CJ,GJ=0,qJ mJ=CJ>hJ CJ=wJ-hJ elseif q<16694376 then W=C[r[1]]X=34478253646499 b=C[r[3]]o=30383968187466 t=C[r[4]]P=y(19441)H=t(P,X)X=y(17961)l=b[H]K=19449234042226 t=C[r[3]]H=C[r[4]]P=H(X,K)z,K=y(17902),y(18263)b=t[P]H=C[r[3]]P=C[r[4]]z=W[z]X=P(K,o)t=H[X]H,v,P=23958652869204,{[l]=b,[t]=V},y(19765)z=z(W,v)W=C[r[2]]v=C[r[3]]t,X=y(17686),4387702586414 l=C[r[4]]b=l(t,H)z=v[b]b=C[r[3]]t=C[r[4]]H=t(P,X)l=b[H]t=y(18806)b=S[t]H=3311526446845 t=b(V)q,P=6897834,29416428604071 v=l..t W[z]=v W=C[r[2]]v=C[r[3]]l=C[r[4]]t=y(19168)b=l(t,H)H=y(19446)z=v[b]l=C[r[3]]b=C[r[4]]t=b(H,P)v=l[t]W[z]=v v=y(18048)z=S[v]P=28867926430360 l=C[r[3]]b=C[r[4]]H=y(18128)t=b(H,P)v=l[t]W=z[v]v=.5 z=W(v)else j,q,R=nil,nil,nil R={q,R,j}q=S[y(19540)]end end end end else if q<16615875 then if q>16586209 then if 16600513>q then if 16591174>q then QJ[4],jJ,q=y(19752),y(18117),p mJ=S[jJ]QJ[1]=C[r[2]]QJ[2]=C[r[3]]QJ[5]=34224854273193 QJ[3]=QJ[2](QJ[4],QJ[5])jJ=QJ[1][QJ[3]]p=mJ[jJ]QJ[2]=2 jJ=o*e mJ=p(jJ)jJ,o=q,mJ QJ[1]=K>=QJ[2]p,q=QJ[1],QJ[1]and 12975810 or 6669091 elseif q<16596532 then q,rJ=12218840,8631741308552 SJ=C[r[2]]qJ=y(17823)GJ=C[r[3]]yJ=GJ(qJ,rJ)F=SJ[yJ]c=p[F]U=c else R,q=Y,O q=23321 end else if q<16606678 then wJ,qJ=not dJ,rJ+qJ GJ=yJ>=qJ GJ=wJ and GJ wJ=yJ<=qJ wJ=dJ and wJ GJ=wJ or GJ wJ=16684161 q=GJ and wJ GJ=14082465 q=q or GJ else R=y(17716)R=h[R]R=R(h)R=C[r[4]]N=C[r[2]]q,O,Y,I=S[y(19317)],977725531769,29655128643314,y(18921)D=C[r[3]]T=D(I,Y)k=N[T]Y=y(17674)D=C[r[2]]T=C[r[3]]I=T(Y,O)W=22235462032007 N=D[I]Y=y(17747)R[k]=N O,V=31381845701064,28557166809615 R=C[r[5]]D=C[r[2]]T=C[r[3]]I=T(Y,O)O=y(18631)N=D[I]T=C[r[2]]I=C[r[3]]Y=I(O,W)D=T[Y]W=y(18410)I=C[r[2]]Y=C[r[3]]k=y(17590)O=Y(W,V)T=I[O]k=R[k]k=k(R,N,D,T)R=9953619>=4258496 R={R}end end else if 16581152>q then if 16576495>q then nJ=y(18201)J=C[r[5]]c=27401345529862 p=C[r[3]]s=C[r[4]]U=s(nJ,c)e=p[U]U=y(18862)a=J[e]nJ=17767527402293 e=C[r[3]]p=C[r[4]]s=p(U,nJ)J=e[s]f=a[J]K,q=f,16628892 elseif 16578755>q then R=y(17731)q=S[R]R=q(N)D=R q=D and 9475738 or 13867451 else l=C[r[2]]H=C[r[3]]K=y(18292)P=C[r[4]]o=32475323770167 X=P(K,o)o=y(18352)b=H[X]f=1291841469230 P=C[r[3]]p=y(19653)X=C[r[4]]K=X(o,f)H=P[K]o,K=8755650465514,y(17772)l[b]=H l=C[r[2]]H=C[r[3]]P=C[r[4]]X=P(K,o)K,P,s=q,y(18806),22087737678015 b=H[X]H=S[P]a=C[r[3]]J=C[r[4]]e=J(p,s)f=a[e]o=O[f]X,q=o,o and 4222141 or 9375934 end else if q<16582874 then q=hJ q=CJ and 270139 or 5597429 else q=y(18010)q=N[q]R=C[j]q=q(N,R,Q)O=q q=Y(O)q=q and 13370344 or 14502731 end end end else if q>16642547 then if 16656421>q then q=4146232 elseif q<16664401 then RJ,dJ=2,q wJ=GJ==RJ rJ,q=wJ,wJ and 7189257 or 1667250 elseif q<16668754 then h,T=n[1],17245230341673 R=C[r[1]]Q=C[r[2]]D=y(18417)k=C[r[3]]N=k(D,T)D=26507041541342 j=Q[N]N=y(19115)q=R[j]j=C[r[2]]Q=C[r[3]]k=Q(N,D)R=j[k]j=h q[R]=j R,q,h={},S[y(19571)],nil else q=SJ SJ=0 s=nJ or SJ SJ=p dJ,nJ=q,q q=p and 9980331 or 1529346 end else if q<16630947 then if 16622164>q then I,q=nil,4562631 elseif 16626283>q then o,q,X=y(19705),11330480,y(18806)H=S[X]K=S[o]X=H(K)H=y(18909)S[H]=X else P,q=K,o q=K and 4748648 or 4521104 end else if 16634449>q then z,q,V=nil,7139836,nil else q=5051331>14651782 R={q}q=S[y(19261)]end end end end end end else if q>16006089 then if 16146921>q then if q>16088964 then if q>16106250 then if q>16124174 then if q<16137395 then q=b q,z=10388075,l else q=z q=W and 13081144 or 16028682 end else if q<16109637 then z,Y,D=y(17785),y(18319),q I=S[Y]v=25399709364843 Y=I(Q)O=C[r[1]]W=C[r[2]]V=W(z,v)I=O[V]T=Y==I N,q=T,T and 5852622 or 13837651 elseif q<16115968 then V,q=O,O and 10981682 or 14713906 else q=R and 16576587 or 8328840 end end else if 16102856>q then if q<16097319 then t=y(18423)b=S[t]H=C[r[2]]P=C[r[3]]o,K=12785816392125,y(18454)X=P(K,o)t=H[X]q=b[t]t=100 b=q(O,l)b=#O q=b>=t q=q and 4727229 or 2089096 elseif q<16099806 then V=O==j W,q=V,V and 4957689 or 8038601 else QJ[9]=23076675921528 QJ[5]=C[r[2]]QJ[6]=C[r[3]]QJ[8]=y(18308)QJ[7]=QJ[6](QJ[8],QJ[9])QJ[4]=QJ[5][QJ[7]]QJ[3],QJ[5]=y(18010),q QJ[3]=D[QJ[3]]QJ[3]=QJ[3](D,QJ[4],QJ[2])QJ[4],q=QJ[3],QJ[3]and 2502456 or 9806475 end else if 16105167>q then H=C[r[1]]o=6002393582945 P=C[r[2]]q,K=337071,y(18875)X=P(K,o)t=H[X]b=W[t]v=b else q=T C[r[6]]=q q=13625719 end end end else if q>16062869 then if q>16071699 then if 16077205>q then q,nJ=16588051,1 e=nJ else D=9950686187281 R=C[r[1]]j=C[r[2]]Q=C[r[3]]N=y(19097)k=Q(N,D)h=j[k]q=R[h]h=q R,q=h,h and 3742506 or 14205906 end else if 16068344>q then q=7428165 elseif q<16070480 then K=C[r[2]]o=C[r[3]]t,J,e=q,y(18972),20703751193705 a=o(J,e)X=K[a]P=z[X]b,q=P,P and 6124068 or 9419599 else F,q=.4,16588051 e=F end end else if q>16034838 then if q<16049981 then q=s U=q nJ,SJ=p,q q=p and 15463461 or 16672350 else z=#O v=0 V=z==v W,q=V,V and 2763221 or 8898403 end else if q<16020086 then V=I~=j W=q q,O=V and 9920505 or 8308416,V elseif 16027253>q then O,W=q,not j q,Y=W and 1466621 or 11897749,W else V,q=nil,16268427 end end end end else if q>16201111 then if 16230413>q then if q<16214367 then if q<16207118 then j=C[r[1]]N,D=y(19464),12358495514975 Q=C[r[2]]k=Q(N,D)R=j[k]q=h[R]j=q R,q=j,j and 16263053 or 8575382 elseif q<16210415 then QJ[6],QJ[4]=y(19153),q QJ[3]=QJ[1]*T QJ[6]=h[QJ[6]]QJ[2]=QJ[3]+jJ QJ[6]=QJ[6](h,QJ[2])QJ[5]=QJ[6]==j q,QJ[3]=QJ[5]and 16217448 or 4835675,QJ[5]else b,p=H,y(18208)C[r[10]]=b a,J=y(17764),22763502010057 K=C[r[3]]o=C[r[4]]f=o(a,J)nJ=23977368427057 X=K[f]P=O[X]a=C[r[3]]J=C[r[4]]s=34422255787308 e=J(p,s)f=a[e]o=O[f]K=q J=C[r[3]]f,s=0,y(18411)X=o or f o=q e=C[r[4]]U=4370140291224 p=e(s,U)a=J[p]f=O[a]a=0 K,yJ,GJ=f or a,33975015591329,y(18735)e=C[r[3]]f=q p=C[r[4]]U=y(17600)s=p(U,nJ)J=e[s]a=O[J]J,f=0,0 o=a or J c=C[r[3]]s,p,J,a=0,0,0,0 F=C[r[4]]e=0 SJ=F(GJ,yJ)nJ=c[SJ]U=j[nJ]q=U and 3059740 or 15673046 end else if 16222908>q then q,QJ[5]=4835675,y(17687)QJ[5]=k[QJ[5]]QJ[5]=QJ[5](k,QJ[2])QJ[3]=QJ[5]else R=C[r[1]]h,T=n[1],19355339722064 Q=C[r[2]]D=y(18232)k=C[r[3]]N=k(D,T)j=Q[N]q=R[j]N,D=y(18377),24203429534177 j=C[r[2]]Q=C[r[3]]k=Q(N,D)R=j[k]j=h h=nil q[R]=j R,q={},S[y(18252)]end end else if 16238786>q then O=C[r[3]]z,v=y(18082),11107929789877 W=C[r[4]]D=q V=W(z,v)Y=O[V]I=j[Y]T=not I q,N=T and 3306725 or 12758021,T elseif 16245174>q then T,Q=not D,Q+N R=k>=Q R=T and R T=Q>=k T=D and T R=T or R T=13888611 q=R and T R=9590466 q=q or R elseif q<16246420 then e,q,p=nil,11206376,nil else q,R=S[y(18302)],{R}end end else if 16168076>q then if q>16149489 then if q<16157448 then q,QJ[8]=QJ[11],QJ[10]q=13256792 else QJ[14],QJ[15]=y(18155),33710420544345 QJ[11]=C[r[2]]QJ[12]=C[r[3]]q=12009168 QJ[13]=QJ[12](QJ[14],QJ[15])QJ[10]=QJ[11][QJ[13]]QJ[9]=QJ[3][QJ[10]]QJ[8]=not QJ[9]QJ[6]=QJ[8]end else if q<16148105 then W=C[r[2]]t,b=197491402075,y(18752)z=C[r[3]]v=C[r[4]]l=v(b,t)t,H=y(17885),2808908623536 V=z[l]v=C[r[3]]l=C[r[4]]b=l(t,H)z=v[b]W[V]=z W=C[r[9]]V=W()q=V and 16689061 or 6897834 elseif q<16148857 then F=e+U dJ,qJ=0,q rJ=F>dJ q=rJ and 1453134 or 378239 else q,J=4406364,nil end end else if q<16186713 then if q<16175149 then e,o=not J,o+a X=K>=o X=e and X e=o>=K e=J and e X=e or X e=13762061 q=X and e X=13337437 q=q or X elseif 16180275>q then Y=2624252291618 N=C[r[1]]I=y(19590)D=C[r[2]]T=D(I,Y)k=N[T]Q=j[k]q,R=Q and 15670748 or 13478076,Q else N=C[r[1]]I,Y,j=y(18169),3656217062175,q D=C[r[2]]T=D(I,Y)k=N[T]Q=h[k]q,R=Q and 3928203 or 10674696,Q end else if q<16194839 then q=D q,Q=5064339,N else R,q={},S[y(18817)]end end end end end else if q>15901297 then if q<15945105 then if 15927165>q then if 15910909>q then if q<15903152 then z,t=y(18423),y(19733)V=S[z]v=C[r[2]]H,q=16178801475740,3276316 l=C[r[3]]b=l(t,H)z=v[b]W=V[z]z=x(3145756,{r[2],r[3]})V=W(O,z)z=y(19364)V=S[z]b={V(O)}l,W,z,v=b[3],nil,b[1],b[2]elseif 15907141>q then QJ[38],QJ[39]=nil,5840668~=5521932 QJ[33],QJ[34],q=QJ[39],nil,16346905 else q=C[r[1]]R,I=y(19167),q R=q[R]R=R(q)D=R q,T=D and 7167925 or 10545987,D end else if 15915228>q then QJ[1],q=QJ[3],QJ[4]q=160315 else H=C[r[5]]X=C[r[3]]f=y(19642)K=C[r[4]]a=26043526344067 o=K(f,a)P=X[o]o,f=y(19054),24828202801740 t=H[P]P=C[r[3]]X=C[r[4]]K=X(o,f)H=P[K]q=9587546 b=t[H]v=b end end else if q>15939581 then if 15943242>q then q,QJ[8]=QJ[11],QJ[10]q=QJ[10]and 6781460 or 13256792 else q,a,b=2568689,4,H J=a o=-b f,a=b,0 e=J<a a=o-J end else if q<15935626 then R=V+J nJ,s,e=0,q,R R=z+X U=e>=nJ p,q=R,U and 1258398 or 8693675 R=U elseif q<15936726 then q=QJ[32]q,QJ[27]=2863620,QJ[31]else q=7222169 end end end else if 15983554>q then if q<15958428 then if q<15946709 then h=n[1]q=C[r[1]]k={q(h)}j=k[2]R,Q=k[1],k[3]k=R q=not k q=q and 12088770 or 8074399 elseif 15948230>q then q=QJ[2]q,mJ=11791541,QJ[1]else q=nil R={q}q=S[y(18632)]end else if q<15974605 then QJ[7]=400 QJ[6]=K>=QJ[7]q=QJ[6]and 2035089 or 370948 else rJ,s,CJ,GJ=y(18319),c,y(19727),q qJ=S[rJ]rJ=qJ(F)dJ=C[r[2]]wJ=C[r[3]]hJ=15926594755569 RJ=wJ(CJ,hJ)qJ=dJ[RJ]yJ=rJ==qJ q,SJ=yJ and 7584575 or 15556308,yJ end end else if 15987722>q then R=C[r[1]]N=y(18493)j=C[r[2]]Q=C[r[3]]D=31377211799367 k=Q(N,D)h=j[k]q=R[h]h=q R,q=h,h and 4093851 or 2523235 elseif 15993291>q then q,QJ[4]=14231245,QJ[2]elseif q<15997410 then K=0 X=v>=K q,H=13555244,X else v=y(18216)W=C[r[3]]l=31703968311283 V=C[r[4]]q=14191116 z=V(v,l)O=W[z]Y=j[O]O=0 I=Y>O D=I end end end else if 15830803>q then if q>15805734 then if 15825514>q then if q<15813489 then V,I,j,h=1196289720781,y(18457),n[2],n[1]N=C[r[1]]D=C[r[2]]Y=34482259927551 T=D(I,Y)k=N[T]W=11977748495155 Q=h[k]T=C[r[1]]k=0 R=Q or k Q,O=R,y(18860)I=C[r[2]]Y=I(O,W)W,k=y(18604),q D=T[Y]N=j[D]T,D=y(18117),0 R=N or D D=S[T]I=C[r[1]]k=R Y=C[r[2]]O=Y(W,V)T=I[O]N=D[T]T=Q-k D=N(T)N=25 R=D>N q=R and 11468728 or 3193522 elseif 15822825>q then I=1 R=T==I q=R and 1004995 or 12601258 else q=V q,R=9733323,W end else if 15828020>q then e=25 J=a>=e q=J and 5630925 or 8192004 else QJ[8],QJ[10]=23941863869092,y(18077)p=C[r[7]]QJ[3]=y(18423)QJ[2]={p(D,b)}jJ,QJ[9]=QJ[2][1],34150008455184 QJ[1],QJ[11]=QJ[2][2],33619238851162 QJ[2]=S[QJ[3]]QJ[4]=C[r[2]]QJ[5]=C[r[3]]QJ[7]=y(19473)QJ[6]=QJ[5](QJ[7],QJ[8])QJ[8]=y(18624)QJ[3]=QJ[4][QJ[6]]p=QJ[2][QJ[3]]QJ[5]=C[r[2]]QJ[6]=C[r[3]]QJ[7]=QJ[6](QJ[8],QJ[9])QJ[4]=QJ[5][QJ[7]]QJ[7]=C[r[2]]QJ[8]=C[r[3]]QJ[9]=QJ[8](QJ[10],QJ[11])QJ[6]=QJ[7][QJ[9]]QJ[5]=l[QJ[6]]QJ[10],QJ[11]=y(17856),8257660260589 QJ[7]=C[r[2]]QJ[8]=C[r[3]]QJ[9]=QJ[8](QJ[10],QJ[11])QJ[6]=QJ[7][QJ[9]]QJ[9],QJ[10],QJ[8]=H,q,q q=H and 6329485 or 6708647 end end else if q>15782122 then if 15797879>q then I=C[r[2]]Y=C[r[3]]V,W=15457536791655,y(18586)O=Y(W,V)T=I[O]D=Q[T]q,R=15385354,D else QJ[1]=33038951179742 CJ=C[r[3]]QJ[2],rJ,jJ=32486136357004,q,y(19606)hJ=C[r[4]]mJ=hJ(jJ,QJ[1])RJ=CJ[mJ]wJ=SJ[RJ]hJ=C[r[3]]QJ[1]=y(18257)mJ=C[r[4]]jJ=mJ(QJ[1],QJ[2])CJ=hJ[jJ]RJ=O[CJ]dJ=wJ==RJ q,qJ=dJ and 887229 or 7530617,dJ end else if q<15749307 then t=nil q=V and 1552877 or 12802462 elseif 15766796>q then QJ[21]=1 QJ[20]=e>=QJ[21]QJ[19]=q q,QJ[18]=QJ[20]and 10099042 or 5676114,QJ[20]else O,q,Y=23692260098703,1424174,y(17748)D=C[r[2]]T=C[r[3]]I=T(Y,O)N=D[I]k=Q[N]R=k end end end else if q>15872585 then if q<15886956 then if q<15875489 then T,I,q=nil,nil,13867451 elseif q<15879037 then q=N q,R=11814645,k else QJ[52]=not c QJ[32],QJ[36]=QJ[52],q q=QJ[52]and 6652801 or 5061524 end else if q<15896248 then l=q P=C[r[2]]X=C[r[3]]o,f=y(19555),20453181888808 K=X(o,f)H=P[K]t=V[H]b=t~=j q,v=b and 12184799 or 13387751,b else QJ[1]=y(18129)QJ[1],q=h[QJ[1]],586715 QJ[1]=QJ[1](h,j,e)jJ=not QJ[1]GJ=jJ end end else if 15867947>q then if 15837719>q then QJ[6]=5 QJ[2]=o>=QJ[6]q=QJ[2]and 14359767 or 15967956 elseif q<15855483 then N=C[r[1]]Y,I,j,h=30397176973315,y(19577),n[2],n[1]D=C[r[2]]T=D(I,Y)k=N[T]O=34686322469490 Q=h[k]Y,R=y(18847),not Q D=C[r[1]]T=C[r[2]]I=T(Y,O)q=not R N=D[I]k=j[N]Q,R=q,not k q=not R k=q q=Q~=k q=q and 794451 or 8308209 else l,z,b,q=nil,nil,0,S[y(18649)]v=nil R={z;v;l,b}end else if q<15869754 then V,t,q,b=nil,nil,3276316,nil else SJ=C[r[2]]rJ,qJ=27497845679241,y(18228)GJ=C[r[3]]yJ=GJ(qJ,rJ)F=SJ[yJ]c=f[F]SJ=C[r[2]]GJ=C[r[3]]rJ,qJ=34126612154203,y(17830)yJ=GJ(qJ,rJ)F=SJ[yJ]q=3186918 nJ=c==F s=nJ end end end end end end end end end else if q<10672878 then if q<9527391 then if q>8945177 then if q<9239960 then if q>9106328 then if q>9171474 then if q>9194776 then if q<9197239 then t=L(14492778,{})q=W W=m()v=65 C[W]=O z=3 O=C[Y]V=O(z,v)z,K=0,y(18806)O=m()C[O]=V V,b=0,y(17689)l=S[b]b={l(t)}t,v=y(18480),{G(b)}b=2 l=v[b]b=S[t]H=C[k]X=S[K]K=X(l)X=y(18203)P=H(K,X)H={P()}t=b(G(H))b=m()C[b]=t H=C[O]P,t=H,1 H,q=1,10175525 X=H H=0 K=H>X H=t-X elseif 9208931>q then q=4571117 elseif 9227173>q then QJ[14]=C[r[5]]QJ[16]=C[r[3]]QJ[19],QJ[20]=y(18672),25503229941800 QJ[17]=C[r[4]]QJ[18]=QJ[17](QJ[19],QJ[20])QJ[15]=QJ[16][QJ[18]]QJ[19]=24903353545990 QJ[13]=QJ[14][QJ[15]]QJ[15]=C[r[3]]q,QJ[18]=15942132,y(17860)QJ[16]=C[r[4]]QJ[17]=QJ[16](QJ[18],QJ[19])QJ[14]=QJ[15][QJ[17]]QJ[12]=QJ[13][QJ[14]]QJ[10]=QJ[12]else T=C[r[1]]O,W=y(17987),19873041742310 I=C[r[2]]Y=I(O,W)D=T[Y]N=h[D]V,R,W=1547146929866,not N,y(19579)q=not R I=C[r[1]]N=q Y=C[r[2]]O=Y(W,V)T=I[O]D=j[T]R=not D q=not R D=q q=N~=D q=q and 13950998 or 8113351 end else if 9189878>q then if q<9179914 then jJ,QJ[1],q,wJ=nil,nil,11932158,nil elseif q<9188591 then q,V=5829468,y(18287)V=N[V]V=V(N,j)R=V else QJ[2],q=QJ[4],QJ[5]q=11931422 end else if 9191689>q then R=C[r[4]]W=C[r[2]]t,v=y(17948),y(19686)V=C[r[3]]l=24778369278779 z=V(v,l)O=W[z]X,z=y(17858),y(19488)V=S[z]v=C[r[2]]H=30980169158477 l=C[r[3]]b=l(t,H)z=v[b]H=18066497120161 W=V[z]v=C[r[2]]t=y(19419)l=C[r[3]]b=l(t,H)z=v[b]b=y(18117)l=S[b]t=C[r[2]]q=6641823 H=C[r[3]]K=3788049981343 P=H(X,K)b=t[P]v=l[b]t=10 b=Y/t l={v(b)}V=W(z,G(l))R[O]=V else t=C[r[2]]z,X,K=V,y(19013),7576953685631 H=C[r[3]]P=H(X,K)b=t[P]l=D[b]b=l(v,h)R=b<=I q=R and 9935551 or 11302821 end end end else if q>9140129 then if q<9162983 then if 9150572>q then R,q=14137658<4481851,S[y(18611)]R={R}elseif 9160082>q then q,QJ[53]=9364333,nil else q=o q=R and 1217635 or 12853804 end else if 9168152>q then b,q=nil,996263 else R=0 q=N>R q=q and 13343200 or 13619393 end end else if q<9129640 then if q<9111012 then QJ[61]=C[r[3]]q,jJ,QJ[65]=QJ[58],QJ[57],15383104561645 QJ[58]=.3 QJ[62]=C[r[4]]QJ[64],mJ=y(19563),QJ[58]QJ[63]=QJ[62](QJ[64],QJ[65])q,QJ[62]=6541056,y(18806)QJ[60]=QJ[61][QJ[63]]QJ[61]=S[QJ[62]]QJ[62]=QJ[61](QJ[52])QJ[59]=QJ[60]..QJ[62]hJ=QJ[59]elseif 9121985>q then CJ,RJ,s=2533890943875,y(17732),q SJ=C[r[2]]dJ=C[r[3]]wJ=dJ(RJ,CJ)nJ=SJ[wJ]U=Q[nJ]p,q=U,U and 115254 or 16040995 else b=y(17712)W=C[r[2]]z=C[r[3]]t=485286306470 v=C[r[4]]l=v(b,t)V=z[l]H=17024749421156 v=C[r[3]]l=C[r[4]]t=y(18189)b=l(t,H)z=v[b]W[V]=z b,a=y(17821),24422217020689 W=C[r[2]]t=26360075530540 z=C[r[3]]v=C[r[4]]f=y(18719)l=v(b,t)V=z[l]H,t=25468618927813,y(19146)v=C[r[3]]l=C[r[4]]b=l(t,H)l=q z=v[b]W[V]=z W=15036911>15039039 H=C[r[5]]X=C[r[3]]K=C[r[4]]o=K(f,a)P=X[o]o=y(19285)t=H[P]P=C[r[3]]z=q X=C[r[4]]f=5534883886613 K=X(o,f)H=P[K]b=t[H]q,v=b and 9587546 or 15919498,b end else if 9134706>q then X,K=q,not T P,q=K,K and 9706442 or 15314205 else h=y(19638)R=S[h]j=C[r[1]]D,N=2669159857539,y(19053)Q=C[r[2]]k=Q(N,D)h=j[k]q=R[h]R=q()j=C[r[3]]q,h=j and 11808567 or 13023823,R R=j end end end end else if 9019982>q then if q>8989087 then if q>9007575 then if q<9016265 then QJ[8]=50000 QJ[7]=X>=QJ[8]q,QJ[5]=3807145,QJ[7]else J,p=q,1 e=b==p q,a=e and 3923380 or 7235197,e end else if q<8991149 then QJ[36],q=QJ[53],QJ[54]q=7991070 elseif 8997012>q then q,P=13500878,4 H=b==P R=H else q=QJ[31]q=QJ[30]and 12726023 or 15073270 end end else if q<8984806 then if 8956320>q then q=U q=5821328 C[j]=s elseif q<8971882 then q,H=K,X q=14281612 else T=22374239183996 R=C[r[1]]Q=C[r[2]]k=C[r[3]]h,D=n[1],y(18966)N=k(D,T)j=Q[N]q=R[j]j=C[r[2]]N,D=y(19410),448565046278 Q=C[r[3]]k=Q(N,D)R=j[k]j=h q[R]=j h,q,R=nil,S[y(18158)],{}end else if q<8987712 then RJ,q=12,7168228 wJ=RJ*GJ dJ=o+wJ o,RJ=dJ,1 wJ=J+RJ J=wJ else jJ,QJ[4]=q,.25 QJ[3]=C[T]QJ[2]=QJ[3]*QJ[4]QJ[1]=s<=QJ[2]mJ,q=QJ[1],QJ[1]and 9702567 or 4379097 end end end else if q<9072184 then if q>9055033 then if q<9063415 then nJ=y(17915)P=C[r[2]]K=C[r[3]]o=C[r[4]]a,e,J,c=y(19588),27788429073100,30050989098697,1032415595993 f=o(a,J)X=K[f]o=C[r[3]]f=C[r[4]]J=y(18851)a=f(J,e)K=o[a]P[X]=K o=q J=C[r[5]]p=C[r[3]]s=C[r[4]]X=q U=s(nJ,c)e=p[U]nJ=24906272268571 a=J[e]e=C[r[3]]p=C[r[4]]U=y(17978)s=p(U,nJ)J=e[s]f=a[J]K,q=f,f and 16628892 or 16576403 else c=y(18266)s=C[r[2]]U=C[r[3]]q=K J,F=q,5520933053300 nJ=U(c,F)p=s[nJ]e=H[p]p=0 a=e or p K=a>X q=K and 9049771 or 10517573 end else if q<9035285 then QJ[35],QJ[32]=not QJ[34],QJ[32]+QJ[33]QJ[30]=QJ[31]>=QJ[32]QJ[30]=QJ[35]and QJ[30]QJ[35]=QJ[31]<=QJ[32]QJ[35]=QJ[34]and QJ[35]QJ[30]=QJ[35]or QJ[30]QJ[35]=8403824 q=QJ[30]and QJ[35]QJ[30]=1221731 q=q or QJ[30]elseif q<9049404 then R,q=Q,14198654 else J,e,a,K=nil,0,nil,nil q,R=S[y(19183)],{K;a;J,e}end end else if 9098391>q then if q<9083266 then R=y(18104)q=C[h]R=q[R]R=R(q)k=R q,R=k and 6653514 or 8690202,k elseif 9091187>q then q=QJ[54]QJ[57],QJ[56],QJ[55]=q,QJ[32],q q=QJ[32]and 5672570 or 1815230 else j,o,I,h=nil,nil,nil,nil R,P,O,K={},nil,nil,nil X,q,f,l=nil,S[y(19162)],nil,nil Q,H=nil,nil end else if q<9104483 then hJ,jJ,QJ[3]=mJ,GJ,CJ p,e,q,J=QJ[3],hJ,167490,jJ else h,R=n[1],y(18798)R=h[R]R=R(h)q=not R q=q and 5447695 or 3975568 end end end end end else if 9416030>q then if q<9343456 then if q<9275433 then if q>9263408 then if q<9270121 then H,W=17495527372114,y(18319)O=S[W]v=C[r[1]]l=C[r[2]]t=y(18130)b=l(t,H)z=v[b]q,l=5019984,y(17875)V=N[z]W=O(V)b=20862906649615 V=C[r[1]]z=C[r[2]]v=z(l,b)O=V[v]Y=W==O T=Y else QJ[1]=C[T]QJ[3]=1.6 QJ[2]=s*QJ[3]jJ=QJ[1]>=QJ[2]q,SJ=719172,jJ end else if 9249003>q then QJ[15],q=QJ[20],QJ[21]q=QJ[20]and 10238897 or 9611412 elseif q<9256885 then D=C[r[2]]T=C[r[3]]O,Y=25404034010777,y(17910)I=T(Y,O)N=D[I]k=h[N]N=0 Q=k==N R,q=Q,Q and 7266413 or 3881703 else q=yJ q=GJ and 5181951 or 295236 end end else if 9315479>q then if q<9288189 then I,q=nil,13149401 elseif 9305898>q then q,QJ[78],QJ[77],QJ[63]=16773529,nil,nil,nil else P,l=y(18717),y(18423)v=S[l]b=C[r[2]]X=31199162617007 t=C[r[3]]H=t(P,X)l=b[H]q=v[l]v=q(T,V)q=14938066 end else if q<9329433 then H=3691722~=12049889 q=H and 14893222 or 4087776 else t=y(17599)t=T[t]t=t(T,l)R,q=t,6185992 end end end else if 9391450>q then if 9380111>q then if q<9355786 then QJ[8],QJ[17],QJ[16]=0,27032739214122,y(18652)QJ[13]=C[r[3]]QJ[14]=C[r[4]]QJ[15]=QJ[14](QJ[16],QJ[17])QJ[11]=QJ[13][QJ[15]]QJ[9]=F[QJ[11]]q=QJ[9]and 12379116 or 1375275 elseif 9370133>q then QJ[22],c,QJ[9],s=nil,nil,nil,nil QJ[20],mJ,QJ[15],QJ[18]=nil,nil,nil,nil QJ[31],J,QJ[8],QJ[21]=nil,nil,nil,nil q,nJ,jJ,U=9093675,nil,nil,nil QJ[6],QJ[28],QJ[32],hJ=nil,nil,nil,nil QJ[17]=nil else e=y(19129)f=C[r[3]]q,p=4222141,14909136269170 a=C[r[4]]J=a(e,p)o=f[J]X=o end else if q<9387849 then qJ,q=1,13749749 yJ=f+qJ f=yJ else GJ=C[r[2]]yJ=C[r[3]]dJ,rJ=30683847899791,y(19477)qJ=yJ(rJ,dJ)SJ=GJ[qJ]F=p[SJ]q,nJ=4309298,F end end else if q<9408881 then if q<9396003 then QJ[25]=C[r[3]]QJ[26]=C[r[4]]q,QJ[29],QJ[28]=5579313,9421272347653,y(18288)QJ[27]=QJ[26](QJ[28],QJ[29])QJ[24]=QJ[25][QJ[27]]QJ[23]=y(17845)QJ[23]=QJ[15][QJ[23]]QJ[23]=QJ[23](QJ[15],QJ[24])QJ[21]=QJ[23]elseif q<9402917 then q=a a={t(o)}X,q,P,K=a[2],10121050,a[1],a[3]else I,O=D(T,I)q=I and 8679016 or 12813039 end else if 9412453>q then f,o,H=18899197457525,y(19196),y(18423)t=S[H]P=C[r[2]]X=C[r[3]]K=X(o,f)H=P[K]q=t[H]t=q(N,b)q=10232427 else q=7864339 end end end end else if q>9470954 then if q>9493088 then if 9504804>q then q=14031709 U=e==j p=U elseif 9515589>q then QJ[2]=C[r[1]]QJ[8]=2286636262676 QJ[4]=C[r[3]]QJ[5]=C[r[4]]QJ[7]=y(17761)QJ[6]=QJ[5](QJ[7],QJ[8])QJ[3]=QJ[4][QJ[6]]QJ[1]=QJ[2][QJ[3]]QJ[3]=C[r[3]]q,QJ[7],QJ[6]=11310226,19387063617010,y(18736)QJ[4]=C[r[4]]QJ[5]=QJ[4](QJ[6],QJ[7])QJ[2]=QJ[3][QJ[5]]jJ=QJ[1][QJ[2]]mJ=GJ==jJ CJ=mJ elseif 9521600>q then q=14058808 O=C[r[1]]z,v=y(19248),25661975007771 W=C[r[2]]V=W(z,v)Y=O[V]I=D[Y]T=not I R=T else N=q I=C[r[2]]W,V=y(19739),31258288219931 Y=C[r[3]]O=Y(W,V)T=I[O]D=j[T]q,k=D and 12855305 or 1241871,D end else if 9480018>q then if q<9472566 then q=7563400<6671023 R={q}q=S[y(19152)]elseif q<9474694 then QJ[13],q=QJ[15],QJ[17]q=8779656 else R=y(17689)q=S[R]I={q(D)}R,T=I[1],I[2]I=R q,R=I and 658888 or 23321,I end else if 9487402>q then QJ[5],q=QJ[7],QJ[8]q=13562430 else QJ[37]=not QJ[34]q=QJ[37]and 4490870 or 9878806 end end end else if q<9446486 then if 9431731>q then if 9420447>q then V,q=b,t q=4519559 elseif 9426260>q then V=O H=C[r[1]]o,K=257818057898,y(18710)P=C[r[2]]X=P(K,o)t=H[X]b=z[t]l=b==N q,v=l and 1458999 or 12692425,l else q=k q=Q and 12415080 or 3110534 end else if 9437585>q then q,mJ=4608572,50 hJ=qJ-mJ qJ=hJ else I,j,T,h=32943672555863,y(18806),y(19091),n[1]R=S[j]j=R(h)k=C[r[1]]N=C[r[2]]D=N(T,I)Q=k[D]D,O=y(19198),y(17919)N=S[D]W=6678710854375 T=C[r[1]]I=C[r[2]]Y=I(O,W)O,W=y(18879),32031885939096 D=T[Y]k=N[D]T=C[r[1]]I=C[r[2]]Y=I(O,W)D=T[Y]T=2 N=k(D,T)R=Q..N q=j..R R={q}q=S[y(18243)]end end else if q<9462108 then if q<9451592 then R,q=D,T q=16488018 elseif q<9456670 then q,R={},h C[r[3]]=q k=y(18798)C[r[4]]=R Q=C[r[5]]k=Q[k]k=k(Q)j=not k q=j and 5447475 or 9672844 else q=QJ[55]QJ[53]=QJ[52](QJ[54])QJ[55]=0 QJ[52]=QJ[31]or QJ[55]QJ[50]=QJ[47](QJ[51],QJ[53],QJ[52])hJ,QJ[54]=QJ[50],q q=7881765 end else if q<9467224 then q,F=5734856,nil else q,RJ=mJ,hJ q=153108 end end end end end end else if q<8760099 then if q<8585433 then if q<8526069 then if q<8512430 then if 8508915>q then if 8494941>q then t,b=not Q,q l,q=t,t and 16673035 or 4019238 elseif q<8503171 then QJ[5],q=29834883619583,4867927 QJ[1]=C[r[2]]QJ[4]=y(18375)QJ[2]=C[r[3]]QJ[3]=QJ[2](QJ[4],QJ[5])jJ=QJ[1][QJ[3]]mJ=k[jJ]hJ=SJ==mJ RJ=hJ else QJ[51],mJ,q=y(19488),QJ[46],QJ[47]QJ[50]=S[QJ[51]]QJ[55]=y(18200)QJ[52]=C[r[3]]QJ[53]=C[r[4]]QJ[56]=33330139353208 QJ[54]=QJ[53](QJ[55],QJ[56])QJ[55]=y(18959)QJ[51]=QJ[52][QJ[54]]QJ[56]=10325511814709 QJ[47]=QJ[50][QJ[51]]QJ[52]=C[r[3]]QJ[53]=C[r[4]]QJ[54]=QJ[53](QJ[55],QJ[56])QJ[55],QJ[53]=q,y(18806)QJ[51]=QJ[52][QJ[54]]q=QJ[21]and 9460197 or 15609182 QJ[52]=S[QJ[53]]QJ[54]=QJ[21]end else if 8508969>q then QJ[6]=q QJ[12]=C[r[5]]QJ[17]=y(18108)QJ[14]=C[r[3]]QJ[9],QJ[18]=q,31837598309278 QJ[15]=C[r[4]]QJ[16]=QJ[15](QJ[17],QJ[18])QJ[13]=QJ[14][QJ[16]]QJ[11]=QJ[12][QJ[13]]QJ[16],QJ[17]=y(19305),10092930595592 QJ[13]=C[r[3]]QJ[14]=C[r[4]]QJ[15]=QJ[14](QJ[16],QJ[17])QJ[12]=QJ[13][QJ[15]]QJ[10]=QJ[11][QJ[12]]QJ[11]=1 QJ[8]=QJ[10]or QJ[11]QJ[7]=s<QJ[8]QJ[5],q=QJ[7],QJ[7]and 9014098 or 3807145 else K=y(18423)X=S[K]o=C[r[2]]e=24554286701464 f=C[r[3]]J=y(18132)a=f(J,e)K=o[a]H=X[K]K=x(15843443,{r[2],r[3],P})X=H(V,K)K,X=q,1 H=V[X]o=not H X,q=o,o and 4356003 or 14376013 end end else if q>8518025 then if q<8519249 then q=I and 14560344 or 3851074 else R,q=j,10742022 end else if 8516183>q then QJ[3]=QJ[1]*k QJ[2]=QJ[3]+jJ QJ[3]=y(18715)QJ[3]=j[QJ[3]]QJ[3]=QJ[3](j,QJ[2])q=QJ[3]and 13420334 or 163394 elseif 8517166>q then q,z=12340242,y(17758)z=I[z]z=z(I,O)W=z else q=QJ[3]q=QJ[1]and 13934198 or 7344491 end end end else if 8565141>q then if q<8555002 then if q<8532464 then QJ[67],QJ[68],QJ[69]=q,QJ[60],q q=QJ[60]and 4515980 or 8761414 elseif q<8541075 then F,q=nil,11093530 else hJ=.25 CJ=yJ<hJ q=CJ and 7442339 or 13332338 end else if 8562560>q then dJ,nJ,rJ=9078923680563,135,30677009139234 s=C[r[7]]U=s(p,J,nJ,b)c=y(18423)wJ=14190459722774 nJ=S[c]yJ=y(17916)F=C[r[2]]SJ=C[r[3]]GJ=SJ(yJ,rJ)QJ[13]=y(18033)c=F[GJ]s=nJ[c]SJ=C[r[2]]QJ[14]=16539482207847 GJ=C[r[3]]rJ=y(19394)yJ=GJ(rJ,dJ)QJ[12]=22980445252290 F=SJ[yJ]QJ[7],QJ[8]=y(19528),807429720194 GJ=C[r[2]]QJ[9],dJ,RJ=y(19085),y(19351),y(17659)yJ=C[r[3]]rJ=yJ(dJ,wJ)SJ=GJ[rJ]rJ=C[r[2]]dJ=C[r[3]]CJ=20910664350840 wJ=dJ(RJ,CJ)RJ=y(19767)yJ=rJ[wJ]CJ=34008377491268 GJ=f[yJ]rJ=C[r[2]]dJ=C[r[3]]wJ=dJ(RJ,CJ)yJ=rJ[wJ]QJ[11]=y(17683)CJ=C[r[2]]dJ=q mJ=C[r[3]]QJ[6]=mJ(QJ[7],QJ[8])QJ[10]=1636562135663 RJ=CJ[QJ[6]]wJ=f[RJ]QJ[6],RJ=32554189484017,0 rJ=wJ or RJ wJ=C[r[2]]RJ=C[r[3]]mJ=y(18613)CJ=RJ(mJ,QJ[6])RJ=q dJ=wJ[CJ]QJ[6]=C[r[2]]QJ[7]=C[r[3]]QJ[8]=QJ[7](QJ[9],QJ[10])mJ=QJ[6][QJ[8]]CJ=f[mJ]QJ[8],mJ=30917079507157,0 wJ=CJ or mJ CJ=C[r[2]]QJ[7]=y(19680)mJ=C[r[3]]QJ[6]=mJ(QJ[7],QJ[8])mJ=q RJ=CJ[QJ[6]]QJ[8]=C[r[2]]QJ[9]=C[r[3]]QJ[10]=QJ[9](QJ[11],QJ[12])QJ[7]=QJ[8][QJ[10]]QJ[10]=31822040627858 QJ[6]=f[QJ[7]]QJ[7],QJ[9]=0,y(18385)CJ=QJ[6]or QJ[7]QJ[6]=C[r[2]]QJ[7]=C[r[3]]QJ[8]=QJ[7](QJ[9],QJ[10])mJ=QJ[6][QJ[8]]QJ[7]=q QJ[10]=C[r[2]]QJ[11]=C[r[3]]QJ[12]=QJ[11](QJ[13],QJ[14])QJ[9]=QJ[10][QJ[12]]QJ[13],QJ[11]=1866536110536,y(17630)QJ[8]=f[QJ[9]]QJ[9],QJ[14]=0,23433024996239 QJ[6]=QJ[8]or QJ[9]QJ[8]=C[r[2]]QJ[9]=C[r[3]]QJ[12]=27659113914094 QJ[10]=QJ[9](QJ[11],QJ[12])QJ[7]=QJ[8][QJ[10]]QJ[9]=C[r[2]]QJ[10]=C[r[3]]QJ[12]=y(19639)QJ[11]=QJ[10](QJ[12],QJ[13])QJ[13],q=y(19348),9709637 QJ[8]=QJ[9][QJ[11]]QJ[10]=C[r[2]]QJ[11]=C[r[3]]QJ[12]=QJ[11](QJ[13],QJ[14])QJ[9]=QJ[10][QJ[12]]c={[F]=H,[SJ]=GJ;[yJ]=rJ;[dJ]=wJ;[RJ]=CJ;[mJ]=QJ[6];[QJ[7]]=J,[QJ[8]]=U,[QJ[9]]=e}U=nil nJ=s(V,c)else SJ,q=4,12700735 s=SJ end end else if q>8575820 then if q<8580191 then Y=y(18017)k=C[r[4]]D=C[r[1]]O=5618138843392 T=C[r[2]]I=T(Y,O)N=D[I]Y,I,O=17853624003433,y(19694),17483354093741 Q=k[N]N=C[r[1]]D=C[r[2]]T=D(I,Y)k=N[T]j=Q[k]Q,Y=2,y(19559)R=j or Q j=R D=C[r[1]]Q=q T=C[r[2]]I=T(Y,O)N=D[I]k=h[N]R,q=k,k and 7802243 or 14973154 else c=C[r[2]]yJ,q=27846693958829,8192600 F=C[r[3]]GJ=y(17924)SJ=F(GJ,yJ)nJ=c[SJ]U=Q[nJ]s=U[e]R=s end else if 8569643>q then QJ[28],QJ[34]=q,y(18549)QJ[31]=C[r[3]]QJ[35]=3139556114007 QJ[32]=C[r[4]]QJ[33]=QJ[32](QJ[34],QJ[35])QJ[30]=QJ[31][QJ[33]]QJ[29]=QJ[17][QJ[30]]QJ[30]=0 QJ[27]=QJ[29]or QJ[30]QJ[29]=QJ[24]*QJ[27]QJ[28]=QJ[23]+QJ[29]QJ[30]=0 QJ[29]=QJ[27]==QJ[30]q=QJ[29]and 2687296 or 14217051 elseif q<8574298 then T,V=y(19638),15245514053110 R=S[T]I=C[r[3]]Y=C[r[4]]W=y(17699)O=Y(W,V)T=I[O]q=R[T]R=q()T=R R=C[r[6]]q=not R q=q and 16105469 or 13625719 else Q=R R,q=Q,Q and 2557666 or 10497170 end end end end else if 8691938>q then if q<8633431 then if q>8610920 then if 8621118>q then QJ[79],QJ[80]=QJ[73],QJ[75]jJ,c,QJ[84],QJ[81]=QJ[80],QJ[79],y(19488),QJ[78]QJ[83]=S[QJ[84]]mJ,QJ[93],QJ[89],QJ[88]=QJ[81],20716787169492,1314809769984,y(18259)QJ[85]=C[r[3]]QJ[92],q=y(18733),9300031 QJ[86]=C[r[4]]QJ[87]=QJ[86](QJ[88],QJ[89])QJ[89]=33574145375025 QJ[84]=QJ[85][QJ[87]]QJ[82]=QJ[83][QJ[84]]QJ[88]=y(18164)QJ[85]=C[r[3]]QJ[86]=C[r[4]]QJ[87]=QJ[86](QJ[88],QJ[89])QJ[84]=QJ[85][QJ[87]]QJ[86],QJ[88]=y(18806),y(18117)QJ[85]=S[QJ[86]]QJ[86]=QJ[85](QJ[74])QJ[87]=S[QJ[88]]QJ[89]=C[r[3]]QJ[90]=C[r[4]]QJ[91]=QJ[90](QJ[92],QJ[93])QJ[88]=QJ[89][QJ[91]]QJ[85]=QJ[87][QJ[88]]QJ[88]=P*QJ[78]QJ[87]={QJ[85](QJ[88])}QJ[83]=QJ[82](QJ[84],QJ[86],G(QJ[87]))hJ=QJ[83]else s,QJ[6],QJ[8],X=nil,nil,nil,nil P,a,QJ[9],nJ=nil,nil,nil,nil c,GJ,p,e=nil,nil,nil,nil K,SJ,mJ,J=nil,nil,nil,nil q,hJ,o,CJ=12721311,nil,nil,nil U,F,f,jJ=nil,nil,nil,nil end else if 8589354>q then QJ[30],QJ[32]=q,nil QJ[31]=QJ[19]==QJ[32]QJ[29],q=QJ[31],QJ[31]and 12126178 or 10186049 elseif q<8601204 then q,f=9066535,260 X=f else q,t=10603578,W end end else if q<8679537 then if 8639218>q then q=c c=p<=s q=c and 11039683 or 14131903 elseif 8660714>q then z=#W v=0 V=z==v q=V and 5204374 or 7552934 else b,Y=y(17776),I z=C[r[2]]v=C[r[3]]t=21734743816302 l=v(b,t)V=z[l]W=Q[V]V=W(O,h)R=V<=k q=R and 1500133 or 12434091 end else if 8685130>q then q=4195187>12231311 R={q}q=S[y(18745)]else N=R q=not N q=q and 8457505 or 8802527 end end end else if q>8732550 then if q<8749212 then q=C[r[4]]Y=16797997212676 N=C[r[1]]I=y(18941)D=C[r[2]]T=D(I,Y)R=N[T]I=C[r[1]]V=11577212559422 Y=C[r[2]]W=y(19301)O=Y(W,V)T=I[O]D=k[T]N=h(D)q[R]=N q=4685487 elseif 8753511>q then RJ=SJ<v dJ,q=RJ,7569516 elseif 8757216>q then W=C[r[2]]v=y(18561)V=C[r[3]]l=26081831328562 z=V(v,l)O=W[z]q=8922850 Y=N[O]T=Y else N,q=T,I q=2507615 end else if q<8707722 then if q<8696493 then q=s q=R and 8889508 or 16245233 elseif q<8700839 then f=y(18198)f,K=h[f],q f=f(h,b)o=not f X,q=o,o and 7794947 or 2232068 else q=8165318 end else if q<8715563 then q=nil R={q}q=S[y(18382)]else z,l=W(V,z)q=z and 2241891 or 5248561 end end end end end else if q<8875739 then if q<8816870 then if q>8790744 then if 8807827>q then if 8802179>q then rJ,wJ=q,1 dJ=GJ==wJ qJ,q=dJ,dJ and 5859910 or 28407 elseif 8804011>q then q=L(15217312,{h,r[1],r[2]})D=q q=y(18910)q=N[q]q=q(N,j)T=q R,q=T,T and 589379 or 1626236 else T=q O=C[r[3]]v,z=33647345153794,y(18747)W=C[r[4]]V=W(z,v)Y=O[V]I=N[Y]D,q=I,I and 5460293 or 9450040 end else if 8810407>q then q,wJ=13866703,nil else q=nJ nJ,qJ=R,1 R=3391101>15617586 yJ=U==qJ SJ=R R,GJ=yJ,q q=yJ and 3485332 or 2470120 end end else if q<8776500 then if q<8763574 then QJ[66],q=QJ[68],QJ[69]q=QJ[68]and 3074414 or 8179679 elseif q<8770370 then f=q p=C[r[2]]s=C[r[3]]nJ,c=y(18550),29493476778265 U=s(nJ,c)e=p[U]J=v[e]a=not J o,q=a,a and 10463313 or 12482649 else l,b,v=y(18480),q,z R=S[l]l=R(v)q,R=l and 9339673 or 6185992,l end else if 8778825>q then QJ[33]=C[r[3]]QJ[36]=y(19100)QJ[34]=C[r[4]]QJ[28],QJ[37]=q,18425635941952 QJ[35]=QJ[34](QJ[36],QJ[37])QJ[32]=QJ[33][QJ[35]]QJ[31]=QJ[21][QJ[32]]QJ[27],q=QJ[31],QJ[31]and 1252043 or 2863620 else q,QJ[9]=QJ[14],QJ[13]q=3647861 end end end else if q<8844012 then if q<8832909 then if 8824007>q then q=GJ q=SJ and 4156967 or 9464020 elseif 8828531>q then q=QJ[53]q=QJ[52]and 4681781 or 6622908 else q=p q=R and 7200716 or 14789313 end else if 8834328>q then q,QJ[20]=8444989,3000000 QJ[19]=X>=QJ[20]QJ[17]=QJ[19]else K=C[r[2]]J=5812657047707 o=C[r[3]]a=y(18796)f=o(a,J)X=K[f]K=q P=H[X]X,q=P,P and 8106043 or 13158478 end end else if q<8862354 then if q<8855859 then q=nil C[r[4]]=q O,q=nil,2777347 elseif q<8860409 then P=C[r[2]]J=3350195790829 K=C[r[3]]o=C[r[4]]a=y(19222)f=o(a,J)X=K[f]f=y(19488)o=S[f]q,p=10860846,y(18049)a=C[r[3]]s,c=32166730878642,23363505773977 J=C[r[4]]e=J(p,s)s=15308582236395 f=a[e]K=o[f]a=C[r[3]]p=y(17934)J=C[r[4]]nJ=y(18139)e=J(p,s)f=a[e]e=y(18117)J=S[e]p=C[r[3]]s=C[r[4]]U=s(nJ,c)e=p[U]p=10 a=J[e]e=H/p J={a(e)}o=K(f,G(J))P[X]=o else q,N=k and 10355842 or 8255504,R R=k end else if 8867830>q then P,q,X=nil,12802462,nil else QJ[66],q=y(18589),8989326 QJ[61]=C[r[5]]QJ[63]=C[r[3]]QJ[64]=C[r[4]]QJ[67]=33734609772880 QJ[65]=QJ[64](QJ[66],QJ[67])QJ[62]=QJ[63][QJ[65]]QJ[60]=QJ[61][QJ[62]]QJ[66]=33349912034132 QJ[62]=C[r[3]]QJ[65]=y(18556)QJ[63]=C[r[4]]QJ[64]=QJ[63](QJ[65],QJ[66])QJ[61]=QJ[62][QJ[64]]QJ[55]=QJ[60][QJ[61]]QJ[53]=QJ[55]end end end end else if q>8915938 then if q>8928777 then if 8933912>q then R,O,Y,q=nil,0,nil,nil R={q,R,Y,O}q=S[y(19749)]elseif q<8936778 then QJ[68],q=2,12165458 QJ[62]=QJ[68]elseif 8937930>q then q=l l={R(v)}V,z,W,q=l[2],l[3],l[1],6127919 else jJ=0 mJ=qJ>=jJ CJ,hJ=mJ,q q=mJ and 3973251 or 905437 end else if q<8924614 then if q<8919408 then q=e q=J and 13023458 or 4406364 elseif q<8923505 then O,q=y(18829),I I=4 R=T or I T=R R,H=0,y(19461)I,q=R,2948335 R=0 Y,P=R,7652160401061 R=S[O]l=C[r[2]]b=C[r[3]]t=b(H,P)v=l[t]z=Q[v]v={R(z)}O,V,W=v[1],v[3],v[2]else W=23321949276595 T=C[r[1]]I=C[r[2]]q=y(17845)q,O=Q[q],y(17881)Y=I(O,W)R=T[Y]q=q(Q,R)T=q I=not T R,q=I,I and 133209 or 179675 end else if q<8925469 then o,q=7137070114852,v H=C[r[2]]P=C[r[3]]K=y(19354)X=P(K,o)t=H[X]b=D[t]l=q q,v=b and 15644497 or 2371236,b else q=9920660 end end end else if q>8897280 then if 8911003>q then if q<8899297 then q=W and 7448115 or 5384236 elseif q<8904032 then QJ[31],QJ[19]=11603774904486,y(18117)QJ[18]=S[QJ[19]]QJ[28]=y(19378)QJ[20]=C[r[3]]QJ[21]=C[r[4]]QJ[22]=QJ[21](QJ[28],QJ[31])QJ[19]=QJ[20][QJ[22]]QJ[15]=QJ[18][QJ[19]]QJ[28],QJ[19],QJ[21]=0,100000,.95 QJ[20]=QJ[6]*QJ[21]QJ[18]=QJ[15](QJ[19],QJ[20])QJ[19],QJ[21]=q,q QJ[22]=QJ[6]>QJ[28]q,QJ[20]=QJ[22]and 11871502 or 9245329,QJ[22]else Y=C[D]Q,q=Y,14005802 end else if 8915021>q then K,W,b,X=21358443746763,Y,y(18319),y(17842)l=S[b]b=l(V)t=C[r[2]]H=C[r[3]]P=H(X,K)l=t[P]v=b==l q,z=v and 15892784 or 8071498,v else q=l l={R(v)}z,V,W,q=l[3],l[2],l[1],8718051 end end else if q<8892697 then if q<8879859 then R=C[r[1]]h=y(18798)h=R[h]h=h(R)q=not h q=q and 1756732 or 13427633 elseif 8885426>q then O=q z=C[r[2]]t=18983654000897 v=C[r[3]]b,H=y(19376),25091956414769 l=v(b,t)V=z[l]W=D[V]V=2000 R=W or V W,O,t=q,R,y(17983)v=C[r[2]]l=C[r[3]]b=l(t,H)z=v[b]V=D[z]z=1000 R=V or z W=R R=h%O v=y(18117)z=S[v]P,V,H=30934881569598,R,y(17757)l=C[r[2]]b=C[r[3]]t=b(H,P)v=l[t]R=z[v]v=h/O b=T z=R(v)R=0 v=R R,q=10,2477202 l=R t,H=l,0 R=-T P=H>t H=R-t else s=p*O R=s+e s,U=R,y(19153)U=Q[U]U=U(Q,s)R=U==k q=R and 1944268 or 7864339 end else if 8896022>q then q,z=O,y(19605)O=0 R=Y or O I=R O=C[r[2]]v=32009207011353 W=C[r[3]]V=W(z,v)Y=O[V]b=25762113354816 R=Q[Y]Y=R O=C[r[1]]V=C[r[2]]l=y(18760)z=C[r[3]]v=z(l,b)W=V[v]R=O[W]W,V,O=q,not Y,R q,R=V and 6641179 or 2936669,V else SJ,K,c=6,J,1 nJ=X+c X=nJ F=X%SJ SJ=0 c=F==SJ q=c and 7168272 or 11093530 end end end end end end end else if q>10105776 then if q>10363030 then if q>10501339 then if q>10566500 then if 10623582>q then if q<10602199 then if q<10578387 then q,F,s=6073784,nil,nil elseif 10594284>q then QJ[15]=C[r[14]]QJ[17]=QJ[15]()q=QJ[17]and 14844455 or 12986746 else h=n[1]R=C[r[1]]T=18939568509137 Q=C[r[2]]D=y(18165)k=C[r[3]]N=k(D,T)j=Q[N]q=R[j]j=C[r[2]]D=16710947253394 Q=C[r[3]]N=y(18967)k=Q(N,D)R=j[k]j=h q[R]=j h=nil q=C[r[4]]R=q()q,R=S[y(18980)],{}end else if q<10608661 then q=H q,b,I,W=13540740,nil,t,nil else q=7645093 end end else if 10633613>q then q,yJ=dJ,rJ q=6349959 elseif 10650186>q then e,a=255,y(18117)t=m()C[t]=H f=S[a]a=y(18906)o=f[a]a,J=1,100 f=o(a,J)o=m()J=0 C[o]=f s=1 f=C[Y]a=f(J,e)e,qJ=1,10000 f=m()yJ=0 C[f]=a F=y(18806)a=C[Y]U=2 p=C[o]J=a(e,p)a=m()C[a]=J e=C[Y]p=e(s,U)e=1 J=p==e e=m()C[e]=J p,U=y(18203),y(19629)c=S[F]SJ=C[Y]J=y(19747)GJ={SJ(yJ,qJ)}J=l[J]F=c(G(GJ))c=y(19629)nJ=F..c s=U..nJ U=y(17689)J=J(l,p,s)p=m()C[p]=J s=S[U]nJ=x(11975154,{Y;t,O;k,j;b;e,p;o,a,f,W})U={s(nJ)}J={G(U)}s=C[e]q=s and 5083778 or 12759153 elseif 10668812>q then q=15944934<13196549 R={q}q=S[y(18127)]else q=e q=J and 10066115 or 857263 end end else if q>10518428 then if 10543080>q then if 10529476>q then h=n[1]R=C[r[1]]D=y(18912)Q=C[r[2]]k=C[r[3]]T=21453560999302 N=k(D,T)j=Q[N]q=R[j]j=C[r[2]]Q=C[r[3]]N,D=y(19300),19257544050687 k=Q(N,D)R=j[k]j=h h=nil q[R]=j q,R=S[y(18504)],{}elseif q<10539921 then O=C[r[2]]D,v=q,21297781309408 W=C[r[3]]z=y(19372)V=W(z,v)Y=O[V]I=j[Y]T=not I N,q=T,T and 11332115 or 10506779 else q=SJ SJ=9643685<7670781 CJ,mJ=q,1 hJ=U==mJ RJ,q=hJ,hJ and 5876591 or 11718540 end else if 10554980>q then q=I I=0 R=T or I I=q T=m()C[T]=R Y,O=D,q q=D and 10929247 or 8895887 else q=QJ[28]q,QJ[8]=1819367,QJ[27]end end else if q<10513481 then if 10506143>q then QJ[23],QJ[21]=300000,q QJ[22]=X>=QJ[23]QJ[20],q=QJ[22],QJ[22]and 7281101 or 10236684 elseif 10509534>q then v=15665313857714 O=C[r[2]]q=11332115 W=C[r[3]]z=y(17950)V=W(z,v)Y=O[V]I=j[Y]Y=0 T=I==Y N=T else QJ[34]=3000 QJ[33]=P>=QJ[34]q,QJ[19]=7832535,QJ[33]end else if 10516123>q then h,j,k=n[1],n[2],q q,Q=h and 2570180 or 14024890,h else e=C[r[2]]p=C[r[3]]SJ,nJ,F,U=3364042512545,7915954560383,18895619823759,y(19416)s=p(U,nJ)c,nJ=26091719508353,y(18797)J=e[s]a=H[J]q=S[y(18036)]p=C[r[2]]s=C[r[3]]U=s(nJ,c)e=p[U]J=H[e]s=C[r[2]]U=C[r[3]]c=y(18277)nJ=U(c,F)p=s[nJ]e=H[p]U=C[r[2]]F=y(18047)nJ=C[r[3]]c=nJ(F,SJ)s=U[c]p=H[s]K={a,J;e,p}a=Y C[r[4]]=K GJ=20187564671450 C[r[5]]=a p=C[r[2]]c=11092660917758 s=C[r[3]]nJ=y(19328)U=s(nJ,c)e=p[U]F=13986221031314 J=H[e]s=C[r[2]]U=C[r[3]]c=y(18780)nJ=U(c,F)p=s[nJ]e=H[p]U=C[r[2]]nJ=C[r[3]]SJ,F=20189276535855,y(18030)c=nJ(F,SJ)s=U[c]p=H[s]nJ=C[r[2]]c=C[r[3]]SJ=y(19096)F=c(SJ,GJ)U=nJ[F]s=H[U]R={J,e;p;s}end end end end else if 10417188>q then if q<10387062 then if 10384226>q then if q<10373917 then yJ=SJ*z GJ=yJ+F qJ,dJ=q,y(19153)dJ=O[dJ]dJ=dJ(O,GJ)rJ=dJ==V yJ,q=rJ,rJ and 88807 or 3700374 elseif 10382702>q then R=N<D q,R=S[y(18876)],{R}else R=C[r[1]]I=6808372109201 k=C[r[2]]N=C[r[3]]T=y(19706)D=N(T,I)Q=k[D]q=R[Q]Q=q R,q=Q,Q and 2674306 or 12288730 end else if 10385406>q then q=3278423 QJ[52]=C[r[3]]QJ[55]=y(18965)QJ[53]=C[r[4]]QJ[56]=7221727863202 QJ[54]=QJ[53](QJ[55],QJ[56])QJ[51]=QJ[52][QJ[54]]QJ[35]=QJ[51]else k,N=q,not j Q,q=N,N and 6700089 or 16232457 end end else if 10398066>q then if 10387990>q then W=1 O=Q-W q,Y=2362643,O elseif q<10392970 then W,q=z,v q=4945187 else N=C[r[5]]W,O=21077857532864,y(18535)T=C[r[1]]q=k I=C[r[2]]Y=I(O,W)D=T[Y]k=N[D]D,T=q,not j N=T q=T and 6026339 or 4996339 end else if q<10406690 then l=v%Y f=7802704123431 o,O,q,H=y(19302),z,14160160,y(18117)t=S[H]P=C[r[1]]X=C[r[2]]K=X(o,f)H=P[K]b=t[H]H=v/Y t=b(H)H,b=10,-10 P=H H=3 X=H H=0 K=H>X H=b-X else T=C[r[2]]I=C[r[3]]W,O,q=21505919907162,y(19312),6912277 Y=I(O,W)D=T[Y]k=y(19018)N=j[D]k=j[k]k=k(j,N)R=k end end end else if 10469134>q then if q<10462495 then if q<10429215 then QJ[5],hJ,QJ[4]=21982900293844,q,y(19560)QJ[1]=C[r[2]]QJ[2]=C[r[3]]QJ[3]=QJ[2](QJ[4],QJ[5])jJ=QJ[1][QJ[3]]mJ=h[jJ]CJ,q=mJ,mJ and 13094629 or 5526740 elseif q<10450684 then l=C[r[2]]b=C[r[3]]P,W,H=101883587687,q,y(18392)t=b(H,P)v=l[t]z=Y[v]v=0 V=z==v q,O=V and 2150289 or 3120459,V else I=C[r[2]]q,W=6745049,y(19077)Y=C[r[3]]V=18421320450002 O=Y(W,V)T=I[O]D=Q[T]k=D end else if 10463051>q then H=y(18423)t=S[H]o=y(19061)P=C[r[2]]a,f=21611466903152,5673567664413 X=C[r[3]]K=X(o,f)s,J=20633931227855,6805275528231 H=P[K]R=t[H]f,c=y(18262),y(18191)X=C[r[2]]K=C[r[3]]p,e=y(18005),3220556538785 o=K(f,a)P=X[o]K=C[r[2]]a=y(18339)o=C[r[3]]f=o(a,J)X=K[f]o=C[r[2]]f=C[r[3]]J=y(19675)a=f(J,e)K=o[a]a=C[r[2]]F=3108651190809 J=C[r[3]]e=J(p,s)p=y(19026)f=a[e]o=l[f]a=C[r[2]]s=510029199811 J=C[r[3]]e=J(p,s)f=a[e]J=q s=C[r[2]]U=C[r[3]]nJ=U(c,F)p=s[nJ]e=l[p]q,p=13690987,1 a=e or p H={[P]=v,[X]=b,[K]=o;[f]=a}t=R(O,H)else s=C[r[2]]c,J,F,q=y(17596),y(18129),25664151653428,12482649 U=C[r[3]]J=Q[J]nJ=U(c,F)p=s[nJ]e=v[p]J=J(Q,k,e)a=not J o=a end end else if 10481021>q then h=y(18798)R=C[r[1]]h=R[h]h=h(R)q=not h q=q and 8713076 or 13129455 elseif q<10491371 then q=qJ q=yJ and 7287874 or 6751032 elseif q<10496412 then QJ[13],QJ[15]=q,1500000 QJ[14]=X>=QJ[15]q,QJ[12]=QJ[14]and 10214241 or 4801639,QJ[14]else q,R=S[y(17870)],{R}end end end end else if q>10215510 then if 10276593>q then if q<10234555 then if q>10224020 then if 10229807>q then q=nil R={q}q=S[y(18160)]else q=7874136 end else if 10217777>q then QJ[51]=C[r[3]]QJ[55],q,QJ[54]=16543995745508,3278423,y(18723)QJ[52]=C[r[4]]QJ[53]=QJ[52](QJ[54],QJ[55])QJ[47]=QJ[51][QJ[53]]QJ[35]=QJ[47]elseif q<10219814 then q,R,h=S[y(18044)],{},nil else b,X,e=q,y(18319),y(19764)P=S[X]f=C[r[3]]p=16365581501871 a=C[r[4]]J=a(e,p)a=y(19355)o=f[J]J=23845880505657 K=h[o]X=P(K)K=C[r[3]]o=C[r[4]]f=o(a,J)P=K[f]H=X==P l,q=H,H and 6842846 or 6886222 end end else if q>10238680 then if q<10253103 then q=QJ[19]QJ[19]=C[r[11]]QJ[32]={QJ[19]()}QJ[22],QJ[31],QJ[21],QJ[20]=QJ[32][3],QJ[32][5],QJ[32][2],QJ[32][1]QJ[28]=QJ[32][4]QJ[32]=q QJ[19],q=QJ[20],QJ[20]and 10512289 or 7832535 else q=s c=q SJ=400000 F=z>=SJ q=F and 11811356 or 6505659 end else if 10237063>q then q=QJ[21]q,QJ[18]=11187842,QJ[20]elseif q<10237952 then Q,j,I,T=y(18319),R,12146289741199,y(18601)R=S[Q]Q=R(j)k=C[r[1]]N=C[r[2]]D=N(T,I)R=k[D]q=Q==R q=q and 2519918 or 14522896 else q,QJ[15]=QJ[19],QJ[18]q=QJ[18]and 13434129 or 6692185 end end end else if 10340176>q then if 10298261>q then if 10286617>q then q=p q=e and 11578173 or 7367044 elseif q<10290160 then D=y(18829)N=S[D]l=23240428929620 W=C[r[2]]V=C[r[3]]v,q=y(17587),7720963 z=V(v,l)O=W[z]Y=h[O]O={N(Y)}T,I,D=O[2],O[3],O[1]else q=11001860<3162893 R={q}q=S[y(19180)]end else if q<10317882 then QJ[1]=y(19501)hJ=C[r[3]]QJ[3]=23476446212413 mJ=C[r[4]]jJ=mJ(QJ[1],QJ[3])CJ=hJ[jJ]SJ=GJ[CJ]q=SJ and 8064975 or 8289584 else V,W,q=23644005276047,y(18756),585196 I=C[r[2]]Y=C[r[3]]O=Y(W,V)T=I[O]D=Q[T]k=D end end else if 10348471>q then q=1375275 elseif q<10352318 then q=QJ[24]q=QJ[23]and 1677169 or 300916 elseif q<10357807 then W,q=y(17652),8255504 I=C[r[1]]V=13024739654128 Y=C[r[2]]O=Y(W,V)T=I[O]D=k[T]R=D else q=J s,e=nil,q p=V==s q,J=p and 12025855 or 7579287,p end end end else if q<10174975 then if q<10138285 then if q>10122922 then if q<10128946 then V=y(19122)T=C[r[1]]k=q Y=C[r[2]]O=C[r[3]]z=9599108110451 W=O(V,z)V=13404038652176 I=Y[W]D=T[I]I=C[r[2]]W=y(19480)Y=C[r[3]]O=Y(W,V)T=I[O]N=D[T]q,Q=N and 14056737 or 284744,N else T,N=q,q O=C[r[3]]z,v=y(18487),19162700188340 W=C[r[4]]V=W(z,v)Y=O[V]I=j[Y]D,q=I,I and 15997830 or 14191116 end else if q<10116780 then QJ[11],QJ[8],QJ[9],q=nil,nil,nil,9347239 elseif 10121456>q then K,o=P(X,K)q=K and 15647632 or 15739049 else jJ=60 mJ=qJ+jJ q,qJ=15967956,mJ end end else if q>10164489 then if 10171745>q then q=R and 1790808 or 16179274 else h,D,T=n[1],y(18016),26849396487318 R=C[r[1]]Q=C[r[2]]k=C[r[3]]N=k(D,T)j=Q[N]D=19543815069383 q=R[j]N=y(19118)j=C[r[2]]Q=C[r[3]]k=Q(N,D)R=j[k]j=h q[R]=j h=nil q=C[r[4]]R=q()R,q={},S[y(17931)]end else if 10143084>q then X,q=nil,7089093 elseif 10151736>q then QJ[56]=QJ[36]c,QJ[58],QJ[57]=QJ[56],q,QJ[53]q=QJ[53]and 9106796 or 11701662 else q=R and 3108248 or 6311141 end end end else if q<10200244 then if 10185445>q then if 10175498>q then q=N q[R]=k q=6977851 elseif 10180183>q then H=X+H t,o=H<=P,not K t=o and t o=H>=P o=K and o t=o or t o=10633808 q=t and o t=14552068 q=q or t else QJ[63],q=QJ[80],QJ[81]q=399907 end else if 10192507>q then QJ[36]=y(19137)QJ[33]=C[r[3]]QJ[37]=24249259537890 QJ[34]=C[r[4]]QJ[35]=QJ[34](QJ[36],QJ[37])QJ[32]=QJ[33][QJ[35]]q=12126178 QJ[31]=QJ[19][QJ[32]]QJ[29]=QJ[31]else q=C[r[4]]R=q()D=R q=not D q=q and 6083118 or 5519514 end end else if q>10211851 then if q<10213733 then f=C[r[2]]a=C[r[3]]p,e,s=22920075862755,y(17713),y(18207)J=a(e,p)o=f[J]nJ=11229267256045 R=Q[o]J=C[r[2]]U=1199416545345 e=C[r[3]]p=e(s,U)a=J[p]f=l[a]e=C[r[2]]U=y(19656)p=C[r[3]]s=p(U,nJ)J=e[s]a=K[J]o=R(f,a)f=35 R=o<=f q=R and 12426335 or 14232127 else QJ[12],q=U,4801639 end else if q<10203651 then q=dJ q=rJ and 5839381 or 14595393 elseif q<10208129 then Y,D=32197086932085,24826752936421 R=C[r[1]]j=C[r[2]]Q=C[r[3]]N=y(19231)k=Q(N,D)h=j[k]q=R[h]Q=C[r[2]]W=14432165124748 k=C[r[3]]T,D=6878710283350,y(18896)N=k(D,T)j=Q[N]k=C[r[2]]N=C[r[3]]R,T,I=y(17660),y(17670),27018185421995 D=N(T,I)I=y(19052)Q=k[D]N=C[r[2]]O=y(18478)D=C[r[3]]T=D(I,Y)k=N[T]N=C[r[4]]T=C[r[2]]I=C[r[3]]Y=I(O,W)D=T[Y]T=C[r[5]]R,h=q[R],{[j]=Q;[k]=N,[D]=T}R=R(q,h)q,R=S[y(18021)],{}else O,q=V,z q=2150289 end end end end end end else if q>9840643 then if 9952180>q then if 9908506>q then if q<9872592 then if q>9867198 then if q<9870961 then q,nJ=6839207,400000 U=z>=nJ p=U else q=qJ q=yJ and 13032474 or 4205471 end else if 9855969>q then q,QJ[49]=QJ[46],80000 QJ[47]=q QJ[48]=P>=QJ[49]q,jJ=QJ[48]and 12123139 or 7540696,QJ[45]elseif q<9862378 then F=C[r[2]]yJ=y(17913)SJ=C[r[3]]qJ=8425599880970 GJ=SJ(yJ,qJ)q=3009790 c=F[GJ]nJ=f[c]c=0 U=nJ>c p=U else R=N<D q,R=S[y(19032)],{R}end end else if q<9890890 then if 9874046>q then o,b=y(17691),q P=C[r[2]]X=C[r[3]]q,f=8925069,19841618263489 K=X(o,f)H=P[K]t=T[H]H=2000 l=t or H z=l elseif 9876688>q then V,q=nil,9969204 else q=QJ[34]and 7191529 or 7881765 end else if q<9905191 then SJ=C[r[2]]rJ=15915432696385 GJ=C[r[3]]qJ,q=y(19740),8810656 yJ=GJ(qJ,rJ)F=SJ[yJ]c=O[F]F=c(J,I)R=F else QJ[77]=33267709104650 QJ[68]=C[r[2]]QJ[73]=C[r[3]]QJ[76],QJ[79]=y(19697),y(19067)QJ[74]=C[r[4]]QJ[75]=QJ[74](QJ[76],QJ[77])QJ[72]=QJ[73][QJ[75]]QJ[75]=y(19488)QJ[74]=S[QJ[75]]q=5021920 QJ[76]=C[r[3]]QJ[80]=14418820470601 QJ[77]=C[r[4]]QJ[78]=QJ[77](QJ[79],QJ[80])QJ[75]=QJ[76][QJ[78]]QJ[79],QJ[80]=y(18254),12290872848437 QJ[73]=QJ[74][QJ[75]]QJ[76]=C[r[3]]QJ[77]=C[r[4]]QJ[78]=QJ[77](QJ[79],QJ[80])QJ[77]=y(18806)QJ[75]=QJ[76][QJ[78]]QJ[76]=S[QJ[77]]QJ[77]=QJ[76](QJ[53])QJ[74]=QJ[73](QJ[75],QJ[77],P,QJ[63])QJ[68][QJ[72]]=QJ[74]end end end else if q<9920928 then if q<9919533 then if 9913049>q then R=10327012~=1432341 C[j]=R q=7222169 elseif q<9917528 then j,h=n[2],n[1]q=C[r[1]]Q=q q=Q[j]q=q and 11245104 or 2017973 else H=o e=H~=j a,J=e,q q=e and 8461800 or 7545442 end else if 9920582>q then P,H,q=13808102275070,y(19266),8308416 l=C[r[2]]b=C[r[3]]t=b(H,P)v=l[t]z=T[v]V=not z O=V else I=12294004<=13239395 q=I and 8925870 or 6928063 end end else if q>9940737 then if 9942554>q then QJ[12],QJ[10]=1000000,q QJ[11]=X>=QJ[12]q,QJ[9]=QJ[11]and 13090586 or 7439664,QJ[11]else V=C[r[1]]z=C[r[2]]l,b=y(18935),25021802367183 v=z(l,b)b,l=13077647834364,y(18819)W=V[v]O=I[W]V=C[r[1]]z=C[r[2]]v=z(l,b)W=V[v]Y=O==W q,R=Y and 16675840 or 5636596,Y end else if q<9928374 then q,QJ[32]=QJ[34],O QJ[34]=0 QJ[19]=QJ[33]or QJ[34]QJ[33]=q q=O and 8293528 or 11570844 elseif 9937632>q then q,R=S[y(18867)],3894980>8562640 R={R}else q=14787948 end end end end else if q<10043345 then if q<9998391 then if 9983489>q then if 9965108>q then q,l,b=I,y(18175),8247702349505 I=2 N=T or I T=y(18829)D=S[T]V=C[r[1]]z=C[r[2]]v=z(l,b)W=V[v]O=j[W]W={D(O)}Y,T,q,I=W[3],W[1],8131170,W[2]elseif q<9974767 then H,b=not t,v+b V=l>=b V=H and V H=b>=l H=t and H V=H or V H=11564388 q=V and H V=13360811 q=q or V else CJ=C[r[2]]jJ=y(19487)hJ=C[r[3]]QJ[1]=495643656390 mJ=hJ(jJ,QJ[1])RJ=CJ[mJ]q=1529346 wJ=p[RJ]SJ=wJ end else if 9991788>q then q,t,l,b=11467500,nil,nil,nil H=nil else T,I=y(19314),22391168816017 k=C[r[1]]N=C[r[2]]q=4611440 D=N(T,I)Q=k[D]j=h[Q]R=j end end else if q<10030466 then if q<9999946 then O,z=W(Y,O)q=O and 9421296 or 11846407 elseif q<10012507 then mJ=5 hJ=o+mJ q,o=7168228,hJ else W=R V=not W q=V and 9187623 or 12091952 end else if 10037396>q then v=z P=C[r[2]]X=C[r[3]]f,b,o=27170246602900,q,y(17992)K=X(o,f)H=P[K]t=l[H]H=1 R=t or H t,q,b=y(19364),1794218,R R=S[t]X={R(O)}t,P,H=X[1],X[3],X[2]else QJ[33],QJ[19]=0,QJ[32]jJ,QJ[47]=QJ[33],y(18198)QJ[47]=j[QJ[47]]QJ[47]=QJ[47](j,QJ[32])c,QJ[34]=QJ[19],.1 mJ,QJ[36]=QJ[34],q q=QJ[47]and 10216779 or 10384594 end end end else if q<10075609 then if q<10068802 then if 10056677>q then QJ[8]=1000000 QJ[7]=X-QJ[8]QJ[4]=1 QJ[8]=C[r[2]]QJ[10]=C[r[3]]QJ[15],X,e,QJ[14]=15443282989928,QJ[7],QJ[4],18947941661416 QJ[13]=y(18648)QJ[11]=C[r[4]]QJ[12]=QJ[11](QJ[13],QJ[14])QJ[9]=QJ[10][QJ[12]]QJ[11]=C[r[3]]QJ[14]=y(17863)QJ[12]=C[r[4]]QJ[13]=QJ[12](QJ[14],QJ[15])QJ[10]=QJ[11][QJ[13]]q=1659579 QJ[8][QJ[9]]=QJ[10]elseif q<10065807 then q,z=T,9503842348840 Y=C[r[1]]T=0 R=D or T D,V,N=q,y(18415),R O=C[r[2]]v=4392256450531 W=O(V,z)z=y(19520)I=Y[W]T=h[I]I=0 R=T or I D,T=R,q O=C[r[1]]W=C[r[2]]V=W(z,v)Y=O[V]I=h[Y]Y=1 R=I or Y I,T=1,R R=T<I q=R and 8318792 or 15362023 else p,F=y(18117),12368330690847 e=S[p]s=C[r[3]]U=C[r[4]]c=y(17705)nJ=U(c,F)p=s[nJ]J=e[p]q,p=13387830,1.35 e=J(p,o)f=e end else if q<10073484 then Q,q=99999,6644544 R=Q else q=442505 end end else if 10076658>q then q=QJ[53]q=QJ[52]and 2206948 or 6966438 elseif 10084538>q then T=C[r[2]]W,O=1419523548972,y(17851)I=C[r[3]]q=13818952 Y=I(O,W)D=T[Y]N=k[D]R=N elseif 10095270>q then X=C[r[1]]K=C[r[2]]f,a=y(18365),7569595223915 o=K(f,a)P=X[o]H=W[P]q,b=11769730,H else QJ[22]=C[r[13]]QJ[21]=H-QJ[22]QJ[22]=8 QJ[20]=QJ[21]>=QJ[22]QJ[18],q=QJ[20],5676114 end end end end else if q>9686892 then if q<9781468 then if q>9721480 then if q>9761701 then if 9773535>q then QJ[5]=13498204805827 mJ=C[r[1]]QJ[4]=y(19333)QJ[1]=C[r[3]]QJ[2]=C[r[4]]QJ[3]=QJ[2](QJ[4],QJ[5])jJ=QJ[1][QJ[3]]hJ=mJ[jJ]QJ[3]=y(17680)jJ=C[r[3]]QJ[4]=4805902777058 QJ[1]=C[r[4]]QJ[2]=QJ[1](QJ[3],QJ[4])mJ=jJ[QJ[2]]CJ=hJ[mJ]q=7268501 RJ=GJ==CJ dJ=RJ else Y,I,q=nil,nil,2075862 end else if q<9735607 then q=O q=R and 94467 or 8881344 elseif q<9745379 then R,q=l,b q=7115166 else t=y(19663)v=C[r[1]]q,H=16112244,20370749868066 l=C[r[2]]b=l(t,H)z=v[b]V=O[z]W=V end end else if 9704504>q then if 9696314>q then QJ[22]=C[r[5]]QJ[27]=y(18011)QJ[24]=C[r[3]]QJ[28]=17993108064713 QJ[25]=C[r[4]]QJ[26]=QJ[25](QJ[27],QJ[28])QJ[27]=6220403978065 QJ[23]=QJ[24][QJ[26]]QJ[21]=QJ[22][QJ[23]]QJ[26]=y(18712)QJ[23]=C[r[3]]QJ[24]=C[r[4]]QJ[25]=QJ[24](QJ[26],QJ[27])q=4043525 QJ[22]=QJ[23][QJ[25]]QJ[20]=QJ[21][QJ[22]]QJ[18]=QJ[20]elseif 9699593>q then h=m()Q=n[3]C[h]=n[1]j,k=n[2],y(18798)R=C[h]k=R[k]k=k(R)q=not k q=q and 12897754 or 9077833 else CJ,q=mJ,jJ q=4257121 end else if q<9708039 then t,q=P,X q=882731 else q,p,J,e=5991153,nil,nil,nil end end end else if 9809014>q then if 9798350>q then if q<9787424 then I,Y=q,not k T,q=Y,Y and 6943994 or 13220026 elseif q<9790356 then QJ[19]=C[r[2]]q,QJ[25]=QJ[18],17342504530514 QJ[20]=C[r[3]]QJ[23],QJ[24],QJ[22]=13916986361447,16114295570578,y(19535)QJ[21]=QJ[20](QJ[22],QJ[23])QJ[23]=y(17802)QJ[18]=QJ[19][QJ[21]]QJ[20]=C[r[2]]QJ[21]=C[r[3]]QJ[22]=QJ[21](QJ[23],QJ[24])QJ[19]=QJ[20][QJ[22]]CJ=nil QJ[21]=C[r[2]]QJ[22]=C[r[3]]q,QJ[24]=3187411,y(18835)QJ[23]=QJ[22](QJ[24],QJ[25])QJ[20]=QJ[21][QJ[23]]QJ[9]={[QJ[10]]=dJ,[QJ[11]]=jJ;[QJ[12]]=mJ;[QJ[13]]=hJ;[QJ[14]]=QJ[15],[QJ[16]]=QJ[17],[QJ[18]]=rJ,[QJ[19]]=QJ[7],[QJ[20]]=QJ[6]}jJ,QJ[6],QJ[7],mJ=nil,nil,nil,nil QJ[8]=QJ[3](V,QJ[9])hJ=nil else K=C[r[2]]o=C[r[3]]t,J,a=q,35017474633388,y(17594)f=o(a,J)X=K[f]P=v[X]H=P~=k b,q=H,H and 209564 or 3297349 end else if 9805453>q then wJ,q=1,13749749 dJ=s+wJ s=dJ else q=QJ[5]q=QJ[4]and 5574454 or 13893715 end end else if 9812140>q then W,b=y(18423),20708714465066 O=S[W]V=C[r[2]]z=C[r[3]]l=y(19002)v=z(l,b)W=V[v]T=O[W]W=L(2781698,{Y;r[2],r[3];I})q=1405401 O=T(N,W)elseif 9816176>q then N=R q=not N q=q and 11115239 or 5957674 elseif 9824795>q then q,v=t,b q=13387751 else l=not D z,q=l,7471167 end end end else if 9576445>q then if q<9557745 then if 9546285>q then if 9534306>q then q=R and 1017302 or 4645451 elseif q<9542316 then D,q,N=nil,11239269,nil else rJ,yJ=6000,q qJ=s<=rJ q,GJ=qJ and 16315222 or 3460825,qJ end else if q<9552580 then R,q=12806503>=8663047,S[y(18852)]R={R}else v,l,b=nil,nil,nil R,q={v;l;b},S[y(17636)]end end else if q>9567441 then if 9571057>q then l=C[r[2]]P,W=33804075048338,q b=C[r[3]]H=y(19618)t=b(H,P)v=l[t]z=Y[v]V=z==j q,O=V and 3444648 or 13277052,V else QJ[1]=y(17753)GJ=C[r[2]]mJ=C[r[3]]QJ[2]=8435904112044 jJ=mJ(QJ[1],QJ[2])SJ=GJ[jJ]F=nJ[SJ]GJ=q q,SJ=F and 16680665 or 8823084,F end else if q<9560936 then l,X=t+l,not P z=b>=l z=X and z X=l>=b X=P and X z=X or z X=6695337 q=z and X z=3581661 q=q or z elseif 9565397>q then J=f p=J*J s=X*X e=p+s p=T*T R=e<=p q=R and 15934832 or 11206376 else z=0 V=#I W=V==z q=W and 8062968 or 7608264 end end end else if q<9607613 then if q>9589006 then if q<9597140 then D=m()q=2078636~=5012731 C[j]=q N=y(19488)W=Z(3902509,{D})k=S[N]N=y(19308)Q=k[N]k=m()C[k]=Q T=q N=m()Q=A(11975983,{})C[N]=Q Q,O=5642024>7279510,y(17689)C[D]=Q Y=S[O]O=Y(W)q,Q=O and 8907873 or 14005802,O else QJ[36]=C[r[18]]QJ[65]=C[r[5]]QJ[70],QJ[71]=y(19204),2109184639796 QJ[67]=C[r[3]]QJ[68]=C[r[4]]QJ[69]=QJ[68](QJ[70],QJ[71])QJ[66]=QJ[67][QJ[69]]QJ[64]=QJ[65][QJ[66]]QJ[66]=C[r[3]]QJ[69]=y(19630)QJ[67]=C[r[4]]QJ[70]=23019332747597 QJ[68]=QJ[67](QJ[69],QJ[70])QJ[65]=QJ[66][QJ[68]]QJ[63]=QJ[64][QJ[65]]QJ[64]={QJ[36](QJ[63])}QJ[53]=QJ[64][2]QJ[62],QJ[55],QJ[60],QJ[61]=QJ[64][7],QJ[64][4],QJ[64][5],QJ[64][6]QJ[52]=QJ[64][1]q,QJ[54]=QJ[52]and 5312390 or 14935422,QJ[64][3]end else if q<9580910 then W=not I O,q=W,W and 14808121 or 15543905 elseif q<9585344 then QJ[8]=C[r[12]]QJ[10]=q QJ[9]=QJ[8]()q,QJ[8]=QJ[9]and 649921 or 14053749,QJ[9]else q=l q,V=v and 14528781 or 1758212,v end end else if 9670831>q then if 9629932>q then QJ[28]=15000 QJ[22]=P<QJ[28]QJ[20],QJ[21]=QJ[22],q q=QJ[22]and 2548813 or 2157645 elseif 9658635>q then mJ=10 hJ=mJ*GJ q=7168228 CJ=o+hJ o=CJ else QJ[11]=y(17679)QJ[9]=C[r[1]]QJ[11]=QJ[9][QJ[11]]QJ[11]=QJ[11](QJ[9])q=QJ[11]and 13742713 or 657279 end else if 9675310>q then I=y(18654)Q=C[r[5]]N=C[r[1]]D=C[r[2]]Y=13272497724953 T=D(I,Y)k=N[T]j=Q[k]k=q Q,q=j,j and 6278397 or 10397866 else a,e=o(f,a)q=a and 3302442 or 14279565 end end end end end end end end else if q<11613145 then if q<11151771 then if q>10922562 then if 11034864>q then if q>10975239 then if q>10996695 then if 11026749>q then if q<11005511 then q=7008788 O=C[r[2]]z=y(19070)W=C[r[3]]v,I=10178310170695,y(18486)V=W(z,v)I=h[I]Y=O[V]I=I(h,Y)R=I elseif 11017868>q then q=7344491 else q=R and 5462658 or 2777347 end else if q<11029831 then R=6608687>8557960 R,q={R},S[y(17819)]else q=12225292 end end else if q<10984390 then if q<10980714 then QJ[28]=C[r[3]]QJ[32]=33011637361211 QJ[29]=C[r[4]]QJ[31]=y(17866)QJ[30]=QJ[29](QJ[31],QJ[32])QJ[27]=QJ[28][QJ[30]]QJ[26]=QJ[19][QJ[27]]QJ[24],q=QJ[26],16384456 elseif q<10982509 then H=y(18087)l=C[r[1]]P=4553492675261 b=C[r[2]]t=b(H,P)v=l[t]z=O[v]V,q=z,14713906 else q,Q=13486302,nil end else if 10989835>q then H=not t q=H and 11183062 or 15868371 else W=0 O=k==W q,I=7058236,O end end end else if q<10957146 then if 10934596>q then if 10927596>q then X,q=nil,2477202 elseif 10931399>q then t=9806442418021 z=C[r[2]]b=y(17827)v=C[r[3]]l=v(b,t)V=z[l]q=8895887 W=D[V]Y=W else nJ=7969660003843 e=C[r[2]]p=C[r[3]]q,U=5306604,y(18661)s=p(U,nJ)J=e[s]a=H[J]o=a end else if 10944505>q then wJ,RJ=q,y(18715)dJ=qJ*z rJ=dJ+yJ RJ=T[RJ]RJ=RJ(T,rJ)q,dJ=RJ and 5109711 or 2015805,RJ else QJ[19]=C[r[3]]QJ[22],QJ[23]=y(18958),31029201852740 QJ[20]=C[r[4]]QJ[21]=QJ[20](QJ[22],QJ[23])QJ[18]=QJ[19][QJ[21]]QJ[15]=QJ[17][QJ[18]]q=QJ[15]and 15533700 or 13298288 end end else if q<10965335 then if q<10961770 then wJ=y(18607)qJ=C[r[2]]RJ=2893104512598 rJ=C[r[3]]dJ=rJ(wJ,RJ)yJ=qJ[dJ]GJ=nJ[yJ]yJ=1 SJ=GJ==yJ q=SJ and 5076281 or 1732761 elseif 10962661>q then Y,q,I=nil,16526231,nil else nJ=e~=k U=q q,s=nJ and 3175564 or 405780,nJ end else if 10969348>q then QJ[9]=8628859<6626888 QJ[13],QJ[15]=q,q QJ[19]=C[r[5]]QJ[21]=C[r[3]]QJ[24],QJ[25]=y(19506),12391603453491 QJ[22]=C[r[4]]QJ[23]=QJ[22](QJ[24],QJ[25])QJ[20]=QJ[21][QJ[23]]QJ[18]=QJ[19][QJ[20]]QJ[20]=C[r[3]]QJ[23]=y(18372)QJ[21]=C[r[4]]QJ[24]=26560970001655 QJ[22]=QJ[21](QJ[23],QJ[24])QJ[19]=QJ[20][QJ[22]]QJ[17]=QJ[18][QJ[19]]QJ[14],q=QJ[17],QJ[17]and 16547888 or 3543046 else Y=y(18829)R=S[Y]v=C[r[2]]l=C[r[3]]t,H=y(19109),29079593621717 b=l(t,H)z=v[b]V=h[z]z={R(V)}Y,O,W,q=z[1],z[2],z[3],7139836 end end end end else if q>11102864 then if q<11127494 then if q>11115249 then if 11121104>q then z,q={},2024670 W=z else QJ[2]=2 QJ[1]=o==QJ[2]q=QJ[1]and 16775981 or 15831995 end else if 11104012>q then q,R=8642413,O W=R elseif 11109914>q then v,T=y(18222),q W=C[r[2]]V=C[r[3]]l=25593080698118 z=V(v,l)O=W[z]Y=N[O]I=not Y D,q=I,I and 11730626 or 985429 else q=11999168<=10596085 R={q}q=S[y(19271)]end end else if 11136472>q then R=C[r[4]]q,W=2005119,nil R[Y]=W elseif q<11145052 then QJ[36],QJ[37],QJ[23]=y(17669),27364752872188,QJ[22]QJ[6],QJ[28]=QJ[23],q QJ[33]=C[r[3]]QJ[34]=C[r[4]]QJ[35]=QJ[34](QJ[36],QJ[37])QJ[32]=QJ[33][QJ[35]]QJ[31]=QJ[21][QJ[32]]QJ[27],q=QJ[31],QJ[31]and 10563974 or 10870597 elseif 11147362>q then T=#N I,q=0,16119692 D=T>I R=D else q=O I=T(Y)q[R]=I O=y(19471)q=C[r[4]]v=y(18268)T=C[r[2]]W=7687128128871 I=C[r[3]]Y=I(O,W)R=T[Y]W=C[r[2]]V=C[r[3]]l=13109237299678 z=V(v,l)I=q O=W[z]l,b=y(17726),31555746540140 Y=D[O]O=0 T=Y or O q[R]=T R=C[r[4]]I=C[r[2]]W,V=y(18433),7328278256678 Y=C[r[3]]O=Y(W,V)T=I[O]Y=q V=C[r[2]]z=C[r[3]]v=z(l,b)l=y(19056)W=V[v]O=D[W]W=0 I=O or W R[T]=I W,V=y(18462),2321739669771 R=C[r[4]]I=C[r[2]]b=9456584374403 Y=C[r[3]]O=Y(W,V)T=I[O]Y=q V=C[r[2]]z=C[r[3]]v=z(l,b)W=V[v]O=D[W]V,b,W=11177489872182,21123681245183,0 I=O or W W=y(18020)R[T]=I R=C[r[4]]I=C[r[2]]Y=C[r[3]]O=Y(W,V)t=25343111325160 T=I[O]Y,l=q,y(19688)V=C[r[2]]z=C[r[3]]v=z(l,b)W=V[v]O=D[W]W,b=0,15575814276298 I=O or W R[T]=I W=y(19268)R=C[r[4]]I=C[r[2]]V=21106335793236 Y=C[r[3]]O=Y(W,V)T=I[O]V=C[r[2]]z=C[r[3]]Y,l=q,y(17619)v=z(l,b)W=V[v]O=D[W]W=0 I,b=O or W,y(19496)R[T]=I T=q W=C[r[5]]z=C[r[2]]v=C[r[3]]l=v(b,t)V=z[l]b=2683306014178 O=W[V]l=y(18619)V=C[r[2]]z=C[r[3]]v=z(l,b)W=V[v]Y=O[W]I=not Y R,q=I,I and 5321673 or 15709746 end end else if q<11087281 then if q<11084781 then if q<11041744 then RJ,c=y(17783),13152987>2577002 rJ=C[r[2]]CJ=28281339378176 dJ=C[r[3]]wJ=dJ(RJ,CJ)RJ=y(19298)qJ=rJ[wJ]CJ=14503384120782 yJ=f[qJ]rJ=C[r[2]]dJ=C[r[3]]wJ=dJ(RJ,CJ)qJ=rJ[wJ]GJ=yJ==qJ q=GJ and 3322354 or 7510349 elseif q<11064070 then q=C[r[1]]j={q()}h,R,q=j[2],j[1],S[y(19296)]j=R R={j}else R=13476251>=14298341 R,q={R},S[y(18814)]end else if 11086009>q then QJ[2]=y(19153)QJ[2]=h[QJ[2]]QJ[2]=QJ[2](h,F)q=1819753 QJ[1]=QJ[2]==e mJ=QJ[1]else v,R=33378866626179,y(18441)q=C[h]R=q[R]R=R(q)z,I=y(17627),R R=C[h]O=C[r[1]]W=C[r[2]]V=W(z,v)Y=O[V]q=R[Y]Y=q q,R=Y and 14810006 or 14999053,Y end end else if q>11094113 then if q<11098494 then I,q=O,W q=3864781 else R=C[r[1]]D,N=24015511280664,y(18572)j=C[r[2]]Q=C[r[3]]k=Q(N,D)h=j[k]q=R[h]h=q R,q=h,h and 5244445 or 14356361 end else if q<11090159 then s,U=J,q q=J and 1502242 or 16701794 elseif q<11093038 then q=15673046 else q,K=12502030,nil end end end end end else if 10813943>q then if 10761326>q then if 10713449>q then if q>10698116 then if q<10703716 then z,V,I,q=24881991930117,y(18501),684300823752,N T=y(19512)q[R]=k q=C[r[4]]k=C[r[1]]N=C[r[2]]D=N(T,I)R=k[D]T=C[r[4]]Y=C[r[1]]N=q O=C[r[2]]W=O(V,z)I=Y[W]D=T[I]k,q=D,D and 14024864 or 14284946 else l=#Q v=1 z=Y(v,l)v=V(Q,z)o=1 l=C[T]K=v-o z=nil b=O(K)l[v]=b K=0 b=#Q v=nil l=b==K q=l and 4016976 or 10708517 end else if 10683734>q then q=j q=R and 11029618 or 8077580 elseif 10695044>q then q=12003527 SJ=p<W c=SJ else q=nJ c=q SJ=90000 F=o>=SJ nJ,q=F,F and 13904424 or 16535661 end end else if q>10739570 then if q<10746477 then nJ,a,p,J=16399649435342,y(19206),3479538263197,21642133468002 q=C[h]H=R K=C[r[1]]o=C[r[2]]e=30300191414526 f=o(a,J)X=K[f]J,U=y(18657),y(18807)o=C[r[1]]f=C[r[2]]a=f(J,e)e=y(19732)K=o[a]f=C[r[1]]a=C[r[2]]J=a(e,p)o=f[J]e=C[r[1]]p=C[r[2]]s=p(U,nJ)J=e[s]a=t==J f=D(Q,a)P={[X]=t;[K]=H,[o]=f}X=y(17902)X=q[X]R={X(q,P)}R,q={G(R)},S[y(17822)]else QJ[19]=C[r[19]]QJ[32]=QJ[19]()q=QJ[32]and 10038835 or 6508970 end else if q<10723202 then V=C[r[5]]W=Y-V V=2.5 O=W<V R,q=O,11023880 elseif 10732570>q then q,T=W,{I,Y,O}k={N;D,T}N,q=y(17771),S[y(18388)]N=j[N]Q={N(j,k)}h=y(18939)h=R[h]h=h(R,G(Q))R={}else q=QJ[3]q=QJ[2]and 8515853 or 9172206 end end end else if 10798180>q then if 10787231>q then if 10773190>q then q=C[r[1]]D=y(17611)Q=C[r[2]]k=C[r[3]]T,Y,I=26730536196846,17198518016809,18641015357077 N=k(D,T)T=y(17949)j=Q[N]k=C[r[2]]N=C[r[3]]R=y(17590)D=N(T,I)R=q[R]Q=k[D]I=y(19345)N=C[r[2]]D=C[r[3]]T=D(I,Y)k=N[T]R=R(q,j,Q,k)q=13840821 elseif 10776810>q then q=5847088 v=#N l=1 z=v>l W=z else U=y(18829)s=S[U]q=6073784 GJ=C[r[2]]yJ=C[r[3]]dJ,rJ=10596452976101,y(19189)qJ=yJ(rJ,dJ)SJ=GJ[qJ]F=h[SJ]SJ={s(F)}U,nJ,c=SJ[1],SJ[2],SJ[3]end else if q<10796379 then QJ[32]=C[r[3]]QJ[23],QJ[15],QJ[35]=q,QJ[20],y(18816)QJ[33]=C[r[4]]QJ[36]=30499878028636 QJ[34]=QJ[33](QJ[35],QJ[36])QJ[31]=QJ[32][QJ[34]]QJ[28]=O[QJ[31]]QJ[27]=QJ[15]~=QJ[28]QJ[22],q=QJ[27],QJ[27]and 8777994 or 10799104 else p=y(19131)a=C[r[2]]q,s=14520397,17892987156849 J=C[r[3]]e=J(p,s)f=a[e]o=Q[f]X=o end end else if 10808034>q then if q<10800227 then q=QJ[23]q=QJ[22]and 15503699 or 14965565 elseif 10804419>q then b,q,W=nil,5706745,nil else z,l=W(V,z)q=z and 10035957 or 15902882 end else if q<10811256 then q,p=4308402,nil else q=QJ[83]q,QJ[80]=10184841,QJ[82]end end end end else if 10852298>q then if 10833191>q then if 10821200>q then if 10816530>q then X,q=o,f q=14524968 elseif 10819492>q then s=C[r[2]]F=8430899024342 U=C[r[3]]c,J=y(18509),a nJ=U(c,F)p=s[nJ]R=Q[p]s=160 p=R(P,e)R=p<s q=R and 5049559 or 5470505 else t=y(18423)b=S[t]H=C[r[2]]f=17673299855909 P=C[r[3]]p,K,o=31370842187029,y(19404),5745852326440 X=P(K,o)t=H[X]l=b[t]t=i(614833,{h,r[2],r[3];T})o=15257587408289 b=l(z,t)b,a,e=1,14155164836441,11562981396492 l=z[b]K=y(17941)H=C[r[2]]P=C[r[3]]X=P(K,o)o=y(19197)t=H[X]b=l[t]P=C[r[2]]X=C[r[3]]K=X(o,f)J=13844997417195 H=P[K]t=l[H]X=C[r[2]]K=C[r[3]]f=y(17742)o=K(f,a)P=X[o]q=S[y(17964)]H=l[P]K=C[r[2]]a=y(17647)o=C[r[3]]f=o(a,J)X=K[f]P=l[X]o=C[r[2]]s,J=14235378781447,y(19216)f=C[r[3]]a=f(J,e)e=y(19760)K=o[a]X=l[K]f=C[r[2]]a=C[r[3]]J=a(e,p)o=f[J]p=y(18674)K=l[o]a=C[r[2]]J=C[r[3]]e=J(p,s)f=a[e]o=l[f]R={b;t,H,P;X,K;o}end else if 10826312>q then GJ,q=qJ,rJ q=5613906 else U,nJ=p(s,U)q=U and 3559571 or 6246797 end end else if 10845788>q then if q<10838522 then j=C[r[1]]N,D=y(17938),13471677965139 Q=C[r[2]]k=Q(N,D)R=j[k]q=h[R]j=q R,q=j,j and 803098 or 11711111 elseif q<10842488 then k=q q,R=h and 11296628 or 8122190,h else W,O=not j,q q,Y=W and 4895020 or 8269372,W end else if q<10847599 then F=8000 nJ=P>=F q=nJ and 16072355 or 16071043 else J,a=12631470137862,y(19447)P=C[r[1]]K=C[r[2]]b=q o=C[r[3]]f=o(a,J)a=15247202554464 X=K[f]H=P[X]X=C[r[2]]f=y(19039)K=C[r[3]]o=K(f,a)P=X[o]t=H[P]q,l=t and 7732081 or 3685519,t end end end else if q>10899046 then if q<10906927 then a=C[r[3]]p,s=y(18527),26622862955499 J=C[r[4]]e=J(p,s)U,q=9177888641132,704582 f=a[e]o=j[f]J=C[r[3]]e=C[r[4]]s=y(17780)p=e(s,U)a=J[p]f=O[a]K=o[f]P=K elseif 10909094>q then H,W,t=6160644553467,q,y(18097)v=C[r[2]]l=C[r[3]]b=l(t,H)z=v[b]V=N[z]R,q=V,V and 12398834 or 3156384 elseif q<10914887 then yJ,SJ,q,GJ=nil,nil,10569027,nil else R=C[r[4]]V,q,z=y(19350),15513574,5946809558854 Y=C[r[2]]v=2026758362472 O=C[r[3]]W=O(V,z)I=Y[W]O=C[r[2]]z=y(17626)W=C[r[3]]V=W(z,v)Y=O[V]R[I]=Y end else if q>10871765 then if 10882382>q then o,H=y(18687),y(18423)t=S[H]f=2809989203927 P=C[r[2]]X=C[r[3]]K=X(o,f)H=P[K]q=t[H]t=q(k,b)q=10232427 else W,O=31551002040423,y(18732)T=C[r[2]]I=C[r[3]]Y=I(O,W)D=T[Y]N=h[D]q=N and 10287357 or 11575526 end else if 10858804>q then l,q=t,H q=6233320 elseif q<10865721 then q,H,b=18343,nil,nil else QJ[35],QJ[36]=y(18451),34621614114800 QJ[32]=C[r[3]]QJ[33]=C[r[4]]QJ[34]=QJ[33](QJ[35],QJ[36])QJ[31]=QJ[32][QJ[34]]q,QJ[27]=10563974,QJ[31]end end end end end end else if q>11390420 then if q<11502305 then if q>11448591 then if q>11480656 then if 11485233>q then R,q=l,b q=12872856 elseif 11488844>q then q=QJ[26]QJ[26]=5000000 QJ[23]=QJ[25]or QJ[26]QJ[26]=QJ[21]QJ[27],QJ[25]=q,q q=QJ[21]and 1858089 or 7095513 elseif q<11496021 then k=C[r[1]]I,T=16777476647389,y(18282)N=C[r[2]]D=N(T,I)Q=k[D]j=h[Q]R,q=j,j and 10237442 or 8280558 else QJ[58],QJ[57]=4477399178327,y(19303)QJ[52]=C[r[5]]QJ[54]=C[r[3]]QJ[34],QJ[36]=q,q QJ[55]=C[r[4]]QJ[56]=QJ[55](QJ[57],QJ[58])QJ[53]=QJ[54][QJ[56]]QJ[56]=y(19244)QJ[51]=QJ[52][QJ[53]]QJ[53]=C[r[3]]QJ[54]=C[r[4]]QJ[57]=6253732455202 QJ[55]=QJ[54](QJ[56],QJ[57])QJ[52]=QJ[53][QJ[55]]QJ[47]=QJ[51][QJ[52]]q,QJ[35]=QJ[47]and 4972090 or 13382891,QJ[47]end else if 11469995>q then if 11458738>q then V,q=0,8138906 W=h>V R=W elseif q<11468114 then v,z,q=nil,nil,2948335 else R=Q>k q,R=S[y(19203)],{R}end else if q<11474351 then z,V=not O,q W,q=z,z and 7761969 or 11537373 else R=y(19167)q=C[r[1]]R=q[R]R=R(q)D=R T=not D R,q=T,T and 14040458 or 11355756 end end end else if q>11414827 then if 11436047>q then if q<11418187 then q,hJ=RJ,not wJ RJ,CJ=hJ,q q=hJ and 1145760 or 1560321 elseif q<11426571 then q,QJ[34],QJ[38]=3044375,nil,nil else QJ[9]=C[r[2]]QJ[10]=C[r[3]]q,QJ[12],QJ[13]=16400997,y(17706),21290005264840 QJ[11]=QJ[10](QJ[12],QJ[13])QJ[8]=QJ[9][QJ[11]]QJ[7]=p[QJ[8]]QJ[5]=QJ[7]end else if 11442488>q then q,a=p,e q=4321344 else v=not k V,z=v,q q=v and 15314575 or 1900013 end end else if q<11400473 then if 11393667>q then P,H,X=y(18480),t,q R=S[P]P=R(H)q,R=P and 12017183 or 15336419,P elseif q<11395232 then H,f,o,J=nil,nil,nil,nil q=2443901 else q,hJ=5393762,y(18129)hJ=h[hJ]hJ=hJ(h,j,dJ)CJ=not hJ wJ=CJ end else if 11408165>q then V=C[r[1]]b=16396675572732 z=C[r[2]]T,l=q,y(19685)v=z(l,b)W=V[v]Y=h[W]D,q=Y,Y and 13924824 or 1603711 else q=QJ[5]q,QJ[2]=15604249,QJ[4]end end end end else if 11560404>q then if 11527993>q then if q>11513757 then if q<11524063 then R=y(17689)q=S[R]T={q(N)}R,D=T[1],T[2]T=R R=T q=T and 12872784 or 15494292 else e=200000 J=P>=e q=J and 15346641 or 11161316 end else if q<11503924 then o=y(18976)P=C[r[2]]X=C[r[3]]b,f=q,2208604292998 K=X(o,f)H=P[K]t=z[H]l,q=t,t and 3520578 or 11483873 elseif 11504288>q then N,I=q,y(18319)T=S[I]I=T(j)V=y(18944)Y=C[r[1]]O=C[r[2]]z=13690574979363 W=O(V,z)T=Y[W]D=I==T k,q=D,D and 5822423 or 7872711 else QJ[55]=.3 QJ[32]=C[r[20]]QJ[54]=P*QJ[55]QJ[55]={QJ[32](QJ[54])}QJ[53],QJ[52]=QJ[55][3],QJ[55][2]QJ[36]=QJ[55][1]q=QJ[36]and 13004265 or 4566213 end end else if q<11544968 then if q<11534178 then H,P,q=nil,nil,5558347 elseif 11539385>q then P=y(18182)b=C[r[3]]t=C[r[4]]X,q=9093406506841,7761969 H=t(P,X)l=b[H]v=O[l]z=not v W=z else rJ=q RJ=C[r[1]]CJ=C[r[2]]jJ,mJ=15012854582594,y(17654)hJ=CJ(mJ,jJ)wJ=RJ[hJ]dJ=yJ[wJ]q,qJ=dJ and 3719096 or 4195679,dJ end else if q<11552479 then q=14481990 else R=C[r[1]]D,h=y(19291),n[1]Q=C[r[2]]T=29640594913806 k=C[r[3]]N=k(D,T)j=Q[N]q=R[j]N=y(17603)j=C[r[2]]Q=C[r[3]]D=1426153152435 k=Q(N,D)R=j[k]Q=100 j=h/Q q[R]=j h,R,q=nil,{},S[y(18086)]end end end else if q>11587626 then if 11603046>q then z,v=y(17621),21167827922567 Y=C[r[1]]N=q W=C[r[2]]V=W(z,v)T=Y[V]D=h[T]q,k=D and 871455 or 11404231,D elseif q<11609546 then q=6989922 elseif q<11610753 then Q,j=682623,y(18922)h=j^Q R=12938193 q=R-h h,R=q,y(19370)q=R/h R={q}q=S[y(17662)]else W=C[r[1]]V=C[r[2]]v,l=y(18512),23785556296105 z=V(v,l)v=y(19342)O=W[z]Y=T[O]W=C[r[1]]l=13460909374670 V=C[r[2]]z=V(v,l)O=W[z]I=Y==O q,R=I and 8157506 or 8343448,I end else if q>11575275 then if q<11576849 then q,R=S[y(17867)],{Q,k}else U=C[k]c=C[r[2]]yJ,GJ,p=11896467239171,y(19035),q F=C[r[3]]SJ=F(GJ,yJ)nJ=c[SJ]s=U[nJ]U=0 e=s or U s,nJ=q,0 U=e>nJ q=U and 7447868 or 6315470 end else if q<11567616 then X=y(18423)P=S[X]J,V=3494060654425,b K=C[r[2]]o=C[r[3]]a=y(17847)f=o(a,J)X=K[f]H=P[X]X=O[V]P=H(W,X)X=40 P=#W H=P>=X q=H and 13084893 or 9874571 elseif 11572934>q then QJ[39],q=y(17871),QJ[33]QJ[40],QJ[33]=7092071191277,13734562<6468936 QJ[36]=C[r[3]]QJ[37]=C[r[4]]QJ[38]=QJ[37](QJ[39],QJ[40])QJ[35]=QJ[36][QJ[38]]QJ[34]=j[QJ[35]]q=QJ[34]and 7869263 or 7483056 else q,QJ[56],QJ[55],QJ[58]=14564538,32875991578605,y(17623),y(19114)QJ[52]=C[r[3]]QJ[53]=C[r[4]]QJ[59]=18849189939406 QJ[54]=QJ[53](QJ[55],QJ[56])QJ[51]=QJ[52][QJ[54]]QJ[50]=QJ[38][QJ[51]]QJ[53]=C[r[1]]QJ[55]=C[r[3]]QJ[56]=C[r[4]]QJ[57]=QJ[56](QJ[58],QJ[59])QJ[54]=QJ[55][QJ[57]]QJ[58]=23583303313507 QJ[52]=QJ[53][QJ[54]]QJ[54]=C[r[3]]QJ[57]=y(19552)QJ[55]=C[r[4]]QJ[56]=QJ[55](QJ[57],QJ[58])QJ[53]=QJ[54][QJ[56]]QJ[51]=QJ[52][QJ[53]]QJ[49]=QJ[50]==QJ[51]QJ[47]=QJ[49]end end end end end else if q>11297495 then if q<11338953 then if q>11322273 then if q<11333183 then if q<11331297 then q=9319193 elseif q<11332378 then Q,q=N,D q=4408671 else q=QJ[73]q=QJ[63]and 14072677 or 13624453 end else if q<11336049 then rJ=q dJ=F<z qJ,q=dJ,dJ and 3058926 or 10822521 else q=QJ[8]q,QJ[4]=1822325,QJ[7]end end else if 11306523>q then if q<11300201 then O,q=V,z q=2509478 elseif 11302430>q then nJ=y(19015)p=C[r[2]]s=C[r[3]]a,c=X,33706127820671 U=s(nJ,c)e=p[U]J=N[e]R=J[a]J=R s=v[J]p,e=not s,q q,R=p and 11687385 or 230838,p else q,z,v=13130047,nil,nil end else if q<11312146 then q=hJ q,wJ=1202259,CJ else CJ,q=2,12700735 s=CJ end end end else if q>11363958 then if q<11372416 then W,V=y(19185),29979982253429 I=C[r[1]]N=q Y=C[r[2]]O=Y(W,V)T=I[O]D=h[T]k,q=D,D and 3076776 or 14467038 elseif q<11378148 then q,Q,k=13795273,nil,nil elseif 11385439>q then q=S[y(19612)]R=I<Y R={R}else N=R R,q=N,N and 8805496 or 16488018 end else if q<11344108 then if 11339613>q then q,R=S[y(19309)],{D}elseif q<11341694 then I,W=D,y(18319)O=S[W]b=20587822214317 W=O(Y)V=C[r[2]]z=C[r[3]]l=y(18196)v=z(l,b)O=V[v]q=W==O q=q and 5241603 or 9776533 else z,q=nil,16197530 C[r[6]]=z end else if q<11350139 then j,O,Y,h=n[2],16982874956550,15587488196118,n[1]N=C[r[1]]D=C[r[2]]I=y(18131)T=D(I,Y)k=N[T]Q=h[k]R=not Q q=not R Q,Y=q,y(18581)D=C[r[1]]T=C[r[2]]I=T(Y,O)N=D[I]k=j[N]R=not k q=not R k=q q=Q~=k q=q and 13194573 or 9234591 else O=C[r[2]]z,v=y(18779),22024914871927 W=C[r[3]]V=W(z,v)Y=O[V]I=D[Y]T,q=not I,14040458 R=T end end end end else if 11211719>q then if q<11185219 then if q>11169880 then if q<11178966 then q=6793485~=13679021 C[j]=q q=7222169 else X=C[r[2]]J=8564271072904 K=C[r[3]]a=y(18605)o=K(a,J)V=nil P=X[o]q=3254779 H=b[P]b,W,t=nil,H,nil end else if q<11157666 then q=T q,k=2496815,D elseif q<11163102 then e,s=q,20000 p=P<s q,J=p and 15454809 or 10671060,p else z,v=W(V,z)q=z and 10398266 or 1755062 end end else if q>11206647 then if q<11207178 then R=C[r[1]]h=y(18798)h=R[h]h=h(R)q=not h q=q and 14516483 or 15985853 else QJ[52]=10908386189319 QJ[48]=C[r[3]]QJ[49]=C[r[4]]QJ[51]=y(18078)QJ[50]=QJ[49](QJ[51],QJ[52])QJ[44]=q QJ[47]=QJ[48][QJ[50]]QJ[46]=QJ[38][QJ[47]]QJ[45]=not QJ[46]QJ[43],q=QJ[45],QJ[45]and 7234562 or 13631539 end else if 11187609>q then R=C[r[1]]T,D,h=8856370473956,y(19437),n[1]Q=C[r[2]]k=C[r[3]]N=k(D,T)j=Q[N]q=R[j]j=C[r[2]]Q=C[r[3]]D,N=18456492972331,y(19038)k=Q(N,D)R=j[k]j=h h=nil q[R]=j q=C[r[4]]R=q()q,R=S[y(18455)],{}elseif q<11197109 then q=QJ[19]q,QJ[15]=14826580,QJ[18]else J,q=nil,16548126 end end end else if q>11246359 then if 11281157>q then if q<11251613 then q=9464020 elseif q<11264497 then QJ[52]=C[r[2]]QJ[55]=C[r[3]]QJ[60]=C[r[4]]QJ[62],QJ[63]=y(18427),4663060232833 QJ[61]=QJ[60](QJ[62],QJ[63])QJ[77],QJ[78]=y(18265),8118668847728 QJ[54]=QJ[55][QJ[61]]QJ[63]=C[r[2]]QJ[74]=C[r[3]]QJ[75]=C[r[4]]QJ[61]=q QJ[61]=1 QJ[76]=QJ[75](QJ[77],QJ[78])QJ[73]=QJ[74][QJ[76]]QJ[62]=QJ[63][QJ[73]]QJ[63]=0 QJ[60]=QJ[62]or QJ[63]QJ[55]=QJ[60]+QJ[61]QJ[62],QJ[73]=y(18320),13588608692614 QJ[52][QJ[54]]=QJ[55]QJ[52]=C[r[2]]QJ[63]=1010736758781 QJ[55]=C[r[3]]QJ[60]=C[r[4]]QJ[61]=QJ[60](QJ[62],QJ[63])QJ[54]=QJ[55][QJ[61]]QJ[60]=C[r[3]]QJ[63]=y(18701)QJ[61]=C[r[4]]QJ[62]=QJ[61](QJ[63],QJ[73])QJ[55]=QJ[60][QJ[62]]QJ[52][QJ[54]]=QJ[55]QJ[52]=C[r[2]]QJ[55]=C[r[3]]QJ[63],q=19579245003183,9159761 QJ[60]=C[r[4]]QJ[62]=y(18962)QJ[61]=QJ[60](QJ[62],QJ[63])QJ[54]=QJ[55][QJ[61]]QJ[55]=hJ QJ[52][QJ[54]]=QJ[55]else h=y(18798)R=C[r[1]]h=R[h]h=h(R)q=not h q=q and 796582 or 11102292 end else if 11292779>q then q=R and 854919 or 13450763 else N,q=y(18093),8122190 N=h[N]N=N(h)R=N end end else if q<11233310 then if 11219902>q then s=y(17687)s=Y[s]s=s(Y,J)e,q=s,3940749 elseif 11225578>q then b=0 l=#V v=l==b q=v and 13745007 or 15542232 else l=C[r[3]]b=C[r[4]]P,H=9970293453165,y(18121)t=b(H,P)v=l[t]z=O[v]V,q=not z,13466133 I=V end else if q<11242186 then I=C[r[1]]V,W,N=13259953400190,y(18938),q Y=C[r[2]]z=20412598745907 O=Y(W,V)T=I[O]V=y(19709)D=h[T]T=0 R=D or T D,N=q,R Y=C[r[1]]O=C[r[2]]W=O(V,z)z=y(18514)I=Y[W]T=j[I]Y,I=y(18117),0 R=T or I D=R I=S[Y]O=C[r[1]]W=C[r[2]]v=15307225164793 V=W(z,v)Y=O[V]T=I[Y]Y=N-D I=T(Y)T=15 R=I>T q=R and 9864139 or 526329 else R,q={j},S[y(18897)]end end end end end end end else if 12065380>q then if 11834422>q then if q<11737731 then if q<11680106 then if q<11648354 then if q>11640750 then if q<11646284 then s=y(18223)J=C[r[2]]U=10815977503408 e=C[r[3]]p=e(s,U)q=2593333 a=J[p]f=N[a]a=f(l,h)o=a<=H X=o else q,QJ[72],mJ=QJ[68],y(19488),QJ[67]QJ[71]=S[QJ[72]]QJ[76]=y(18244)QJ[73]=C[r[3]]QJ[77]=9587459948824 QJ[74]=C[r[4]]QJ[75]=QJ[74](QJ[76],QJ[77])QJ[72]=QJ[73][QJ[75]]QJ[77]=18793875023618 QJ[68]=QJ[71][QJ[72]]QJ[76]=y(18397)QJ[73]=C[r[3]]QJ[74]=C[r[4]]QJ[75]=QJ[74](QJ[76],QJ[77])QJ[74],QJ[81]=y(18806),23667572346567 QJ[72]=QJ[73][QJ[75]]QJ[76]=y(18117)QJ[73]=S[QJ[74]]QJ[74]=QJ[73](QJ[53])QJ[75]=S[QJ[76]]QJ[80]=y(19652)QJ[77]=C[r[3]]QJ[78]=C[r[4]]QJ[79]=QJ[78](QJ[80],QJ[81])QJ[76]=QJ[77][QJ[79]]QJ[78],QJ[77]=0,q QJ[73]=QJ[75][QJ[76]]QJ[76]=QJ[61]or QJ[78]QJ[75]=QJ[73](QJ[76])QJ[71]=QJ[68](QJ[72],QJ[74],QJ[75],P,QJ[63])q,hJ=3597927,QJ[71]end else if 11615096>q then q,V=S[y(18775)],nil R={V}elseif q<11626269 then q,K=2054752,nil else z,q=l,b q=7691677 end end else if q>11661296 then if q<11668355 then O,R=y(18855),y(18829)q=S[R]T=C[r[2]]I=C[r[3]]W=17529657483946 Y=I(O,W)D=T[Y]N=h[D]D={q(N)}k,R,q,Q=D[3],D[1],4706979,D[2]N=R else QJ[30],QJ[32]=q,nil QJ[31]=QJ[20]==QJ[32]q,QJ[29]=QJ[31]and 12906636 or 14291642,QJ[31]end else if 11650151>q then qJ=C[T]rJ=2000000 yJ=qJ>=rJ q=yJ and 1587138 or 7240771 elseif q<11655290 then q,yJ=7949775,SJ else q=O q=R and 1828121 or 5156956 end end end else if q>11711634 then if q>11724583 then if q<11733821 then R,q=D,T q=4406560 else q,hJ=7168228,10 CJ=hJ*GJ RJ=o+CJ o=RJ end else if q<11714384 then b,H=v+b,not t R=b<=l R=H and R H=b>=l H=t and H R=H or R H=15116956 q=R and H R=11223805 q=q or R elseif q<11717575 then W,V=q,not Q q,O=V and 11094696 or 11447205,V else q=CJ q=RJ and 13395343 or 5852540 end end else if q>11700610 then if q<11706386 then QJ[59]=y(19153)QJ[59]=j[QJ[59]]QJ[59]=QJ[59](j,QJ[36])QJ[57],q=QJ[59],9106796 else Q=R q,R=Q and 4957680 or 12419404,Q end else if q<11691825 then q,p=230838,y(17687)p=Y[p]p=p(Y,J)R=p elseif q<11697912 then e,t,J=4991163798495,R,y(18620)o=C[r[1]]f=C[r[2]]a=f(J,e)P=q K=o[a]X=t==K q,H=X and 15996991 or 13555244,X else N=C[r[1]]D=C[r[2]]I,Y,q=y(19282),17773179188933,y(18526)T=D(I,Y)q=k[q]R=N[T]q=q(k,R)q=q and 8747050 or 4685487 end end end end else if q>11790430 then if 11805986>q then if 11798151>q then if q<11793910 then CJ,q=mJ,jJ q=3351780 elseif q<11796816 then b=12657669947364 q=C[r[1]]z=3459600969752 R=q()q=C[r[2]]h=C[r[3]]D=C[r[4]]T=C[r[5]]K,O,l,Y=y(18028),10923189267220,21221799469636,y(17725)I=T(Y,O)N=D[I]v=y(19585)T=C[r[6]]Y=C[r[4]]O=C[r[5]]V=y(18832)W=O(V,z)I=Y[W]D=T[I]Y=C[r[3]]W=C[r[4]]V=C[r[5]]z=V(v,l)O=W[z]l,v=y(17637),8527545806045 I=Y[O]O=C[r[4]]o,z=12603711000242,y(18179)W=C[r[5]]t=9090703290805 V=W(z,v)W=15773174179295 Y=O[V]T=I[Y]v,k,O=22360388824548,{N,D;T},y(19247)T=C[r[4]]I=C[r[5]]z=y(19292)Y=I(O,W)D=T[Y]I=C[r[6]]O=C[r[4]]W=C[r[5]]V=W(z,v)Y=O[V]T=I[Y]O=C[r[3]]V=C[r[4]]z=C[r[5]]v=z(l,b)W=V[v]Y=O[W]l=14784940990434 W=C[r[4]]v=y(18387)V=C[r[5]]z=V(v,l)V,v=1894818412818,y(19514)O=W[z]W=y(18541)I=Y[O]N,b={D,T;I},y(19544)I=C[r[4]]Y=C[r[5]]O=Y(W,V)T=I[O]Y=C[r[6]]W=C[r[4]]l=32647235697796 V=C[r[5]]z=V(v,l)O=W[z]I=Y[O]W=C[r[3]]z=C[r[4]]v=C[r[5]]l=v(b,t)V=z[l]b=21417620830209 O=W[V]V=C[r[4]]l=y(19201)z=C[r[5]]v=z(l,b)z,l=17164058640086,y(19371)W=V[v]Y=O[W]D={T,I;Y}Y=C[r[4]]O=C[r[5]]V=y(19240)W=O(V,z)I=Y[W]O=C[r[6]]V=C[r[4]]b=34204642720475 z=C[r[5]]v=z(l,b)z=q W=V[v]Y=O[W]b=C[r[6]]W=q H=C[r[4]]P=C[r[5]]X=P(K,o)t=H[X]l=b[t]t=C[r[4]]K,X=11380809189212,y(17970)H=C[r[5]]P=H(X,K)b=t[P]v=l==b q,V=v and 7423958 or 15483076,v else Y=i(11610080,{})R=y(18480)q=S[R]k=y(18806)h=C[r[4]]I=y(17689)Q=S[k]T=S[I]I={T(Y)}T,D=2,{G(I)}N=D[T]k=Q(N)Q=y(18203)j=h(k,Q)h={j()}R=q(G(h))h=R j=C[r[5]]q,R=j and 11921433 or 7620141,j end else if q<11801177 then Y,W=q,0 O=j==W I,q=O,O and 3864781 or 11716611 else W,b=v,1 l=O+b t=C[j]b=y(18010)b=N[b]b=b(N,t,W)O=l t=Y(b)q=t and 5951945 or 14186714 end end else if 11809961>q then k=C[r[4]]Q=h-k k=1 j=Q<k R,q=j,13023823 elseif 11813000>q then F=850 s,q=F,8636023 elseif q<11824085 then q=R and 12116628 or 4315280 else q,QJ[32]=QJ[53],QJ[52]q=5061524 end end else if 11771479>q then if 11756132>q then if q<11741994 then R,q={R},S[y(18213)]elseif 11750197>q then c=C[r[2]]mJ=C[r[3]]QJ[9],QJ[8]=33738089692619,y(18711)jJ=C[r[4]]QJ[6]=jJ(QJ[8],QJ[9])hJ=mJ[QJ[6]]QJ[6],QJ[17]=y(19488),y(18027)jJ=S[QJ[6]]QJ[8]=C[r[3]]QJ[18]=26240617546007 QJ[9]=C[r[4]]QJ[15]=QJ[9](QJ[17],QJ[18])q=S[y(18443)]QJ[6]=QJ[8][QJ[15]]mJ=jJ[QJ[6]]QJ[8]=C[r[3]]QJ[9]=C[r[4]]QJ[17],QJ[18]=y(19073),33945905727129 QJ[15]=QJ[9](QJ[17],QJ[18])QJ[6]=QJ[8][QJ[15]]jJ=mJ(QJ[6],U,s)c[hJ]=jJ R={}else q,R=S[y(18391)],{}end else if q<11763571 then q=b q=l and 15646496 or 10220853 else o,q=y(19714),t l=Q%z t,H=1000,y(18117)v=b or t t=S[H]P=C[r[1]]f=27476797216349 X=C[r[2]]K=X(o,f)H=P[K]b=t[H]H=Q/z t=b(H)b=4 H=80 P,q=H,2800873 H=4 X=H H=0 K=H>X H=b-X end end else if 11785781>q then if 11776433>q then R=y(18658)Q=x(9442933,{r[2];r[3]})q=S[R]j=C[r[1]]k={q(j,Q)}R=k[1]j,h=R,k[2]q=not j q=q and 6510913 or 13486302 elseif 11781697>q then l,q=t,H q=7732081 else GJ=3 s,q=GJ,12700735 end else if 11788562>q then q=2872148 else b,H=v(l,b)q=b and 15616281 or 7383748 end end end end end else if q<11931790 then if 11883037>q then if 11857942>q then if q<11849502 then if q<11839018 then QJ[53],QJ[32],QJ[52]=not c,1433405>=4517766,q QJ[36],q=QJ[53],QJ[53]and 13886561 or 7991070 elseif q<11844561 then SJ=C[r[2]]dJ,J=y(18759),U GJ=C[r[3]]rJ,wJ,qJ=15831402413370,8797595436532,y(18051)yJ=GJ(qJ,rJ)F=SJ[yJ]c=Q[F]yJ=C[r[2]]qJ=C[r[3]]rJ=qJ(dJ,wJ)GJ=yJ[rJ]SJ=nJ[GJ]F=c(P,SJ)c=F<a q=c and 7120931 or 16550761 else Y=#I O=0 q=Y==O q=q and 14288728 or 2453373 end else if 11853458>q then k,Q,D,T=nil,14674838<=12900333,nil,0 q,N=S[y(18271)],nil R={Q;k;N;D;T}else R=14564916>14800090 X=R R,o=99999,y(19364)K=R R=S[o]q=4861598 J={R(T)}o,f,a=J[1],J[2],J[3]end end else if q<11871955 then if q<11866334 then q,f,X,K=S[y(17765)],0,nil,nil o=nil R={X;K,o;f}elseif 11871302>q then q=RJ q=wJ and 610098 or 14498180 else QJ[22]=P<QJ[18]QJ[20],q=QJ[22],9245329 end else if q<11876076 then RJ,hJ=16115835>15263970,q t[rJ]=RJ RJ=y(18910)RJ=N[RJ]RJ=RJ(N,rJ)q,CJ=RJ and 12444933 or 3351780,RJ else T,q=Y,O q=7652600 end end end else if q>11910857 then if q>11921767 then if 11926762>q then R,q=T,I q=3234569 else q=QJ[3]q=QJ[2]and 249707 or 12746915 end else if 11917247>q then t=y(19561)V=C[r[4]]v=C[r[2]]H=13792752296678 l=C[r[3]]q=14756054 b=l(t,H)z=v[b]b,t=y(19195),6417092165930 W=V[z]z=C[r[2]]v=C[r[3]]l=v(b,t)V=z[l]O=W==V I=O elseif q<11919450 then c,q,F=nil,7101830,nil else q=7620141 Q=C[r[6]]j=Q==h R=j end end else if q>11901728 then if q<11903263 then s,X=y(19017),q f=C[r[1]]J=C[r[2]]U=11189847245126 e=C[r[3]]p=e(s,U)s=10586442778021 a=J[p]p=y(17788)o=f[a]a=C[r[2]]J=C[r[3]]e=J(p,s)f=a[e]K=o[f]q,P=K and 1073668 or 3072840,K else yJ=y(18010)qJ=C[j]yJ=N[yJ]yJ=yJ(N,qJ,GJ)qJ=Y(yJ)q=qJ and 11541398 or 1154181 end else if q<11892040 then N=C[h]O,q=y(17940),16247608 T=C[r[1]]I=C[r[2]]W=27535078954004 Y=I(O,W)D=T[Y]k=N[D]N=nil Q=k~=N R=Q elseif q<11899684 then V,v=q,0 z=j==v W,q=z,z and 4229688 or 2985124 else T,V=y(18423),27573975340327 R=S[T]I=C[r[1]]W=y(18865)Y=C[r[2]]O=Y(W,V)T=I[O]q=R[T]T=h+j R=q(D,T)q=11339533 end end end end else if q>12021519 then if q<12034829 then if q>12030075 then if q<12031509 then q,R=S[y(18754)],{I;Y}else QJ[32]=y(19595)QJ[29]=C[r[3]]QJ[30]=C[r[4]]QJ[33]=5839044040590 QJ[31]=QJ[30](QJ[32],QJ[33])QJ[28]=QJ[29][QJ[31]]QJ[27]=QJ[20][QJ[28]]q,QJ[25]=11486594,QJ[27]end else if 12026107>q then s=q F=C[r[2]]qJ,yJ=33182206527608,y(18484)SJ=C[r[3]]GJ=SJ(yJ,qJ)c=F[GJ]yJ=y(18144)nJ=f[c]F=C[r[2]]qJ=27851519551491 SJ=C[r[3]]GJ=SJ(yJ,qJ)c=F[GJ]U=nJ==c q,p=U and 9870258 or 6839207,U elseif q<12027919 then e=#V p=100 a=e>=p q=a and 11393749 or 12254096 else H,q,P=nil,1065808,nil end end else if 12038265>q then e,J,q=nil,nil,9677776 elseif q<12041348 then q=C[r[2]]R={q(j,h)}q,R=S[y(17892)],{G(R)}elseif 12046055>q then q=C[r[4]]T=C[r[2]]I=C[r[3]]t,O,W=9980388906607,y(17632),5446721352327 Y=I(O,W)W,V=y(17651),2531071384643 R=T[Y]I=C[r[2]]b=y(17869)Y=C[r[3]]O=Y(W,V)T=I[O]W,O=8314884316312,y(17816)q[R]=T q=C[r[4]]T=C[r[2]]I=C[r[3]]Y=I(O,W)O,I=q,y(18806)R=T[Y]T=S[I]z=C[r[2]]v=C[r[3]]l=v(b,t)V=z[l]W=D[V]Y,q=W,W and 11149526 or 13395084 else R=C[r[1]]T,h=9880829173939,n[1]Q=C[r[2]]D=y(18722)k=C[r[3]]N=k(D,T)j=Q[N]q=R[j]N,D=y(19027),31941930263171 j=C[r[2]]Q=C[r[3]]k=Q(N,D)R=j[k]j=h h=nil q[R]=j q=C[r[4]]R=q()R,q={},S[y(18663)]end end else if 11981670>q then if q>11975568 then if q<11977288 then h,R=y(18473),y(18743)q=S[R]R=q(h)R,q={},S[y(18328)]else QJ[15],q=QJ[17],8056654 end else if 11940930>q then RJ,jJ=RJ+hJ,not mJ wJ=CJ>=RJ wJ=jJ and wJ jJ=CJ<=RJ jJ=mJ and jJ wJ=jJ or wJ jJ=16748360 q=wJ and jJ wJ=13170470 q=q or wJ elseif 11962428>q then q,T=O,Y q=14133165 else j=C[r[1]]N,k=2,1 Q=j(k,N)j=1 h=Q==j q,R=h and 8435200 or 2864838,h end end else if q<12006347 then if q<11989992 then q=11575526 elseif q<11999382 then b=C[r[1]]P,X=y(19631),34272828524366 t=C[r[2]]H=t(P,X)l=b[H]v=T[l]V,q=v,7975706 else U,q=c,F q=5979863 end else if 12013175>q then q,QJ[4]=QJ[7],QJ[6]q=9806475 else f=C[r[2]]e=y(19478)a=C[r[3]]p=33634278086241 J=a(e,p)o=f[J]K=N[o]R,q=K,15336419 end end end end end end else if q>12313323 then if q>12445891 then if q>12507111 then if q>12555975 then if 12558592>q then jJ=C[r[1]]QJ[2]=C[r[3]]QJ[3]=C[r[4]]QJ[6],QJ[5],q=31281063087025,y(17642),961505 QJ[4]=QJ[3](QJ[5],QJ[6])QJ[1]=QJ[2][QJ[4]]QJ[4]=y(19505)mJ=jJ[QJ[1]]QJ[1]=C[r[3]]QJ[5]=33247675996183 QJ[2]=C[r[4]]QJ[3]=QJ[2](QJ[4],QJ[5])jJ=QJ[1][QJ[3]]hJ=mJ[jJ]CJ=GJ==hJ wJ=CJ elseif q<12566534 then J=23861257450002 K=C[r[2]]t=q o=C[r[3]]a=y(19498)f=o(a,J)X=K[f]P=Q[X]H=b==P R,q=H,H and 7218749 or 7292045 elseif 12584794>q then o=y(18498)b=C[r[5]]q,f=4409112,22300810021281 P=C[r[3]]X=C[r[4]]K=X(o,f)o=21509840910429 H=P[K]l=b[H]H=C[r[3]]K=y(18666)P=C[r[4]]X=P(K,o)b=H[X]v=l[b]V=v else q=R and 4940172 or 13172444 end else if 12544075>q then if q<12516789 then RJ=q CJ=yJ<z q,wJ=CJ and 8938443 or 760666,CJ elseif q<12530317 then z=C[r[1]]v=C[r[2]]b,t=y(19592),12054782880801 l=v(b,t)V=z[l]W=N[V]V=W(Y,h)R=V<=k q=R and 368217 or 4479079 else q,a=l,25232685705737 l=0 z=v or l l=y(18829)v=S[l]f=y(17925)X=C[r[2]]K=C[r[3]]o=K(f,a)P=X[o]H=j[P]P={v(H)}b,q,l,t=P[2],1110127,P[1],P[3]end else if q<12551920 then q=4112076>14829052 R={q}q=S[y(19283)]else R,q={},S[y(18975)]end end end else if q>12462942 then if q<12483591 then if q<12471364 then q=qJ q,SJ=1226561,yJ elseif 12478631>q then b=C[r[2]]P=C[r[3]]q,f,o=18343,18876574028980,y(18903)X=C[r[4]]K=X(o,f)H=P[K]X=C[r[3]]f=y(18315)K=C[r[4]]a=26659255205440 o=K(f,a)P=X[o]b[H]=P else X,q=o,f q=14750576 end else if 12493282>q then f=y(18610)X=C[r[2]]a=32155618794808 K=C[r[3]]o=K(f,a)P=X[o]H=Y[P]P=5 t=H==P q,l=16128656,t else J=o(a,J)q=J and 8896158 or 8862555 end end else if 12452000>q then if q<12447916 then QJ[19],QJ[27],QJ[17]=q,y(17685),q QJ[22]=C[r[5]]QJ[24]=C[r[3]]QJ[25]=C[r[4]]QJ[28]=10779942256854 QJ[26]=QJ[25](QJ[27],QJ[28])QJ[23]=QJ[24][QJ[26]]QJ[21]=QJ[22][QJ[23]]QJ[27]=33895441902928 QJ[23]=C[r[3]]QJ[24]=C[r[4]]QJ[26]=y(19476)QJ[25]=QJ[24](QJ[26],QJ[27])QJ[22]=QJ[23][QJ[25]]QJ[20]=QJ[21][QJ[22]]QJ[18],q=QJ[20],QJ[20]and 10238463 or 2415728 elseif 12450359>q then Y,q,N=nil,7720963,nil else QJ[62]=C[r[5]]QJ[74],QJ[73],QJ[55]=30435687785674,y(18380),q QJ[64]=C[r[3]]QJ[68]=C[r[4]]QJ[72]=QJ[68](QJ[73],QJ[74])QJ[63]=QJ[64][QJ[72]]QJ[61]=QJ[62][QJ[63]]QJ[72]=y(18821)QJ[63]=C[r[3]]QJ[73]=22660683231804 QJ[64]=C[r[4]]QJ[68]=QJ[64](QJ[72],QJ[73])QJ[62]=QJ[63][QJ[68]]QJ[60]=QJ[61][QJ[62]]q,QJ[54]=QJ[60]and 891217 or 1810415,QJ[60]end else if 12455016>q then W=1 q=Q+W Q=q q=2901390 else q=QJ[28]q=QJ[27]and 8566072 or 2109930 end end end end else if q>12376538 then if q<12430213 then if 12417242>q then if q<12388975 then QJ[21],QJ[20],QJ[11]=15591400788810,y(18094),y(18829)QJ[9]=S[QJ[11]]QJ[17]=C[r[3]]q=3274722 QJ[18]=C[r[4]]QJ[19]=QJ[18](QJ[20],QJ[21])QJ[16]=QJ[17][QJ[19]]QJ[15]=F[QJ[16]]QJ[16]={QJ[9](QJ[15])}QJ[14],QJ[11],QJ[13]=QJ[16][3],QJ[16][1],QJ[16][2]elseif 12406957>q then l=C[r[2]]q=W V,P,H=q,30363741675721,y(19011)b=C[r[3]]W=R t=b(H,P)v=l[t]z=N[v]q,R=z and 3817710 or 2331947,z else q,Y=3835474,y(19474)k=C[r[1]]D=C[r[2]]O=6360834687775 T=C[r[3]]I=T(Y,O)N=D[I]Q=k[N]N=C[r[4]]k=Q(h,N)R=k end else if q<12422869 then k=R R,q=k,k and 5147042 or 11738446 else p=C[r[2]]c=28862304578323 s=C[r[3]]a,nJ=q,y(18827)q=14232127 U=s(nJ,c)e=p[U]J=K[e]e=1 f=J or e R=b+f b=R end end else if q<12434137 then q,O,Y=9405317,nil,nil elseif q<12437429 then V=y(18319)W=S[V]b,t,N=y(17782),17085335630542,I V=W(Y)z=C[r[2]]v=C[r[3]]l=v(b,t)W=z[l]O=V==W q=O and 9567902 or 12448982 elseif 12442803>q then QJ[5]=y(19018)QJ[5],q=h[QJ[5]],1642883 QJ[5]=QJ[5](h,dJ)jJ=QJ[5]else jJ,QJ[7],QJ[6]=q,29246340747823,y(18167)QJ[3]=C[r[2]]QJ[4]=C[r[3]]QJ[5]=QJ[4](QJ[6],QJ[7])QJ[2]=QJ[3][QJ[5]]QJ[1]=RJ[QJ[2]]mJ,q=QJ[1],QJ[1]and 12841317 or 11791541 end end else if q>12332013 then if 12356581>q then if 12347427>q then q=V q,R=10024976,W elseif q<12354828 then h=C[r[1]]R=#h h=0 q=R==h q=q and 8074067 or 3193621 else I=15184999<=9198244 C[j]=I q=7222169 end else if q<12366039 then O,q,l,t=nil,11164889,nil,nil v=nil else R,q={Q},S[y(17644)]end end else if q<12319615 then if q<12316230 then q=R and 16584367 or 9578677 elseif q<12317135 then T=C[r[3]]I=C[r[4]]O,W=y(19223),7877766539915 Y=I(O,W)D=T[Y]q=11387255 N=k[D]R=N else a,q=e,p q=7545442 end else if 12322874>q then QJ[1],q=QJ[4],QJ[5]q=8517819 else v=q H=C[r[1]]K=y(17715)P=C[r[2]]o=21223582287003 X=P(K,o)t=H[X]b=O[t]l=not b q,z=l and 1521039 or 7691677,l end end end end end else if 12155669>q then if q<12105125 then if q>12090333 then if q<12102469 then if 12091672>q then mJ=.88 hJ=yJ<=mJ q,RJ=2922183,hJ elseif 12096863>q then z=-1 R,q=z,5829468 else q,e=16149212,J l,U=e,a V=U end else if q<12103636 then Y,q=I,I and 16014348 or 177547 else p=y(19008)a=C[r[2]]s=14983373380310 J=C[r[3]]q=15241414 e=J(p,s)o=a[e]K=v[o]P=K end end else if q>12087278 then if q<12089021 then q=C[r[2]]T={q()}N=T[2]j,R,q,D=N,T[1],8074399,T[3]Q,k=D,R else RJ,dJ=0,q wJ=F>=RJ rJ,q=wJ,wJ and 886699 or 13543073 end else if q<12082707 then QJ[43],QJ[47],QJ[34],QJ[48]=y(18319),y(19729),QJ[37],13458736430267 QJ[40]=q QJ[42]=S[QJ[43]]QJ[43]=QJ[42](QJ[38])QJ[44]=C[r[3]]QJ[45]=C[r[4]]QJ[46]=QJ[45](QJ[47],QJ[48])QJ[42]=QJ[44][QJ[46]]QJ[41]=QJ[43]==QJ[42]q,QJ[39]=QJ[41]and 3203807 or 3005840,QJ[41]elseif 12084537>q then dJ,nJ=1,c rJ=U[dJ]qJ=rJ*nJ wJ=2 yJ=f+qJ dJ=U[wJ]RJ=0 rJ=dJ*nJ qJ=J+rJ dJ=q wJ=yJ>=RJ q,rJ=wJ and 12512192 or 13315766,wJ else O=y(19104)N=C[h]T=C[r[1]]I=C[r[2]]W=1023203121757 Y=I(O,W)D=T[Y]k=N[D]q,N=4854698,nil Q=k~=N R=Q end end end else if q>12125964 then if q>12137951 then if q<12147693 then X=C[r[4]]K=X(P,W,V)q=16277415 o=y(19364)X=S[o]J={X(K)}f,a,o=J[2],J[3],J[1]else CJ,QJ[1]=y(19364),y(18373)SJ=S[CJ]QJ[1],q=GJ[QJ[1]],5953010 jJ={QJ[1](GJ)}QJ[1]={SJ(G(jJ))}hJ,CJ,mJ=QJ[1][2],QJ[1][1],QJ[1][3]end else if 12126840>q then QJ[27],q=QJ[29],QJ[30]q=15059533 elseif 12129485>q then q,QJ[72]=12165458,1 QJ[62]=QJ[72]else q=SJ q=F and 1833390 or 10808580 end end else if q>12119883 then if 12124444>q then q,QJ[48]=8508899,.2 QJ[46]=QJ[48]else T,I=y(18877),17118300629220 k=C[r[1]]N=C[r[2]]Q=R D=N(T,I)R=k[D]q=h[R]k=q R,q=k,k and 13473854 or 8862154 end else if 12111382>q then q=3567851>=15070650 R={q}q=S[y(17953)]elseif q<12116625 then q=W q=O and 3546093 or 8518232 else q=nil R={q}q=S[y(18740)]end end end end else if 12234571>q then if 12186737>q then if q>12179838 then if q<12183808 then T,I=y(18996),17605694313610 j=C[r[1]]k=C[r[2]]N=C[r[3]]D=N(T,I)Q=k[D]q=16270456 h=j[Q]R=h else K=C[r[2]]t=q o=C[r[3]]a,J=y(19005),29264082827889 f=o(a,J)X=K[f]P=V[X]X=0 H=P~=X q,b=H and 6907189 or 9819625,H end else if 12162923>q then q=R and 14064251 or 13922127 elseif q<12171158 then q=QJ[63]QJ[73],QJ[63]=q,QJ[52]q=QJ[52]and 14340881 or 11332642 else q=P q,R=7218749,H end end else if q<12219574 then if 12196151>q then q=QJ[56]q=QJ[55]and 10143507 or 6541056 elseif q<12211233 then T=1 R=j-T q=k<R q=q and 8142322 or 9170742 else q=nJ nJ=0 R,c=U or nJ,q nJ,s,U=p,R,q q=p and 9391411 or 4309298 end else if 12222800>q then R,q={},S[y(18547)]else I=#T Y=0 q=I==Y q=q and 6731138 or 6509716 end end end else if q<12266476 then if q<12257299 then if 12244002>q then b=C[k]H=C[r[2]]P=C[r[3]]K,o=y(18147),17161533137384 X=P(K,o)t=H[X]q=13846094 l=b[t]b=0 v=l>b V=v elseif 12249124>q then q=P q=R and 3048714 or 9986648 else H,q,J,o=nil,1842100,nil,nil f=nil end else if q<12261311 then q,R=S[y(18682)],{}else rJ=C[T]wJ=1.25 dJ=s*wJ qJ=rJ>=dJ q,SJ=3087143,qJ end end else if q<12279781 then W=y(18423)O=S[W]q=13993731 V=C[r[2]]l,b=y(17837),33448939516155 z=C[r[3]]v=z(l,b)W=V[v]T=O[W]W=E(10514673,{Y,r[2];r[3];I})O=T(k,W)elseif q<12289427 then Y,O,k=y(18795),34747121581588,R R=C[r[1]]D=C[r[2]]T=C[r[3]]I=T(Y,O)N=D[I]q=R[N]R,N=Q,q q=Q and 15790217 or 15385354 elseif 12300656>q then O,W,j=19861752720289,14629237605547,n[2]D=C[r[1]]T=C[r[2]]Q,Y,h=q,y(18753),n[1]I=T(Y,O)N=D[I]k=h[N]T=C[r[1]]N=0 I=C[r[2]]O,R=y(19230),k or N k=q Y=I(O,W)D=T[Y]N=j[D]D=0 Q=N or D q=R>Q R={q}q=S[y(18725)]else q=QJ[21]QJ[21],QJ[22]=QJ[15],q q=QJ[15]and 9391489 or 5579313 end end end end end end end end end end end q=#d return G(R)end,function(S)h[S]=h[S]-1 if h[S]==0 then h[S],C[S]=nil,nil end end,function(S)local y,q=1,S[1]while q do h[q],y=h[q]-1,y+1 if 0==h[q]then h[q],C[q]=nil,nil end q=S[y]end end,function(S,y)local G=Q(y)local n=function(n)return q(S,{n},y,G)end return n end,function(S,y)local G=Q(y)local n=function(n,r,d,w,R)return q(S,{n;r,d;w,R},y,G)end return n end,function(S,y)local G=Q(y)local n=function(...)return q(S,{...},y,G)end return n end,{},function()j=j+1 h[j]=1 return j end,function(S,y)local G=Q(y)local n=function(n,r,d)return q(S,{n;r,d},y,G)end return n end,function(S,y)local G=Q(y)local n=function(n,r)return q(S,{n;r},y,G)end return n end,0,function(S,y)local G=Q(y)local n=function()return q(S,{},y,G)end return n end,function(S,y)local G=Q(y)local n=function(n,r,d,w,R,C,h,m)return q(S,{n,r,d,w;R,C,h,m},y,G)end return n end return(N(1419248,{}))(G(R))end)(setmetatable,{...},getmetatable,newproxy,unpack or table[y(17917)],select,getfenv and getfenv()or _ENV)end)(...)
+local HUB_URL = "https://raw.githubusercontent.com/shenkyhub/loader/refs/heads/main/hub.luau?t=" .. tostring(os.time())
+local Hub = (function()
+	local env = getfenv()
+
+	-- 1. Check local gui/hub.luau first (instant for local dev/testing)
+	if env.readfile then
+		local okLocal, localSrc = pcall(env.readfile, "gui/hub.luau")
+		if okLocal and type(localSrc) == "string" and #localSrc > 0 then
+			local fn = loadstring(localSrc)
+			if fn then
+				local runOk, hubObj = pcall(fn)
+				if runOk and type(hubObj) == "table" and type(hubObj.CreateWindow) == "function" then
+					return hubObj
+				end
+			end
+		end
+	end
+
+	-- 2. Try online loader via request/http_request/syn
+	local httpReq = env.request or env.http_request or (env.syn and env.syn.request)
+	if type(httpReq) == "function" then
+		local okReq, res = pcall(httpReq, { Url = HUB_URL, Method = "GET" })
+		if okReq and type(res) == "table" and (res.StatusCode == 200 or res.Status == 200) then
+			local b = res.Body or res.body
+			if type(b) == "string" and #b > 0 then
+				local fn = loadstring(b)
+				if fn then
+					local runOk, hubObj = pcall(fn)
+					if runOk and type(hubObj) == "table" and type(hubObj.CreateWindow) == "function" then
+						return hubObj
+					end
+				end
+			end
+		end
+	end
+
+	-- 3. Try online loader via game:HttpGet
+	local okGet, resGet = pcall(game.HttpGet, game, HUB_URL)
+	if okGet and type(resGet) == "string" and #resGet > 0 then
+		local fn = loadstring(resGet)
+		if fn then
+			local runOk, hubObj = pcall(fn)
+			if runOk and type(hubObj) == "table" and type(hubObj.CreateWindow) == "function" then
+				return hubObj
+			end
+		end
+	end
+
+	error("[Shenky Hub] Failed to fetch or initialize hub.luau from GitHub or local storage!")
+end)()
+
+rawset(_G, "RoFrontHub", Hub)
+
+-- ==============================================================================
+-- [1] SERVICES & NATIVE GAME MODULE ADAPTER
+-- ==============================================================================
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RunService = game:GetService("RunService")
+local LocalPlayer = Players.LocalPlayer
+
+local Adapter = {
+	Main = nil,
+	Session = nil,
+	World = nil,
+	UI = nil,
+	State = nil,
+	Rules = nil,
+	Defs = nil,
+	AirfrontNet = nil,
+	ToServer = nil,
+	LastResolve = 0,
+}
+
+function Adapter:Resolve()
+	local now = os.clock()
+	if now - self.LastResolve < 0.5 then
+		return self.Session ~= nil and self.State ~= nil
+	end
+	self.LastResolve = now
+
+	pcall(function()
+		local dynamicRequire = getfenv().require or require
+		local playerScripts = LocalPlayer:FindFirstChild("PlayerScripts")
+		if playerScripts then
+			local clientFolder = playerScripts:FindFirstChild("AirfrontClient")
+			if clientFolder and clientFolder:FindFirstChild("Main") then
+				self.Main = dynamicRequire(clientFolder.Main)
+				self.Session = self.Main and self.Main.session
+				self.World = self.Main and self.Main.world
+				self.UI = self.Main and self.Main.ui
+				self.State = self.Session and self.Session.state
+			end
+		end
+
+		local airfront = ReplicatedStorage:FindFirstChild("Airfront")
+		if airfront then
+			local core = airfront:FindFirstChild("Core")
+			if core then
+				if core:FindFirstChild("Rules") then
+					self.Rules = dynamicRequire(core.Rules)
+				end
+				if core:FindFirstChild("Defs") then
+					self.Defs = dynamicRequire(core.Defs)
+				end
+			end
+		end
+
+		local netFolder = ReplicatedStorage:FindFirstChild("AirfrontNet")
+		if netFolder then
+			self.AirfrontNet = netFolder
+			self.ToServer = netFolder:FindFirstChild("ToServer")
+		end
+	end)
+
+	return self.Session ~= nil and self.State ~= nil
+end
+
+function Adapter:GetMe()
+	if not self:Resolve() then return nil end
+	local state = self.State
+	if not state or not state.local_owner or state.local_owner == 0 then return nil end
+	return state.owners and state.owners[state.local_owner]
+end
+
+function Adapter:SendIntent(intentTable)
+	if not self:Resolve() then return false end
+	if not self.Session or type(self.Session.send_intent) ~= "function" then return false end
+	local success, err = pcall(function()
+		self.Session:send_intent(intentTable)
+	end)
+	return success
+end
+
+function Adapter:GetBorders()
+	if not self:Resolve() then return nil end
+	local ui = self.UI
+	local interact = ui and ui.interact
+	local ctx = interact and interact.ctx
+	return ctx and ctx.borders
+end
+
+function Adapter:GetContext()
+	if not self:Resolve() then return nil end
+	local ui = self.UI
+	local interact = ui and ui.interact
+	return interact and interact.ctx
+end
+
+function Adapter:ResolveAttack(targetTile, ratio)
+	if not self:Resolve() then return false end
+	local ctx = self:GetContext()
+	local rules = ctx and ctx.rules
+	if not rules then
+		return self:SendIntent({ type = "attack", tile = targetTile, ratio = ratio })
+	end
+
+	-- HELPER: Hard troop ceiling on amphibious naval transport boats.
+	-- A transport boat only needs enough troops to capture 1 single beachhead tile (10k-35k troops).
+	-- Once established, all subsequent expansion on that continent is done via land attacks with 0 warship risk!
+	-- Capping boat troops prevents catastrophic multi-million troop bleed into enemy warship ambushes.
+	local function getCappedRatio(rawRatio, isBoat)
+		if not isBoat then return rawRatio end
+		local me = self:GetMe()
+		local curTroops = (me and me.troops) or 0
+		if curTroops <= 0 then return math.min(rawRatio, 0.05) end
+		local desiredTroops = math.clamp(curTroops * 0.15, 5000, 35000)
+		local boatRatio = math.clamp(desiredTroops / math.max(1, curTroops), 0.0001, 0.25)
+		return math.min(rawRatio, boatRatio)
+	end
+
+	local prim = rules:primary(targetTile)
+	if prim and prim.ok then
+		if prim.type == "attack" or prim.type == "boat" or prim.type == "expand" then
+			local intent = rules:primary_intent(targetTile, prim)
+			if intent and next(intent) then
+				local isBoat = (intent.type == "boat") or (prim.type == "boat")
+				intent.ratio = getCappedRatio(ratio, isBoat)
+				return self:SendIntent(intent)
+			end
+		end
+	end
+
+	-- Fallback: check if we border target
+	local borders = self:GetBorders()
+	local state = self.State
+	local targetOwner = state and state:tile_owner(targetTile)
+	local hasSharedBorder = (borders and targetOwner and borders:borders_owner(targetOwner))
+	local landing = if not hasSharedBorder then rules:boat_landing(targetTile) else -1
+
+	local intentType = if not hasSharedBorder and landing >= 0 then "boat" else "attack"
+	local finalTile = if intentType == "boat" and landing >= 0 then landing else targetTile
+
+	return self:SendIntent({
+		type = intentType,
+		tile = finalTile,
+		ratio = getCappedRatio(ratio, intentType == "boat"),
+	})
+end
+
+local findCitySite, findPortSite, findFactorySite, findDefensePostSite, findSiloSite
+
+function Adapter:BuildStructure(kind, specificTile)
+	if not self:Resolve() then return false end
+	local ctx = self:GetContext()
+	local rules = ctx and ctx.rules
+	if not rules then return false end
+
+	local avail = rules:availability(kind)
+	if not avail or not avail.ok then return false end
+
+	local targetTile = specificTile
+	if not targetTile or targetTile <= 0 then
+		if kind == "city" and findCitySite then
+			targetTile = findCitySite()
+		elseif kind == "port" and findPortSite then
+			targetTile = findPortSite()
+		elseif kind == "factory" and findFactorySite then
+			targetTile = findFactorySite()
+		elseif kind == "defense" and findDefensePostSite then
+			targetTile = findDefensePostSite()
+		elseif kind == "silo" and findSiloSite then
+			targetTile = findSiloSite()
+		elseif kind == "sam" and findUnprotectedEconomicCluster then
+			targetTile = findUnprotectedEconomicCluster()
+		end
+	end
+
+	if not targetTile or targetTile <= 0 then return false end
+
+	local place = rules:placement(kind, targetTile)
+	if place and (place.ok or place.reason == "gold") then
+		local finalTile = place.tile or targetTile
+		return self:SendIntent({ type = "build", kind = kind, tile = finalTile })
+	end
+
+	return false
+end
+
+function Adapter:BuildWarship()
+	if not self:Resolve() then return false end
+	local ctx = self:GetContext()
+	local rules = ctx and ctx.rules
+	local state = self.State
+	local meId = state and state.local_owner
+	local map = state and state.map
+	if not rules or not state or not meId or not map then return false end
+
+	local avail = rules:availability("warship")
+	if not avail or not avail.ok then return false end
+
+	-- Find our ports
+	local myPorts = {}
+	for _, s in pairs(state.structures or {}) do
+		if s.owner == meId and (s.kind == 1 or (Adapter.Defs and s.kind == Adapter.Defs.S_PORT)) then
+			table.insert(myPorts, s.tile)
+		end
+	end
+	if #myPorts == 0 then return false end
+
+	local W = map.W or 2000
+	for _, pTile in ipairs(myPorts) do
+		local px = pTile % W
+		local py = math.floor(pTile / W)
+		for dy = -10, 10, 3 do
+			for dx = -10, 10, 3 do
+				local nx = px + dx
+				local ny = py + dy
+				local t = ny * W + nx
+				if not map:is_land(t) then
+					local place = rules:placement("warship", t)
+					if place and place.ok then
+						return self:SendIntent({ type = "build", kind = "warship", tile = place.tile })
+					end
+				end
+			end
+		end
+	end
+	return false
+end
+
+function Adapter:LaunchNuke(kind, targetTile)
+	if not self:Resolve() then return false end
+	if not self.Session or type(self.Session.send_intent) ~= "function" then return false end
+	local ctx = self:GetContext()
+	local rules = ctx and ctx.rules
+	if not rules then return false end
+
+	local avail = rules:availability(kind)
+	if not avail or not avail.ok then return false end
+
+	local success, err = pcall(function()
+		self.Session:send_intent({
+			type = "nuke",
+			kind = kind,
+			tile = targetTile,
+		})
+	end)
+	return success
+end
+
+-- ==============================================================================
+-- [2] RUNTIME AUTOMATION STATE
+-- ==============================================================================
+Hub.State.SmartAutoPlay = false
+Hub.State.StrategyMode = "Neutral First"
+Hub.State.AutoReinforce = false
+Hub.State.AutoExpandNeutral = false
+Hub.State.AutoInvadeEnemies = false
+Hub.State.AutoCapitalSnipe = false
+Hub.State.AutoNuke = false
+Hub.State.AutoBuildSilos = false
+Hub.State.AutoDefensePosts = false
+Hub.State.AutoSAMShield = false
+Hub.State.AutoBuildCities = false
+Hub.State.AutoBuildPorts = false
+Hub.State.AutoBuildFactories = false
+Hub.State.AutoJoinMatch = false
+Hub.State.AutoPlayAgain = false
+Hub.State.AutoSpawnCapital = false
+Hub.State.AutoTakeover = false
+Hub.State.AutoOpenCrates = false
+
+-- Sliders & Config Values
+Hub.State.AttackRatio = 0.20        -- 20% decisive combat pulse ratio
+Hub.State.AttackDelay = 1.20        -- 1.20s pacing between outbound waves (prevents instant troop bleed)
+Hub.State.MinReserveRatio = 0.25    -- 25% homeland reserve floor (dynamic: bypassed when troops >= 200k or > neighbors)
+Hub.State.MaxActiveWaves = 4        -- Up to 4 concurrent waves worldwide (max 2 overseas)
+Hub.State.MinGoldReserve = 500000   -- 500k liquid cushion
+Hub.State.MaxDefensePosts = 1       -- Hard cap of 1 defense post max across borders (prevents gold waste)
+Hub.State.MaxSAMBatteries = 6        -- Distributed SAM batteries across empire clusters
+Hub.State.MaxSAMLevel = 2            -- Hard cap per battery (stops level 90 gold sink)
+Hub.State.BuildDelay = 1.5          -- 1.5s pacing interval between infrastructure builds
+Hub.State.MinGoldCity = 125000      -- Starts at 125k
+Hub.State.MinGoldDefense = 50000    -- Starts at 50k
+Hub.State.MinGoldSAM = 1500000      -- Starts at 1.5M
+Hub.State.TargetEnemyCapital = "Auto Weakest"
+
+-- Telemetry Tracker
+local RuntimeStats = {
+	Status = "Idle",
+	Nation = "-",
+	Phase = "Lobby",
+	Tiles = 0,
+	Troops = 0,
+	Cap = 0,
+	Gold = 0,
+	Income = 0,
+	AttacksSent = 0,
+	CitiesBuilt = 0,
+	DefenseBuilt = 0,
+	SAMBuilt = 0,
+	NukesLaunched = 0,
+	ReinforceTime = "Ready",
+	LastAction = "None",
+}
+Hub.RuntimeStats = RuntimeStats
+
+-- ==============================================================================
+-- [3] TARGETING & LOGIC RESOLVER HELPERS
+-- ==============================================================================
+local function getAdjacentTiles(tile, width, height)
+	local x = tile % width
+	local y = math.floor(tile / width)
+	local neighbors = {}
+	if x > 0 then table.insert(neighbors, tile - 1) end
+	if x < width - 1 then table.insert(neighbors, tile + 1) end
+	if y > 0 then table.insert(neighbors, tile - width) end
+	if y < height - 1 then table.insert(neighbors, tile + width) end
+	return neighbors
+end
+
+findPortSite = function()
+	if not Adapter:Resolve() then return nil end
+	local state = Adapter.State
+	local meId = state and state.local_owner
+	local map = state and state.map
+	local defs = Adapter.Defs
+	local ctx = Adapter:GetContext()
+	local rules = ctx and ctx.rules
+	local borders = Adapter:GetBorders()
+	if not state or not meId or meId == 0 or not map or not defs or not rules or not borders then return nil end
+
+	local existingPorts = {}
+	if state.structures then
+		for _, s in pairs(state.structures) do
+			if s.owner == meId and not s.dead and (s.kind == 1 or (defs and s.kind == defs.S_PORT)) then
+				table.insert(existingPorts, s.tile)
+			end
+		end
+	end
+
+	local count = 0
+	for bTile in pairs(borders.border or {}) do
+		count = count + 1
+		local bNum = tonumber(bTile)
+		if bNum and map:is_land(bNum) and map:is_coastal(bNum) and state:tile_owner(bNum) == meId then
+			local tooClose = false
+			for _, pTile in ipairs(existingPorts) do
+				if defs.tile_distance(bNum, pTile) < 18 then
+					tooClose = true
+					break
+				end
+			end
+			if not tooClose then
+				local place = rules:placement("port", bNum)
+				if place and (place.ok or place.reason == "gold") and not (place.upgrade_sid and place.upgrade_sid > 0) then
+					return place.tile or bNum
+				end
+			end
+		end
+		if count >= 350 then break end
+	end
+	return nil
+end
+
+findFactorySite = function()
+	if not Adapter:Resolve() then return nil end
+	local state = Adapter.State
+	local meId = state and state.local_owner
+	local me = Adapter:GetMe()
+	local map = state and state.map
+	local defs = Adapter.Defs
+	local ctx = Adapter:GetContext()
+	local rules = ctx and ctx.rules
+	local borders = Adapter:GetBorders()
+	if not state or not meId or meId == 0 or not map or not defs or not rules or not borders then return nil end
+
+	local existingFactories = {}
+	local existingCities = {}
+	if state.structures then
+		for _, s in pairs(state.structures) do
+			if s.owner == meId and not s.dead then
+				if s.kind == 2 or (defs and s.kind == defs.S_FACTORY) then
+					table.insert(existingFactories, s.tile)
+				elseif s.kind == 0 or (defs and s.kind == defs.S_CITY) then
+					table.insert(existingCities, s.tile)
+				end
+			end
+		end
+	end
+
+	local anchor = existingCities[1] or (me and me.spawn_tile)
+	local candidates = {}
+	local count = 0
+
+	for bTile in pairs(borders.border or {}) do
+		count = count + 1
+		local bNum = tonumber(bTile)
+		if bNum and map:is_land(bNum) and state:tile_owner(bNum) == meId then
+			local tooClose = false
+			for _, fTile in ipairs(existingFactories) do
+				if defs.tile_distance(bNum, fTile) < 18 then
+					tooClose = true
+					break
+				end
+			end
+			if not tooClose then
+				local place = rules:placement("factory", bNum)
+				if place and (place.ok or place.reason == "gold") and not (place.upgrade_sid and place.upgrade_sid > 0) then
+					local t = place.tile or bNum
+					local distToAnchor = if anchor and anchor > 0 then defs.tile_distance(t, anchor) else 50
+					table.insert(candidates, { tile = t, dist = distToAnchor })
+					if #candidates >= 5 then break end
+				end
+			end
+		end
+		if count >= 350 then break end
+	end
+
+	if #candidates > 0 then
+		table.sort(candidates, function(a, b) return (a.dist or 0) < (b.dist or 0) end)
+		return candidates[1].tile
+	end
+	return nil
+end
+
+findCitySite = function()
+	if not Adapter:Resolve() then return nil, false end
+	local state = Adapter.State
+	local meId = state and state.local_owner
+	local me = Adapter:GetMe()
+	local map = state and state.map
+	local defs = Adapter.Defs
+	local ctx = Adapter:GetContext()
+	local rules = ctx and ctx.rules
+	local borders = Adapter:GetBorders()
+	if not state or not meId or meId == 0 or not map or not defs or not rules or not borders then return nil, false end
+
+	local existingCities = {}
+	if state.structures then
+		for _, s in pairs(state.structures) do
+			if s.owner == meId and not s.dead and (s.kind == 0 or (defs and s.kind == defs.S_CITY)) then
+				table.insert(existingCities, s)
+			end
+		end
+	end
+
+	-- 1. Try to plant a NEW city in the SAFE INTERIOR of our homeland (around spawn_tile / core)
+	local W = map.W or 2000
+	local H = map.H or 1000
+	local anchor = (me and me.spawn_tile) or (existingCities[1] and existingCities[1].tile)
+	if anchor and anchor > 0 then
+		local cx = anchor % W
+		local cy = math.floor(anchor / W)
+		for r = 16, 120, 12 do
+			for dy = -r, r, 6 do
+				for dx = -r, r, 6 do
+					local d2 = dx * dx + dy * dy
+					if d2 >= (r - 6) * (r - 6) and d2 <= r * r then
+						local nx = (cx + dx) % W
+						local ny = cy + dy
+						if ny >= 0 and ny < H then
+							local t = ny * W + nx
+							if state:tile_owner(t) == meId and map:is_land(t) then
+								local tooClose = false
+								for _, c in ipairs(existingCities) do
+									if defs.tile_distance(t, c.tile) < 18 then
+										tooClose = true
+										break
+									end
+								end
+								if not tooClose then
+									local place = rules:placement("city", t)
+									if place and (place.ok or place.reason == "gold") and not (place.upgrade_sid and place.upgrade_sid > 0) then
+										return place.tile or t, false
+									end
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+
+	-- Fallback: Scan borders for new city site
+	local count = 0
+	for bTile in pairs(borders.border or {}) do
+		count = count + 1
+		local bNum = tonumber(bTile)
+		if bNum and map:is_land(bNum) and state:tile_owner(bNum) == meId then
+			local tooClose = false
+			for _, c in ipairs(existingCities) do
+				if defs.tile_distance(bNum, c.tile) < 18 then
+					tooClose = true
+					break
+				end
+			end
+			if not tooClose then
+				local place = rules:placement("city", bNum)
+				if place and (place.ok or place.reason == "gold") and not (place.upgrade_sid and place.upgrade_sid > 0) then
+					return place.tile or bNum, false
+				end
+			end
+		end
+		if count >= 60 then break end
+	end
+
+	-- 2. Upgrade fallback: If all territory is packed, upgrade existing level 1 city to level 2
+	for _, c in ipairs(existingCities) do
+		local lvl = c.level or 1
+		if lvl < 2 then
+			local place = rules:placement("city", c.tile)
+			if place and (place.ok or place.reason == "gold") and (place.upgrade_sid and place.upgrade_sid > 0) then
+				return place.tile or c.tile, true
+			end
+		end
+	end
+
+	return nil, false
+end
+
+findDefensePostSite = function()
+	if not Adapter:Resolve() then return nil end
+	local state = Adapter.State
+	local meId = state and state.local_owner
+	local me = Adapter:GetMe()
+	local map = state and state.map
+	local defs = Adapter.Defs
+	local ctx = Adapter:GetContext()
+	local rules = ctx and ctx.rules
+	local borders = Adapter:GetBorders()
+	if not state or not meId or meId == 0 or not me or not map or not defs or not rules or not borders then return nil end
+
+	-- Guard 1: Must already have at least 1 City and treasury >= 100k gold!
+	-- Matches SimAIEconomy: never starve City / Port / Factory economic development for early defense!
+	local curGold = me.gold or 0
+	if curGold < 100000 then return nil end
+
+	local myCityCount = 0
+	local existingDefenses = {}
+	if state.structures then
+		for _, s in pairs(state.structures) do
+			if s.owner == meId and not s.dead then
+				if s.kind == 0 or (defs and s.kind == defs.S_CITY) then
+					myCityCount = myCityCount + 1
+				elseif s.kind == 3 or (defs and s.kind == defs.S_DEFENSE) then
+					table.insert(existingDefenses, s.tile)
+				end
+			end
+		end
+	end
+	if myCityCount == 0 then return nil end
+
+	-- Guard 2: Strict Defense Post Cap to preserve gold for Cities & Silos
+	-- 1 Defense Post provides 5x defense multiplier on our main border.
+	-- Never waste gold on a 2nd defense post until we have at least 3 Cities and 35k tiles!
+	local myTiles = (me and me.tiles) or 0
+	local maxDefense = if myTiles >= 70000 and myCityCount >= 5 then 4
+		elseif myTiles >= 35000 and myCityCount >= 3 then 2
+		else 1
+	maxDefense = math.max(maxDefense, Hub.State.MaxDefensePosts or 1)
+	if #existingDefenses >= maxDefense then return nil end
+
+	-- Guard 3: Strict Frontline Threat Verification (ONLY build on borders facing REAL threats!)
+	-- A neighbor is a threat IF they outnumber us (>= 0.75x our army or >= 60k troops), or are actively attacking us!
+	local curTroops = me.troops or 0
+	local uncoveredFrontlineCenter = nil
+
+	if borders.neighbour_ids and state.owners then
+		for _, nId in ipairs(borders:neighbour_ids()) do
+			local o = state.owners[nId]
+			if o and o.alive and not state:are_allies(meId, nId) then
+				local oTroops = o.troops or 0
+				local isThreat = (oTroops >= curTroops * 0.75) or (oTroops >= 60000)
+
+				-- Check if this neighbor is actively attacking our territory
+				if not isThreat and state.attacks then
+					for _, atk in pairs(state.attacks) do
+						if type(atk) == "table" and not atk.dead and not atk.retreating then
+							if (atk.attacker or atk.owner) == nId and atk.target == meId then
+								isThreat = true
+								break
+							end
+						end
+					end
+				end
+
+				if isThreat then
+					local frontlineTiles = {}
+					local checked = {}
+					local count = 0
+					for bTile in pairs(borders.border or {}) do
+						count = count + 1
+						local bNum = tonumber(bTile)
+						if bNum and borders._neighbours4 then
+							borders:_neighbours4(bNum)
+							for i = 1, borders._nn or #borders._nb do
+								local nTile = borders._nb[i]
+								if not checked[nTile] and map:is_contestable(nTile) then
+									checked[nTile] = true
+									if state:tile_owner(nTile) == nId then
+										table.insert(frontlineTiles, bNum)
+										break
+									end
+								end
+							end
+						end
+						if #frontlineTiles >= 25 or count >= 350 then break end
+					end
+
+					if #frontlineTiles > 0 then
+						-- Check if center of this specific frontline sector is already defended within 24 tiles (DEFENSE_RADIUS)
+						local centerF = frontlineTiles[math.ceil(#frontlineTiles / 2)]
+						local isCovered = false
+						for _, dTile in ipairs(existingDefenses) do
+							if defs.tile_distance(dTile, centerF) <= 24 then
+								isCovered = true
+								break
+							end
+						end
+						if not isCovered then
+							uncoveredFrontlineCenter = centerF
+							break
+						end
+					end
+				end
+			end
+		end
+	end
+
+	if not uncoveredFrontlineCenter then return nil end
+
+	-- Place Defense Post strictly at the border chokepoint facing that threat
+	local place = rules:placement("defense", uncoveredFrontlineCenter)
+	if place and (place.ok or place.reason == "gold") and not (place.upgrade_sid and place.upgrade_sid > 0) then
+		local d = defs.tile_distance(place.tile, uncoveredFrontlineCenter)
+		-- Strict border validation: Must be within 8 tiles of the actual contact frontline!
+		-- Never allows placement deep in the interior/middle!
+		if d <= 8 then
+			return place.tile
+		end
+	end
+
+	return nil
+end
+
+findSiloSite = function()
+	if not Adapter:Resolve() then return nil end
+	local state = Adapter.State
+	local meId = state and state.local_owner
+	local me = Adapter:GetMe()
+	local map = state and state.map
+	local defs = Adapter.Defs
+	local ctx = Adapter:GetContext()
+	local rules = ctx and ctx.rules
+	local borders = Adapter:GetBorders()
+	if not state or not meId or meId == 0 or not map or not defs or not rules or not borders then return nil end
+
+	if state.structures then
+		for _, s in pairs(state.structures) do
+			if s.owner == meId and not s.dead and (s.kind == 5 or (defs and s.kind == defs.S_SILO)) then
+				return nil
+			end
+		end
+	end
+
+	-- [VITAL REFINEMENT] SAFE HOMELAND INTERIOR PLACEMENT:
+	-- Never build the Missile Silo on the contested frontline perimeter!
+	-- Place near capital spawn tile in the deep interior of our nation!
+	local sp = me and me.spawn_tile
+	if sp and sp > 0 and state:tile_owner(sp) == meId then
+		local place = rules:placement("silo", sp)
+		if place and (place.ok or place.reason == "gold") and not (place.upgrade_sid and place.upgrade_sid > 0) then
+			return place.tile or sp
+		end
+
+		-- Safe interior ring search around Capital (r = 2 to 25 tiles)
+		local W = map.W or 2000
+		local H = map.H or 1000
+		local cx = sp % W
+		local cy = math.floor(sp / W)
+		for r = 2, 25 do
+			for dy = -r, r, 2 do
+				for dx = -r, r, 2 do
+					local nx = cx + dx
+					local ny = cy + dy
+					if nx >= 0 and nx < W and ny >= 0 and ny < H then
+						local t = ny * W + nx
+						if state:tile_owner(t) == meId and map:is_contestable(t) then
+							local p = rules:placement("silo", t)
+							if p and (p.ok or p.reason == "gold") and not (p.upgrade_sid and p.upgrade_sid > 0) then
+								return p.tile or t
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+
+	return nil
+end
+
+local function findUnprotectedEconomicCluster()
+	if not Adapter:Resolve() then return nil end
+	local state = Adapter.State
+	local meId = state and state.local_owner
+	local me = Adapter:GetMe()
+	local defs = Adapter.Defs
+	local map = state and state.map
+	local ctx = Adapter:GetContext()
+	local rules = ctx and ctx.rules
+	if not state or not meId or meId == 0 or not defs or not map or not rules then return nil end
+
+	local W = map.W or 2000
+	local H = map.H or 1000
+
+	-- Collect our SAMs and economic hubs
+	local mySams = {}
+	local myEcon = {}
+
+	for sid, sData in pairs(state.structures or {}) do
+		if sData.owner == meId then
+			local k = sData.kind
+			if k == defs.S_SAM or k == 4 then
+				table.insert(mySams, sData.tile)
+			elseif k == defs.S_CITY or k == defs.S_PORT or k == defs.S_FACTORY or k == 0 or k == 1 or k == 2 then
+				table.insert(myEcon, { sid = sid, kind = k, tile = sData.tile, level = sData.level or 1 })
+			end
+		end
+	end
+
+	-- Rank economic hubs by density & wealth (Cluster Score)
+	-- Primary Mega-City / Wealth Center gets #1 priority SAM dome!
+	for _, hub in ipairs(myEcon) do
+		local score = hub.level or 1
+		for _, other in ipairs(myEcon) do
+			if other.sid ~= hub.sid then
+				local d = defs.tile_distance(hub.tile, other.tile)
+				if d <= 35 then
+					score = score + (other.level or 1)
+				end
+			end
+		end
+		hub.score = score
+	end
+
+	table.sort(myEcon, function(a, b) return (a.score or 0) > (b.score or 0) end)
+
+	-- 1. Find the highest-scoring unprotected economic hub
+	-- If no SAM exists yet (#mySams == 0), SAM #1 MUST protect our Capital Spawn Tile!
+	local sp = me and me.spawn_tile
+	local targetHub = nil
+	if #mySams == 0 and sp and sp > 0 and state:tile_owner(sp) == meId then
+		targetHub = sp
+	end
+
+	if not targetHub then
+		for _, hub in ipairs(myEcon) do
+			local protected = false
+			for _, samTile in ipairs(mySams) do
+				if defs.tile_distance(hub.tile, samTile) <= 60 then
+					protected = true
+					break
+				end
+			end
+			if not protected then
+				targetHub = hub.tile
+				break
+			end
+		end
+	end
+
+	-- Search tight ring around targetHub for open, owned SAM placement site
+	if targetHub then
+		local cx = targetHub % W
+		local cy = math.floor(targetHub / W)
+		for r = 2, 12 do
+			for dy = -r, r do
+				for dx = -r, r do
+					if math.abs(dx) == r or math.abs(dy) == r then
+						local nx = cx + dx
+						local ny = cy + dy
+						if nx >= 0 and nx < W and ny >= 0 and ny < H then
+							local t = ny * W + nx
+							if state:tile_owner(t) == meId and map:is_contestable(t) then
+								local p = rules:placement("sam", t)
+								if p and (p.ok or p.reason == "gold") and not (p.upgrade_sid and p.upgrade_sid > 0) then
+									return p.tile or t
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+
+	-- 2. Interceptor Corridors (Flight Path Shield):
+	-- Fast 2-step threat vector: find closest hostile capital, then sample 50 border tiles toward it!
+	local borders = Adapter:GetBorders()
+	local me = Adapter:GetMe()
+	if borders and borders.border and #mySams < (Hub.State.MaxSAMBatteries or 6) then
+		local closestThreatCap = nil
+		local minCapDist = math.huge
+		local mySpawn = (me and me.spawn_tile) or 0
+
+		for id, oData in pairs(state.owners or {}) do
+			if id ~= meId and oData.alive and not state:are_allies(meId, id) then
+				local cap = oData.spawn_tile
+				if cap and cap > 0 then
+					local d = if mySpawn > 0 then defs.tile_distance(mySpawn, cap) else 99999
+					if d < minCapDist then
+						minCapDist = d
+						closestThreatCap = cap
+					end
+				end
+			end
+		end
+
+		local closestThreatTile = nil
+		if closestThreatCap then
+			local minBDist = math.huge
+			local count = 0
+			for bTile in pairs(borders.border) do
+				count = count + 1
+				if count % 6 == 0 then -- Stride 6 fast sampling: reduces 10,000 checks down to 1,600
+					local d = defs.tile_distance(bTile, closestThreatCap)
+					if d < minBDist then
+						minBDist = d
+						closestThreatTile = bTile
+					end
+				end
+			end
+		end
+
+		if closestThreatTile then
+			local cx = closestThreatTile % W
+			local cy = math.floor(closestThreatTile / W)
+			for r = 2, 8 do
+				for dy = -r, r do
+					for dx = -r, r do
+						local nx = cx + dx
+						local ny = cy + dy
+						if nx >= 0 and nx < W and ny >= 0 and ny < H then
+							local t = ny * W + nx
+							if state:tile_owner(t) == meId and map:is_contestable(t) then
+								local p = rules:placement("sam", t)
+								if p and (p.ok or p.reason == "gold") and not (p.upgrade_sid and p.upgrade_sid > 0) then
+									return p.tile or t
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+
+	return nil
+end
+
+local function findNeutralBorderTile()
+	if not Adapter:Resolve() then return nil end
+	local state = Adapter.State
+	local borders = Adapter:GetBorders()
+	if not borders or not borders.border then return nil end
+
+	-- O(1) PRE-FLIGHT GUARD: If our borders do not touch any neutral territory, exit instantly!
+	-- Eliminates thousands of redundant tile iterations on every single frame.
+	if borders.borders_owner and not borders:borders_owner(0) then
+		return nil
+	end
+
+	local map = state.map
+	if not map then return nil end
+
+	local falloutCandidates = {}
+	local normalCandidates = {}
+
+	-- Scan direct land border tiles using native _neighbours4
+	for bTile in pairs(borders.border) do
+		local bNum = tonumber(bTile)
+		if bNum and borders._neighbours4 then
+			borders:_neighbours4(bNum)
+			for i = 1, borders._nn or #borders._nb do
+				local nTile = borders._nb[i]
+				if map:is_contestable(nTile) then
+					if state:tile_owner(nTile) == 0 then
+						if state:has_fallout(nTile) then
+							table.insert(falloutCandidates, nTile)
+						else
+							table.insert(normalCandidates, nTile)
+						end
+					end
+				end
+			end
+		end
+		if #falloutCandidates >= 50 or #normalCandidates >= 150 then break end
+	end
+
+	local me = Adapter:GetMe()
+	local mySpawn = (me and me.spawn_tile) or 0
+	local defs = Adapter.Defs
+
+	-- Reclaim fallout zones FIRST to heal border fractures (closest to homeland core first)!
+	if #falloutCandidates > 0 then
+		if mySpawn > 0 and defs and #falloutCandidates > 1 then
+			table.sort(falloutCandidates, function(a, b)
+				local da = if (a and a > 0) then defs.tile_distance(a, mySpawn) else 99999
+				local db = if (b and b > 0) then defs.tile_distance(b, mySpawn) else 99999
+				return (da or 99999) < (db or 99999)
+			end)
+		end
+		return falloutCandidates[1]
+	end
+
+	-- Sweep adjacent neutral land (closest to homeland core first)!
+	if #normalCandidates > 0 then
+		if mySpawn > 0 and defs and #normalCandidates > 1 then
+			table.sort(normalCandidates, function(a, b)
+				local da = if (a and a > 0) then defs.tile_distance(a, mySpawn) else 99999
+				local db = if (b and b > 0) then defs.tile_distance(b, mySpawn) else 99999
+				return (da or 99999) < (db or 99999)
+			end)
+		end
+		return normalCandidates[1]
+	end
+
+	return nil
+end
+
+local function getLiveUnitTile(u)
+	if not u or u.dead then return -1 end
+	local path = u.path
+	local pathLen = path and #path or 0
+	if pathLen > 0 then
+		local state = Adapter.State
+		local curTick = (state and state.tick) or 0
+		local startTick = u.start_tick or 0
+		local tpt = u.tpt or 1
+		if tpt < 1 then tpt = 1 end
+		local idx = math.floor((curTick - startTick) * 100 / tpt)
+		if idx < 0 then
+			idx = 0
+		elseif idx >= pathLen then
+			idx = pathLen - 1
+		end
+		return path[idx + 1] or -1
+	end
+	return u.patrol_tile or u.prev_tile or u.target_tile or -1
+end
+
+local cachedWarshipTiles = nil
+local cachedWarshipTime = 0
+
+local function getHostileWarshipTiles()
+	local now = os.clock()
+	if cachedWarshipTiles and (now - cachedWarshipTime < 1.0) then
+		return cachedWarshipTiles
+	end
+	cachedWarshipTiles = {}
+	cachedWarshipTime = now
+
+	if not Adapter:Resolve() then return cachedWarshipTiles end
+	local state = Adapter.State
+	local meId = state and state.local_owner
+	local defs = Adapter.Defs
+	if not state or not state.units or not meId or not defs then return cachedWarshipTiles end
+
+	local warshipKind = (defs and defs.U_WARSHIP) or 2
+	for _, u in pairs(state.units) do
+		if type(u) == 'table' and not u.dead and u.kind == warshipKind and u.owner ~= meId and not state:are_allies(meId, u.owner) then
+			local wTile = getLiveUnitTile(u)
+			if wTile and wTile > 0 then
+				table.insert(cachedWarshipTiles, wTile)
+			end
+		end
+	end
+	return cachedWarshipTiles
+end
+
+local function hasHostileWarshipNear(targetTile, radius)
+	local defs = Adapter.Defs
+	if not defs then return false end
+	local rad = radius or 135
+	local hostileWarships = getHostileWarshipTiles()
+	for _, wTile in ipairs(hostileWarships) do
+		if defs.tile_distance(wTile, targetTile) <= rad then
+			return true
+		end
+	end
+	return false
+end
+
+local function isCorridorSafeFromWarships(departureTile, landingTile, clearanceRadius, precomputedWarships)
+	if not Adapter:Resolve() then return true end
+	local state = Adapter.State
+	local defs = Adapter.Defs
+	local map = state and state.map
+	if not defs or not map then return true end
+
+	local clearance = clearanceRadius or 135
+	local hostileWarships = precomputedWarships or getHostileWarshipTiles()
+	if #hostileWarships == 0 then return true end
+
+	-- 1. Check destination landing tile
+	for _, wTile in ipairs(hostileWarships) do
+		if defs.tile_distance(wTile, landingTile) <= clearance then
+			return false
+		end
+	end
+
+	-- 2. Check departure coast and line-of-transit corridor
+	if departureTile and departureTile > 0 then
+		for _, wTile in ipairs(hostileWarships) do
+			if defs.tile_distance(wTile, departureTile) <= clearance then
+				return false
+			end
+		end
+
+		local x0, y0 = map:tile_x(departureTile), map:tile_y(departureTile)
+		local x1, y1 = map:tile_x(landingTile), map:tile_y(landingTile)
+		for _, frac in ipairs({ 0.20, 0.40, 0.60, 0.80 }) do
+			local px = math.floor(x0 + (x1 - x0) * frac)
+			local py = math.floor(y0 + (y1 - y0) * frac)
+			local pTile = map:point_tile(px, py)
+			if pTile and pTile > 0 then
+				for _, wTile in ipairs(hostileWarships) do
+					if defs.tile_distance(wTile, pTile) <= clearance then
+						return false
+					end
+				end
+			end
+		end
+	end
+
+	return true
+end
+
+local function findEnemyLandBorderTile(targetMode, filterOwner)
+	if not Adapter:Resolve() then return nil, nil, nil, 0, false, 99999, false end
+	local state = Adapter.State
+	local meId = state.local_owner
+	local borders = Adapter:GetBorders()
+	if not borders or not borders.border or not meId or meId == 0 then return nil, nil, nil, 0, false, 99999, false end
+
+	local me = Adapter:GetMe()
+	local myTroops = (me and me.troops) or 0
+	local mySpawn = (me and me.spawn_tile) or 0
+	local map = state.map
+	local defs = Adapter.Defs
+	if not map or not defs then return nil, nil, nil, 0, false, 99999, false end
+	local W = borders.W or map.W or 2000
+	local H = borders.H or map.H or 1000
+
+	local candidates = {}
+	local checkedTiles = {}
+
+	for bTile in pairs(borders.border) do
+		local bNum = tonumber(bTile)
+		if bNum and borders._neighbours4 then
+			borders:_neighbours4(bNum)
+			for i = 1, borders._nn or #borders._nb do
+				local nTile = borders._nb[i]
+				if not checkedTiles[nTile] and map:is_contestable(nTile) then
+					checkedTiles[nTile] = true
+					local owner = state:tile_owner(nTile)
+					if owner ~= 0 and owner ~= meId and not state:are_allies(meId, owner) then
+						if not filterOwner or owner == filterOwner then
+							local oData = state.owners and state.owners[owner]
+							local enemyTroops = (oData and oData.troops) or 0
+							local kind = (oData and oData.kind) or 0
+							local dist = if mySpawn > 0 then defs.tile_distance(nTile, mySpawn) else 0
+
+							local isBeatable = false
+							if kind == 1 and myTroops >= 3000 then
+								isBeatable = true
+							elseif enemyTroops <= 6000 and myTroops >= 7500 then
+								isBeatable = true
+							elseif myTroops >= 2000000 then
+								isBeatable = (myTroops >= enemyTroops * 0.95)
+							elseif myTroops >= 200000 then
+								isBeatable = (myTroops >= enemyTroops * 1.25)
+							else
+								isBeatable = (myTroops >= enemyTroops * 1.60)
+							end
+
+							local isCapitulate = (kind ~= 1 and myTroops >= enemyTroops * 8.0)
+							local isEasy = (kind == 1)
+								or isCapitulate
+								or (enemyTroops <= myTroops * 0.25)
+								or (enemyTroops <= 3000)
+
+							table.insert(candidates, {
+								tile = nTile,
+								owner = owner,
+								troops = enemyTroops,
+								tiles = (oData and oData.tiles) or 0,
+								kind = kind,
+								name = state:owner_name(owner),
+								dist = dist,
+								isBeatable = isBeatable,
+								isCapitulate = isCapitulate,
+								isEasy = isEasy,
+							})
+						end
+					end
+				end
+			end
+		elseif bNum then
+			local neighbors = getAdjacentTiles(bNum, W, H)
+			for _, nTile in ipairs(neighbors) do
+				if not checkedTiles[nTile] and map:is_contestable(nTile) then
+					checkedTiles[nTile] = true
+					local owner = state:tile_owner(nTile)
+					if owner ~= 0 and owner ~= meId and not state:are_allies(meId, owner) then
+						if not filterOwner or owner == filterOwner then
+							local oData = state.owners and state.owners[owner]
+							local enemyTroops = (oData and oData.troops) or 0
+							local kind = (oData and oData.kind) or 0
+							local dist = if mySpawn > 0 then defs.tile_distance(nTile, mySpawn) else 0
+
+							local isBeatable = false
+							if kind == 1 and myTroops >= 3000 then
+								isBeatable = true
+							elseif enemyTroops <= 6000 and myTroops >= 7500 then
+								isBeatable = true
+							elseif myTroops >= 2000000 then
+								isBeatable = (myTroops >= enemyTroops * 0.95)
+							elseif myTroops >= 200000 then
+								isBeatable = (myTroops >= enemyTroops * 1.25)
+							else
+								isBeatable = (myTroops >= enemyTroops * 1.60)
+							end
+
+							-- Capitulation threshold (SimAI: outnumbering a bot >= 8:1 triggers immediate full surrender!)
+							local isCapitulate = (kind ~= 1 and myTroops >= enemyTroops * 8.0)
+
+							local isEasy = (kind == 1)
+								or isCapitulate
+								or (enemyTroops <= myTroops * 0.25)
+								or (enemyTroops <= 3000)
+
+							table.insert(candidates, {
+								tile = nTile,
+								owner = owner,
+								troops = enemyTroops,
+								tiles = (oData and oData.tiles) or 0,
+								kind = kind,
+								name = state:owner_name(owner),
+								dist = dist,
+								isBeatable = isBeatable,
+								isCapitulate = isCapitulate,
+								isEasy = isEasy,
+							})
+						end
+					end
+				end
+			end
+		end
+		if #candidates >= 500 then break end
+	end
+
+	if #candidates == 0 then return nil, nil, nil, 0, false, 99999, false end
+
+	-- HIERARCHICAL TARGET SELECTION (Defeat in Detail Doctrine):
+	-- 1. STRICTLY BEATABLE / EASY FIRST: Never send infantry into an enemy that outnumbers us!
+	-- 2. Capitulation targets (8:1 troop advantage triggers instant total surrender!)
+	-- 3. Easy / Weak targets first (Tribes or heavily outnumbered nations)
+	-- 4. Lowest enemy troops (Eliminate the smallest neighbor first to absorb their cities and close fronts!)
+	-- 5. Proximity to homeland core (Shorter travel time & less border attrition)
+	table.sort(candidates, function(a, b)
+		if targetMode == "Tribes Only" then
+			local ak = a.kind or 0
+			local bk = b.kind or 0
+			if ak ~= bk then return ak == 1 end
+		end
+
+		-- 1. Beatable over non-beatable STRICTLY
+		local aB = not not (a.isBeatable or a.isEasy)
+		local bB = not not (b.isBeatable or b.isEasy)
+		if aB ~= bB then
+			return aB
+		end
+
+		-- 2. Capitulation targets (8:1 advantage = instant annexation)
+		local aC = not not a.isCapitulate
+		local bC = not not b.isCapitulate
+		if aC ~= bC then
+			return aC
+		end
+
+		-- 3. Easy / Tribes first
+		local aE = not not a.isEasy
+		local bE = not not b.isEasy
+		if aE ~= bE then
+			return aE
+		end
+
+		-- 4. LOWEST ENEMY TROOPS: Always crush the weakest opponent first!
+		-- Never pick a 1M-troop superpower when there is an 80k-troop minor neighbor!
+		local at = a.troops or 0
+		local bt = b.troops or 0
+		if math.abs(at - bt) > 10000 then
+			return at < bt
+		end
+
+		-- 5. Distance from homeland core
+		local da = a.dist or 0
+		local db = b.dist or 0
+		if math.abs(da - db) > 25 then
+			return da < db
+		end
+
+		return at < bt
+	end)
+
+	local chosen = candidates[1]
+	-- STRICT FILTER: If even the best candidate is NOT beatable and NOT easy, do not attack!
+	-- If filterOwner is specified (repelling invader or finishing war target), proceed with contact tile.
+	if not chosen or ((not filterOwner) and not chosen.isBeatable and not chosen.isEasy) then
+		return nil, nil, nil, 0, false, 99999, false
+	end
+	return chosen.tile, chosen.name, chosen.owner, chosen.troops, chosen.isBeatable, chosen.dist, chosen.isEasy
+end
+
+local cachedBeachheadResult = nil
+local cachedBeachheadTime = 0
+
+local function findOverseasLandingBeachhead()
+	if not Adapter:Resolve() then return nil, nil, nil, 0 end
+	local state = Adapter.State
+	local meId = state.local_owner
+	local me = Adapter:GetMe()
+	local ctx = Adapter:GetContext()
+	local rules = ctx and ctx.rules
+	local borders = Adapter:GetBorders()
+	local map = state.map
+	local defs = Adapter.Defs
+	if not state.owners or not meId or meId == 0 or not rules or not me or not borders or not map or not defs then
+		return nil, nil, nil, 0
+	end
+
+	-- 0. CACHED RESULT VALIDATION (2.5s TTL):
+	-- Avoids massive multi-directional raycasts on every 300ms tick when holding an overseas target.
+	local now = os.clock()
+	if cachedBeachheadResult and (now - cachedBeachheadTime < 2.5) then
+		local cachedTile = cachedBeachheadResult[1]
+		if cachedTile and map:is_land(cachedTile) and map:is_contestable(cachedTile) then
+			local owner = state:tile_owner(cachedTile)
+			if owner ~= meId and not state:are_allies(meId, owner) then
+				return table.unpack(cachedBeachheadResult)
+			end
+		end
+		cachedBeachheadResult = nil
+	end
+
+	-- 1. Gather friendly coastal border tiles across perimeter (sample max 40 evenly)
+	local allCoasts = {}
+	for bTile in pairs(borders.border or {}) do
+		local bNum = tonumber(bTile)
+		if bNum and map:is_coastal(bNum) then
+			table.insert(allCoasts, bNum)
+		end
+	end
+	local myCoasts = {}
+	if #allCoasts <= 40 then
+		myCoasts = allCoasts
+	else
+		local stride = math.ceil(#allCoasts / 40)
+		for i = 1, #allCoasts, stride do
+			table.insert(myCoasts, allCoasts[i])
+			if #myCoasts >= 40 then break end
+		end
+	end
+	if #myCoasts == 0 then
+		local sp = me.spawn_tile
+		if sp and sp > 0 then
+			table.insert(myCoasts, sp)
+		else
+			return nil, nil, nil, 0
+		end
+	end
+
+	local candidates = {}
+	local W = borders.W or map.W or 2000
+	local H = borders.H or map.H or 1000
+	local hostileWarships = getHostileWarshipTiles()
+
+	-- 2. SHORTEST-CROSSING PRINCIPLE (Prinsip Penyeberangan Terpendek):
+	-- Shoot 8-direction rays across open water from each friendly coastal tile.
+	-- Step by 4 for fast ray traversal. First land tile is the CLOSEST BEACHHEAD!
+	local dirs = {
+		{1, 0}, {-1, 0}, {0, 1}, {0, -1},
+		{1, 1}, {-1, -1}, {1, -1}, {-1, 1}
+	}
+
+	local checkedTargets = {}
+
+	for _, cTile in ipairs(myCoasts) do
+		local cx = cTile % W
+		local cy = math.floor(cTile / W)
+		for _, dir in ipairs(dirs) do
+			for step = 4, 250, 4 do
+				local nx = cx + dir[1] * step
+				local ny = cy + dir[2] * step
+				if nx >= 0 and nx < W and ny >= 0 and ny < H then
+					local t = ny * W + nx
+					if map:is_land(t) and map:is_contestable(t) then
+						-- First land tile reached on this vector!
+						local owner = state:tile_owner(t)
+						if owner ~= meId and not state:are_allies(meId, owner) then
+							local isDirectLandBorder = borders.borders_owner and (owner ~= 0 and borders:borders_owner(owner))
+							if not isDirectLandBorder and not checkedTargets[t] then
+								checkedTargets[t] = true
+								local prim = rules:primary(t)
+								if prim and prim.ok and (prim.type == "boat" or prim.type == "attack" or prim.type == "expand") then
+									local oData = state.owners and state.owners[owner]
+									local enemyTroops = (oData and oData.troops) or 0
+									local kind = if owner == 0 then 1 else ((oData and oData.kind) or 0)
+									local name = if owner == 0 then "Neutral Island" else state:owner_name(owner)
+									local actualDist = defs.tile_distance(cTile, t)
+									local isSafe = isCorridorSafeFromWarships(cTile, t, 135, hostileWarships)
+
+									table.insert(candidates, {
+										id = owner,
+										name = name,
+										kind = kind,
+										troops = enemyTroops,
+										tiles = (oData and oData.tiles) or 0,
+										beachheadTroops = prim.troops or enemyTroops,
+										tile = t,
+										isSafe = isSafe,
+										dist = actualDist,
+									})
+								end
+							end
+						end
+						-- Break immediately on first land contact so we never target deeper inland tiles
+						break
+					end
+				end
+			end
+		end
+		if #candidates >= 100 then break end
+	end
+
+	-- 3. Long-range transoceanic expeditions (when our army >= 300,000 troops, expand to distant continents!)
+	local curTroops = (me and me.troops) or 0
+	if curTroops >= 300000 then
+		for id, oData in pairs(state.owners) do
+			if id ~= meId and oData.alive and not state:are_allies(meId, id) then
+				local isDirectLandBorder = borders.borders_owner and borders:borders_owner(id)
+				if not isDirectLandBorder and oData.tiles and oData.tiles > 0 then
+					local closestPoint = nil
+					local minD = 99999
+					local bestDeparture = nil
+
+					-- Scan enemy structures to find the closest coastal structure
+					if state.structures then
+						for _, s in pairs(state.structures) do
+							if type(s) == 'table' and s.owner == id and not s.dead then
+								local landing = rules:boat_landing(s.tile)
+								local t = if landing >= 0 then landing else s.tile
+								local prim = rules:primary(t)
+								if prim and prim.ok and (prim.type == "boat" or prim.type == "attack") then
+									for _, c in ipairs(myCoasts) do
+										local d = defs.tile_distance(c, t)
+										if d < minD then
+											minD = d
+											closestPoint = t
+											bestDeparture = c
+										end
+									end
+								end
+							end
+						end
+					end
+
+					if closestPoint and minD <= 750 then
+						local isSafe = isCorridorSafeFromWarships(bestDeparture, closestPoint, 135, hostileWarships)
+						table.insert(candidates, {
+							id = id,
+							name = oData.name,
+							kind = oData.kind or 0,
+							troops = oData.troops or 0,
+							tiles = oData.tiles or 0,
+							beachheadTroops = oData.troops or 0,
+							tile = closestPoint,
+							isSafe = isSafe,
+							dist = minD,
+						})
+					end
+				end
+			end
+		end
+	end
+
+	if #candidates == 0 then return nil, nil, nil, 0 end
+
+	-- Sorting hierarchy:
+	-- 1. STRICT SAFETY FIRST: Never launch boats into active hostile warship killzones!
+	-- 2. Superpower Late-Game (curTroops >= 400k): Prioritize major overseas nations over tiny reefs!
+	-- 3. Shortest Sea Crossing: Minimum transit time & lower interception risk.
+	-- 4. Tribes / Neutral land: 0 casualties, instant beachhead.
+	-- 5. Lowest troops.
+	table.sort(candidates, function(a, b)
+		local aSafe = not not a.isSafe
+		local bSafe = not not b.isSafe
+		if aSafe ~= bSafe then
+			return aSafe
+		end
+		if curTroops >= 400000 then
+			local aTiles = a.tiles or 0
+			local bTiles = b.tiles or 0
+			if math.abs(aTiles - bTiles) > 200 then
+				return aTiles > bTiles
+			end
+		end
+		local da = a.dist or 0
+		local db = b.dist or 0
+		if math.abs(da - db) > 15 then
+			return da < db
+		end
+		local ak = a.kind or 0
+		local bk = b.kind or 0
+		if ak ~= bk then
+			return ak == 1
+		end
+		return (a.troops or 0) < (b.troops or 0)
+	end)
+
+	local best = candidates[1]
+	-- STRICT CORRIDOR CHECK: If top candidate is unsafe, NO candidate is safe!
+	-- Under no circumstances should transport boats commit suicide against warships!
+	if not best or not best.isSafe then
+		return nil, nil, nil, 0
+	end
+
+	local maxLeap = if curTroops >= 300000 then 750 else 260
+	if (best.dist or 0) > maxLeap then
+		return nil, nil, nil, 0
+	end
+
+	cachedBeachheadResult = { best.tile, best.name, best.id, best.beachheadTroops }
+	cachedBeachheadTime = now
+	return best.tile, best.name, best.id, best.beachheadTroops
+end
+
+local function findEnemyBorderTile(targetMode)
+	local t, n, id = findEnemyLandBorderTile(targetMode)
+	if not t then
+		t, n, id = findOverseasLandingBeachhead()
+	end
+	return t, n, id
+end
+
+local function findEnemyCapitalTarget(availableSurplus)
+	if not Adapter:Resolve() then return nil, nil, nil end
+	local state = Adapter.State
+	local meId = state.local_owner
+	local me = Adapter:GetMe()
+	local ctx = Adapter:GetContext()
+	local rules = ctx and ctx.rules
+	local borders = Adapter:GetBorders()
+	local map = state.map
+	local defs = Adapter.Defs
+	if not state.owners or not meId or meId == 0 or not rules or not me or not borders or not map or not defs then return nil, nil, nil end
+
+	-- Gather friendly coastal border tiles for distance measurement
+	local myCoasts = {}
+	for bTile in pairs(borders.border or {}) do
+		local bNum = tonumber(bTile)
+		if bNum and map:is_coastal(bNum) then
+			table.insert(myCoasts, bNum)
+			if #myCoasts >= 100 then break end
+		end
+	end
+	if #myCoasts == 0 and me.spawn_tile and me.spawn_tile > 0 then
+		table.insert(myCoasts, me.spawn_tile)
+	end
+
+	local candidates = {}
+	local anyLandEnemy = findEnemyLandBorderTile("All")
+	local curTroops = (me and me.troops) or 0
+
+	for id, oData in pairs(state.owners) do
+		if id ~= meId and oData.alive and oData.spawned and not state:are_allies(meId, id) then
+			local capital = oData.spawn_tile
+			if capital and capital > 0 and state:tile_owner(capital) == id then
+				local enemyTroops = oData.troops or 0
+				if (not availableSurplus) or availableSurplus >= (enemyTroops * 0.85) or (curTroops >= enemyTroops * 1.20) or (enemyTroops <= 15000) then
+					local landing = rules:boat_landing(capital)
+					local targetTile = if landing >= 0 then landing else capital
+					local prim = rules:primary(targetTile)
+					if prim and prim.ok and (prim.type == "attack" or prim.type == "boat") then
+						local isDirect = borders.borders_owner and borders:borders_owner(id)
+						-- STRICT "ONE LANDMASS CONQUEST" DOCTRINE:
+						-- While our home continent is contested, only snipe direct land borders.
+						-- Once home continent is unified, allow amphibious decapitations against nearby coastal capitals!
+						local allowOverseasSnipe = (anyLandEnemy == nil) and (prim.type == "boat") and (curTroops >= 400000)
+
+						if isDirect or allowOverseasSnipe then
+							local mySpawn = me.spawn_tile or 0
+							local dist = if mySpawn > 0 then defs.tile_distance(mySpawn, targetTile) else 0
+							local maxDist = if curTroops >= 400000 then 850 else 180
+							if dist <= maxDist then
+								local isSafe = true
+								if prim.type == "boat" then
+									isSafe = isCorridorSafeFromWarships(nil, targetTile, 135)
+								end
+								if isSafe then
+									table.insert(candidates, {
+										id = id,
+										name = oData.name,
+										troops = enemyTroops,
+										tiles = oData.tiles or 0,
+										tile = targetTile,
+										dist = dist,
+										isDirect = isDirect,
+										isSafe = isSafe,
+									})
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+
+	if #candidates == 0 then return nil, nil, nil end
+
+	table.sort(candidates, function(a, b)
+		local aSafe = not not a.isSafe
+		local bSafe = not not b.isSafe
+		if aSafe ~= bSafe then
+			return aSafe
+		end
+		local aDir = not not a.isDirect
+		local bDir = not not b.isDirect
+		if aDir ~= bDir then
+			return aDir
+		end
+		-- In Late Game (curTroops >= 400k), prefer capitulating major nations (high tile count)
+		local myCurTroops = (me and me.troops) or 0
+		if myCurTroops >= 400000 then
+			local aTiles = a.tiles or 0
+			local bTiles = b.tiles or 0
+			if math.abs(aTiles - bTiles) > 200 then
+				return aTiles > bTiles
+			end
+		end
+		local da = a.dist or 0
+		local db = b.dist or 0
+		if math.abs(da - db) > 20 then
+			return da < db
+		end
+		return (a.troops or 0) < (b.troops or 0)
+	end)
+
+	local best = candidates[1]
+	return best.tile, best.name, best.id
+end
+
+local function getActiveOutboundWavesBreakdown()
+	if not Adapter:Resolve() then return 0, 0 end
+	local state = Adapter.State
+	local meId = state and state.local_owner
+	if not state or not meId or meId == 0 then return 0, 0 end
+
+	local totalCount = 0
+	local overseasCount = 0
+
+	if state.attacks then
+		for _, atk in pairs(state.attacks) do
+			if type(atk) == "table" then
+				local attackerId = atk.attacker or atk.owner
+				if attackerId == meId and not atk.retreating then
+					totalCount = totalCount + 1
+				end
+			end
+		end
+	end
+
+	if state.units then
+		for _, u in pairs(state.units) do
+			if type(u) == "table" then
+				if u.owner == meId and not u.dead then
+					if u.kind == 0 or (Adapter.Defs and u.kind == Adapter.Defs.U_TRANSPORT) then
+						totalCount = totalCount + 1
+						overseasCount = overseasCount + 1
+					end
+				end
+			end
+		end
+	end
+
+	return totalCount, overseasCount
+end
+
+local function getActiveOutboundWaves()
+	local total, _ = getActiveOutboundWavesBreakdown()
+	return total
+end
+
+local function getActiveAttackAgainst(defenderId)
+	if not Adapter:Resolve() then return nil, 0 end
+	local state = Adapter.State
+	local meId = state and state.local_owner
+	if not state or not state.attacks or not meId or meId == 0 or not defenderId then return nil, 0 end
+	local totalTroops = 0
+	local firstAtk = nil
+	for _, atk in pairs(state.attacks) do
+		if type(atk) == "table" and not atk.dead and not atk.retreating then
+			local aId = atk.attacker or atk.owner
+			local tId = atk.target
+			if aId == meId and tId == defenderId then
+				firstAtk = firstAtk or atk
+				totalTroops = totalTroops + (atk.troops or 0)
+			end
+		end
+	end
+	return firstAtk, totalTroops
+end
+
+local function findBorderContactTile(filterOwner)
+	if not Adapter:Resolve() then return nil end
+	local state = Adapter.State
+	local meId = state and state.local_owner
+	local borders = Adapter:GetBorders()
+	local map = state and state.map
+	if not borders or not borders.border or not meId or meId == 0 or not map or not filterOwner then return nil end
+
+	for bTile in pairs(borders.border) do
+		local bNum = tonumber(bTile)
+		if bNum and borders._neighbours4 then
+			borders:_neighbours4(bNum)
+			for i = 1, borders._nn or #borders._nb do
+				local nTile = borders._nb[i]
+				if map:is_contestable(nTile) and state:tile_owner(nTile) == filterOwner then
+					return nTile
+				end
+			end
+		end
+	end
+	return nil
+end
+
+local function isHomelandUnderAttack()
+	if not Adapter:Resolve() then return false, nil, nil, nil, 0, nil end
+	local state = Adapter.State
+	local meId = state and state.local_owner
+	if not state or not meId or meId == 0 then return false, nil, nil, nil, 0, nil end
+
+	local maxEnemyTroops = 0
+	local worstAttackerId = nil
+	local worstAttackerName = nil
+	local worstAnchorTile = nil
+	local worstAtkObj = nil
+
+	-- 1. Scan land / air attack waves
+	if state.attacks then
+		for _, atk in pairs(state.attacks) do
+			if type(atk) == "table" and not atk.dead and not atk.retreating then
+				local attackerId = atk.attacker or atk.owner
+				if attackerId and attackerId ~= meId and atk.target == meId then
+					local tr = atk.troops or 0
+					if tr > maxEnemyTroops then
+						maxEnemyTroops = tr
+						worstAttackerId = attackerId
+						worstAttackerName = state:owner_name(attackerId)
+						worstAnchorTile = atk.anchor_tile or atk.head or atk.last_tile
+						worstAtkObj = atk
+					end
+				end
+			end
+		end
+	end
+
+	-- 2. Scan amphibious naval transport boats landing on our shores
+	if state.units then
+		for _, u in pairs(state.units) do
+			if type(u) == "table" and not u.dead and (u.kind == 0 or (Adapter.Defs and u.kind == Adapter.Defs.U_TRANSPORT)) then
+				local attackerId = u.owner
+				if attackerId and attackerId ~= meId and u.target_tile and state:tile_owner(u.target_tile) == meId then
+					local tr = u.troops or 0
+					if tr > maxEnemyTroops then
+						maxEnemyTroops = tr
+						worstAttackerId = attackerId
+						worstAttackerName = state:owner_name(attackerId)
+						worstAnchorTile = u.target_tile
+						worstAtkObj = u
+					end
+				end
+			end
+		end
+	end
+
+	if worstAttackerId then
+		return true, worstAttackerName, worstAttackerId, worstAnchorTile, maxEnemyTroops, worstAtkObj
+	end
+
+	return false, nil, nil, nil, 0, nil
+end
+
+local function findStrategicSpawnTile()
+	if not Adapter:Resolve() then return nil end
+	local state = Adapter.State
+	local map = state and state.map
+	local defs = Adapter.Defs
+	if not map or not state or not defs then return nil end
+
+	local W = map.W or 2000
+	local H = map.H or 1000
+	local meId = state.local_owner or 0
+
+	-- 1. Scan all spawned nations and active human rivals
+	local humanSpawns = {}
+	local allSpawns = {}
+	if state.owners then
+		for id, oData in pairs(state.owners) do
+			if oData.alive and oData.spawn_tile and oData.spawn_tile > 0 then
+				table.insert(allSpawns, { tile = oData.spawn_tile, kind = oData.kind or 0, name = oData.name })
+				local isHuman = (oData.kind == defs.KIND_HUMAN) or (oData.user_id and oData.user_id > 0)
+				if isHuman and id ~= meId then
+					table.insert(humanSpawns, oData.spawn_tile)
+				end
+			end
+		end
+	end
+
+	-- 2. Fast global coastal sweep using native map.coast_list buffer
+	local coastList = map.coast_list
+	local coastCount = map.coast_count or 0
+	local readi32 = buffer.readi32
+
+	local candidates = {}
+	local step = math.max(1, math.floor(coastCount / 1200))
+
+	for i = 0, coastCount - 1, step do
+		local cTile = readi32(coastList, i * 4)
+		if map:is_contestable(cTile) and not state:has_fallout(cTile) and state:tile_owner(cTile) == 0 then
+			-- [A] HUMAN DISTANCE FILTER (Strict Non-Aggression Moat)
+			-- Never spawn within 160 tiles of another human player!
+			local tooCloseToHuman = false
+			local minHumanDist = 99999
+			for _, hTile in ipairs(humanSpawns) do
+				local d = defs.tile_distance(cTile, hTile)
+				if d < 160 then
+					tooCloseToHuman = true
+					break
+				end
+				if d < minHumanDist then
+					minHumanDist = d
+				end
+			end
+
+			if not tooCloseToHuman then
+				-- [B] BOT & NATION CROWDING DENSITY
+				-- Count hostile capitals and tribes within 80 tiles
+				local nearbyBots = 0
+				local nearbyTribes = 0
+				local closestBotDist = 99999
+				for _, s in ipairs(allSpawns) do
+					local d = defs.tile_distance(cTile, s.tile)
+					if d < closestBotDist then closestBotDist = d end
+					if d <= 80 then
+						if s.kind == 1 then
+							nearbyTribes = nearbyTribes + 1
+						else
+							nearbyBots = nearbyBots + 1
+						end
+					end
+				end
+
+				-- Immediate buffer: reject if another nation capital is within 25 tiles (spawn blockage)
+				if closestBotDist >= 25 then
+					-- [C] DEFENSIVE WATER MOAT & PENINSULA GEOGRAPHY (r = 15 tiles)
+					local cx = cTile % W
+					local cy = math.floor(cTile / W)
+					local waterCount = 0
+					local landCount = 0
+					local freeLandCount = 0
+
+					for dy = -15, 15, 5 do
+						for dx = -15, 15, 5 do
+							local nx = (cx + dx) % W
+							local ny = cy + dy
+							if ny >= 0 and ny < H then
+								local t = ny * W + nx
+								if map:is_land(t) then
+									landCount = landCount + 1
+									if state:tile_owner(t) == 0 and map:is_contestable(t) then
+										freeLandCount = freeLandCount + 1
+									end
+								else
+									waterCount = waterCount + 1
+								end
+							end
+						end
+					end
+
+					local totalSampled = waterCount + landCount
+					local waterPct = if totalSampled > 0 then (waterCount / totalSampled) else 0
+
+					-- [D] MULTI-FACTOR STRATEGIC SCORING:
+					local score = 100
+
+					-- 1. Natural Water Defensibility (Peninsulas, Corners, Island Bastions):
+					-- 45% - 75% water provides natural water shields on 2-3 sides, leaving only 1 narrow land border to defend!
+					if waterPct >= 0.45 and waterPct <= 0.75 then
+						score = score + 50 -- Prime peninsula / coastal corner
+					elseif waterPct > 0.75 and waterPct <= 0.88 then
+						score = score + 35 -- Island bastion (Great Britain, Japan, Australia)
+					elseif waterPct < 0.25 then
+						score = score - 30 -- Flatland inland (exposed to 360-degree multi-front war)
+					elseif waterPct > 0.90 then
+						score = score - 50 -- Isolated atoll with zero landmass
+					end
+
+					-- 2. Crowding Factor (Peaceful Frontier vs War-Torn Death Trap):
+					if nearbyBots == 0 then
+						score = score + 60 -- Uncontested frontier (Oceania, Patagonia, Southern Africa)!
+					elseif nearbyBots == 1 then
+						score = score + 40
+					elseif nearbyBots == 2 then
+						score = score + 20
+					elseif nearbyBots >= 5 then
+						score = score - (nearbyBots * 15) -- Heavily crowded (Central Europe, Balkans)
+					end
+
+					-- 3. Human Isolation Bonus:
+					if minHumanDist >= 400 then
+						score = score + 40 -- Entire continent between us and human rivals
+					elseif minHumanDist >= 250 then
+						score = score + 20
+					end
+
+					-- 4. Free Expansion Room & Tribal Prey:
+					score = score + (freeLandCount * 2.5) -- Unclaimed neutral land ready for rapid blitz
+					score = score + (nearbyTribes * 15)   -- Weak tribes ready for instant free absorption
+
+					table.insert(candidates, {
+						tile = cTile,
+						score = score,
+						x = cx,
+						y = cy,
+						nearbyBots = nearbyBots,
+						waterPct = math.floor(waterPct * 100),
+					})
+				end
+			end
+		end
+	end
+
+	if #candidates == 0 then return nil end
+
+	table.sort(candidates, function(a, b) return (a.score or 0) > (b.score or 0) end)
+	local chosen = candidates[1]
+	return chosen.tile
+end
+
+local function getFriendlySiloTile()
+	if not Adapter:Resolve() then return nil end
+	local state = Adapter.State
+	local meId = state and state.local_owner
+	local defs = Adapter.Defs
+	if not state or not state.structures or not meId or not defs then return nil end
+	local siloKind = (defs and defs.S_SILO) or 5
+	for _, s in pairs(state.structures) do
+		if type(s) == 'table' and s.owner == meId and not s.dead and (s.kind == siloKind or s.kind == 5) then
+			return s.tile
+		end
+	end
+	local me = Adapter:GetMe()
+	return me and me.spawn_tile
+end
+
+local function isBlastZoneSafeFromFriendlyFire(targetTile, blastRadius)
+	if not Adapter:Resolve() then return false end
+	local state = Adapter.State
+	local meId = state and state.local_owner
+	local defs = Adapter.Defs
+	local map = state and state.map
+	if not state or not meId or meId == 0 or not defs or not map then return false end
+
+	local radius = blastRadius or 100
+	local safetyClearance = radius + 15 -- 115 tiles safety margin for friendly structures
+
+	-- 1. CRITICAL: Friendly structures must NEVER be within the blast circle!
+	if state.structures then
+		for _, s in pairs(state.structures) do
+		if type(s) == 'table' and s.owner == meId and not s.dead then
+				if defs.tile_distance(s.tile, targetTile) <= safetyClearance then
+					return false
+				end
+			end
+		end
+	end
+
+	-- 2. Friendly capital core check
+	local me = Adapter:GetMe()
+	if me and me.spawn_tile and me.spawn_tile > 0 then
+		if defs.tile_distance(me.spawn_tile, targetTile) <= safetyClearance then
+			return false
+		end
+	end
+
+	-- 3. Friendly territory encroachment check
+	-- If our own borders or land tiles are heavily caught in the blast, reject!
+	local W = map.W or 2000
+	local H = map.H or 1000
+	local tx = targetTile % W
+	local ty = math.floor(targetTile / W)
+	local friendlyTilesInBlast = 0
+	local step = 10
+	for dy = -radius, radius, step do
+		for dx = -radius, radius, step do
+			if dx * dx + dy * dy <= radius * radius then
+				local nx = tx + dx
+				local ny = ty + dy
+				if nx >= 0 and nx < W and ny >= 0 and ny < H then
+					local t = ny * W + nx
+					if state:tile_owner(t) == meId then
+						friendlyTilesInBlast = friendlyTilesInBlast + 1
+						if friendlyTilesInBlast >= 6 then
+							return false -- Too much friendly territory would be nuked!
+						end
+					end
+				end
+			end
+		end
+	end
+
+	return true
+end
+
+local function countHostileSAMsAlongFlightPath(fromTile, toTile)
+	if not Adapter:Resolve() then return 0, 0 end
+	local state = Adapter.State
+	local meId = state and state.local_owner
+	local defs = Adapter.Defs
+	local map = state and state.map
+	if not state or not state.structures or not meId or not defs or not map then return 0, 0 end
+	if not fromTile or fromTile <= 0 or not toTile or toTile <= 0 then return 0, 0 end
+
+	local samKind = (defs and defs.S_SAM) or 4
+	local totalMissiles = 0
+	local samCount = 0
+
+	-- In SimNukes engine:
+	-- SAMs can ONLY intercept during terminal descent (within NUKE_TARGETABLE_OF = 150 tiles of toTile)
+	-- or near departure (within 150 tiles of fromTile).
+	-- During mid-flight (> 150 tiles), the missile flies in sub-orbital arc out of reach!
+	for _, s in pairs(state.structures) do
+		if type(s) == 'table' and s.owner ~= meId and s.owner ~= 0 and (s.kind == samKind or s.kind == 4) and not s.dead and not state:are_allies(meId, s.owner) then
+			local sTile = s.tile
+			local distToTarget = defs.tile_distance(sTile, toTile)
+			local lvl = s.level or 1
+			-- sam_range per level: 1 = 70, 2 = 81.4, 3 = 90, 4 = 96.6, 5 = 102
+			local effectiveSamRange = 70 + (lvl - 1) * 12
+
+			-- A SAM can intercept if its coverage circle touches the descent target or arrival corridor (150 tiles)
+			if distToTarget <= (effectiveSamRange + 15) or (distToTarget <= 150 and defs.tile_distance(sTile, fromTile) <= effectiveSamRange) then
+				samCount = samCount + 1
+				totalMissiles = totalMissiles + lvl
+			end
+		end
+	end
+
+	return totalMissiles, samCount
+end
+
+local function countEnemySAMsCovering(targetTile)
+	local mySilo = getFriendlySiloTile()
+	if mySilo then
+		return countHostileSAMsAlongFlightPath(mySilo, targetTile)
+	end
+	return 0, 0
+end
+
+local recentlyNukedTiles = {}
+
+local function isRecentlyNuked(tile, clearance)
+	local now = os.clock()
+	local distCl = clearance or 70
+	local defs = Adapter.Defs
+	if not defs then return false end
+	for t, tTime in pairs(recentlyNukedTiles) do
+		if now - tTime < 90.0 then
+			if defs.tile_distance(t, tile) <= distCl then
+				return true
+			end
+		else
+			recentlyNukedTiles[t] = nil
+		end
+	end
+	return false
+end
+
+local function findSmartNukeTarget()
+	if not Adapter:Resolve() then return nil end
+	local state = Adapter.State
+	local meId = state.local_owner
+	local me = Adapter:GetMe()
+	local defs = Adapter.Defs
+	local map = state.map
+	if not state.owners or not meId or meId == 0 or not me or not defs or not map then return nil end
+
+	local mySilo = getFriendlySiloTile()
+	if not mySilo then return nil end
+
+	local enemyStructs = {}
+	if state.structures then
+		for _, s in pairs(state.structures) do
+		if type(s) == 'table' and s.owner ~= meId and s.owner ~= 0 and not s.dead and not state:are_allies(meId, s.owner) then
+				local oData = state.owners[s.owner]
+				-- Prioritize major powers and growing threats (>= 2,000 tiles), skip dead remnants
+				if oData and (oData.tiles or 0) >= 2000 then
+					table.insert(enemyStructs, s)
+				end
+			end
+		end
+	end
+
+	if #enemyStructs == 0 then return nil end
+
+	local candidates = {}
+	local checkedClusters = {}
+	local W = map.W or 2000
+
+	-- Evaluate clusters centered on each candidate enemy structure
+	for _, center in ipairs(enemyStructs) do
+		local cTile = center.tile
+		local clusterKey = math.floor((cTile % W) / 40) .. "_" .. math.floor(cTile / W / 40)
+		if not checkedClusters[clusterKey] and not state:has_fallout(cTile) and not isRecentlyNuked(cTile, 70) then
+			checkedClusters[clusterKey] = true
+
+			-- STRICT SAFETY GUARD: Blast zone (100 tiles) MUST NOT damage our own structures or land!
+			if isBlastZoneSafeFromFriendlyFire(cTile, 100) then
+				local oData = state.owners[center.owner]
+				local enemyTiles = oData and oData.tiles or 0
+				local enemyTroops = oData and oData.troops or 0
+
+				-- Count high-value facilities within 90-tile radius of this epicenter
+				local count = 0
+				local score = 0
+				local hasSilo = false
+				local hasCapital = false
+				local cityCount = 0
+
+				for _, s in ipairs(enemyStructs) do
+					local d = defs.tile_distance(s.tile, cTile)
+					if d <= 90 then
+						count = count + 1
+						local k = s.kind
+						local lvl = s.level or 1
+						if k == 5 or k == defs.S_SILO then
+							score = score + 35
+							hasSilo = true
+						elseif k == 4 or k == defs.S_SAM then
+							score = score + 20 * lvl
+						elseif k == 0 or k == defs.S_CITY then
+							score = score + 12 * lvl
+							cityCount = cityCount + 1
+						elseif k == 1 or k == defs.S_PORT then
+							score = score + 10 * lvl
+						elseif k == 2 or k == defs.S_FACTORY then
+							score = score + 10 * lvl
+						else
+							score = score + 5
+						end
+					end
+				end
+
+				-- Check if any enemy capital is caught in this cluster
+				for id, o in pairs(state.owners) do
+					if id ~= meId and o.alive and not state:are_allies(meId, id) then
+						local cap = o.spawn_tile
+						if cap and cap > 0 and state:tile_owner(cap) == id then
+							if defs.tile_distance(cap, cTile) <= 90 then
+								score = score + 30
+								hasCapital = true
+							end
+						end
+					end
+				end
+
+				-- Major Power Scale Multiplier (focus superweapons on rival superpowers):
+				local scaleMult = if enemyTiles >= 50000 then 1.5
+					elseif enemyTiles >= 20000 then 1.25
+					elseif enemyTiles >= 8000 then 1.0
+					else 0.4
+
+				score = math.floor(score * scaleMult)
+
+				-- Minimum Viability Filter:
+				-- A 5M Hydrogen Bomb must hit at least 2+ structures, OR a Missile Silo, OR a National Capital!
+				-- NEVER waste a 5M bomb on a lone empty building in the desert!
+				if count >= 2 or hasSilo or hasCapital or score >= 35 then
+					local samMissiles, samCount = countHostileSAMsAlongFlightPath(mySilo, cTile)
+
+					table.insert(candidates, {
+						owner = center.owner,
+						name = oData and oData.name or "Rival Superpower",
+						tile = cTile,
+						score = score,
+						count = count,
+						cityCount = cityCount,
+						hasSilo = hasSilo,
+						hasCapital = hasCapital,
+						samMissiles = samMissiles,
+						samCount = samCount,
+						tiles = enemyTiles,
+						troops = enemyTroops,
+						kindName = string.format("Cluster (%d Facilities, %d Cities)", count, cityCount)
+					})
+				end
+			end
+		end
+	end
+
+	if #candidates == 0 then return nil end
+
+	-- Prioritize:
+	-- 1. Highest Strategic Score (Dense clusters with Silos, SAMs, and Cities first!)
+	-- 2. Lower SAM Interceptors (Lethal bypass guaranteed)
+	-- 3. Largest enemy empire
+	table.sort(candidates, function(a, b)
+		local sa = a.score or 0
+		local sb = b.score or 0
+		if math.abs(sa - sb) > 25 then
+			return sa > sb
+		end
+		local ma = a.samMissiles or 0
+		local mb = b.samMissiles or 0
+		if ma ~= mb then
+			return ma < mb
+		end
+		return (a.tiles or 0) > (b.tiles or 0)
+	end)
+
+	return candidates[1]
+end
+
+-- ==============================================================================
+-- [4] RUNTIME FEATURE LOOPS
+-- ==============================================================================
+
+-- 4.1 Master Smart Auto Play Decision Loop
+local lastAttackTick = 0
+local lastBuildTick = 0
+local lastNukeTick = 0
+local matchOverTick = nil
+local eliminatedTick = nil
+local currentWarTargetId = nil
+local currentWarTargetName = "None"
+
+local function triggerPlayAgain()
+	if not Adapter:Resolve() then return false end
+	local session = Adapter.Session
+	local client = Adapter.Client
+	local ui = client and client.ui
+
+	-- 1. Official in-game Play Again button if visible or available
+	if ui and ui._spec_again and ui._spec_again.pressed and ui._spec_again.pressed.Fire then
+		ui._spec_again.pressed:Fire()
+		RuntimeStats.Status = "Playing Again..."
+		Hub:Notify("Match Over", "Auto Play Again triggered!", "refresh-cw")
+		return true
+	end
+
+	-- 2. If in solo simulation, restart solo match
+	if session and session.mode == 1 then
+		session:start_solo(session.difficulty or 1, session.map_id)
+		RuntimeStats.Status = "Restarting Solo Match..."
+		Hub:Notify("Solo Match", "Restarting solo match...", "refresh-cw")
+		return true
+	end
+
+	-- 3. If in multiplayer, join multiplayer queue
+	if session and session:multiplayer_available() then
+		session:join_multiplayer()
+		RuntimeStats.Status = "Requeueing Match..."
+		Hub:Notify("Multiplayer", "Requeueing fresh match...", "refresh-cw")
+		return true
+	end
+
+	return false
+end
+
+local function bodySmartAutoPlay()
+	if not Adapter:Resolve() then
+		RuntimeStats.Status = "Resolving Game State..."
+		return
+	end
+
+	local session = Adapter.Session
+	local state = Adapter.State
+
+	-- Phase 1: Lobby & Spectator Handling
+	local isLobby = (session.mode == 0) or (not state) or (not state.local_owner) or (state.local_owner == 0)
+	if isLobby then
+		local client = Adapter.Client
+		local ui = client and client.ui
+		local isSpectating = ui and ui._spec_again and ui._spec_again.visible
+
+		if isSpectating and Hub.State.AutoPlayAgain then
+			local now = os.clock()
+			if not eliminatedTick then eliminatedTick = now end
+			if now - eliminatedTick >= 3.0 then
+				eliminatedTick = now + 999
+				triggerPlayAgain()
+			end
+			return
+		end
+
+		RuntimeStats.Phase = "Lobby / Title"
+		RuntimeStats.Status = "In Lobby"
+		-- Only auto-join if the user explicitly enabled the dedicated 'Auto Join Match' toggle in Lobby & Meta tab
+		if Hub.State.AutoJoinMatch and session:multiplayer_available() then
+			RuntimeStats.Status = "Joining Match..."
+			session:join_multiplayer()
+			task.wait(1.0)
+		end
+		return
+	end
+
+	-- Phase 1.5: Match Over / Victory State
+	if state.phase == 2 then
+		local winName = if state.winner and state.winner > 0 then state:owner_name(state.winner) else "None"
+		RuntimeStats.Phase = "Match Ended"
+		RuntimeStats.Status = "Winner: " .. tostring(winName)
+		if Hub.State.AutoPlayAgain then
+			local now = os.clock()
+			if not matchOverTick then matchOverTick = now end
+			if now - matchOverTick >= 4.0 then
+				matchOverTick = now + 999
+				triggerPlayAgain()
+			end
+		end
+		return
+	else
+		matchOverTick = nil
+	end
+
+	-- Phase 2: Spawn Selection
+	local me = Adapter:GetMe()
+	local needsSpawn = (me == nil) or (not me.spawned)
+	if needsSpawn then
+		RuntimeStats.Phase = "Capital Selection"
+		if Hub.State.AutoSpawnCapital or Hub.State.SmartAutoPlay then
+			RuntimeStats.Status = "Finding Strategic Coast..."
+			local spawnTile = findStrategicSpawnTile()
+			if spawnTile then
+				Adapter:SendIntent({ type = "spawn", tile = spawnTile })
+				RuntimeStats.LastAction = "Capital Placed @ " .. tostring(spawnTile)
+				RuntimeStats.Status = "Capital Placed - Initializing"
+				task.wait(0.5)
+			end
+		end
+		return
+	end
+
+	-- Phase 3: Active Combat & Match Management
+	if not me or not me.alive then
+		RuntimeStats.Phase = "Eliminated"
+		RuntimeStats.Status = "Seeking AI Takeover..."
+		local tookOver = false
+		if (Hub.State.AutoTakeover or Hub.State.SmartAutoPlay) and session.take_over then
+			for id, oData in pairs(state.owners) do
+				if oData.alive and oData.kind == 1 and (oData.tiles or 0) > 100 then
+					if session:can_take_over(id) then
+						session:take_over(id)
+						RuntimeStats.LastAction = "Adopted Nation " .. tostring(oData.name)
+						tookOver = true
+						task.wait(1.0)
+						break
+					end
+				end
+			end
+		end
+		if not tookOver and Hub.State.AutoPlayAgain then
+			local now = os.clock()
+			if not eliminatedTick then eliminatedTick = now end
+			if now - eliminatedTick >= 3.0 then
+				eliminatedTick = now + 999
+				triggerPlayAgain()
+			end
+		else
+			eliminatedTick = nil
+		end
+		return
+	else
+		eliminatedTick = nil
+	end
+
+	RuntimeStats.Phase = "Active Combat"
+	RuntimeStats.Nation = tostring(me.name or "Roi")
+	RuntimeStats.Tiles = me.tiles or 0
+	RuntimeStats.Troops = me.troops or 0
+	RuntimeStats.Cap = me.max_troops or 0
+	RuntimeStats.Gold = me.gold or 0
+	RuntimeStats.Income = me.income or 0
+
+	if RuntimeStats.Status == "Finding Strategic Coast..." or RuntimeStats.Status == "Capital Placed - Initializing" or RuntimeStats.Status == "In Lobby" then
+		RuntimeStats.Status = "Expanding Territory"
+	end
+
+	-- [A] PRIORITY 1: AUTO REINFORCE (+20% Instant Troops)
+	local canReinforce = type(session.has_unlock) == "function" and session:has_unlock("reinforce")
+	if canReinforce then
+		local readyTick = (state.reinforce_ready and state.reinforce_ready[me.id]) or 0
+		local ticksLeft = readyTick - (state.tick or 0)
+		if ticksLeft <= 0 then
+			RuntimeStats.ReinforceTime = "Ready"
+			if (Hub.State.AutoReinforce or Hub.State.SmartAutoPlay) and (tonumber(me.troops) or 0) < (tonumber(me.max_troops) or 0) then
+				Adapter:SendIntent({ type = "reinforce" })
+				RuntimeStats.LastAction = "Claimed +20% Reinforcements"
+				RuntimeStats.ReinforceTime = "120s"
+			end
+		else
+			RuntimeStats.ReinforceTime = string.format("%ds", math.ceil(ticksLeft / 10))
+		end
+	else
+		RuntimeStats.ReinforceTime = "Locked"
+	end
+
+	-- [B] PRIORITY 2: SMART MILITARY-INDUSTRIAL ECONOMY & SUPERWEAPONS
+	local now = os.clock()
+	if now - lastBuildTick >= (Hub.State.BuildDelay or 1.5) then
+		lastBuildTick = now
+		local mySpawn = me.spawn_tile
+		local curGold = me.gold or 0
+		local curTroops = me.troops or 0
+		local myTiles = me.tiles or 0
+
+		-- Count existing friendly structures
+		local myCityCount = 0
+		local myPortCount = 0
+		local myFactoryCount = 0
+		local mySiloCount = 0
+		local mySamCount = 0
+		local myDefenseCount = 0
+
+		if state.structures then
+			for _, s in pairs(state.structures) do
+				if type(s) == "table" and s.owner == me.id and not s.dead then
+					local k = s.kind
+					if k == 0 or (Adapter.Defs and k == Adapter.Defs.S_CITY) then
+						myCityCount = myCityCount + 1
+					elseif k == 1 or (Adapter.Defs and k == Adapter.Defs.S_PORT) then
+						myPortCount = myPortCount + 1
+					elseif k == 2 or (Adapter.Defs and k == Adapter.Defs.S_FACTORY) then
+						myFactoryCount = myFactoryCount + 1
+					elseif k == 3 or (Adapter.Defs and k == Adapter.Defs.S_DEFENSE) then
+						myDefenseCount = myDefenseCount + 1
+					elseif k == 4 or (Adapter.Defs and k == Adapter.Defs.S_SAM) then
+						mySamCount = mySamCount + 1
+					elseif k == 5 or (Adapter.Defs and k == Adapter.Defs.S_SILO) then
+						mySiloCount = mySiloCount + 1
+					end
+				end
+			end
+		end
+
+		RuntimeStats.SAMBuilt = mySamCount
+		RuntimeStats.CitiesBuilt = myCityCount
+
+		-- Determine Macro Stage:
+		-- Stage 1 (Opening / Early): Land < 30k tiles and Gold < 1.5M -> Compound Cities & Ports
+		-- Stage 2 (Midgame): Land 30k - 100k tiles -> Distributed SAM Shield + 1 Silo + Warships
+		-- Stage 3 (Endgame Rivalry): Land > 90k or Gold > 10M -> TREASURY STOCKPILE LOCK for MIRV/Hydrogen
+		-- Macro Stage:
+		local isMidGame = (myTiles >= 25000) or (curTroops >= 200000) or (myCityCount >= 3)
+		local isEndGame = (myTiles >= 90000) or (curGold >= 10000000)
+		local savingForSilo = isMidGame and (mySamCount == 0 or mySiloCount == 0) and myCityCount >= 4 and myPortCount >= 1 and curGold < 1550000
+
+		local ctx = Adapter:GetContext()
+		local rules = ctx and ctx.rules
+
+		-- [STEP 1] FOUNDATION FARMS: Early Gold Farming (Port / Factory First!)
+		-- Sesuai SimAIEconomy: Port jika punya pantai (trade ships), Factory jika landlocked (trade trucks).
+		if (Hub.State.AutoBuildPorts or Hub.State.SmartAutoPlay) and myPortCount < 1 and not isEndGame then
+			local portAvail = rules and rules:availability("port")
+			if portAvail and portAvail.ok then
+				local portTile = findPortSite()
+				if portTile then
+					local built = Adapter:BuildStructure("port", portTile)
+					if built then
+						myPortCount = myPortCount + 1
+						RuntimeStats.LastAction = "Built Port #1 (Sea Trade Gold Farm)"
+					end
+				end
+			end
+		end
+
+		if (Hub.State.AutoBuildFactories or Hub.State.SmartAutoPlay) and myFactoryCount < 1 and not isEndGame then
+			local factAvail = rules and rules:availability("factory")
+			if factAvail and factAvail.ok then
+				local factTile = findFactorySite()
+				if factTile then
+					local built = Adapter:BuildStructure("factory", factTile)
+					if built then
+						myFactoryCount = myFactoryCount + 1
+						RuntimeStats.LastAction = "Built Factory #1 (Road Truck Gold Farm)"
+					end
+				end
+			end
+		end
+
+		-- [STEP 2] CORE EXPANSION: City Stacking (+250k Troop Cap per City!)
+		-- Early Game: Bangun City 1, 2, 3 sesegera mungkin agar cap troops tembus 750k+!
+		-- Mid Game: Kembangkan hingga 6-10 Cities, namun prioritaskan Silo (1M gold) saat midgame!
+		local maxCities = if not isMidGame then 4 elseif savingForSilo then 5 elseif not isEndGame then 8 else 12
+		if (Hub.State.AutoBuildCities or Hub.State.SmartAutoPlay) and myCityCount < maxCities then
+			local cityAvail = rules and rules:availability("city")
+			if cityAvail and cityAvail.ok then
+				local cityTile, isUpgrade = findCitySite()
+				if cityTile then
+					local built = Adapter:BuildStructure("city", cityTile)
+					if built then
+						myCityCount = myCityCount + 1
+						RuntimeStats.LastAction = if isUpgrade then "Upgraded City (Faster Growth)" else string.format("Built City #%d (+250k Cap)", myCityCount)
+					end
+				end
+			end
+		end
+
+		-- [STEP 3] SECONDARY ECONOMY: Port #2 & Factory #2 (Melipatgandakan penghasilan)
+		if (Hub.State.AutoBuildPorts or Hub.State.SmartAutoPlay) and myPortCount < 2 and myCityCount >= 2 and not isEndGame then
+			local portAvail = rules and rules:availability("port")
+			if portAvail and portAvail.ok then
+				local portTile = findPortSite()
+				if portTile then
+					Adapter:BuildStructure("port", portTile)
+				end
+			end
+		end
+
+		if (Hub.State.AutoBuildFactories or Hub.State.SmartAutoPlay) and myFactoryCount < 2 and myCityCount >= 2 and not isEndGame then
+			local factAvail = rules and rules:availability("factory")
+			if factAvail and factAvail.ok then
+				local factTile = findFactorySite()
+				if factTile then
+					Adapter:BuildStructure("factory", factTile)
+				end
+			end
+		end
+
+		-- [STEP 4] BORDER CHOKEPOINT DEFENSE: Menahan musuh kuat HANYA di perbatasan aktif
+		-- Matches SimAIEconomy: hanya dibangun saat ada ancaman nyata, gold >= 100k, dan ekonomi berjalan!
+		-- Saat savingForSilo aktif, tahan pembuatan Defense Post tambahan agar treasury cepat tembus 1M!
+		local maxAllowedDef = if myTiles >= 70000 and myCityCount >= 5 then 4 elseif myTiles >= 35000 and myCityCount >= 3 then 2 else 1
+		maxAllowedDef = math.max(maxAllowedDef, Hub.State.MaxDefensePosts or 1)
+		if (Hub.State.AutoDefensePosts or Hub.State.SmartAutoPlay) and not savingForSilo and myCityCount >= 1 and curGold >= 100000 and (myPortCount >= 1 or myFactoryCount >= 1) and myDefenseCount < maxAllowedDef then
+			local defAvail = rules and rules:availability("defense")
+			if defAvail and defAvail.ok then
+				local defenseTile = findDefensePostSite()
+				if defenseTile then
+					local built = Adapter:BuildStructure("defense", defenseTile)
+					if built then
+						myDefenseCount = myDefenseCount + 1
+						RuntimeStats.LastAction = "Built Defense Post on Border Chokepoint (5x Bonus)"
+					end
+				end
+			end
+		end
+
+		-- [STEP 5] NAVAL PATROL FLEET: Menjaga pantai & memburu perahu serbu musuh
+		local myWarshipCount = 0
+		if state.units then
+			for _, u in pairs(state.units) do
+				if type(u) == "table" and u.owner == me.id and u.kind == 2 and not u.dead then
+					myWarshipCount = myWarshipCount + 1
+				end
+			end
+		end
+		if myWarshipCount < 2 and curGold >= (if savingForSilo then 1300000 else 300000) and myPortCount >= 1 and (Hub.State.AutoBuildPorts or Hub.State.SmartAutoPlay) then
+			local warshipAvail = rules and rules:availability("warship")
+			if warshipAvail and warshipAvail.ok then
+				local built = Adapter:BuildWarship()
+				if built then
+					RuntimeStats.LastAction = string.format("Commissioned Warship #%d", myWarshipCount + 1)
+				end
+			end
+		end
+
+		-- [STEP 6] ANTI-BALLISTIC MISSILE DOME (SAM Battery #1 melindungi Capital Spawn Tile!)
+		-- Wajib dibangun sesegera mungkin di midgame agar Capital & Cities kebal dari serangan nuke bot!
+		local maxSams = Hub.State.MaxSAMBatteries or 6
+		if (Hub.State.AutoSAMShield or Hub.State.SmartAutoPlay) and mySamCount < maxSams and (isMidGame or myCityCount >= 2) then
+			local samAvail = rules and rules:availability("sam")
+			if samAvail and samAvail.ok then
+				local clusterTile = findUnprotectedEconomicCluster()
+				if clusterTile then
+					local built = Adapter:BuildStructure("sam", clusterTile)
+					if built then
+						mySamCount = mySamCount + 1
+						RuntimeStats.LastAction = string.format("Deployed SAM Battery #%d (Anti-Nuke Umbrella)", mySamCount)
+					end
+				end
+			end
+		end
+
+		-- [STEP 7] MISSILE SILO (1 Silo di pedalaman terlindungi SAM)
+		if (Hub.State.AutoBuildSilos or Hub.State.SmartAutoPlay) and mySiloCount < 1 and isMidGame then
+			local siloAvail = rules and rules:availability("silo")
+			if siloAvail and siloAvail.ok then
+				local siloTile = findSiloSite()
+				if siloTile then
+					local built = Adapter:BuildStructure("silo", siloTile)
+					if built then
+						mySiloCount = 1
+						RuntimeStats.LastAction = "Constructed Missile Silo"
+					end
+				end
+			end
+		end
+
+		-- 7. SUPERWEAPON PREEMPTIVE ARSENAL (MIRV & HYDROGEN BOMBS):
+		-- If we have Silo and treasury, find rival superpower and vaporize them!
+		if (Hub.State.AutoNuke or Hub.State.SmartAutoPlay) and mySiloCount >= 1 and (now - lastNukeTick >= 8.0) then
+			local target = findSmartNukeTarget()
+			if target then
+				local ctx = Adapter:GetContext()
+				local rules = ctx and ctx.rules
+				local mirvAvail = rules and rules:availability("mirv")
+				local hydAvail = rules and rules:availability("hydrogen")
+				local atomAvail = rules and rules:availability("atom")
+
+				local mirvCost = (mirvAvail and mirvAvail.cost) or 25000000
+				local hydCost = (hydAvail and hydAvail.cost) or 5000000
+				local atomCost = (atomAvail and atomAvail.cost) or 750000
+
+				-- Option A: MIRV (25M base) - Saturates & bypasses heavy SAM networks (3+ SAMs or dense mega-clusters)
+				local useMirv = curGold >= mirvCost and (target.samMissiles >= 3 or target.score >= 120 or curGold >= 35000000) and (mirvAvail == nil or mirvAvail.ok)
+				if useMirv then
+					local launched = Adapter:LaunchNuke("mirv", target.tile)
+					if launched then
+						lastNukeTick = now
+						recentlyNukedTiles[target.tile] = now
+						RuntimeStats.NukesLaunched = (RuntimeStats.NukesLaunched or 0) + 1
+						RuntimeStats.LastAction = string.format("MIRV Barrage hit %s [%s]", target.name, target.kindName)
+						Hub:Notify("Superweapon Fired", string.format("MIRV Barrage launched at %s [%s]!", target.name, target.kindName), 4)
+					end
+				-- Option B: Hydrogen Bomb (5M) with dynamic Atom Baits matching exact SAM interceptor capacity
+				elseif curGold >= hydCost and (hydAvail == nil or hydAvail.ok) then
+					local samCount = target.samMissiles or 0
+					local totalSalvoCost = hydCost + atomCost * samCount
+
+					if samCount == 0 then
+						-- 0 SAM missiles: Direct lethal Hydrogen strike!
+						local launched = Adapter:LaunchNuke("hydrogen", target.tile)
+						if launched then
+							lastNukeTick = now
+							recentlyNukedTiles[target.tile] = now
+							RuntimeStats.NukesLaunched = (RuntimeStats.NukesLaunched or 0) + 1
+							RuntimeStats.LastAction = string.format("Hydrogen Nuked %s [%s, 0 SAM]", target.name, target.kindName)
+							Hub:Notify("Nuke Fired", string.format("Hydrogen bomb detonating on %s [%s]!", target.name, target.kindName), 4)
+						end
+					elseif samCount <= 3 and curGold >= totalSalvoCost then
+						-- Fire exact number of Atom baits to drain all hostile SAM interceptors
+						for b = 1, samCount do
+							Adapter:LaunchNuke("atom", target.tile)
+							task.wait(0.35)
+						end
+						local launched = Adapter:LaunchNuke("hydrogen", target.tile)
+						if launched then
+							lastNukeTick = now
+							recentlyNukedTiles[target.tile] = now
+							RuntimeStats.NukesLaunched = (RuntimeStats.NukesLaunched or 0) + (samCount + 1)
+							RuntimeStats.LastAction = string.format("%d-Bait Salvo Nuked %s [%s]", samCount, target.name, target.kindName)
+							Hub:Notify("Salvo Fired", string.format("Salvo (%d Atom Baits + H) wiped out SAM at %s!", samCount, target.name), 4)
+						end
+					end
+				-- Option C: Atom Bomb (750k) - Fast surgical strike on 0-SAM enemy capitals or clusters
+				elseif curGold >= atomCost and (target.samMissiles or 0) == 0 and (atomAvail == nil or atomAvail.ok) then
+					local launched = Adapter:LaunchNuke("atom", target.tile)
+					if launched then
+						lastNukeTick = now
+						recentlyNukedTiles[target.tile] = now
+						RuntimeStats.NukesLaunched = (RuntimeStats.NukesLaunched or 0) + 1
+						RuntimeStats.LastAction = string.format("Atom Nuked %s [%s]", target.name, target.kindName or "Cluster")
+						Hub:Notify("Nuke Fired", string.format("Atom bomb detonated on %s!", target.name), 4)
+					end
+				end
+			end
+		end
+	end
+
+	-- [C] PRIORITY 3: CONDITION-DRIVEN EXPANSION & WAR MACHINE (FAST EARLY-GAME PACING)
+	local curTroops = me.troops or 0
+	local maxTroops = (me.max_troops and me.max_troops > 0) and me.max_troops or 1
+	local troopFillRatio = curTroops / maxTroops
+	local userDelay = Hub.State.AttackDelay or 1.10
+	local myTiles = me.tiles or 0
+
+	-- DYNAMIC ATTACK PACING & ARMY ACCUMULATION DOCTRINE:
+	-- Troop growth in Rules.luau scales with (curTroops ^ 0.73).
+	-- Resting when army is below 40% capacity allows troops to compound exponentially without attrition!
+	local isArmyRecovering = (myTiles >= 8000) and (curTroops < maxTroops * 0.40) and (curTroops < 500000)
+	local dynamicDelay = if isArmyRecovering then 2.50
+		elseif currentWarTargetId then 2.00
+		elseif curTroops >= 1000000 then userDelay
+		elseif curTroops >= 200000 then userDelay
+		elseif curTroops < 20000 and troopFillRatio < 0.20 then math.max(1.35, userDelay)
+		else math.max(1.10, userDelay)
+
+	if now - lastAttackTick >= dynamicDelay then
+		lastAttackTick = now
+
+		-- Responsive Dynamic Concurrency Limits:
+		-- Allows rapid early-game expansion (3 waves when troops >= 20k) to gobble up land before rivals
+		local totalActiveWaves, overseasWaves = getActiveOutboundWavesBreakdown()
+		local maxWaves = if curTroops >= 1000000 then 5
+			elseif curTroops >= 200000 then 4
+			elseif curTroops >= 20000 then 3
+			else 2
+
+		if totalActiveWaves >= maxWaves then
+			RuntimeStats.Status = string.format("Waves Advancing (%d/%d)", totalActiveWaves, maxWaves)
+			return
+		end
+
+		local targetTile = nil
+		local targetAction = "None"
+		local targetRatio = Hub.State.AttackRatio or 0.20
+		local targetOwner = 0
+
+		-- DYNAMIC THREAT ASSESSMENT & ABSOLUTE RESERVE RULES:
+		-- Find strongest direct land neighbor threatening our homeland
+		local strongestNeighborTroops = 0
+		local strongestNeighborName = "None"
+		local stateOwners = state.owners
+		local borders = Adapter:GetBorders()
+		if stateOwners and borders then
+			if borders.neighbour_ids then
+				for _, id in ipairs(borders:neighbour_ids()) do
+					local oData = stateOwners[id]
+					if oData and oData.alive and not state:are_allies(me.id, id) then
+						local oTroops = oData.troops or 0
+						if oTroops > strongestNeighborTroops then
+							strongestNeighborTroops = oTroops
+							strongestNeighborName = oData.name or "Hostile Neighbor"
+						end
+					end
+				end
+			elseif borders.borders_owner then
+				for id, oData in pairs(stateOwners) do
+					if id ~= me.id and oData.alive and not state:are_allies(me.id, id) and borders:borders_owner(id) then
+						local oTroops = oData.troops or 0
+						if oTroops > strongestNeighborTroops then
+							strongestNeighborTroops = oTroops
+							strongestNeighborName = oData.name or "Hostile Neighbor"
+						end
+					end
+				end
+			end
+		end
+
+		-- DYNAMIC THREAT ASSESSMENT & RESILIENT HOMELAND RESERVE:
+		-- Structural reserve: retain at least 30% of max troops or 5k troops for defense & compounding
+		local structuralReserve = math.max(5000, maxTroops * 0.30)
+		local isHomelandSecure = curTroops >= structuralReserve
+		local isArmyFragile = (curTroops < 15000 and strongestNeighborTroops >= 30000)
+
+		-- CONDITION 1: HOMELAND DEFENSE & EMERGENCY REPEL (Top Priority)
+		-- Adapts native SimAI._defend formula:
+		-- 1. If raid is tiny (< 2% our troops), passive border defense crushes it with 0 casualties!
+		-- 2. FORTRESS DEFENSE: If enemy wave outnumbers us (curTroops < enemyAttackTroops * 1.10),
+		--    NEVER attack into them in the field! Stay stationed on homeland territory where Defense Posts
+		--    give 5x multiplier (DEFENSE_POST_MAG = 5), inflicting 500% casualties on attackers!
+		-- 3. DECISIVE REPEL: When curTroops >= enemyAttackTroops * 1.10, launch a single counter-wave
+		--    with 1.25x enemy troops, crushing the invasion while keeping 65%+ troops at home!
+		local underAttack, attackerName, attackerId, attackAnchor, enemyAttackTroops, attackObj = isHomelandUnderAttack()
+		local isMajorInvasion = underAttack and (enemyAttackTroops >= math.max(6000, curTroops * 0.05))
+		local allowOtherOffenses = not isMajorInvasion
+
+		if underAttack and curTroops >= 3000 then
+			if enemyAttackTroops < curTroops * 0.05 then
+				-- Minor raid (< 5% our army): Passive perimeter defense absorbs it with 0 casualties, allow other expansion!
+				RuntimeStats.Status = string.format("Holding Perimeter vs %s (Raid: %d troops)", tostring(attackerName), enemyAttackTroops)
+			elseif curTroops < enemyAttackTroops * 1.10 then
+				RuntimeStats.Status = string.format("Fortress Defense vs %s (%d invaders, 5x Bonus)", tostring(attackerName), enemyAttackTroops)
+			else
+				local activeCounter, counterTroops = getActiveAttackAgainst(attackerId)
+				if activeCounter and counterTroops >= enemyAttackTroops * 0.80 then
+					RuntimeStats.Status = string.format("Repelling %s (%d troops engaging)", tostring(attackerName), counterTroops)
+				else
+					local repelTile = findBorderContactTile(attackerId) or attackAnchor
+					if repelTile and repelTile > 0 then
+						targetTile = repelTile
+						targetOwner = attackerId
+						local neededRatio = math.clamp((enemyAttackTroops * 1.25) / math.max(1, curTroops), 0.05, 0.35)
+						targetRatio = neededRatio
+						targetAction = string.format("Repelling %s (%d invaders with %d troops)", tostring(attackerName), enemyAttackTroops, math.floor(curTroops * targetRatio))
+					end
+				end
+			end
+		end
+
+		-- CONDITION 2: ZERO-CASUALTY LAND EXPANSION & FALLOUT RECLAMATION
+		-- Only permitted when NOT under attack, ensuring 100% focus on survival during invasions!
+		if not targetTile and allowOtherOffenses and (Hub.State.AutoExpandNeutral or Hub.State.SmartAutoPlay) and curTroops >= 1500 then
+			local nTile = findNeutralBorderTile()
+			if nTile then
+				targetTile = nTile
+				targetOwner = 0
+				targetRatio = 0.10
+				targetAction = if state:has_fallout(nTile) then "Restoring Fallout Zone" else "Claiming Neutral Land"
+			end
+		end
+
+		-- CONDITION 3: 1-HIT CAPITAL DECAPITATION (High Priority Strategic Execution)
+		-- Snipes accessible hostile capitals when we have decisive army advantage
+		if not targetTile and allowOtherOffenses and (Hub.State.AutoCapitalSnipe or Hub.State.SmartAutoPlay) and isHomelandSecure and not isArmyFragile then
+			local capTile, capName, capOwner = findEnemyCapitalTarget()
+			if capTile then
+				local capOwnerData = state.owners and state.owners[capOwner]
+				local capTroops = (capOwnerData and capOwnerData.troops) or 0
+				local hasAdvantage = (curTroops >= capTroops * 1.25) or (capTroops <= 15000) or (curTroops >= 250000)
+				if hasAdvantage then
+					targetTile = capTile
+					targetOwner = capOwner or state:tile_owner(capTile)
+					local neededRatio = math.clamp((capTroops * 1.25) / math.max(1, curTroops), 0.10, 0.25)
+					targetRatio = math.clamp(Hub.State.AttackRatio or 0.20, 0.10, neededRatio)
+					targetAction = "Decapitating Capital: " .. tostring(capName)
+				end
+			end
+		end
+
+		-- CONDITION 4: FRONTLINE LAND COMBAT (SINGLE-TARGET WAR LOCK & DEFEAT IN DETAIL)
+		local hasLandTarget = false
+		if not targetTile and allowOtherOffenses and (Hub.State.AutoInvadeEnemies or Hub.State.SmartAutoPlay) and not isArmyRecovering then
+			-- Single-Target War Lock validation:
+			if currentWarTargetId then
+				local tData = stateOwners and stateOwners[currentWarTargetId]
+				local stillAlive = tData and tData.alive and (tData.tiles or 0) > 0
+				local stillBorders = borders and borders.borders_owner and borders:borders_owner(currentWarTargetId)
+				if not stillAlive or not stillBorders then
+					currentWarTargetId = nil
+					currentWarTargetName = "None"
+				end
+			end
+
+			local eLandTile, eName, eOwner, eTroops, isBeatable, dist, isEasy = nil, nil, nil, 0, false, 0, false
+
+			-- If already waging war against a target, finish them off completely first!
+			if currentWarTargetId then
+				eLandTile, eName, eOwner, eTroops, isBeatable, dist, isEasy = findEnemyLandBorderTile(Hub.State.StrategyMode, currentWarTargetId)
+			end
+			-- If no active target or target no longer has a border, pick new weakest beatable target!
+			if not eLandTile then
+				eLandTile, eName, eOwner, eTroops, isBeatable, dist, isEasy = findEnemyLandBorderTile(Hub.State.StrategyMode)
+				if eLandTile and eOwner and eOwner ~= 0 then
+					currentWarTargetId = eOwner
+					currentWarTargetName = eName or "Hostile Nation"
+				end
+			end
+
+			if eLandTile then
+				hasLandTarget = true
+				local enemyTroops = eTroops or 0
+
+				-- SAFE ATTACK VALIDATION (Defeat in Detail Doctrine):
+				-- 1. Easy targets / Tribes / Capitulation (8:1): ALWAYS safe to crush!
+				-- 2. Peer targets: Attack if we outnumber them (curTroops >= enemyTroops * 1.15) and homeland has base reserve!
+				local canSafelyAttack = isEasy
+					or (isBeatable and isHomelandSecure and curTroops >= enemyTroops * 1.15)
+					or (curTroops >= 300000 and curTroops >= enemyTroops * 1.10)
+
+				if canSafelyAttack then
+					-- Redundant Assault Wave Check (Matches SimAI line 108):
+					-- If an active assault wave against this target already has >= 80% of enemy troops, DO NOT SPAM MORE WAVES!
+					local activeWarAtk, activeWarTroops = getActiveAttackAgainst(eOwner)
+					if activeWarAtk and activeWarTroops >= enemyTroops * 0.80 then
+						RuntimeStats.Status = string.format("Assaulting %s (%d troops advancing)", tostring(eName), activeWarTroops)
+					else
+						targetTile = eLandTile
+						targetOwner = eOwner
+						-- Safe Attack Ratio: Spend at most 20% of army in one wave, retaining 80%+ at home for defense & compounding!
+						local desiredRatio = if isEasy then 0.15 else math.clamp((enemyTroops * 1.20) / math.max(1, curTroops), 0.08, 0.20)
+						targetRatio = math.clamp(Hub.State.AttackRatio or 0.20, 0.05, desiredRatio)
+						targetAction = string.format("Conquering %s (Army: %d vs %d, Ratio: %.0f%%)", tostring(eName), curTroops, enemyTroops, targetRatio * 100)
+					end
+				else
+					if isArmyFragile or curTroops < structuralReserve then
+						RuntimeStats.Status = string.format("Holding Border vs %s (Army: %d, Reserve: %d)", tostring(eName), curTroops, math.floor(structuralReserve))
+					else
+						RuntimeStats.Status = string.format("Recruiting Army vs %s (%d vs %d)", tostring(eName), curTroops, enemyTroops)
+					end
+				end
+			end
+		elseif not targetTile and isArmyRecovering then
+			RuntimeStats.Status = string.format("Compounding Army (%d/%d - %d%%)", curTroops, math.floor(maxTroops * 0.40), math.floor(troopFillRatio * 100))
+		end
+
+		-- CONDITION 5: AMPHIBIOUS ISLAND-HOPPING (Strict Nearest Island)
+		-- Initiate overseas hopping if our land continent has no hostile neighbors OR if all land neighbors
+		-- are currently too strong to attack safely (allowing us to bypass them and expand via islands)!
+		if not targetTile and allowOtherOffenses and (Hub.State.AutoInvadeEnemies or Hub.State.SmartAutoPlay) then
+			local anyLandEnemy, _, _, _, isLandBeatable = findEnemyLandBorderTile("All")
+			local isContinentSecured = (anyLandEnemy == nil) or (not isLandBeatable)
+
+			local maxOverseas = if curTroops >= 1000000 then 3 elseif curTroops >= 300000 then 2 else 1
+			if isContinentSecured and overseasWaves < maxOverseas and not isArmyFragile then
+				local oTile, oName, oOwner, oTroops = findOverseasLandingBeachhead()
+				if oTile then
+					local desiredTroops = math.clamp(curTroops * 0.20, 8000, 45000)
+					local boatRatio = math.clamp(desiredTroops / math.max(1, curTroops), 0.0001, 0.25)
+					local hasNavalAdvantage = (not oTroops) or (oTroops == 0)
+						or (curTroops >= 250000)
+						or (curTroops >= (oTroops or 0) * 0.85)
+						or (desiredTroops >= (oTroops or 0) * 0.5)
+					if hasNavalAdvantage then
+						targetTile = oTile
+						targetOwner = oOwner
+						targetRatio = boatRatio
+						targetAction = string.format("Amphibious Fleet Landing: %s (%d troops)", tostring(oName), math.floor(curTroops * boatRatio))
+					else
+						RuntimeStats.Status = string.format("Gathering Fleet for %s", tostring(oName))
+					end
+				end
+			elseif not isContinentSecured then
+				if anyLandEnemy then
+					RuntimeStats.Status = "Consolidating Border vs Land Neighbors"
+				end
+			else
+				RuntimeStats.Status = "Naval Fleet in Transit..."
+			end
+		end
+
+		-- DISPATCH ATTACK INTENT:
+		if targetTile then
+			local ok = Adapter:ResolveAttack(targetTile, targetRatio)
+			if ok then
+				RuntimeStats.AttacksSent = (RuntimeStats.AttacksSent or 0) + 1
+				RuntimeStats.Status = "Conquering Territory"
+				RuntimeStats.LastAction = targetAction
+			end
+		else
+			if RuntimeStats.Status == "Idle" or RuntimeStats.Status == "Conquering Territory" or RuntimeStats.Status == "Expanding Territory" then
+				RuntimeStats.Status = "Dominating Global Front"
+			end
+		end
+	end
+end
+
+local function checkLoopLifecycle()
+	local anyActive = Hub.State.SmartAutoPlay
+		or Hub.State.AutoReinforce
+		or Hub.State.AutoExpandNeutral
+		or Hub.State.AutoInvadeEnemies
+		or Hub.State.AutoCapitalSnipe
+		or Hub.State.AutoNuke
+		or Hub.State.AutoBuildSilos
+		or Hub.State.AutoDefensePosts
+		or Hub.State.AutoSAMShield
+		or Hub.State.AutoBuildCities
+		or Hub.State.AutoBuildPorts
+		or Hub.State.AutoBuildFactories
+		or Hub.State.AutoJoinMatch
+		or Hub.State.AutoPlayAgain
+		or Hub.State.AutoSpawnCapital
+		or Hub.State.AutoTakeover
+
+	if anyActive then
+		Hub.State.MainCycle = true
+		local lastCycleErr = 0
+		Hub:Loop("MainCycle", function()
+			local ok, err = xpcall(bodySmartAutoPlay, function(e)
+				return tostring(e) .. "\n" .. debug.traceback("", 2)
+			end)
+			if not ok then
+				local now = os.clock()
+				if now - lastCycleErr > 3.0 then
+					lastCycleErr = now
+					warn("[MainCycle Traceback] " .. tostring(err))
+				end
+			end
+		end, 0.30)
+	else
+		Hub.State.MainCycle = false
+		Hub:StopLoop("MainCycle")
+		RuntimeStats.Status = "Idle"
+	end
+end
+Hub.CheckLoopLifecycle = checkLoopLifecycle
+
+Hub._onStopAll = function()
+	Hub.State.MainCycle = false
+	Hub:StopLoop("MainCycle")
+	currentWarTargetId = nil
+	currentWarTargetName = "None"
+	RuntimeStats.Status = "Idle"
+end
+
+local function updateLiveTelemetry()
+	if not Adapter:Resolve() then return end
+	local session = Adapter.Session
+	local state = Adapter.State
+	if not session or not state then return end
+
+	local isLobby = (session.mode == 0) or (not state) or (not state.local_owner) or (state.local_owner == 0)
+	if isLobby then
+		RuntimeStats.Phase = "Lobby / Title"
+		if not Hub.State.AutoJoinMatch then
+			RuntimeStats.Status = "In Lobby"
+		end
+	elseif state.phase == 2 then
+		local winName = if state.winner and state.winner > 0 then state:owner_name(state.winner) else "None"
+		RuntimeStats.Phase = "Match Ended"
+		RuntimeStats.Status = "Winner: " .. tostring(winName)
+	else
+		local me = Adapter:GetMe()
+		if not me or not me.spawned then
+			RuntimeStats.Phase = "Capital Selection"
+		elseif not me.alive then
+			RuntimeStats.Phase = "Eliminated"
+		else
+			RuntimeStats.Phase = "Active Combat"
+			RuntimeStats.Nation = tostring(me.name or "Roi")
+			RuntimeStats.Tiles = me.tiles or 0
+			RuntimeStats.Troops = me.troops or 0
+			RuntimeStats.Cap = me.max_troops or 0
+			RuntimeStats.Gold = me.gold or 0
+			RuntimeStats.Income = me.income or 0
+
+			if not Hub.State.SmartAutoPlay and (RuntimeStats.Status == "Finding Strategic Coast..." or RuntimeStats.Status == "Capital Placed - Initializing") then
+				RuntimeStats.Status = "Idle (Autoplay OFF)"
+			end
+
+			local canReinforce = type(session.has_unlock) == "function" and session:has_unlock("reinforce")
+			if canReinforce then
+				local readyTick = (state.reinforce_ready and state.reinforce_ready[me.id]) or 0
+				local ticksLeft = readyTick - (state.tick or 0)
+				if ticksLeft <= 0 then
+					RuntimeStats.ReinforceTime = "Ready"
+				else
+					RuntimeStats.ReinforceTime = string.format("%ds", math.ceil(ticksLeft / 10))
+				end
+			else
+				RuntimeStats.ReinforceTime = "Locked"
+			end
+		end
+	end
+end
+
+-- ==============================================================================
+-- [5] PRESENTATION LAYER (GUI VIA SHENKY HUB)
+-- ==============================================================================
+local Window = Hub:CreateWindow({
+	SubTitle = "RoFront [World PvP]",
+	Folder = "RoFrontWorldPvP",
+	ToggleKey = Enum.KeyCode.RightControl,
+})
+
+-- ------------------------------------------------------------------------------
+-- TAB 1: AUTOMATION (Unified Master Controller & Strategy Preset)
+-- ------------------------------------------------------------------------------
+local AutoTab = Window:Tab({ Title = "Auto Play", Icon = "zap" })
+local MasterSec = AutoTab:Section({ Title = "Master Autopilot" })
+
+MasterSec:Toggle({
+	Title = "Smart Auto Play",
+	Desc = "Fully closed-loop RTS automation: expand, reinforce, build & conquer",
+	Default = false,
+	Callback = function(state)
+		Hub.State.SmartAutoPlay = state
+		checkLoopLifecycle()
+		if state then
+			Hub:Notify("Smart Auto Play", "Autopilot engaged: 99% winrate pipeline active", "zap")
+		else
+			RuntimeStats.Status = "Idle"
+		end
+	end,
+})
+
+MasterSec:Dropdown({
+	Title = "Strategy Mode",
+	Desc = "Primary targeting doctrine for frontline army expansion",
+	Options = { "Neutral First", "Tribes Only", "Aggressive" },
+	Default = "Neutral First",
+	Callback = function(opt)
+		Hub.State.StrategyMode = opt
+	end,
+})
+
+local masterTelemetryLabel = MasterSec:SubLabel({
+	Text = Hub:FormatTelemetry({
+		{ "Status", "Idle", Hub.Colors.Blue },
+		{ "Phase", "Lobby", Hub.Colors.Yellow },
+		{ "Reinforce", "Ready", Hub.Colors.Green },
+		{ "Action", "None", Hub.Colors.Purple },
+	}),
+})
+
+-- ------------------------------------------------------------------------------
+-- TAB 2: CONQUEST (Expansion, Micro-Pulse & Capital Decapitation)
+-- ------------------------------------------------------------------------------
+local WarTab = Window:Tab({ Title = "Conquest", Icon = "crosshair" })
+local AttackSec = WarTab:Section({ Title = "Offensive Operations" })
+
+AttackSec:Toggle({
+	Title = "Auto Expand Neutral",
+	Desc = "Sweeps all adjacent unclaimed land with minimal troop casualties",
+	Default = false,
+	Callback = function(state)
+		Hub.State.AutoExpandNeutral = state
+		checkLoopLifecycle()
+	end,
+})
+
+AttackSec:Toggle({
+	Title = "Auto Invade Enemies",
+	Desc = "Engages hostile nation and tribe borders using optimal troop ratios",
+	Default = false,
+	Callback = function(state)
+		Hub.State.AutoInvadeEnemies = state
+		checkLoopLifecycle()
+	end,
+})
+
+AttackSec:Toggle({
+	Title = "Auto Capital Snipe",
+	Desc = "Directs invasion forces straight to enemy capitals for 1-hit nation collapse",
+	Default = false,
+	Callback = function(state)
+		Hub.State.AutoCapitalSnipe = state
+		checkLoopLifecycle()
+	end,
+})
+
+AttackSec:Slider({
+	Title = "Troop Ratio %",
+	Desc = "Surplus troop fraction sent per attack pulse (optimal: 15% - 25%)",
+	Value = { Min = 5, Max = 50, Default = 20 },
+	Step = 5,
+	Callback = function(val)
+		Hub.State.AttackRatio = val / 100
+	end,
+})
+
+AttackSec:Slider({
+	Title = "Reserve Cap %",
+	Desc = "Homeland defense reserve floor; attacks halt below this % of max cap",
+	Value = { Min = 10, Max = 60, Default = 25 },
+	Step = 5,
+	Callback = function(val)
+		Hub.State.MinReserveRatio = val / 100
+	end,
+})
+
+AttackSec:Slider({
+	Title = "Max Waves",
+	Desc = "Maximum concurrent army waves allowed in transit simultaneously",
+	Value = { Min = 1, Max = 8, Default = 4 },
+	Step = 1,
+	Callback = function(val)
+		Hub.State.MaxActiveWaves = val
+	end,
+})
+
+AttackSec:Slider({
+	Title = "Attack Delay",
+	Desc = "Pacing interval between outbound attack pulses in seconds",
+	Value = { Min = 0.20, Max = 3.0, Default = 1.20 },
+	Step = 0.10,
+	Callback = function(val)
+		Hub.State.AttackDelay = val
+	end,
+})
+
+local attackTelemetryLabel = AttackSec:SubLabel({
+	Text = Hub:FormatTelemetry({
+		{ "Attacks Sent", "0 Waves", Hub.Colors.Sky },
+		{ "Territory", "0 Tiles", Hub.Colors.Green },
+		{ "Troops", "0 / 0", Hub.Colors.Amber },
+	}),
+})
+
+-- ------------------------------------------------------------------------------
+-- TAB 3: MILITARY (Survival, Defense Grid, Anti-Nuke SAM & Takeover)
+-- ------------------------------------------------------------------------------
+local DefenseTab = Window:Tab({ Title = "Military", Icon = "shield" })
+local DefSec = DefenseTab:Section({ Title = "Defense & Survival" })
+
+DefSec:Toggle({
+	Title = "Auto Reinforce",
+	Desc = "Frame-perfect instant claim of +20% max troops every 120s cycle",
+	Default = false,
+	Callback = function(state)
+		Hub.State.AutoReinforce = state
+		checkLoopLifecycle()
+	end,
+})
+
+DefSec:Toggle({
+	Title = "Auto Defense Posts",
+	Desc = "Constructs Defense Posts on border tiles (inflicts 5x casualties on attackers)",
+	Default = false,
+	Callback = function(state)
+		Hub.State.AutoDefensePosts = state
+		checkLoopLifecycle()
+	end,
+})
+
+DefSec:Slider({
+	Title = "Max Posts",
+	Desc = "Maximum defense posts allowed across borders to prevent gold waste",
+	Value = { Min = 1, Max = 4, Default = 1 },
+	Step = 1,
+	Callback = function(val)
+		Hub.State.MaxDefensePosts = val
+	end,
+})
+
+DefSec:Toggle({
+	Title = "Auto SAM Shield",
+	Desc = "Constructs distributed SAM Launchers protecting economic clusters",
+	Default = false,
+	Callback = function(state)
+		Hub.State.AutoSAMShield = state
+		checkLoopLifecycle()
+	end,
+})
+
+DefSec:Slider({
+	Title = "Max SAM Bat.",
+	Desc = "Maximum distributed SAM batteries placed across empire clusters",
+	Value = { Min = 2, Max = 8, Default = 6 },
+	Step = 1,
+	Callback = function(val)
+		Hub.State.MaxSAMBatteries = val
+	end,
+})
+
+DefSec:Slider({
+	Title = "Max SAM Lvl",
+	Desc = "Hard cap on SAM upgrade level to prevent single-battery level 90 gold waste",
+	Value = { Min = 1, Max = 4, Default = 2 },
+	Step = 1,
+	Callback = function(val)
+		Hub.State.MaxSAMLevel = val
+	end,
+})
+
+DefSec:Toggle({
+	Title = "Auto Superweapons",
+	Desc = "Preemptively fires Hydrogen Bombs (5M) or MIRVs (55M) at rival superpowers",
+	Default = false,
+	Callback = function(state)
+		Hub.State.AutoNuke = state
+		checkLoopLifecycle()
+	end,
+})
+
+DefSec:Toggle({
+	Title = "Auto Build Silos",
+	Desc = "Constructs Missile Silos when treasury permits to enable nuclear warfare",
+	Default = false,
+	Callback = function(state)
+		Hub.State.AutoBuildSilos = state
+		checkLoopLifecycle()
+	end,
+})
+
+DefSec:Toggle({
+	Title = "Auto Takeover AI",
+	Desc = "If eliminated, instantly seizes control of the strongest surviving bot nation",
+	Default = false,
+	Callback = function(state)
+		Hub.State.AutoTakeover = state
+		checkLoopLifecycle()
+	end,
+})
+
+local defTelemetryLabel = DefSec:SubLabel({
+	Text = Hub:FormatTelemetry({
+		{ "Reinforce Timer", "Ready", Hub.Colors.Green },
+		{ "SAM Shield", "0 Active", Hub.Colors.Purple },
+		{ "Nukes Fired", "0 Launches", Hub.Colors.Red },
+	}),
+})
+
+-- ------------------------------------------------------------------------------
+-- TAB 4: ECONOMY (City Stacking, Ports & Logistics)
+-- ------------------------------------------------------------------------------
+local EcoTab = Window:Tab({ Title = "Economy", Icon = "coins" })
+local EcoSec = EcoTab:Section({ Title = "Infrastructure Construction" })
+
+EcoSec:Toggle({
+	Title = "Auto Build Cities",
+	Desc = "Spams Cities every time gold is ready (+250,000 max troops per city)",
+	Default = false,
+	Callback = function(state)
+		Hub.State.AutoBuildCities = state
+		checkLoopLifecycle()
+	end,
+})
+
+EcoSec:Toggle({
+	Title = "Auto Build Ports",
+	Desc = "Constructs coastal ports for trade ship income and warship construction",
+	Default = false,
+	Callback = function(state)
+		Hub.State.AutoBuildPorts = state
+		checkLoopLifecycle()
+	end,
+})
+
+EcoSec:Toggle({
+	Title = "Auto Build Factories",
+	Desc = "Constructs land factories for trade truck supply routes and gold income",
+	Default = false,
+	Callback = function(state)
+		Hub.State.AutoBuildFactories = state
+		checkLoopLifecycle()
+	end,
+})
+
+EcoSec:Input({
+	Title = "Reserve Gold",
+	Desc = "Safe treasury floor; bot never spends gold if balance is below this amount",
+	Value = "500000",
+	Callback = function(text)
+		local num = tonumber(text)
+		if num and num >= 0 then
+			Hub.State.MinGoldReserve = num
+		end
+	end,
+})
+
+EcoSec:Slider({
+	Title = "Build Delay",
+	Desc = "Pacing interval between structure construction attempts in seconds",
+	Value = { Min = 0.5, Max = 10.0, Default = 1.5 },
+	Step = 0.5,
+	Callback = function(val)
+		Hub.State.BuildDelay = val
+	end,
+})
+
+local ecoTelemetryLabel = EcoSec:SubLabel({
+	Text = Hub:FormatTelemetry({
+		{ "Gold Treasury", "0 G", Hub.Colors.Yellow },
+		{ "Income", "0 G/sec", Hub.Colors.Green },
+		{ "Cities Built", "0", Hub.Colors.Sky },
+	}),
+})
+
+-- ------------------------------------------------------------------------------
+-- TAB 5: LOBBY & META (Auto Join, Safe Spawn & Cosmetics)
+-- ------------------------------------------------------------------------------
+local MetaTab = Window:Tab({ Title = "Lobby & Meta", Icon = "refresh-cw" })
+local MetaSec = MetaTab:Section({ Title = "Match Automation" })
+
+MetaSec:Toggle({
+	Title = "Auto Play Again",
+	Desc = "Automatically clicks Play Again / requeues when a match ends or upon elimination",
+	Default = false,
+	Callback = function(state)
+		Hub.State.AutoPlayAgain = state
+		checkLoopLifecycle()
+	end,
+})
+
+MetaSec:Toggle({
+	Title = "Auto Join Match",
+	Desc = "Automatically queues and enters multiplayer matches from the lobby",
+	Default = false,
+	Callback = function(state)
+		Hub.State.AutoJoinMatch = state
+		checkLoopLifecycle()
+	end,
+})
+
+MetaSec:Toggle({
+	Title = "Auto Spawn Capital",
+	Desc = "Picks high-yield coastal corner spawn points during capital selection",
+	Default = false,
+	Callback = function(state)
+		Hub.State.AutoSpawnCapital = state
+		checkLoopLifecycle()
+	end,
+})
+
+MetaSec:Button({
+	Title = "Play Again Now",
+	Desc = "Instantly clicks Play Again or starts a fresh match",
+	Callback = function()
+		triggerPlayAgain()
+	end,
+})
+
+MetaSec:Button({
+	Title = "Join Match Now",
+	Desc = "Manually triggers multiplayer lobby connection",
+	Callback = function()
+		if Adapter:Resolve() and Adapter.Session then
+			Adapter.Session:join_multiplayer()
+			Hub:Notify("Multiplayer", "Connecting to multiplayer lobby...", "refresh-cw")
+		end
+	end,
+})
+
+local metaTelemetryLabel = MetaSec:SubLabel({
+	Text = Hub:FormatTelemetry({
+		{ "Mode", "Multiplayer", Hub.Colors.Blue },
+		{ "Match State", "Ready", Hub.Colors.Green },
+		{ "Play Again", "Disabled", Hub.Colors.Yellow },
+	}),
+})
+
+-- ==============================================================================
+-- [6] TELEMETRY REFRESH LOOP
+-- ==============================================================================
+Hub:Loop("TelemetryUpdater", function()
+	pcall(function()
+		updateLiveTelemetry()
+
+		masterTelemetryLabel:SetText(Hub:FormatTelemetry({
+			{ "Status", RuntimeStats.Status, Hub.Colors.Blue },
+			{ "Phase", RuntimeStats.Phase, Hub.Colors.Yellow },
+			{ "Nation", RuntimeStats.Nation, Hub.Colors.Sky },
+			{ "Reinforce", RuntimeStats.ReinforceTime, RuntimeStats.ReinforceTime == "Ready" and Hub.Colors.Green or Hub.Colors.Amber },
+			{ "Last Action", RuntimeStats.LastAction, Hub.Colors.Purple },
+		}))
+
+		attackTelemetryLabel:SetText(Hub:FormatTelemetry({
+			{ "Attacks Sent", string.format("%d Waves", RuntimeStats.AttacksSent), Hub.Colors.Sky },
+			{ "Territory", string.format("%d Tiles", RuntimeStats.Tiles), Hub.Colors.Green },
+			{ "Army Count", string.format("%d / %d", RuntimeStats.Troops, RuntimeStats.Cap), Hub.Colors.Amber },
+		}))
+
+		defTelemetryLabel:SetText(Hub:FormatTelemetry({
+			{ "Reinforce Timer", RuntimeStats.ReinforceTime, Hub.Colors.Green },
+			{ "SAM Batteries", string.format("%d / %d Bat.", RuntimeStats.SAMBuilt, Hub.State.MaxSAMBatteries or 6), Hub.Colors.Purple },
+			{ "Nukes Fired", string.format("%d Launches", RuntimeStats.NukesLaunched or 0), Hub.Colors.Red },
+		}))
+
+		ecoTelemetryLabel:SetText(Hub:FormatTelemetry({
+			{ "Gold Treasury", string.format("%d G", RuntimeStats.Gold), Hub.Colors.Yellow },
+			{ "Passive Income", string.format("+%d G/s", RuntimeStats.Income), Hub.Colors.Green },
+			{ "Cities Added", string.format("%d Cities", RuntimeStats.CitiesBuilt), Hub.Colors.Sky },
+		}))
+
+		metaTelemetryLabel:SetText(Hub:FormatTelemetry({
+			{ "Match State", RuntimeStats.Phase, Hub.Colors.Green },
+			{ "Play Again", Hub.State.AutoPlayAgain and "Active" or "Disabled", Hub.State.AutoPlayAgain and Hub.Colors.Green or Hub.Colors.Yellow },
+			{ "Auto Join", Hub.State.AutoJoinMatch and "Active" or "Disabled", Hub.State.AutoJoinMatch and Hub.Colors.Green or Hub.Colors.Yellow },
+		}))
+	end)
+end, 0.5)
+
+-- Notification on initial load
+Hub:Notify("RoFront [World PvP]", "Smart Auto Play script loaded — all features OFF by default.", "zap")
