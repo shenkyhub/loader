@@ -1,7 +1,7 @@
 -- ============================================================================
 -- [Shenky Hub] Compiled Hub Core Engine
 -- Bundled from src-hub/ via Shenky Hub Bundler
--- Generated: 2026-11-10T07:52:59.749Z
+-- Generated: 2026-11-10T08:15:50.608Z
 -- ============================================================================
 
 local __modules = {}
@@ -19551,7 +19551,7 @@ function Hub:_CreateConfigTab(WindowWrapper, group)
 
 	RightSec:Keybind({
 		Title = "Custom Shortcut",
-		Desc = "Shortcut keyboard untuk buka/tutup GUI (R-Ctrl / L-Ctrl)",
+		Desc = "Keyboard shortcut to toggle GUI (R-Ctrl / L-Ctrl)",
 		Default = self.Config.ToggleKey or Enum.KeyCode.RightControl,
 		Value = self.Config.ToggleKey or Enum.KeyCode.RightControl,
 		onBinded = function(bind)
@@ -19593,7 +19593,7 @@ function Hub:_CreateConfigTab(WindowWrapper, group)
 
 	RightSec:Toggle({
 		Title = "Hide GUI on Execute",
-		Desc = "Mulai GUI dalam kondisi tertutup saat script di-execute",
+		Desc = "Starts the GUI minimized/closed when executed",
 		Default = self.Config.HideOnExecute == true,
 		Value = self.Config.HideOnExecute == true,
 		_isInternalConfigToggle = true,
