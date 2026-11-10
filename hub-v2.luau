@@ -1,7 +1,7 @@
 -- ============================================================================
 -- [Shenky Hub] Compiled Hub Core Engine
 -- Bundled from src-hub/ via Shenky Hub Bundler
--- Generated: 2026-11-10T08:15:50.608Z
+-- Generated: 2026-11-10T08:48:11.366Z
 -- ============================================================================
 
 local __modules = {}
@@ -1745,13 +1745,12 @@ function Slider.new(parent, settings, flag, library)
 	label.TextYAlignment = Enum.TextYAlignment.Center
 	label.Parent = headerRow
 
-	-- Interactive Value Badge Frame
+	-- Interactive Value Badge Frame (Flush right edge aligned with toggles)
 	local valueContainer = Instance.new("Frame")
 	valueContainer.Name = "SliderValueContainer"
 	valueContainer.AnchorPoint = Vector2.new(1, 0.5)
 	valueContainer.Position = UDim2.new(1, 0, 0.5, 0)
-	valueContainer.Size = UDim2.new(0, 48, 0, 18)
-	valueContainer.AutomaticSize = Enum.AutomaticSize.X
+	valueContainer.Size = UDim2.new(0, 34, 0, 18)
 	valueContainer.BackgroundColor3 = Color3.fromRGB(24, 26, 32)
 	valueContainer.BorderSizePixel = 0
 	valueContainer.Parent = headerRow
@@ -1771,8 +1770,8 @@ function Slider.new(parent, settings, flag, library)
 
 	local valuePad = Instance.new("UIPadding")
 	valuePad.Name = "ValuePadding"
-	valuePad.PaddingLeft = UDim.new(0, 6)
-	valuePad.PaddingRight = UDim.new(0, 6)
+	valuePad.PaddingLeft = UDim.new(0, 5)
+	valuePad.PaddingRight = UDim.new(0, 5)
 	valuePad.PaddingTop = UDim.new(0, 1)
 	valuePad.PaddingBottom = UDim.new(0, 1)
 	valuePad.Parent = valueContainer
@@ -1782,7 +1781,6 @@ function Slider.new(parent, settings, flag, library)
 	valueInput.AnchorPoint = Vector2.new(0.5, 0.5)
 	valueInput.Position = UDim2.new(0.5, 0, 0.5, 0)
 	valueInput.Size = UDim2.new(1, 0, 1, 0)
-	valueInput.AutomaticSize = Enum.AutomaticSize.X
 	valueInput.BackgroundTransparency = 1
 	valueInput.BorderSizePixel = 0
 	valueInput.ClearTextOnFocus = false
@@ -1900,10 +1898,19 @@ function Slider.new(parent, settings, flag, library)
 		return numStr
 	end
 
+	local function updateBadgeWidth(customText)
+		local txt = customText or valueInput.Text or ""
+		local textLen = #txt
+		local estWidth = math.max(34, textLen * 7 + 14)
+		valueContainer.Size = UDim2.new(0, estWidth, 0, 18)
+	end
+
 	local function updateVisuals(anim)
 		local ratio = math.clamp((self.Value - self.Min) / (self.Max - self.Min), 0, 1)
 		if not valueInput:IsFocused() then
-			valueInput.Text = formatDisplay(self.Value, true)
+			local displayStr = formatDisplay(self.Value, true)
+			valueInput.Text = displayStr
+			updateBadgeWidth(displayStr)
 		end
 
 		local targetFill = UDim2.new(ratio, 0, 0, 4)
@@ -1919,6 +1926,10 @@ function Slider.new(parent, settings, flag, library)
 	end
 
 	updateVisuals(false)
+
+	valueInput:GetPropertyChangedSignal("Text"):Connect(function()
+		updateBadgeWidth(valueInput.Text)
+	end)
 
 	-- Value Input TextBox interactions
 	valueInput.Focused:Connect(function()
@@ -7627,22 +7638,15 @@ function Keybind.new(parent, settings, flag, library)
 	container.Name = "KeybindRow"
 	container.BackgroundTransparency = 1
 	container.BorderSizePixel = 0
-	container.Size = UDim2.new(1, 0, 0, 0)
+	container.Size = UDim2.new(1, 0, 0, 24)
 	container.AutomaticSize = Enum.AutomaticSize.Y
 	container.Parent = parent
-
-	local rowList = Instance.new("UIListLayout")
-	rowList.Name = "RowListLayout"
-	rowList.FillDirection = Enum.FillDirection.Horizontal
-	rowList.HorizontalAlignment = Enum.HorizontalAlignment.Left
-	rowList.VerticalAlignment = Enum.VerticalAlignment.Center
-	rowList.SortOrder = Enum.SortOrder.LayoutOrder
-	rowList.Parent = container
 
 	-- Left: Labels (Title & Subtitle)
 	local leftFrame = Instance.new("Frame")
 	leftFrame.Name = "LeftLabels"
-	leftFrame.LayoutOrder = 1
+	leftFrame.AnchorPoint = Vector2.new(0, 0.5)
+	leftFrame.Position = UDim2.new(0, 0, 0.5, 0)
 	leftFrame.BackgroundTransparency = 1
 	leftFrame.BorderSizePixel = 0
 	leftFrame.Size = UDim2.new(1, -68, 0, 0)
@@ -7689,7 +7693,8 @@ function Keybind.new(parent, settings, flag, library)
 	-- Right: Interactive Key Pill
 	local pill = Instance.new("TextButton")
 	pill.Name = "KeybindPill"
-	pill.LayoutOrder = 2
+	pill.AnchorPoint = Vector2.new(1, 0.5)
+	pill.Position = UDim2.new(1, 0, 0.5, 0)
 	pill.AutoButtonColor = false
 	pill.BackgroundColor3 = Theme.Colors.CardBg
 	pill.BackgroundTransparency = 0.94
@@ -10371,6 +10376,9 @@ end]]
 
 
 	src = string.gsub(src, "sectionUIPadding%.PaddingTop = UDim%.new%(0, 22%)", "sectionUIPadding.PaddingTop = UDim.new(0, 10)")
+
+	-- Align Topbar elements right padding with tab cards right padding (5px)
+	src = string.gsub(src, "uIPadding2%.PaddingRight = UDim%.new%(0, 20%)", "uIPadding2.PaddingRight = UDim.new(0, 5)")
 
 
 
@@ -16403,7 +16411,7 @@ local function createSearchSystem(Hub, ShenkyWindow)
 	local searchPopup = Instance.new("Frame")
 	searchPopup.Name = "SearchPopup"
 	searchPopup.AnchorPoint = Vector2.new(1, 0)
-	searchPopup.Position = UDim2.new(1, -12, 0, 36)
+	searchPopup.Position = UDim2.new(1, -5, 0, 36)
 	searchPopup.Size = UDim2.new(0, 220, 0, 210)
 	searchPopup.BackgroundColor3 = Color3.fromRGB(18, 19, 25)
 	searchPopup.BackgroundTransparency = 0.02
