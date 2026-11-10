@@ -1,7 +1,7 @@
 -- ============================================================================
 -- [Shenky Hub] Compiled Hub Core Engine
 -- Bundled from src-hub/ via Shenky Hub Bundler
--- Generated: 2026-11-09T23:48:54.494Z
+-- Generated: 2026-11-10T07:45:38.922Z
 -- ============================================================================
 
 local __modules = {}
@@ -5303,7 +5303,10 @@ function SectionWrapperProto:Toggle(cfg)
 	local wrapper = setmetatable({ _raw = rawToggle, Flag = flag }, ToggleWrapperProto)
 	attachTooltip(rawToggle, cfg.Tooltip)
 	attachBadge(rawToggle, cfg.Badge)
-	if not cfg._isInternalConfigToggle then
+	if cfg._isInternalConfigToggle then
+		rawToggle._isInternalConfig = true
+		rawToggle._isInternalConfigToggle = true
+	else
 		table.insert(self._hub._toggles, wrapper)
 		if self._hub and type(self._hub.RegisterFeature) == "function" then
 			self._hub:RegisterFeature({
@@ -13562,21 +13565,26 @@ src = string.gsub(src, "toggle%.Size = UDim2%.new%(1, 0, 0, 38%)", "toggle.Size 
 
 
 		for optFlag, opt in pairs(MacLib.Options) do
-
-
-
-			if (opt.Class == "Toggle" or opt.type == "Toggle") and not string.find(optFlag, "Anti%-AFK", 1, true) then
-
-
-
-				pcall(function() opt:UpdateState(false) end)
-
-
-
+			local isInternal = false
+			if type(opt) == "table" then
+				if opt._isInternalConfig or opt._isInternalConfigToggle then
+					isInternal = true
+				elseif type(opt.Settings) == "table" and (opt.Settings._isInternalConfig or opt.Settings._isInternalConfigToggle) then
+					isInternal = true
+				end
 			end
+			local isUniversalProtected = string.find(optFlag, "Anti-AFK", 1, true)
+				or string.find(optFlag, "Mobile Toggle", 1, true)
+				or string.find(optFlag, "Disable 3D", 1, true)
+				or string.find(optFlag, "Low Graphics", 1, true)
+				or string.find(optFlag, "Auto Reconnect", 1, true)
+				or string.find(optFlag, "FPS Limiter", 1, true)
+				or string.find(optFlag, "GUI Shortcut", 1, true)
+				or string.find(optFlag, "Anonymous Mode", 1, true)
 
-
-
+			if (opt.Class == "Toggle" or opt.type == "Toggle") and not isInternal and not isUniversalProtected then
+				pcall(function() opt:UpdateState(false) end)
+			end
 		end
 
 
@@ -17416,7 +17424,7 @@ return function(Hub)
 				elseif WindowWrapper.Sidebar and WindowWrapper.Sidebar.SetAnonymousMode then
 					WindowWrapper.Sidebar:SetAnonymousMode(enabled)
 				end
-				if enabled then
+				if enabled and not Hub._isBooting then
 					Hub:Notify("Privacy", "Anonymous mode enabled", "eye-off")
 				end
 			end,
@@ -18994,9 +19002,12 @@ function Hub:_CreateRenderTab(WindowWrapper, group)
 		Title = "Disable 3D Rendering",
 		Desc = "AFK mode: cuts GPU load by ~90%",
 		Default = false,
+		_isInternalConfigToggle = true,
 		Callback = function(state)
 			RenderRuntime:SetDisable3dRendering(state)
-			self:Notify("GPU Saver", state and "3D Rendering paused (Saving GPU)" or "3D Rendering resumed", "monitor")
+			if not self._isBooting then
+				self:Notify("GPU Saver", state and "3D Rendering paused (Saving GPU)" or "3D Rendering resumed", "monitor")
+			end
 		end,
 	})
 
@@ -19004,9 +19015,12 @@ function Hub:_CreateRenderTab(WindowWrapper, group)
 		Title = "Low Graphics Mode",
 		Desc = "Boosts FPS on low-end devices",
 		Default = false,
+		_isInternalConfigToggle = true,
 		Callback = function(state)
 			RenderRuntime:SetLowGraphics(state)
-			self:Notify("Graphics", state and "Low graphics mode active" or "Restored original materials", "layers")
+			if not self._isBooting then
+				self:Notify("Graphics", state and "Low graphics mode active" or "Restored original materials", "layers")
+			end
 		end,
 	})
 
@@ -19399,7 +19413,7 @@ function Hub:_CreateServerTab(WindowWrapper, group)
 					end)
 				end
 			end
-			if changed then
+			if changed and not self._isBooting then
 				self:Notify("Anti-AFK", value and "Enabled" or "Disabled", value and "shield-check" or "shield-off")
 			end
 		end,
@@ -19565,7 +19579,7 @@ function Hub:_CreateConfigTab(WindowWrapper, group)
 			elseif value then
 				self:_CreateMobileToggle(WindowWrapper, {})
 			end
-			if changed and initMobile then
+			if changed and initMobile and not self._isBooting then
 				self:Notify(
 					"Mobile Toggle",
 					value and "Button visible" or "Button hidden",
@@ -19644,6 +19658,8 @@ __require("tabs/config")(Hub)
 
 -- ==== Hub:CreateWindow(cfg) ====
 function Hub:CreateWindow(cfg)
+	self._isBooting = true
+	Hub._isBooting = true
 	cfg = cfg or {}
 	local toggleKey = cfg.ToggleKey or cfg.Keybind or Enum.KeyCode.RightControl
 	local rawFolder = tostring(cfg.Folder or cfg.SubTitle or "GlobalHub")
@@ -20091,6 +20107,9 @@ function Hub:CreateWindow(cfg)
 	end
 
 	function WindowWrapper:Notify(notifyCfg, desc, toastType)
+		if Hub._isBooting or (self._hub and self._hub._isBooting) then
+			return
+		end
 		local Toast = Components.Toast
 		if Toast and Toast.Show then
 			return Toast:Show(notifyCfg, desc, toastType)
@@ -20226,6 +20245,19 @@ function Hub:CreateWindow(cfg)
 			pcall(function()
 				ShenkyUI:LoadAutoLoadConfig()
 			end)
+			task.delay(0.6, function()
+				if self._Gen == createGen then
+					self._isBooting = false
+					Hub._isBooting = false
+				end
+			end)
+		end
+	end)
+
+	task.delay(3, function()
+		if self._Gen == createGen then
+			self._isBooting = false
+			Hub._isBooting = false
 		end
 	end)
 
@@ -20233,6 +20265,9 @@ function Hub:CreateWindow(cfg)
 end
 
 function Hub:Notify(notifyCfg, desc, toastType)
+	if self._isBooting or (Hub and Hub._isBooting) then
+		return
+	end
 	local Toast = self.Components and self.Components.Toast or (getgenv and getgenv().__SHENKY_COMPONENTS and getgenv().__SHENKY_COMPONENTS.Toast)
 	if Toast and Toast.Show then
 		return Toast:Show(notifyCfg, desc, toastType)
