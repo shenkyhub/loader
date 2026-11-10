@@ -1,7 +1,7 @@
 -- ============================================================================
 -- [Shenky Hub] Compiled Hub Core Engine
 -- Bundled from src-hub/ via Shenky Hub Bundler
--- Generated: 2026-11-10T07:45:38.922Z
+-- Generated: 2026-11-10T07:52:59.749Z
 -- ============================================================================
 
 local __modules = {}
@@ -13580,6 +13580,7 @@ src = string.gsub(src, "toggle%.Size = UDim2%.new%(1, 0, 0, 38%)", "toggle.Size 
 				or string.find(optFlag, "Auto Reconnect", 1, true)
 				or string.find(optFlag, "FPS Limiter", 1, true)
 				or string.find(optFlag, "GUI Shortcut", 1, true)
+				or string.find(optFlag, "Hide GUI", 1, true)
 				or string.find(optFlag, "Anonymous Mode", 1, true)
 
 			if (opt.Class == "Toggle" or opt.type == "Toggle") and not isInternal and not isUniversalProtected then
@@ -19590,6 +19591,26 @@ function Hub:_CreateConfigTab(WindowWrapper, group)
 		end,
 	})
 
+	RightSec:Toggle({
+		Title = "Hide GUI on Execute",
+		Desc = "Mulai GUI dalam kondisi tertutup saat script di-execute",
+		Default = self.Config.HideOnExecute == true,
+		Value = self.Config.HideOnExecute == true,
+		_isInternalConfigToggle = true,
+		Callback = function(value)
+			local changed = (self.Config.HideOnExecute ~= value)
+			self.Config.HideOnExecute = value
+			if self.SaveUniversalConfig then self:SaveUniversalConfig() end
+			if changed and not self._isBooting then
+				self:Notify(
+					"Hide on Execute",
+					value and "GUI will start hidden on next execute" or "GUI will open normally on execute",
+					value and "eye-off" or "eye"
+				)
+			end
+		end,
+	})
+
 	RightSec:Button({
 		Title = "Stop All Features",
 		Callback = function()
@@ -19773,6 +19794,7 @@ function Hub:CreateWindow(cfg)
 		Folder = folderName,
 		Scale = defaultScalePercent,
 		MobileToggle = cfg.MobileToggle ~= false,
+		HideOnExecute = (cfg.HideOnExecute == true) or (cfg.HideGuiOnExecute == true),
 	}
 
 	-- Universal Config Persistence (Persistent user preferences across all games)
@@ -19796,6 +19818,7 @@ function Hub:CreateWindow(cfg)
 				Scale = tonumber(self.Config.Scale) or 75,
 				MobileToggle = self.Config.MobileToggle ~= false,
 				AntiAFK = self.Config.AntiAFK ~= false,
+				HideOnExecute = self.Config.HideOnExecute == true,
 			}
 			writefile(getUniversalConfigPath(), HttpService:JSONEncode(payload))
 		end)
@@ -19820,6 +19843,11 @@ function Hub:CreateWindow(cfg)
 				if data.AntiAFK ~= nil then
 					self.Config.AntiAFK = (data.AntiAFK == true)
 				end
+				if data.HideOnExecute ~= nil then
+					self.Config.HideOnExecute = (data.HideOnExecute == true)
+				elseif data.HideGuiOnExecute ~= nil then
+					self.Config.HideOnExecute = (data.HideGuiOnExecute == true)
+				end
 			end
 		end)
 	end
@@ -19830,6 +19858,12 @@ function Hub:CreateWindow(cfg)
 		defaultScalePercent = tonumber(self.Config.Scale)
 		pcall(function()
 			ShenkyWindow:SetScale(defaultScalePercent / 75)
+		end)
+	end
+
+	if self.Config.HideOnExecute then
+		pcall(function()
+			ShenkyWindow:SetState(false)
 		end)
 	end
 
@@ -20079,6 +20113,15 @@ function Hub:CreateWindow(cfg)
 		return Hub.Config.MobileToggle == true
 	end
 
+	function WindowWrapper:SetHideOnExecute(enabled)
+		Hub.Config.HideOnExecute = (enabled == true)
+		if Hub.SaveUniversalConfig then Hub:SaveUniversalConfig() end
+	end
+
+	function WindowWrapper:GetHideOnExecute()
+		return Hub.Config.HideOnExecute == true
+	end
+
 	function WindowWrapper:Destroy()
 		pcall(function()
 			if Hub._toggleConn then
@@ -20147,6 +20190,12 @@ function Hub:CreateWindow(cfg)
 	-- Buat tombol mobile toggle mengambang jika aktif
 	if self.Config.MobileToggle then
 		self:_CreateMobileToggle(WindowWrapper, cfg)
+	end
+
+	if self.Config.HideOnExecute then
+		pcall(function()
+			WindowWrapper:Close()
+		end)
 	end
 
 	-- Watermark HUD retired per user preference; Topbar Status Pill is the primary toggle widget
@@ -20245,6 +20294,11 @@ function Hub:CreateWindow(cfg)
 			pcall(function()
 				ShenkyUI:LoadAutoLoadConfig()
 			end)
+			if self.Config.HideOnExecute then
+				pcall(function()
+					WindowWrapper:Close()
+				end)
+			end
 			task.delay(0.6, function()
 				if self._Gen == createGen then
 					self._isBooting = false
