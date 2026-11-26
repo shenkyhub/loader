@@ -6,7 +6,7 @@ local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 
 local BACKEND_URL = "https://shenky-auth.farialtaff.workers.dev"
-local DISCORD_INVITE = "https://discord.gg/shenky"
+local DISCORD_INVITE = "https://discord.gg/pzXtSRNYyN"
 local universeId = tostring(game.GameId)
 
 local genv = (getgenv and getgenv()) or _G

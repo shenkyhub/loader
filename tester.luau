@@ -7,7 +7,7 @@
                                 |___/                      
 
                  Shenky Hub
-      Discord: https://discord.gg/hvYpw59MS
+      Discord: https://discord.gg/pzXtSRNYyN
   Unauthorized copying or tampering is blocked.
 ]]
  
